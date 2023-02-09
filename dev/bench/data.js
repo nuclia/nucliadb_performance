@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675950088618,
+  "lastUpdate": 1675953234069,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -138,6 +138,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.403455780620162e-7",
             "extra": "mean: 166.94135665893555 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alexis.leprovost@outlook.com",
+            "name": "Alexis Le Provost",
+            "username": "alekece"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "905389c43776acb8f731e88f03a544ba846f9734",
+          "message": "Add metrics notification on node writer (#576)\n\n* Added `paragraph_count` method\r\n\r\n* Added metadata attribute on `NodeWriterService`\r\n\r\n* Initialized metadata at startup\r\n\r\n* Added metadata method\r\n\r\n* Applied cargo fmt\r\n\r\n* Used channel instead of in-memory node writer metadata\r\n\r\n* Fixed shards folder deletion bug\r\n\r\n* Fixed shard deletion event bug\r\n\r\n* Moved writer tasks into free-functions\r\n\r\n* Removed unused function\r\n\r\n* Moved notification mechanism into gRPC interface\r\n\r\n* Applied cargofmt\r\n\r\n* Fixed integration tests",
+          "timestamp": "2023-02-09T15:22:52+01:00",
+          "tree_id": "90096fc53b6d2879926a4fc73f535ae14b4254cd",
+          "url": "https://github.com/nuclia/nucliadb/commit/905389c43776acb8f731e88f03a544ba846f9734"
+        },
+        "date": 1675953233538,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 79.4261131253406,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00021036945328428572",
+            "extra": "mean: 12.590317726135254 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 152.29426536913658,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000030650852954756046",
+            "extra": "mean: 6.566235423088074 msec\nrounds: 5"
           }
         ]
       }
