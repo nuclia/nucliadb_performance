@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675949483454,
+  "lastUpdate": 1675950088618,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -107,6 +107,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00010968460889721766",
             "extra": "mean: 7.00244903564453 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "094673dd0f595864e2e0dd7b816a8e24b40ea633",
+          "message": "Improvements on node load reporting (#562)\n\n* Squashed\r\n\r\n* Fix tests\r\n\r\n---------\r\n\r\nCo-authored-by: Alexis Le Provost <alexis.leprovost@outlook.com>",
+          "timestamp": "2023-02-09T14:20:16+01:00",
+          "tree_id": "6823f72cf07184af2c2f2ce0fcf5c71cff6f8ff3",
+          "url": "https://github.com/nuclia/nucliadb/commit/094673dd0f595864e2e0dd7b816a8e24b40ea633"
+        },
+        "date": 1675950088364,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/test_highlight.py::test_highligh_error",
+            "value": 5990.127431652658,
+            "unit": "iter/sec",
+            "range": "stddev: 1.403455780620162e-7",
+            "extra": "mean: 166.94135665893555 usec\nrounds: 5"
           }
         ]
       }
