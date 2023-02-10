@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676027789504,
+  "lastUpdate": 1676028092015,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -283,6 +283,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0005143977972576181",
             "extra": "mean: 9.376304799860176 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "582a4e330dc2918e2246fb46fe4f38c0f96fd510",
+          "message": "Add ServiceMonitor chart for nucliadb_ingest (#578)\n\n* Add service monitor chart\r\n\r\n* Unify metrics port value to match other components\r\n\r\n* Add dummy change to ingest so that it is re-deployed\r\n\r\n* Update charts/nucliadb_ingest/values.yaml\r\n\r\nCo-authored-by: Fer Pizzabiocche <58727056+ferpizza@users.noreply.github.com>\r\n\r\n---------\r\n\r\nCo-authored-by: Fer Pizzabiocche <58727056+ferpizza@users.noreply.github.com>",
+          "timestamp": "2023-02-10T12:12:49+01:00",
+          "tree_id": "dcdc35e880f7b54bef48c48e2bc0818c323f8ae5",
+          "url": "https://github.com/nuclia/nucliadb/commit/582a4e330dc2918e2246fb46fe4f38c0f96fd510"
+        },
+        "date": 1676028091401,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/test_highlight.py::test_highligh_error",
+            "value": 4325.384785937846,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000054824709061649645",
+            "extra": "mean: 231.19330406188965 usec\nrounds: 5"
           }
         ]
       }
