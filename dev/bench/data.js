@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676022510193,
+  "lastUpdate": 1676027789504,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -245,6 +245,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.1043701969656273e-7",
             "extra": "mean: 166.7457103729248 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "582a4e330dc2918e2246fb46fe4f38c0f96fd510",
+          "message": "Add ServiceMonitor chart for nucliadb_ingest (#578)\n\n* Add service monitor chart\r\n\r\n* Unify metrics port value to match other components\r\n\r\n* Add dummy change to ingest so that it is re-deployed\r\n\r\n* Update charts/nucliadb_ingest/values.yaml\r\n\r\nCo-authored-by: Fer Pizzabiocche <58727056+ferpizza@users.noreply.github.com>\r\n\r\n---------\r\n\r\nCo-authored-by: Fer Pizzabiocche <58727056+ferpizza@users.noreply.github.com>",
+          "timestamp": "2023-02-10T12:12:49+01:00",
+          "tree_id": "dcdc35e880f7b54bef48c48e2bc0818c323f8ae5",
+          "url": "https://github.com/nuclia/nucliadb/commit/582a4e330dc2918e2246fb46fe4f38c0f96fd510"
+        },
+        "date": 1676027788924,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 50.638562249164714,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0005960046886120937",
+            "extra": "mean: 19.74779605865479 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 106.65182300973328,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0005143977972576181",
+            "extra": "mean: 9.376304799860176 msec\nrounds: 5"
           }
         ]
       }
