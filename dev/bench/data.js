@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676028092015,
+  "lastUpdate": 1676028636871,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -314,6 +314,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000054824709061649645",
             "extra": "mean: 231.19330406188965 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "65b4e625a40b9908c11900e9d18f0615e6b56f6e",
+          "message": "Fix fields query param on paragraph search (#579)\n\n* Add test to filter paragraphs by field\r\n\r\n* Fix shards param too",
+          "timestamp": "2023-02-10T12:27:27+01:00",
+          "tree_id": "31b141ee6ff4935d148284200e561abe8fe8a90e",
+          "url": "https://github.com/nuclia/nucliadb/commit/65b4e625a40b9908c11900e9d18f0615e6b56f6e"
+        },
+        "date": 1676028636333,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 77.03646017959177,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00039739876247995253",
+            "extra": "mean: 12.980866432189943 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 146.87124590361407,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00015032029950043363",
+            "extra": "mean: 6.808684666951497 msec\nrounds: 5"
           }
         ]
       }
