@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676298949651,
+  "lastUpdate": 1676299732293,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -490,6 +490,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00003886762742428159",
             "extra": "mean: 7.7230783609243545 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "carlesba@gmail.com",
+            "name": "Carles Bruguera Artero",
+            "username": "sunbit"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9c430169400cb0abaa8b7c7f22936e044f47dbf7",
+          "message": "Report counters when sending audit logs from nucliadb (#574)\n\n* Adapt ingest process to be able to obtain shard counter information when adding or modifying resources\r\nFix methods on the grpc_node_dummy\r\nCatch exceptions that may raise when calling the sidecar GetCount\r\nReport to sentry if we detect a shard with de-synced replicas\r\n\r\n* No need for special methods to compare\r\n\r\n* Update nucliadb/nucliadb/ingest/tests/orm/test_shard.py\r\n\r\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>\r\n\r\n* Add metrics notification on node writer (#576)\r\n\r\n* Added `paragraph_count` method\r\n\r\n* Added metadata attribute on `NodeWriterService`\r\n\r\n* Initialized metadata at startup\r\n\r\n* Added metadata method\r\n\r\n* Applied cargo fmt\r\n\r\n* Used channel instead of in-memory node writer metadata\r\n\r\n* Fixed shards folder deletion bug\r\n\r\n* Fixed shard deletion event bug\r\n\r\n* Moved writer tasks into free-functions\r\n\r\n* Removed unused function\r\n\r\n* Moved notification mechanism into gRPC interface\r\n\r\n* Applied cargofmt\r\n\r\n* Fixed integration tests\r\n\r\n* return Shard on remove resource\r\n\r\n* update bindings\r\n\r\n* fix count\r\n\r\n* protos built\r\n\r\n* opstatus refactor\r\n\r\n* Adapt to OpStatus refactor\r\n\r\n* fix telemetry messages\r\n\r\n---------\r\n\r\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>\r\nCo-authored-by: Alexis Le Provost <alexis.leprovost@outlook.com>\r\nCo-authored-by: herme garcia <hermegarcianavarro@gmail.com>",
+          "timestamp": "2023-02-13T15:23:21+01:00",
+          "tree_id": "9e1f7fb3e686dae863d56a8061f3dd839ef0af86",
+          "url": "https://github.com/nuclia/nucliadb/commit/9c430169400cb0abaa8b7c7f22936e044f47dbf7"
+        },
+        "date": 1676299732004,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/test_highlight.py::test_highligh_error",
+            "value": 5983.583287468226,
+            "unit": "iter/sec",
+            "range": "stddev: 1.246227619562192e-7",
+            "extra": "mean: 167.12393760681152 usec\nrounds: 5"
           }
         ]
       }
