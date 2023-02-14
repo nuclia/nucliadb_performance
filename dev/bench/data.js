@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676299732293,
+  "lastUpdate": 1676363093549,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -521,6 +521,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.246227619562192e-7",
             "extra": "mean: 167.12393760681152 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "44120086+hermeGarcia@users.noreply.github.com",
+            "name": "Herme",
+            "username": "hermeGarcia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d8369d86c22de234d642ea4604fed395b8376bbe",
+          "message": "garbage collection implemented (#563)\n\n* rebase\r\n\r\n* fix on shard cound\r\n\r\n* worker refactor\r\n\r\n* fix test + comment clarification\r\n\r\n* mutex work flag to avoid deadlocks\r\n\r\n* rebase\r\n\r\n* small ref",
+          "timestamp": "2023-02-14T09:14:03+01:00",
+          "tree_id": "b11274b24e23c174cff7ef8700236ca2af3353c5",
+          "url": "https://github.com/nuclia/nucliadb/commit/d8369d86c22de234d642ea4604fed395b8376bbe"
+        },
+        "date": 1676363093279,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 78.64708319973299,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00010228966189659249",
+            "extra": "mean: 12.7150297164917 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 148.33322880893584,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00009827148563349965",
+            "extra": "mean: 6.741577784220377 msec\nrounds: 5"
           }
         ]
       }
