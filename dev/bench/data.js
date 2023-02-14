@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676383588774,
+  "lastUpdate": 1676399355289,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -666,6 +666,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00001794374727951139",
             "extra": "mean: 6.504723429679871 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ramon@nuclia.com",
+            "name": "Ramon Navarro Bosch",
+            "username": "bloodbare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b53e4b7f58522b5cb7bd9b2f892c4f149b72402a",
+          "message": "Links may only have url and tus upload on client (#573)\n\n* Links may only have url and tus upload on client\n\n* Fix\n\n* Fix lint\n\n* Fix\n\n* Fix tests\n\n* Fix client\n\n* Fix tests\n\n* Fix\n\n* Fix\n\n* Fix\n\n* Fix",
+          "timestamp": "2023-02-14T18:25:59Z",
+          "tree_id": "c211d1f8da49269aa43f1a2473ffdd0ec93b8fce",
+          "url": "https://github.com/nuclia/nucliadb/commit/b53e4b7f58522b5cb7bd9b2f892c4f149b72402a"
+        },
+        "date": 1676399354998,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 74.68423536115242,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0004063772584578326",
+            "extra": "mean: 13.3897066116333 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 149.99091680219942,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00014306347378853607",
+            "extra": "mean: 6.667070388793945 msec\nrounds: 5"
           }
         ]
       }
