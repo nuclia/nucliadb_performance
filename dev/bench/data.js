@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676399355289,
+  "lastUpdate": 1676399650894,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -704,6 +704,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00014306347378853607",
             "extra": "mean: 6.667070388793945 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ramon@nuclia.com",
+            "name": "Ramon Navarro Bosch",
+            "username": "bloodbare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b53e4b7f58522b5cb7bd9b2f892c4f149b72402a",
+          "message": "Links may only have url and tus upload on client (#573)\n\n* Links may only have url and tus upload on client\n\n* Fix\n\n* Fix lint\n\n* Fix\n\n* Fix tests\n\n* Fix client\n\n* Fix tests\n\n* Fix\n\n* Fix\n\n* Fix\n\n* Fix",
+          "timestamp": "2023-02-14T18:25:59Z",
+          "tree_id": "c211d1f8da49269aa43f1a2473ffdd0ec93b8fce",
+          "url": "https://github.com/nuclia/nucliadb/commit/b53e4b7f58522b5cb7bd9b2f892c4f149b72402a"
+        },
+        "date": 1676399650642,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/test_highlight.py::test_highligh_error",
+            "value": 5238.66549361039,
+            "unit": "iter/sec",
+            "range": "stddev: 2.2984593464728315e-7",
+            "extra": "mean: 190.88830947875977 usec\nrounds: 5"
           }
         ]
       }
