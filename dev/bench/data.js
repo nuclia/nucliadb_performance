@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676370078894,
+  "lastUpdate": 1676370370252,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -597,6 +597,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0001601194311214842",
             "extra": "mean: 6.733258565266927 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "carlesba@gmail.com",
+            "name": "Carles Bruguera Artero",
+            "username": "sunbit"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f7279c5156cefc8c6610d13a1701078b4e2e7403",
+          "message": "Fixes INGEST-95 INGEST-96 when the knowledgebox does not exist anymore (#583)",
+          "timestamp": "2023-02-14T11:18:24+01:00",
+          "tree_id": "4fd25e87c11984cd0855ceffd5cdec48fde8f828",
+          "url": "https://github.com/nuclia/nucliadb/commit/f7279c5156cefc8c6610d13a1701078b4e2e7403"
+        },
+        "date": 1676370369736,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/test_highlight.py::test_highligh_error",
+            "value": 5986.211873134618,
+            "unit": "iter/sec",
+            "range": "stddev: 6.260869163460388e-8",
+            "extra": "mean: 167.05055236816406 usec\nrounds: 5"
           }
         ]
       }
