@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676469907618,
+  "lastUpdate": 1676489067186,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -949,6 +949,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000010142129952551677",
             "extra": "mean: 202.66265869140625 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ramon@nuclia.com",
+            "name": "Ramon Navarro Bosch",
+            "username": "bloodbare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6bc68da25eaf4e239f3d20ca65b585ab750ce753",
+          "message": "Client as default to cloud (#593)\n\n* Client as default to cloud\n\n* Fix mypy\n\n* Fix\n\n* increase number if threads for the rayon threadpool\n\n* fix in changelog\n\n* merger out of threadpool\n\n* Fix GA\n\n* Better test\n\n* shallow error\n\n* Back to workign status\n\n* Fix yaml\n\n---------\n\nCo-authored-by: herme garcia <hermegarcianavarro@gmail.com>",
+          "timestamp": "2023-02-15T19:13:03Z",
+          "tree_id": "234fc483ab789d67b31763903cd9d3e885dcfc4f",
+          "url": "https://github.com/nuclia/nucliadb/commit/6bc68da25eaf4e239f3d20ca65b585ab750ce753"
+        },
+        "date": 1676489066581,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 62.167327375148915,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00014134372384968613",
+            "extra": "mean: 16.085619926452637 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 125.95100181560309,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00044566636934325053",
+            "extra": "mean: 7.939595442551832 msec\nrounds: 5"
           }
         ]
       }
