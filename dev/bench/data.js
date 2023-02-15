@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676450950763,
+  "lastUpdate": 1676459587666,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -773,6 +773,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0001934861841304709",
             "extra": "mean: 7.851699420383999 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "20046957138ee9c9215daa40cce2a4e8ecfc58e5",
+          "message": "Add missing txn abort before raising exception (#592)",
+          "timestamp": "2023-02-15T11:08:53Z",
+          "tree_id": "35265330af232ca76779414f52109de64cd258b3",
+          "url": "https://github.com/nuclia/nucliadb/commit/20046957138ee9c9215daa40cce2a4e8ecfc58e5"
+        },
+        "date": 1676459587043,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 46.275265578044745,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0008684268154862696",
+            "extra": "mean: 21.609816551208496 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 90.37991289335254,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00023176442556635025",
+            "extra": "mean: 11.06440544128418 msec\nrounds: 5"
           }
         ]
       }
