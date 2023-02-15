@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676462889795,
+  "lastUpdate": 1676469670126,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -880,6 +880,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.026533098629792e-7",
             "extra": "mean: 191.57710075378418 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "carlesba@gmail.com",
+            "name": "Carles Bruguera Artero",
+            "username": "sunbit"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "79bc219899e877a7763ff1c185e916418ef3fff2",
+          "message": "Fix trace_id exceeding 64 bits, save as string (#595)\n\nFixes SEARCH-A6 SEARCH-A5 SEARCH-A4 SEARCH_A3 INGEST-9A INGEST-97 INGEST-98",
+          "timestamp": "2023-02-15T13:57:45Z",
+          "tree_id": "c91f2b6ca378b27e24d327dd12595532df85575f",
+          "url": "https://github.com/nuclia/nucliadb/commit/79bc219899e877a7763ff1c185e916418ef3fff2"
+        },
+        "date": 1676469669403,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 75.12392579139487,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00025699310946256283",
+            "extra": "mean: 13.311338424682617 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 147.24633502327077,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00007404084646985668",
+            "extra": "mean: 6.791340510050456 msec\nrounds: 5"
           }
         ]
       }
