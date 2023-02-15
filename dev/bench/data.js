@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676399650894,
+  "lastUpdate": 1676450950763,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -735,6 +735,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.2984593464728315e-7",
             "extra": "mean: 190.88830947875977 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "44120086+hermeGarcia@users.noreply.github.com",
+            "name": "Herme",
+            "username": "hermeGarcia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "41ff82b132d6e986861ecbf8e8db61c1dbaf3eb0",
+          "message": "Tracing and double lock fix (#591)\n\n* merge tracing + remove double lock\n\n* fmt\n\n* parallel opstatus\n\n* std::thread for merger\n\n* stall time on merger\n\n* stall time was not a good idea",
+          "timestamp": "2023-02-15T08:37:41Z",
+          "tree_id": "74ec17693f2abb27d5f3463642d3601d5708ee5c",
+          "url": "https://github.com/nuclia/nucliadb/commit/41ff82b132d6e986861ecbf8e8db61c1dbaf3eb0"
+        },
+        "date": 1676450950177,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 68.5460722384668,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00033319399546332507",
+            "extra": "mean: 14.588727951049805 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 127.36096308066435,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0001934861841304709",
+            "extra": "mean: 7.851699420383999 msec\nrounds: 5"
           }
         ]
       }
