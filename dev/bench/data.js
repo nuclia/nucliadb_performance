@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676459587666,
+  "lastUpdate": 1676462670045,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -811,6 +811,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00023176442556635025",
             "extra": "mean: 11.06440544128418 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "carlesba@gmail.com",
+            "name": "Carles Bruguera Artero",
+            "username": "sunbit"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4b706c237a3a054e23130a7167d63f7011dbd06c",
+          "message": "Sent suggest audit events (#589)\n\n* Sent suggest audit events\nInclude client type info in search and suggest events\nAdd the jaeger trace id to audit\n\n* Clean\n\n* CLean\n\n* version and changelog\n\n* Fix renamed field\n\n* Fix wrong rename\n\n* Fix rename\n\n* Make mypy happy...\n\n* Remove comments and fix duration calculation\n\n* Remove obselete code providing search metrics\n\n* Remove obsolete test\n\n* Remove obsolete test\n\n* More removing obsolete tests",
+          "timestamp": "2023-02-15T12:01:17Z",
+          "tree_id": "bc707ad00a1302c9d644cc5c317804774f923687",
+          "url": "https://github.com/nuclia/nucliadb/commit/4b706c237a3a054e23130a7167d63f7011dbd06c"
+        },
+        "date": 1676462669759,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 75.96290583962809,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00007723296101442067",
+            "extra": "mean: 13.16431999206543 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 145.24266070994065,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00005277801480252527",
+            "extra": "mean: 6.885029474894205 msec\nrounds: 5"
           }
         ]
       }
