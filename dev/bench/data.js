@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676547212825,
+  "lastUpdate": 1676557375323,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -1094,6 +1094,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.6575462513616794e-7",
             "extra": "mean: 188.70325088500977 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alexis.leprovost@outlook.com",
+            "name": "Alexis Le Provost",
+            "username": "alekece"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e9c95a4f6e579132b60ee2853ada473f1f942b2f",
+          "message": "Fix dynamic load score calculation (#582)\n\n* Fixed load_score calculation\n\n* Update load score on shard deletion\n\n* Applied PR' suggestions",
+          "timestamp": "2023-02-16T14:11:51Z",
+          "tree_id": "6b0554e2b56634616890736f3c84f8272f2316ba",
+          "url": "https://github.com/nuclia/nucliadb/commit/e9c95a4f6e579132b60ee2853ada473f1f942b2f"
+        },
+        "date": 1676557375017,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 80.3509284131631,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000213396519191116",
+            "extra": "mean: 12.445406913757324 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 142.57675607567285,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002439385926434527",
+            "extra": "mean: 7.013765970865885 msec\nrounds: 5"
           }
         ]
       }
