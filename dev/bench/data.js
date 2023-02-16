@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676489067186,
+  "lastUpdate": 1676546661800,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -987,6 +987,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00044566636934325053",
             "extra": "mean: 7.939595442551832 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ff745c2a4aea4b900f608b083f8db53c6a5e0e07",
+          "message": "Fix transactional error on TiKV driver (#597)\n\n* Fix transactional error on tikv driver\n\n* Test get field by slug and rid\n\n* Lints",
+          "timestamp": "2023-02-16T11:20:48Z",
+          "tree_id": "3e7524d690ff07afce9cd21173ef73cbc9699e71",
+          "url": "https://github.com/nuclia/nucliadb/commit/ff745c2a4aea4b900f608b083f8db53c6a5e0e07"
+        },
+        "date": 1676546661309,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 73.92326425986391,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00019971730834877568",
+            "extra": "mean: 13.527541160583496 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 141.26876698790414,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00007101717771678766",
+            "extra": "mean: 7.0787055151803155 msec\nrounds: 5"
           }
         ]
       }
