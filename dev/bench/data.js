@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676546996118,
+  "lastUpdate": 1676547212825,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -1063,6 +1063,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0002669661126278021",
             "extra": "mean: 8.401199487539438 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8b7e0389ef7ba08b03824863ecb7612dfce8e92c",
+          "message": "Pagination doesn't work in resource search (#590)\n\n* Add tests for pagination on search and resource search\n\n* Chore: code improvements\n\n* Fix pagination on resource search\n\n* Remove ignored features from resource search endpoint\n\n* Add timestamps to resource search paragraph query\n\n* Raise an exception on invalid search option on resource search\n\n* Remove features in resource search endpoint",
+          "timestamp": "2023-02-16T11:26:19Z",
+          "tree_id": "67a7bc848a33cd52de4e7f61e5c8588971fb1825",
+          "url": "https://github.com/nuclia/nucliadb/commit/8b7e0389ef7ba08b03824863ecb7612dfce8e92c"
+        },
+        "date": 1676547212368,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/test_highlight.py::test_highligh_error",
+            "value": 5299.32576842235,
+            "unit": "iter/sec",
+            "range": "stddev: 1.6575462513616794e-7",
+            "extra": "mean: 188.70325088500977 usec\nrounds: 5"
           }
         ]
       }
