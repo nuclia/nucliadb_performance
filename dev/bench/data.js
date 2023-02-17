@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676632311906,
+  "lastUpdate": 1676641171818,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -1239,6 +1239,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00022097914558904616",
             "extra": "mean: 8.32896629969279 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7bb5fcef90714477e46bc3c4087057fc3c412e07",
+          "message": "Fix INGEST-94 (#603)",
+          "timestamp": "2023-02-17T13:28:01Z",
+          "tree_id": "0a068e99450b583da7645d37868024d0f32f6cd6",
+          "url": "https://github.com/nuclia/nucliadb/commit/7bb5fcef90714477e46bc3c4087057fc3c412e07"
+        },
+        "date": 1676641171510,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 75.28190077150278,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00005720445935756488",
+            "extra": "mean: 13.283405303955078 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 142.29427516827096,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00006752062801561852",
+            "extra": "mean: 7.027689615885417 msec\nrounds: 5"
           }
         ]
       }
