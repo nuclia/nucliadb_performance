@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676643802476,
+  "lastUpdate": 1676644010369,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -1315,6 +1315,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00020736215706069583",
             "extra": "mean: 8.920637766520183 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5879ee3e01f2efd70d49035b835d2c9d71f67b74",
+          "message": "Parse `cancelled_by_user` field on fieldmetadata classifications (#602)\n\n* Fixed\n\n* fix mypy\n\n* Fix test in one",
+          "timestamp": "2023-02-17T14:19:33Z",
+          "tree_id": "e38c15d5ca2aa2fd1b4910afbd4a4e05315a6948",
+          "url": "https://github.com/nuclia/nucliadb/commit/5879ee3e01f2efd70d49035b835d2c9d71f67b74"
+        },
+        "date": 1676644009786,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/test_highlight.py::test_highligh_error",
+            "value": 4510.600864415401,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000020906029583191034",
+            "extra": "mean: 221.69995307922363 usec\nrounds: 5"
           }
         ]
       }
