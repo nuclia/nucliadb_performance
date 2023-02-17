@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676558253875,
+  "lastUpdate": 1676632311906,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -1201,6 +1201,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000002231205449533417",
             "extra": "mean: 206.73203468322754 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "44120086+hermeGarcia@users.noreply.github.com",
+            "name": "Herme",
+            "username": "hermeGarcia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "02aa52e5d01b9c0e1a361c9c8b1ae58f234de3e3",
+          "message": "exposing installing vectors merger logic (#600)\n\n* exposing installing vectors merger logic\n\n* fix xomment\n\n* move lazy_static to dev\n\n* Add Rust checks on pre commit [sc-4092]\n\n* fix typo\n\n* fix another typo\n\n* pub(crate) not needed\n\n* requests",
+          "timestamp": "2023-02-17T10:58:58Z",
+          "tree_id": "dc1f58fe0197aeb04173f675f3ba0f019d73c7c6",
+          "url": "https://github.com/nuclia/nucliadb/commit/02aa52e5d01b9c0e1a361c9c8b1ae58f234de3e3"
+        },
+        "date": 1676632311605,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 63.11215785502831,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0005234485669438025",
+            "extra": "mean: 15.844807624816895 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 120.0629182563609,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00022097914558904616",
+            "extra": "mean: 8.32896629969279 msec\nrounds: 5"
           }
         ]
       }
