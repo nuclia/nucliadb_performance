@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676910106706,
+  "lastUpdate": 1676910926875,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -1453,6 +1453,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00007042070812650244",
             "extra": "mean: 7.527875900268555 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "44120086+hermeGarcia@users.noreply.github.com",
+            "name": "Herme",
+            "username": "hermeGarcia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3eebd0db21aa1e29473327b1f553be6f37fb9d09",
+          "message": "shard metadata storage (#605)\n\n* shard metadata storage\n\n* license\n\n* Python part\n\n* rename kbid to kb_id\n\n* Fix proto usage in python side\n\n* bump up bindings\n\n---------\n\nCo-authored-by: Ferran Llamas <llamas.arroniz@gmail.com>",
+          "timestamp": "2023-02-20T16:10:28Z",
+          "tree_id": "8df1a1e4f022565dcd5426684c8490bb8efb6166",
+          "url": "https://github.com/nuclia/nucliadb/commit/3eebd0db21aa1e29473327b1f553be6f37fb9d09"
+        },
+        "date": 1676910926554,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/test_highlight.py::test_highligh_error",
+            "value": 5883.277721639298,
+            "unit": "iter/sec",
+            "range": "stddev: 5.8245566161524536e-8",
+            "extra": "mean: 169.9732780456543 usec\nrounds: 5"
           }
         ]
       }
