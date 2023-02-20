@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676644010369,
+  "lastUpdate": 1676893401505,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -1346,6 +1346,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000020906029583191034",
             "extra": "mean: 221.69995307922363 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f1ee3a531aa3ebeb0f9928697032439c4e1945ee",
+          "message": "Add missing node sidecar port setting (#607)\n\n* Done@\nc\n\n* Fix default node sidecar port in settings",
+          "timestamp": "2023-02-20T11:32:13Z",
+          "tree_id": "012c2e730a3a2353835a566b7916a596fc749c77",
+          "url": "https://github.com/nuclia/nucliadb/commit/f1ee3a531aa3ebeb0f9928697032439c4e1945ee"
+        },
+        "date": 1676893401075,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/test_highlight.py::test_highligh_error",
+            "value": 6022.422348832934,
+            "unit": "iter/sec",
+            "range": "stddev: 4.495470663956116e-8",
+            "extra": "mean: 166.046142578125 usec\nrounds: 5"
           }
         ]
       }
