@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676893413380,
+  "lastUpdate": 1676910106706,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -1415,6 +1415,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00003620887903600774",
             "extra": "mean: 6.86395009358724 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "44120086+hermeGarcia@users.noreply.github.com",
+            "name": "Herme",
+            "username": "hermeGarcia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3eebd0db21aa1e29473327b1f553be6f37fb9d09",
+          "message": "shard metadata storage (#605)\n\n* shard metadata storage\n\n* license\n\n* Python part\n\n* rename kbid to kb_id\n\n* Fix proto usage in python side\n\n* bump up bindings\n\n---------\n\nCo-authored-by: Ferran Llamas <llamas.arroniz@gmail.com>",
+          "timestamp": "2023-02-20T16:10:28Z",
+          "tree_id": "8df1a1e4f022565dcd5426684c8490bb8efb6166",
+          "url": "https://github.com/nuclia/nucliadb/commit/3eebd0db21aa1e29473327b1f553be6f37fb9d09"
+        },
+        "date": 1676910106366,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 66.2154324135307,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0005915642387632872",
+            "extra": "mean: 15.102219581604004 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 132.8395968860652,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00007042070812650244",
+            "extra": "mean: 7.527875900268555 msec\nrounds: 5"
           }
         ]
       }
