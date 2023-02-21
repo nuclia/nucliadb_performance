@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676910926875,
+  "lastUpdate": 1676968928708,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -1484,6 +1484,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 5.8245566161524536e-8",
             "extra": "mean: 169.9732780456543 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e97c390481db3875b7f1de325008999b10bb6471",
+          "message": "Create new shards on least loaded nodes (#601)\n\n* Create shards on least loaded nodes\n\n* Improve error handling\n\n* Improve comment\n\n* Do not reuse the same nodes for replicas of the same KB\n\n* Add test\n\n* Increase test coverage for error handling\n\n* Minor improvements\n\n* More readable filtering\n\n* fix flake",
+          "timestamp": "2023-02-21T08:38:58Z",
+          "tree_id": "5f93c3ad7babcd84a8e795ed91c78019f560813a",
+          "url": "https://github.com/nuclia/nucliadb/commit/e97c390481db3875b7f1de325008999b10bb6471"
+        },
+        "date": 1676968928407,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 75.79362497849598,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000019393746011243362",
+            "extra": "mean: 13.193721771240234 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 143.01726136777683,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000771579246244765",
+            "extra": "mean: 6.992162976946149 msec\nrounds: 5"
           }
         ]
       }
