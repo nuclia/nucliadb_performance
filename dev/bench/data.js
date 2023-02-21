@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676992267235,
+  "lastUpdate": 1676992519270,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -1867,6 +1867,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0002975970598510529",
             "extra": "mean: 9.269194169477984 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2a836c45fd94dd44b9f6763af00d00a737ebceaf",
+          "message": "Publish updated nucliadb to pypi  (#612)\n\n* Bump\n\n* fix",
+          "timestamp": "2023-02-21T15:07:33Z",
+          "tree_id": "413f104aabca54886db6362c7d216275a5683e0d",
+          "url": "https://github.com/nuclia/nucliadb/commit/2a836c45fd94dd44b9f6763af00d00a737ebceaf"
+        },
+        "date": 1676992518717,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/test_highlight.py::test_highligh_error",
+            "value": 4596.082501700668,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000007588601127684067",
+            "extra": "mean: 217.57659912109375 usec\nrounds: 5"
           }
         ]
       }
