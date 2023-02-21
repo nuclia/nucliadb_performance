@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676976682311,
+  "lastUpdate": 1676985753948,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -1760,6 +1760,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00022223229711930154",
             "extra": "mean: 10.289487838745117 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1d8cc0cfbe07b33c40692967de8ea00309b13ffc",
+          "message": "Indexing to shadow shards (#611)\n\n* Sidecar index to shadow shards\n\n* Ingest index to shadow replicas too\n\n* Add test for shard\n\n* better naming",
+          "timestamp": "2023-02-21T13:11:14Z",
+          "tree_id": "0e01053696adc2271f24c599476f7e5e38c8bfd2",
+          "url": "https://github.com/nuclia/nucliadb/commit/1d8cc0cfbe07b33c40692967de8ea00309b13ffc"
+        },
+        "date": 1676985753386,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 77.27205566721997,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002570970367259709",
+            "extra": "mean: 12.941288948059082 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 146.68763184842396,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00018225782606797622",
+            "extra": "mean: 6.817207336425781 msec\nrounds: 5"
           }
         ]
       }
