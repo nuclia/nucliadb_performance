@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676969770420,
+  "lastUpdate": 1676969973675,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -1591,6 +1591,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00011785653356557477",
             "extra": "mean: 6.95735045841762 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "50f5b7284e60590bf06588ba94b8a31251ec18d0",
+          "message": "Properly handle ClientDisconnect exceptions (#606)\n\n* Add exception handler for ClientDisconnects on every fastapi\n\n* Remove obsolete fastapi versioning hack\n\n* Fix pre-commit encoding and yaml\n\n* Capture exception only if sentry is configured",
+          "timestamp": "2023-02-21T08:52:46Z",
+          "tree_id": "eb9db1f409ee871e0a7379705cce21f75dcfd6f3",
+          "url": "https://github.com/nuclia/nucliadb/commit/50f5b7284e60590bf06588ba94b8a31251ec18d0"
+        },
+        "date": 1676969973215,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/test_highlight.py::test_highligh_error",
+            "value": 5310.330490305234,
+            "unit": "iter/sec",
+            "range": "stddev: 2.3735731676966338e-7",
+            "extra": "mean: 188.31219673156738 usec\nrounds: 5"
           }
         ]
       }
