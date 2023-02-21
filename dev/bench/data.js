@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676973629259,
+  "lastUpdate": 1676973822045,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -1660,6 +1660,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00010915468873670633",
             "extra": "mean: 7.303932734898159 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6a61593dca94e83a753d1aeaf1aa602cb978479c",
+          "message": "Remove logic to check out of sync replias (#608)\n\n* Remove logic to check out of sync replias\n\n* Remove test and bump nucliadb package",
+          "timestamp": "2023-02-21T09:57:13Z",
+          "tree_id": "26a5d0cb38d216f8a6f0beb8db4269be6ded0338",
+          "url": "https://github.com/nuclia/nucliadb/commit/6a61593dca94e83a753d1aeaf1aa602cb978479c"
+        },
+        "date": 1676973821773,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/test_highlight.py::test_highligh_error",
+            "value": 6020.224997136511,
+            "unit": "iter/sec",
+            "range": "stddev: 1.5381476282528394e-7",
+            "extra": "mean: 166.10674858093265 usec\nrounds: 5"
           }
         ]
       }
