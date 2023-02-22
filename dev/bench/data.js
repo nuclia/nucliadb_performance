@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677051170042,
+  "lastUpdate": 1677063513801,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -1929,6 +1929,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.078382836024835e-7",
             "extra": "mean: 193.23601722717285 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "98ccbded4deec9a145140fb7c7e4cf72e21c4411",
+          "message": "Bump telemetry and utils (#614)",
+          "timestamp": "2023-02-22T07:25:54Z",
+          "tree_id": "467b98090c67372c6ab01e49e8992618370c8e32",
+          "url": "https://github.com/nuclia/nucliadb/commit/98ccbded4deec9a145140fb7c7e4cf72e21c4411"
+        },
+        "date": 1677063513199,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 50.83874208323373,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002596452485795291",
+            "extra": "mean: 19.6700382232666 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 92.45695023513753,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0015930525767001633",
+            "extra": "mean: 10.815844535827635 msec\nrounds: 5"
           }
         ]
       }
