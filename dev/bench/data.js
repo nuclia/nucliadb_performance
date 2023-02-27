@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677527181756,
+  "lastUpdate": 1677527328201,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -2074,6 +2074,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0002921704487680713",
             "extra": "mean: 10.140865499323064 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "222a49e25d2c68f9ca670b54842a34a3f9877478",
+          "message": "Define limit based on current production shard count (#615)",
+          "timestamp": "2023-02-27T19:42:08Z",
+          "tree_id": "cf82cdbfd89f42ef387edb1812b63a1541b1af3d",
+          "url": "https://github.com/nuclia/nucliadb/commit/222a49e25d2c68f9ca670b54842a34a3f9877478"
+        },
+        "date": 1677527327734,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/test_highlight.py::test_highligh_error",
+            "value": 5977.394147651741,
+            "unit": "iter/sec",
+            "range": "stddev: 8.998139544934956e-8",
+            "extra": "mean: 167.29698181152344 usec\nrounds: 5"
           }
         ]
       }
