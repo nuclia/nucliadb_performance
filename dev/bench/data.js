@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677589912300,
+  "lastUpdate": 1677591802055,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -2288,6 +2288,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000031681667078764674",
             "extra": "mean: 6.768980026245117 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5645cf08d44ad5cfa140048604db2cda781616da",
+          "message": "missing twine on pypi release (#629)",
+          "timestamp": "2023-02-28T13:40:09Z",
+          "tree_id": "fe84339e36fe9348748d848501fe8d38496815c7",
+          "url": "https://github.com/nuclia/nucliadb/commit/5645cf08d44ad5cfa140048604db2cda781616da"
+        },
+        "date": 1677591801763,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 74.71587224903772,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00009160937138170491",
+            "extra": "mean: 13.384037017822266 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 142.00701338755286,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00006398417591783938",
+            "extra": "mean: 7.0419057210286455 msec\nrounds: 5"
           }
         ]
       }
