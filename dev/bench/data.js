@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677573976494,
+  "lastUpdate": 1677574181733,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -2143,6 +2143,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00046011274622586836",
             "extra": "mean: 11.450929641723633 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ramon@nuclia.com",
+            "name": "Ramon Navarro Bosch",
+            "username": "bloodbare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ff5d2fd7df92c55f502c82ca5910097612d7f248",
+          "message": "Add py typed on eggs (#625)",
+          "timestamp": "2023-02-28T08:41:55Z",
+          "tree_id": "3cf3f6dab51f2aa0941e29e3e840d338fe5c9cff",
+          "url": "https://github.com/nuclia/nucliadb/commit/ff5d2fd7df92c55f502c82ca5910097612d7f248"
+        },
+        "date": 1677574181112,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/test_highlight.py::test_highligh_error",
+            "value": 4571.787336827144,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000004013821060207181",
+            "extra": "mean: 218.7328338623047 usec\nrounds: 5"
           }
         ]
       }
