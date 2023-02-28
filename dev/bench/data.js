@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677591802055,
+  "lastUpdate": 1677593331877,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -2326,6 +2326,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00006398417591783938",
             "extra": "mean: 7.0419057210286455 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c372cfacd68edb7d5a687c50427b22b61bd580ad",
+          "message": "Optionally crop large attributes from FieldMetadata deserialization (#619)\n\n* Optionally crop fields from FieldMetadata that may be too big\n\n* Improve test\n\n* Address comments\n\n* Adapt to requested naming improvements",
+          "timestamp": "2023-02-28T14:05:16Z",
+          "tree_id": "fc13a88ecd7652082246004272cd429e4574d985",
+          "url": "https://github.com/nuclia/nucliadb/commit/c372cfacd68edb7d5a687c50427b22b61bd580ad"
+        },
+        "date": 1677593331248,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 67.10295893961332,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0008631334632601159",
+            "extra": "mean: 14.902472496032715 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 131.25112262583355,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00009168688006992968",
+            "extra": "mean: 7.6189824513026645 msec\nrounds: 5"
           }
         ]
       }
