@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677587241595,
+  "lastUpdate": 1677588154580,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -2212,6 +2212,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000711113249062262",
             "extra": "mean: 6.775423685709636 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "44120086+hermeGarcia@users.noreply.github.com",
+            "name": "Herme",
+            "username": "hermeGarcia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3b0d8358f880e1878ef5552b49be23a518b3ade9",
+          "message": "fix prefix deletion (#624)\n\n* Fix unsync shards on node [sc-4263]\n\n* bump up bindings",
+          "timestamp": "2023-02-28T12:30:48Z",
+          "tree_id": "918f0f188b7d841bae7ec9329a1d79b31f9300d5",
+          "url": "https://github.com/nuclia/nucliadb/commit/3b0d8358f880e1878ef5552b49be23a518b3ade9"
+        },
+        "date": 1677588154264,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 62.46988064857921,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0005365176103328076",
+            "extra": "mean: 16.00771427154541 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 121.70949694732688,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00014629480288319178",
+            "extra": "mean: 8.216285705566406 msec\nrounds: 5"
           }
         ]
       }
