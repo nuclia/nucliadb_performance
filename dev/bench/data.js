@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677574181733,
+  "lastUpdate": 1677587241595,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -2174,6 +2174,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000004013821060207181",
             "extra": "mean: 218.7328338623047 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6759ab3990c1eb1bb83bfc7a0103c5cc45212fb3",
+          "message": "Automate build and versioning. (#621)\n\n- release new package for every merge to main\n- pin all nucliadb dependencies for every package to prevent any inconsistencies\n- auto increment version with build numbers\n- no longer maintain in-code changelog",
+          "timestamp": "2023-02-28T12:16:04Z",
+          "tree_id": "7cf30dac28a1224b9562ef46c568a0ec5cd5ffe4",
+          "url": "https://github.com/nuclia/nucliadb/commit/6759ab3990c1eb1bb83bfc7a0103c5cc45212fb3"
+        },
+        "date": 1677587241093,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 76.49160586444205,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002255316597628442",
+            "extra": "mean: 13.07332992553711 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 147.5922460921738,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000711113249062262",
+            "extra": "mean: 6.775423685709636 msec\nrounds: 5"
           }
         ]
       }
