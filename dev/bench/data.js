@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677847250272,
+  "lastUpdate": 1677847529918,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -2761,6 +2761,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000012112119579333987",
             "extra": "mean: 6.81948979695638 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8fee34d752eb04ab696bdfc5cfc76bea10f7fb86",
+          "message": "rename colaborators to collaborators (#631)\n\n* rename colaborators to collaborators\n\n* some fixes but not done\n\n* b/w compat handling\n\n* do not remove colaborators field but just fix external field\n\n* fix tests\n\n* comment on change",
+          "timestamp": "2023-03-03T12:37:25Z",
+          "tree_id": "3ca572b572f8f6026cbb63136456a1b2f635c4a5",
+          "url": "https://github.com/nuclia/nucliadb/commit/8fee34d752eb04ab696bdfc5cfc76bea10f7fb86"
+        },
+        "date": 1677847529265,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/test_highlight.py::test_highligh_error",
+            "value": 4797.142693099592,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000004088884384913051",
+            "extra": "mean: 208.45742225646973 usec\nrounds: 5"
           }
         ]
       }
