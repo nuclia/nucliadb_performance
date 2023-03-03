@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677845725663,
+  "lastUpdate": 1677847250272,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -2723,6 +2723,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.6382744909208912e-7",
             "extra": "mean: 167.19260215759277 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8fee34d752eb04ab696bdfc5cfc76bea10f7fb86",
+          "message": "rename colaborators to collaborators (#631)\n\n* rename colaborators to collaborators\n\n* some fixes but not done\n\n* b/w compat handling\n\n* do not remove colaborators field but just fix external field\n\n* fix tests\n\n* comment on change",
+          "timestamp": "2023-03-03T12:37:25Z",
+          "tree_id": "3ca572b572f8f6026cbb63136456a1b2f635c4a5",
+          "url": "https://github.com/nuclia/nucliadb/commit/8fee34d752eb04ab696bdfc5cfc76bea10f7fb86"
+        },
+        "date": 1677847249669,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 79.58214999673649,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00020346735577916932",
+            "extra": "mean: 12.565631866455078 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 146.63853598641822,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000012112119579333987",
+            "extra": "mean: 6.81948979695638 msec\nrounds: 5"
           }
         ]
       }
