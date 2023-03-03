@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677845152122,
+  "lastUpdate": 1677845725663,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -2692,6 +2692,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000011734772041288284",
             "extra": "mean: 6.6775767008463545 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "44120086+hermeGarcia@users.noreply.github.com",
+            "name": "Herme",
+            "username": "hermeGarcia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "807f6fd5f66c53a0cd8eb9aaff66230602c4800b",
+          "message": "Hermegarcia/sc 2783 (#640)\n\n* termination handler\n\n* leave telemetry handle\n\n* clean\n\n* wait for more signals",
+          "timestamp": "2023-03-03T11:54:39Z",
+          "tree_id": "1f43f8e8e58e319cc0ea63bbc0dc0b816caa0ad3",
+          "url": "https://github.com/nuclia/nucliadb/commit/807f6fd5f66c53a0cd8eb9aaff66230602c4800b"
+        },
+        "date": 1677845725038,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/test_highlight.py::test_highligh_error",
+            "value": 5981.125881738582,
+            "unit": "iter/sec",
+            "range": "stddev: 1.6382744909208912e-7",
+            "extra": "mean: 167.19260215759277 usec\nrounds: 5"
           }
         ]
       }
