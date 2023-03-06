@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677935453135,
+  "lastUpdate": 1678093420629,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -2868,6 +2868,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0001817530295608717",
             "extra": "mean: 7.118235315595355 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "853f7d2938e29bfd9df76376f4945e6af0b2beb1",
+          "message": "Investigate why some transactions are discarded (#638)\n\n* Be more explicit on sequence order violation\n\n* Fix status grpc call\n\n* Fix typo in log\n\n* More\n\n* fix\n\n* wip\n\n* Fix\n\n* Fix comment\n\n* undo variable change",
+          "timestamp": "2023-03-06T09:00:02Z",
+          "tree_id": "ec7692293e2270ccf07894c722efa6994d31845c",
+          "url": "https://github.com/nuclia/nucliadb/commit/853f7d2938e29bfd9df76376f4945e6af0b2beb1"
+        },
+        "date": 1678093420205,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 73.60377924678292,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00018187817914874272",
+            "extra": "mean: 13.586258888244629 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 138.40910365882118,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00021489294039677467",
+            "extra": "mean: 7.224958283560617 msec\nrounds: 5"
           }
         ]
       }
