@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678093420629,
+  "lastUpdate": 1678093653725,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -2906,6 +2906,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00021489294039677467",
             "extra": "mean: 7.224958283560617 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "853f7d2938e29bfd9df76376f4945e6af0b2beb1",
+          "message": "Investigate why some transactions are discarded (#638)\n\n* Be more explicit on sequence order violation\n\n* Fix status grpc call\n\n* Fix typo in log\n\n* More\n\n* fix\n\n* wip\n\n* Fix\n\n* Fix comment\n\n* undo variable change",
+          "timestamp": "2023-03-06T09:00:02Z",
+          "tree_id": "ec7692293e2270ccf07894c722efa6994d31845c",
+          "url": "https://github.com/nuclia/nucliadb/commit/853f7d2938e29bfd9df76376f4945e6af0b2beb1"
+        },
+        "date": 1678093653162,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/test_highlight.py::test_highligh_error",
+            "value": 5238.480985592349,
+            "unit": "iter/sec",
+            "range": "stddev: 1.8604972089516424e-7",
+            "extra": "mean: 190.89503288269043 usec\nrounds: 5"
           }
         ]
       }
