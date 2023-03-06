@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678095285332,
+  "lastUpdate": 1678095518338,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -2975,6 +2975,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00013496049276984044",
             "extra": "mean: 6.963717142740886 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "carlesba@gmail.com",
+            "name": "Carles Bruguera Artero",
+            "username": "sunbit"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b65cbf4d72c224b18cf2f6d9c1d93a2bd1691433",
+          "message": "Fix bug where metadata was not handled correctly on grpc start_span_client (#643)\n\n* Fix bug where metadata was not handled correctly on grpc start_span_client\n\n* Update VERSION",
+          "timestamp": "2023-03-06T09:31:27Z",
+          "tree_id": "82fc4990f7eb19a7e1240c630a16628bb78cbb7a",
+          "url": "https://github.com/nuclia/nucliadb/commit/b65cbf4d72c224b18cf2f6d9c1d93a2bd1691433"
+        },
+        "date": 1678095517709,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/test_highlight.py::test_highligh_error",
+            "value": 5998.588131379295,
+            "unit": "iter/sec",
+            "range": "stddev: 4.317990191082141e-8",
+            "extra": "mean: 166.70589447021484 usec\nrounds: 5"
           }
         ]
       }
