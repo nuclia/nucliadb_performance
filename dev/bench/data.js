@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678095518338,
+  "lastUpdate": 1678192652223,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -3006,6 +3006,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 4.317990191082141e-8",
             "extra": "mean: 166.70589447021484 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "56384f766c6df6abd1f75560d3f319c163fc02cd",
+          "message": "Do not store file passwords on maindb (#646)\n\n* Do not store password on maindb\n\n* fix unit tests paths",
+          "timestamp": "2023-03-07T12:33:54Z",
+          "tree_id": "4988e8528ac6a50eecac1b8e0e2d2b139061c598",
+          "url": "https://github.com/nuclia/nucliadb/commit/56384f766c6df6abd1f75560d3f319c163fc02cd"
+        },
+        "date": 1678192651557,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 75.57762055504621,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0001971886326971501",
+            "extra": "mean: 13.231430053710938 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 148.2768047875018,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00011222688875130299",
+            "extra": "mean: 6.744143168131511 msec\nrounds: 5"
           }
         ]
       }
