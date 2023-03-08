@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678286925601,
+  "lastUpdate": 1678293107974,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -3151,6 +3151,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00012884771409381123",
             "extra": "mean: 6.811408996582031 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "c.iniesta@gmail.com",
+            "name": "Carmen Iniesta",
+            "username": "Ciniesta"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ce292e63c44ce985248b3f084b47fd692842de8b",
+          "message": "Notebooks updates (#648)\n\n* update code search\n\n* update\n\n* Update Semantic Search in minutes with NucliaDB.ipynb\n\n* Update Comparing different embeddings with NucliaDB.ipynb\n\n* Delete NUCLIADB_for_Data_Scientists_-_First_steps.ipynb\n\n* Create NUCLIADB_for_Data_Scientists - First_steps.ipynb",
+          "timestamp": "2023-03-08T16:28:19Z",
+          "tree_id": "bf35a4dc5fe416d9e3b789c25f65f098271708cd",
+          "url": "https://github.com/nuclia/nucliadb/commit/ce292e63c44ce985248b3f084b47fd692842de8b"
+        },
+        "date": 1678293107605,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 78.58148406695092,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00001893642772693453",
+            "extra": "mean: 12.7256441116333 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 145.84216528971598,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00002083201094503347",
+            "extra": "mean: 6.856727600097656 msec\nrounds: 5"
           }
         ]
       }
