@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678267221585,
+  "lastUpdate": 1678267434540,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -3082,6 +3082,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00013048687987744637",
             "extra": "mean: 8.89428578890287 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "71611b4d5f949b0e194f2c1628d0ea7630e35c6b",
+          "message": "Add more performance tests for read operations (#645)\n\n* Add performance test to kb and fields operations\n\n* KB read endpoints use ingest ORM instead of gRPC\n\n* Add CODEOWNERS file\n\n* KnowledgeBox.get_kbs returns uuids and slugs\n\n* Simplify KnowledgeBox.get_kbs",
+          "timestamp": "2023-03-08T09:16:28Z",
+          "tree_id": "c32ffe442cd9bc1b20573a279c6a072141e90482",
+          "url": "https://github.com/nuclia/nucliadb/commit/71611b4d5f949b0e194f2c1628d0ea7630e35c6b"
+        },
+        "date": 1678267434265,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/test_highlight.py::test_highligh_error",
+            "value": 5991.63688683741,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000011201956644972924",
+            "extra": "mean: 166.89929962158203 usec\nrounds: 5"
           }
         ]
       }
