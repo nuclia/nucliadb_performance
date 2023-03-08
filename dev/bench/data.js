@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678192652223,
+  "lastUpdate": 1678267221585,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -3044,6 +3044,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00011222688875130299",
             "extra": "mean: 6.744143168131511 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "71611b4d5f949b0e194f2c1628d0ea7630e35c6b",
+          "message": "Add more performance tests for read operations (#645)\n\n* Add performance test to kb and fields operations\n\n* KB read endpoints use ingest ORM instead of gRPC\n\n* Add CODEOWNERS file\n\n* KnowledgeBox.get_kbs returns uuids and slugs\n\n* Simplify KnowledgeBox.get_kbs",
+          "timestamp": "2023-03-08T09:16:28Z",
+          "tree_id": "c32ffe442cd9bc1b20573a279c6a072141e90482",
+          "url": "https://github.com/nuclia/nucliadb/commit/71611b4d5f949b0e194f2c1628d0ea7630e35c6b"
+        },
+        "date": 1678267221074,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 61.51039456190146,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00030682095957760766",
+            "extra": "mean: 16.257414817810062 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 112.43173693020631,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00013048687987744637",
+            "extra": "mean: 8.89428578890287 msec\nrounds: 5"
           }
         ]
       }
