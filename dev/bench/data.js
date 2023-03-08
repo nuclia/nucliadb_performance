@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678267434540,
+  "lastUpdate": 1678286925601,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -3113,6 +3113,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000011201956644972924",
             "extra": "mean: 166.89929962158203 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "33a94187ddd68c4f3e1fff7bb559c2ed33c153e2",
+          "message": "Fix missing txn.abort on reader KB endpoints (#649)",
+          "timestamp": "2023-03-08T14:45:17Z",
+          "tree_id": "6ca1209c5d11a1701a07ed25ebd9e5d6cabecddd",
+          "url": "https://github.com/nuclia/nucliadb/commit/33a94187ddd68c4f3e1fff7bb559c2ed33c153e2"
+        },
+        "date": 1678286925266,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 78.2740497969016,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00021086502754194612",
+            "extra": "mean: 12.775626182556152 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 146.812502450198,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00012884771409381123",
+            "extra": "mean: 6.811408996582031 msec\nrounds: 5"
           }
         ]
       }
