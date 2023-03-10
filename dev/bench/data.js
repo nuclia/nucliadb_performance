@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678424661329,
+  "lastUpdate": 1678426709203,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -3227,6 +3227,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0001240767516834771",
             "extra": "mean: 7.415839603969029 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2fb94f113bd59b41759c89f9691699057815d5ac",
+          "message": "Synonyms api (#647)\n\n* Done API\n\n* rename transaction context manager\n\n* make sure transaction is only closed when open\n\n* Renamed DeleteSynonyms to DelSynonyms\n\n* Have a single instance of orm.Synonyms\n\n* Make protos\n\n* Improve protobuf\n\n* Fix test",
+          "timestamp": "2023-03-10T05:00:45Z",
+          "tree_id": "d5333413be045ca0211c8ed83fb6837178d4ce7b",
+          "url": "https://github.com/nuclia/nucliadb/commit/2fb94f113bd59b41759c89f9691699057815d5ac"
+        },
+        "date": 1678426708756,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/test_highlight.py::test_highligh_error",
+            "value": 4447.107850559167,
+            "unit": "iter/sec",
+            "range": "stddev: 9.181139679403874e-7",
+            "extra": "mean: 224.8652458190918 usec\nrounds: 5"
           }
         ]
       }
