@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678293107974,
+  "lastUpdate": 1678424661329,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -3189,6 +3189,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00002083201094503347",
             "extra": "mean: 6.856727600097656 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2fb94f113bd59b41759c89f9691699057815d5ac",
+          "message": "Synonyms api (#647)\n\n* Done API\n\n* rename transaction context manager\n\n* make sure transaction is only closed when open\n\n* Renamed DeleteSynonyms to DelSynonyms\n\n* Have a single instance of orm.Synonyms\n\n* Make protos\n\n* Improve protobuf\n\n* Fix test",
+          "timestamp": "2023-03-10T05:00:45Z",
+          "tree_id": "d5333413be045ca0211c8ed83fb6837178d4ce7b",
+          "url": "https://github.com/nuclia/nucliadb/commit/2fb94f113bd59b41759c89f9691699057815d5ac"
+        },
+        "date": 1678424661011,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 69.53050583175103,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000490834078512558",
+            "extra": "mean: 14.382176399230957 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 134.84649795618427,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0001240767516834771",
+            "extra": "mean: 7.415839603969029 msec\nrounds: 5"
           }
         ]
       }
