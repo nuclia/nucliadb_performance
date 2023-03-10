@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678426709203,
+  "lastUpdate": 1678438013346,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -3258,6 +3258,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 9.181139679403874e-7",
             "extra": "mean: 224.8652458190918 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "44120086+hermeGarcia@users.noreply.github.com",
+            "name": "Herme",
+            "username": "hermeGarcia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "36e3f03012f775dc981e3bc7cae5a34194b689c3",
+          "message": "metadata segment added to vectors schema (#609)\n\n* metadata segment added to vectors schema\n\n* Add indexing info\n\n* pay the deserialization you use\n\n* add metadata DocumentScored\n\n* query AST and run method defined\n\n* query.rs\n\n* license\n\n* test complex query on vectors\n\n* query is now formula\n\n* Formula documentation\n\n* partial implementation custom similarity\n\n* parametric similarity\n\n* vectorset similarity\n\n* Add similarity to regular vectors index\n\n* Add similarity to vectorsets\n\n* fix mypy\n\n* added test\n\n* Fix mypy\n\n* Fix tests\n\n* Fix node test\n\n* Fix nucliadb_sdk tests\n\n* Addressed comments\n\n* Enums in uppercase\n\n* Store similarity in shards object\n\n* Update protos\n\n* Lint fixes\n\n---------\n\nCo-authored-by: Ramon Navarro Bosch <ramon@nuclia.io>\nCo-authored-by: Ferran Llamas <llamas.arroniz@gmail.com>",
+          "timestamp": "2023-03-10T08:34:47Z",
+          "tree_id": "ff32735cc089983c1b8c7111c3188491a0e5d860",
+          "url": "https://github.com/nuclia/nucliadb/commit/36e3f03012f775dc981e3bc7cae5a34194b689c3"
+        },
+        "date": 1678438013024,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 60.45568230693924,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0006295974254730494",
+            "extra": "mean: 16.54104232788086 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 117.06553548111593,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00023443756219883885",
+            "extra": "mean: 8.542223771413168 msec\nrounds: 5"
           }
         ]
       }
