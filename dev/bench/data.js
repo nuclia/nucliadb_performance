@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678439115294,
+  "lastUpdate": 1678442621614,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -3327,6 +3327,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.1347591376219924e-7",
             "extra": "mean: 228.37519645690918 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0e4162a19500a5ea771f9bd4d117f470063fc11e",
+          "message": "- remove global test coverage badge and replace with coverage separated by flags (#639)\n\n- increase utils test coverage\n- no cover sprinkled in where it didn't make sense to add coverage\n- split integration and unit tests\n- put tests into match test files that mirror test structure so it is easy for where where to write tests\n- upgrade memorylru for corrected apple silicon support",
+          "timestamp": "2023-03-10T09:51:46Z",
+          "tree_id": "b2500fd67540fa1066b298782f2547c4938cc10b",
+          "url": "https://github.com/nuclia/nucliadb/commit/0e4162a19500a5ea771f9bd4d117f470063fc11e"
+        },
+        "date": 1678442621199,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/test_highlight.py::test_highligh_error",
+            "value": 4747.197783081236,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000004034198872509366",
+            "extra": "mean: 210.65058708190918 usec\nrounds: 5"
           }
         ]
       }
