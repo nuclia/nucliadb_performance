@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678722777934,
+  "lastUpdate": 1678725535275,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -3548,6 +3548,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0005762493115572499",
             "extra": "mean: 11.695685386657715 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5f9b88dd51fd454349aaba48d02b018c4c04d76b",
+          "message": "Management of entities on KB via graph index (#594)\n\n* Add test to ensure set entities index on relations index\n\n* Add shard_id when searching relations\n\n* Add JoinGraph in local and binding node grpc API\n\n* Naive entity indexing on set entities wit JoinGraph\n\n* Deprecate Entity.merged and use a more complex status instead\n\n* Add test for correct indexing and retrieval of entities via BM\n\n* Test get entities over entities set by api and BM\n\n* Add tests for delete entitiesgroups\n\n* Refactor tests entities\n\n* Add relation_types and relation_edges to binding\n\n* Rename JoinGraphCnx proto to JoinGraphEdge\n\n* Add status to EntitiesGroup and new DeletedEntitiesGroup\n\n* Delete unnecessary map call\n\n* Add test for empty prefix search with filters\n\n* Management of entities via maindb and relations index\n\n* Lint tests\n\n* Renaming\n\n* Code refactoring and improvements on readability\n\n* Add a from_message method to EntitiesGroup. Small fixes\n\n* Remove status, undeprecate merged and add deleted to EntitiesGroup pb\n\n* Remove reindex test (for now)\n\n* Improve entities reader errors. Small refactorings\n\n* Small fixes and improvements\n\n* Delete curator\n\n* Minor refactor on rust test\n\n* Small optimization on mark/unmark deleted eg\n\n* Remove old EntitiesGroup serialization\n\n* Move get_entities from Knowledgebox to EntitiesManager\n\n* Move get_entities_group from Knowledgebox to EntitiesManager\n\n* KnowledgeBox delegates on EntitiesManager\n\n* Rename test to avoid name collision in pytest\n\n* Move sidecar proto to a different file\n\n* Add exception handling on entities API\n\n* Fix tests and small issues. Add ERROR to entities gRPC calls\n\n* Inverse dependency from ORM to ingest's gRPC API\n\n* Review comments\n\n* Fix mypy\n\n* Move NodesManager from search to ingest ORM\n\n* Query all logic shards for entities\n\n* Fix lints\n\n* Fix train tests mocking EntitiesManager\n\n* Add sentry conditionals before capturing an exception\n\n* Add exc_info to NATS error callbacks\n\n* Mock EntitiesManager and fix tests\n\n* Fix rebase\n\n* Avoid duplication of shard_id field on search pb\n\n* Lints on nucliadb_utils\n\n* Recursive make call to format nucliadb_utils\n\n* Entities request to index are done for all logical shards\n\n* Fix rust pre-commit and lint\n\n* Add list entities groups method to avoid overloading index\n\n* Further EntitiesManager mock to avoid searching",
+          "timestamp": "2023-03-13T15:37:40Z",
+          "tree_id": "19ffe9c79e309dfab7b4e73602dbc50a6ec5b3cc",
+          "url": "https://github.com/nuclia/nucliadb/commit/5f9b88dd51fd454349aaba48d02b018c4c04d76b"
+        },
+        "date": 1678725534768,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/test_highlight.py::test_highligh_error",
+            "value": 5979.111973779346,
+            "unit": "iter/sec",
+            "range": "stddev: 2.2868725582147533e-7",
+            "extra": "mean: 167.24891662597656 usec\nrounds: 5"
           }
         ]
       }
