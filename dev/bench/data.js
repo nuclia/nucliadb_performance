@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678799608785,
+  "lastUpdate": 1678800846389,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -3755,6 +3755,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 9.383665824159805e-8",
             "extra": "mean: 188.76805305480957 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "44120086+hermeGarcia@users.noreply.github.com",
+            "name": "Herme",
+            "username": "hermeGarcia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4f451dbf5840f42ef5c419bc48701200e401a00e",
+          "message": "use seeded rng for layer selection (#657)\n\n* use seeded rng for layer creation\n\n* use StdRang instead of chacha\n\n* move layer selection to ops_hnsw\n\n* use SmallRng",
+          "timestamp": "2023-03-14T13:19:08Z",
+          "tree_id": "7e363e6f657ea702456ccc6bfd024a8f3d3680f2",
+          "url": "https://github.com/nuclia/nucliadb/commit/4f451dbf5840f42ef5c419bc48701200e401a00e"
+        },
+        "date": 1678800845831,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 49.27428491677079,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0009498451473398027",
+            "extra": "mean: 20.2945613861084 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 108.46316201248128,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0003611923665519995",
+            "extra": "mean: 9.21972014687278 msec\nrounds: 5"
           }
         ]
       }
