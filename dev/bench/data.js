@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678786296779,
+  "lastUpdate": 1678795573032,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -3648,6 +3648,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000004079585752967885",
             "extra": "mean: 231.35371208190918 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f7250e89de13377dedb62d8a505be2aa60f0076f",
+          "message": "Ease imports for nucliadb datasets and fix sdk test (#659)\n\n* Ease imports for nucliadb datasets\n\n* Add\n\n* Fix sdk test\n\n* Include remaining imports",
+          "timestamp": "2023-03-14T12:02:28Z",
+          "tree_id": "68f232deac5bb725914aea6b582818c915760d90",
+          "url": "https://github.com/nuclia/nucliadb/commit/f7250e89de13377dedb62d8a505be2aa60f0076f"
+        },
+        "date": 1678795572386,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 78.86553179231402,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00009903961640883248",
+            "extra": "mean: 12.679810523986815 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 145.57995210162784,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00014139445676999017",
+            "extra": "mean: 6.869077682495117 msec\nrounds: 5"
           }
         ]
       }
