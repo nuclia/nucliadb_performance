@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678795573032,
+  "lastUpdate": 1678798959213,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -3686,6 +3686,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00014139445676999017",
             "extra": "mean: 6.869077682495117 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "eb7a549a7667bfde42ad2a8dcdb70ea383a2d72d",
+          "message": "Fix NodesManager node choice for apply_for_all_shards (#661)\n\n* Fix NodesManager node choice for apply_for_all_shards\n\n* Add tests for NodesManager",
+          "timestamp": "2023-03-14T12:58:52Z",
+          "tree_id": "6e6888ebd9831671f717c2729a4ff61fb2d8f4a3",
+          "url": "https://github.com/nuclia/nucliadb/commit/eb7a549a7667bfde42ad2a8dcdb70ea383a2d72d"
+        },
+        "date": 1678798958882,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 71.02039461720004,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0003001310294774889",
+            "extra": "mean: 14.080462455749512 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 140.96453893081744,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00006600078309071003",
+            "extra": "mean: 7.093982696533203 msec\nrounds: 5"
           }
         ]
       }
