@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678725535275,
+  "lastUpdate": 1678785455883,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -3579,6 +3579,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.2868725582147533e-7",
             "extra": "mean: 167.24891662597656 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alexis.leprovost@outlook.com",
+            "name": "Alexis Le Provost",
+            "username": "alekece"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9b44deb070c37b2c5a82567032934b421a220c26",
+          "message": "Persist and expose node metadata (#620)\n\n* Added `env::metadata_path` free function\n\n* Persisted/loaded node metadata file\n\n* Introduced `NodeMetadata` type\n\nAdded `GetMetadata` gRPC method in node writer\n\n* Fixed metadata file creation issue\n\n* Tracked node load score instead of iterating over shard's load score\n\n* Optimized `NodeMetadata::{load|save}` methods\n\n* Turned synchronous `NodeMetadata` methods\n\n* Added nested `ShardMetadata` proto into `NodeMetadata`\n\n* Introduced private `ShardMetadata` type into node_metdata.rs module\n\n* Applied cargofmt",
+          "timestamp": "2023-03-14T09:03:23Z",
+          "tree_id": "321ac039a023b9c1505afd12b533548ab1bd4960",
+          "url": "https://github.com/nuclia/nucliadb/commit/9b44deb070c37b2c5a82567032934b421a220c26"
+        },
+        "date": 1678785455454,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 57.335908022043604,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0009682480291431715",
+            "extra": "mean: 17.44107723236084 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 118.54773998830812,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00026557245722487645",
+            "extra": "mean: 8.435420195261637 msec\nrounds: 5"
           }
         ]
       }
