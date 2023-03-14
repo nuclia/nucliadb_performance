@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678808041119,
+  "lastUpdate": 1678808202241,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -3831,6 +3831,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0006636173628722694",
             "extra": "mean: 9.71326430638631 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "71decaa05825b5c68a88d7cf4040a5eb2c62f6d1",
+          "message": "Raise 419 conflict error on  duplicate resource slugs (#662)\n\n* Raise 419 conflict error on  duplicate slugs\n\n* Extend test",
+          "timestamp": "2023-03-14T15:29:30Z",
+          "tree_id": "9f5365eff7df2ba375664e9d21c419abbbf62324",
+          "url": "https://github.com/nuclia/nucliadb/commit/71decaa05825b5c68a88d7cf4040a5eb2c62f6d1"
+        },
+        "date": 1678808201749,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/test_highlight.py::test_highligh_error",
+            "value": 5517.389435267585,
+            "unit": "iter/sec",
+            "range": "stddev: 1.3376423333195518e-7",
+            "extra": "mean: 181.24513626098636 usec\nrounds: 5"
           }
         ]
       }
