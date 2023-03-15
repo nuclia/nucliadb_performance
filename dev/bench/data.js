@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678891368119,
+  "lastUpdate": 1678899517527,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -4007,6 +4007,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00004109307710731191",
             "extra": "mean: 7.7957850236159105 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alexis.leprovost@outlook.com",
+            "name": "Alexis Le Provost",
+            "username": "alekece"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "01ad8bd3ea411f0e890e7fe460fbe434f8c5c92e",
+          "message": "Add shutdown delay on I/O nodes (#664)\n\n* Moved error message in the correct if/else expression\n\n* Added `env::shutdown_delay` method\n\n* Added shutdown delay variable in charts\n\n* Added shutdown delay on node reader\n\n* Added shutdown delay on node writer\n\n* Separated node metadata update from node state update\n\n* Applied PR suggestions\n\n* Increased shutdown delay in charts\n\n* Removed health\n\n* Put back 5s as shutdown delay",
+          "timestamp": "2023-03-15T16:46:10Z",
+          "tree_id": "1fa663cddbc7f20ac39583cd4f57d5fa834c41c7",
+          "url": "https://github.com/nuclia/nucliadb/commit/01ad8bd3ea411f0e890e7fe460fbe434f8c5c92e"
+        },
+        "date": 1678899517264,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 56.527876573844935,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000480752671533347",
+            "extra": "mean: 17.69038677215576 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 114.07882944855469,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000188113576004652",
+            "extra": "mean: 8.765868345896402 msec\nrounds: 5"
           }
         ]
       }
