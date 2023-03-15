@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678859158603,
+  "lastUpdate": 1678859852532,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -3900,6 +3900,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00021515243248673528",
             "extra": "mean: 9.105285008748373 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7d6d5a43ab93ba843f8bbb91a2d82dc66c02ce42",
+          "message": "Search with custom synonyms (#653)\n\n* Done\n\n* wip improving search coverage\n\n* Improve predict coverage\n\n* Coverage for search/run.py\n\n* Coverage for search/openapi.py\n\n* Fix sdk test\n\n* Fix utils flake\n\n* Fix utils flake\n\n* Address comments\n\n* Make it work on fulltext search too\n\n* Fix test",
+          "timestamp": "2023-03-15T05:41:54Z",
+          "tree_id": "4837abf42172df34131fa28cd70da60e4b9f3c75",
+          "url": "https://github.com/nuclia/nucliadb/commit/7d6d5a43ab93ba843f8bbb91a2d82dc66c02ce42"
+        },
+        "date": 1678859852247,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/test_highlight.py::test_highligh_error",
+            "value": 4390.975806367186,
+            "unit": "iter/sec",
+            "range": "stddev: 3.762132237434986e-7",
+            "extra": "mean: 227.73981094360352 usec\nrounds: 5"
           }
         ]
       }
