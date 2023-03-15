@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678808202241,
+  "lastUpdate": 1678859158603,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -3862,6 +3862,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.3376423333195518e-7",
             "extra": "mean: 181.24513626098636 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7d6d5a43ab93ba843f8bbb91a2d82dc66c02ce42",
+          "message": "Search with custom synonyms (#653)\n\n* Done\n\n* wip improving search coverage\n\n* Improve predict coverage\n\n* Coverage for search/run.py\n\n* Coverage for search/openapi.py\n\n* Fix sdk test\n\n* Fix utils flake\n\n* Fix utils flake\n\n* Address comments\n\n* Make it work on fulltext search too\n\n* Fix test",
+          "timestamp": "2023-03-15T05:41:54Z",
+          "tree_id": "4837abf42172df34131fa28cd70da60e4b9f3c75",
+          "url": "https://github.com/nuclia/nucliadb/commit/7d6d5a43ab93ba843f8bbb91a2d82dc66c02ce42"
+        },
+        "date": 1678859158335,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 58.54394972452559,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00035633274107384335",
+            "extra": "mean: 17.08118438720703 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 109.82632603363852,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00021515243248673528",
+            "extra": "mean: 9.105285008748373 msec\nrounds: 5"
           }
         ]
       }
