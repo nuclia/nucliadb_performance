@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678859852532,
+  "lastUpdate": 1678868614595,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -3931,6 +3931,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 3.762132237434986e-7",
             "extra": "mean: 227.73981094360352 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alexis.leprovost@outlook.com",
+            "name": "Alexis Le Provost",
+            "username": "alekece"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8b970c8d117fdf491ae34f003cb61deb1b19f9aa",
+          "message": "Fix constant rebuild issue (Rust part) (#658)\n\n* Fixed `cargo:rerun-if-changed` wrong path\n\n* Improved build.rs file",
+          "timestamp": "2023-03-15T08:19:51Z",
+          "tree_id": "e8174f22133b61069e630667e96eab256fbfea59",
+          "url": "https://github.com/nuclia/nucliadb/commit/8b970c8d117fdf491ae34f003cb61deb1b19f9aa"
+        },
+        "date": 1678868613908,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 80.69212433458833,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00024448701578353685",
+            "extra": "mean: 12.392783164978027 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 146.60422942702897,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000021820609402599368",
+            "extra": "mean: 6.821085611979166 msec\nrounds: 5"
           }
         ]
       }
