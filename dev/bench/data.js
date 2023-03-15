@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678901245770,
+  "lastUpdate": 1678901434955,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -4083,6 +4083,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00010940454478406264",
             "extra": "mean: 6.718441645304362 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "27c75ddbe22d90f400b7773e1182b29d7b85ff7c",
+          "message": "Various polishments (#666)\n\n* Add virtual services\n\n* Improve error responses\n\n* Improve error responses\n\n* Correct conflict error status code\n\n* fix typos for search\n\n* Include requests as nucliadb_sdk dependency",
+          "timestamp": "2023-03-15T17:23:40Z",
+          "tree_id": "6b1f96c4cfc0d61be2db3c0294a43d3d69e1f5d3",
+          "url": "https://github.com/nuclia/nucliadb/commit/27c75ddbe22d90f400b7773e1182b29d7b85ff7c"
+        },
+        "date": 1678901434677,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/test_highlight.py::test_highligh_error",
+            "value": 5999.389519823298,
+            "unit": "iter/sec",
+            "range": "stddev: 6.79600439437292e-8",
+            "extra": "mean: 166.68362617492676 usec\nrounds: 5"
           }
         ]
       }
