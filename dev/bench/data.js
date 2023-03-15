@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678868614595,
+  "lastUpdate": 1678891368119,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -3969,6 +3969,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000021820609402599368",
             "extra": "mean: 6.821085611979166 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "44120086+hermeGarcia@users.noreply.github.com",
+            "name": "Herme",
+            "username": "hermeGarcia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "af78ca18d029bac8847e38252283344409189439",
+          "message": "add missing load shard operations (#665)",
+          "timestamp": "2023-03-15T14:30:34Z",
+          "tree_id": "266cae10dc4381e482211515c67aa831a7b94a17",
+          "url": "https://github.com/nuclia/nucliadb/commit/af78ca18d029bac8847e38252283344409189439"
+        },
+        "date": 1678891367507,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 67.8024231224099,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00017058681674482585",
+            "extra": "mean: 14.748735427856445 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 128.2744453535702,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00004109307710731191",
+            "extra": "mean: 7.7957850236159105 msec\nrounds: 5"
           }
         ]
       }
