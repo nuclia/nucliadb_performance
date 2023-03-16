@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678963261599,
+  "lastUpdate": 1678974015345,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -4183,6 +4183,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.1797523715934011e-7",
             "extra": "mean: 190.39978981018066 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1246a74b986579ce982dc3fb2088e7bc79a67d31",
+          "message": "Fix CI (#669)\n\n* Always run workflows of clients\n\n* Revert \"Set resource title if missing (#663)\"\n\nThis reverts commit fda2faf317cf1b3a2f5e41d9af0c26637f985fbc.\n\n* Undo",
+          "timestamp": "2023-03-16T13:35:30Z",
+          "tree_id": "5ab41f1ab1f383dadcd81d0945440d11b735b617",
+          "url": "https://github.com/nuclia/nucliadb/commit/1246a74b986579ce982dc3fb2088e7bc79a67d31"
+        },
+        "date": 1678974014782,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 50.18775368764707,
+            "unit": "iter/sec",
+            "range": "stddev: 0.001130869987211501",
+            "extra": "mean: 19.925179481506348 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 101.45654599518241,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0003998858725401748",
+            "extra": "mean: 9.856436469338156 msec\nrounds: 5"
           }
         ]
       }
