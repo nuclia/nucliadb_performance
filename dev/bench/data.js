@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678962415066,
+  "lastUpdate": 1678963261599,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -4152,6 +4152,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00015769443418530167",
             "extra": "mean: 7.678369375375601 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0ec70979c51e5bbdce018d1f1a58acfc50945716",
+          "message": "Improve nucliadb node test performance (#668)\n\n* Change docker fixtures to session. Some test refactor\n\n* Properly close NATS connection on finalize\n\n* Simplify type annotation\n\n* Add comment to NATS close exceptions",
+          "timestamp": "2023-03-16T10:14:35Z",
+          "tree_id": "407ec1a137017b6ca8594ce3e8c6946260899273",
+          "url": "https://github.com/nuclia/nucliadb/commit/0ec70979c51e5bbdce018d1f1a58acfc50945716"
+        },
+        "date": 1678963261260,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/test_highlight.py::test_highligh_error",
+            "value": 5252.106638336898,
+            "unit": "iter/sec",
+            "range": "stddev: 1.1797523715934011e-7",
+            "extra": "mean: 190.39978981018066 usec\nrounds: 5"
           }
         ]
       }
