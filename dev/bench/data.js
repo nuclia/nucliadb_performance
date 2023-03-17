@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679065136200,
+  "lastUpdate": 1679070327215,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -4297,6 +4297,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00016328144470180103",
             "extra": "mean: 7.785735811505999 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "266334521c0b3f98c80f35f9546bbf54bea46083",
+          "message": "Fix using of backoff.constant (#673)",
+          "timestamp": "2023-03-17T14:54:54Z",
+          "tree_id": "d3a10fa28181692d933a032b370829865539a2ae",
+          "url": "https://github.com/nuclia/nucliadb/commit/266334521c0b3f98c80f35f9546bbf54bea46083"
+        },
+        "date": 1679070326545,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/test_highlight.py::test_highligh_error",
+            "value": 5074.092838764905,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000009364524383026932",
+            "extra": "mean: 197.07956314086917 usec\nrounds: 5"
           }
         ]
       }
