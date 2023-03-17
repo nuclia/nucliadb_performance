@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678974015345,
+  "lastUpdate": 1679053371173,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -4221,6 +4221,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0003998858725401748",
             "extra": "mean: 9.856436469338156 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a97f673049f64fe5e23297d0fcda5c7ab7391a33",
+          "message": "Improve build performance of Dockerfile.withbinding (#671)",
+          "timestamp": "2023-03-17T11:38:07Z",
+          "tree_id": "e1c7d4b007be3ade1a37eafaa18f605fdd956639",
+          "url": "https://github.com/nuclia/nucliadb/commit/a97f673049f64fe5e23297d0fcda5c7ab7391a33"
+        },
+        "date": 1679053370531,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 44.75035507483885,
+            "unit": "iter/sec",
+            "range": "stddev: 0.001865088836644866",
+            "extra": "mean: 22.34619140625 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 93.46771742259946,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0007446831344637026",
+            "extra": "mean: 10.698881149291992 msec\nrounds: 5"
           }
         ]
       }
