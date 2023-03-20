@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679327138431,
+  "lastUpdate": 1679329122868,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -4435,6 +4435,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00019965666913383877",
             "extra": "mean: 7.0234673363821845 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "802b35cea5685bb710ab22cd1c2059667d1b66bb",
+          "message": "Generic sentry integration (#674)\n\n* provide more robust sentry integration\n\n* fix",
+          "timestamp": "2023-03-20T16:14:59Z",
+          "tree_id": "ff32e0f06d4fef85ecebc41fc717f64b4d9c8a2c",
+          "url": "https://github.com/nuclia/nucliadb/commit/802b35cea5685bb710ab22cd1c2059667d1b66bb"
+        },
+        "date": 1679329122483,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 77.05879413381463,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00007588571879331206",
+            "extra": "mean: 12.977104187011719 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 143.95909853493163,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000041567395376846995",
+            "extra": "mean: 6.9464174906412754 msec\nrounds: 5"
           }
         ]
       }
