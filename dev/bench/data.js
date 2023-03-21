@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679343026895,
+  "lastUpdate": 1679396000506,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -4649,6 +4649,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00019143839580250578",
             "extra": "mean: 6.871051788330078 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ramon@nuclia.com",
+            "name": "Ramon Navarro Bosch",
+            "username": "bloodbare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6dd9cdfe8f46356ad8006ad8ac1da112eb9bb048",
+          "message": "Chat and Find interface (#670)\n\n* WIP\n\n* WIP\n\n* WIP\n\n* WIP\n\n* Fix\n\n* Fix\n\n* Fix\n\n* Fix\n\n* Fix\n\n* Fix",
+          "timestamp": "2023-03-21T10:49:26Z",
+          "tree_id": "667af360bf564019469ced3108e6994e2f0cc869",
+          "url": "https://github.com/nuclia/nucliadb/commit/6dd9cdfe8f46356ad8006ad8ac1da112eb9bb048"
+        },
+        "date": 1679396000018,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 80.86764657114409,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00015886963062186984",
+            "extra": "mean: 12.365884780883789 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 144.43414431899106,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00003625126004939039",
+            "extra": "mean: 6.92357063293457 msec\nrounds: 5"
           }
         ]
       }
