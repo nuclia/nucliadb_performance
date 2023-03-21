@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679422582868,
+  "lastUpdate": 1679422853621,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -5581,6 +5581,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00012316969369688508",
             "extra": "mean: 7.003005345662435 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ac2f9f588c1b613e59b8a82b1849f19117136836",
+          "message": "add helm chart linting and config map checksums (#687)",
+          "timestamp": "2023-03-21T18:12:34Z",
+          "tree_id": "590e45669a3ce1af1bc1072214ddc63689c400e7",
+          "url": "https://github.com/nuclia/nucliadb/commit/ac2f9f588c1b613e59b8a82b1849f19117136836"
+        },
+        "date": 1679422852982,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/test_highlight.py::test_highligh_error",
+            "value": 4409.888452838536,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000011549232953821349",
+            "extra": "mean: 226.76310539245608 usec\nrounds: 5"
           }
         ]
       }
