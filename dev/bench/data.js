@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679404200326,
+  "lastUpdate": 1679404806722,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -5077,6 +5077,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 7.739013458978321e-8",
             "extra": "mean: 167.8964614868164 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bc46d7d31e719165655bd22937f05eeda80f1b68",
+          "message": "Be able to send to reprocess with password (#672)\n\n* Change dict by dataclass in writer TUS driver\n\n* Add X-NUCLIADB-USER properly as a header\n\n* Move function from test to utils module\n\n* Use x-synchronous header instead of polling redis\n\n* Create new endpoint to reprocess a file field with password\n\n* Add licence to writer test utils\n\n* Add missing test file\n\n* Fix comments",
+          "timestamp": "2023-03-21T13:15:20Z",
+          "tree_id": "d2d6dba04837550af655729d72f8c3cac6fccb38",
+          "url": "https://github.com/nuclia/nucliadb/commit/bc46d7d31e719165655bd22937f05eeda80f1b68"
+        },
+        "date": 1679404806028,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 42.977684783477436,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0012931919230515347",
+            "extra": "mean: 23.26788902282715 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 85.00184826101336,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0004930081163254067",
+            "extra": "mean: 11.764450073242188 msec\nrounds: 5"
           }
         ]
       }
