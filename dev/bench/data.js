@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679403254784,
+  "lastUpdate": 1679403321726,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -4970,6 +4970,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 4.513497202979675e-7",
             "extra": "mean: 189.7958755493164 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6037f52070be7d37758130970d794599520f94bb",
+          "message": "Clean up sentry integration (#679)\n\n* clean up sentry integration\n\n* rebase fixes",
+          "timestamp": "2023-03-21T12:42:26Z",
+          "tree_id": "243921cb60a0baff40c5559a5b1f3c24322a0682",
+          "url": "https://github.com/nuclia/nucliadb/commit/6037f52070be7d37758130970d794599520f94bb"
+        },
+        "date": 1679403321416,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 59.750797118151844,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0006079985987836626",
+            "extra": "mean: 16.736178398132324 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 122.95679257613266,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00028097190361333013",
+            "extra": "mean: 8.13293823829064 msec\nrounds: 5"
           }
         ]
       }
