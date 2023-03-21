@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679420368333,
+  "lastUpdate": 1679422551305,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -5505,6 +5505,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000008296119632671589",
             "extra": "mean: 260.48998832702637 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "affd28db7c748b4ba47ca3cd292780e2909b2479",
+          "message": "fix ingest coverage reporting (#691)",
+          "timestamp": "2023-03-21T18:12:06Z",
+          "tree_id": "c3866f18eb456b5d525c186f0ed09bc44b5e85b7",
+          "url": "https://github.com/nuclia/nucliadb/commit/affd28db7c748b4ba47ca3cd292780e2909b2479"
+        },
+        "date": 1679422550624,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 72.83720103138614,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00017951559889844979",
+            "extra": "mean: 13.729248046875 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 136.37878255154425,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0001874074821087634",
+            "extra": "mean: 7.332518895467122 msec\nrounds: 5"
           }
         ]
       }
