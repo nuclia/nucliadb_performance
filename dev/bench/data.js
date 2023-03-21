@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679401235792,
+  "lastUpdate": 1679401448157,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -4870,6 +4870,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00007571402909374429",
             "extra": "mean: 6.797758738199869 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ramon@nuclia.io",
+            "name": "Ramon Navarro Bosch",
+            "username": "bloodbare"
+          },
+          "committer": {
+            "email": "ramon@nuclia.io",
+            "name": "Ramon Navarro Bosch",
+            "username": "bloodbare"
+          },
+          "distinct": true,
+          "id": "8d54a87e49c048b92224c233a31252b09181b756",
+          "message": "Missing vs",
+          "timestamp": "2023-03-21T13:16:14+01:00",
+          "tree_id": "b498440bf2620ce57cbf6dc9bc315366e4484f1c",
+          "url": "https://github.com/nuclia/nucliadb/commit/8d54a87e49c048b92224c233a31252b09181b756"
+        },
+        "date": 1679401447819,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/test_highlight.py::test_highligh_error",
+            "value": 5982.552296468895,
+            "unit": "iter/sec",
+            "range": "stddev: 1.0420645799691552e-7",
+            "extra": "mean: 167.152738571167 usec\nrounds: 5"
           }
         ]
       }
