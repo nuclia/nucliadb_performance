@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679404806722,
+  "lastUpdate": 1679408201380,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -5115,6 +5115,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0004930081163254067",
             "extra": "mean: 11.764450073242188 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "44120086+hermeGarcia@users.noreply.github.com",
+            "name": "Herme",
+            "username": "hermeGarcia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "909a537a4b14b7855b0f172f25268565f03e4665",
+          "message": "Hermegarcia/sc 4597 (#684)\n\n* fix test\n\n* bump up bindings",
+          "timestamp": "2023-03-21T14:01:50Z",
+          "tree_id": "628aec9d5d450c9f971e4ef7a541a0ecab475f4e",
+          "url": "https://github.com/nuclia/nucliadb/commit/909a537a4b14b7855b0f172f25268565f03e4665"
+        },
+        "date": 1679408200694,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 48.37212048744123,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0015635949490477676",
+            "extra": "mean: 20.673065185546875 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 100.85943128445301,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0008935270380325102",
+            "extra": "mean: 9.914789199829102 msec\nrounds: 5"
           }
         ]
       }
