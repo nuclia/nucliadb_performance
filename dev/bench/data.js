@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679420056292,
+  "lastUpdate": 1679420368333,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -5474,6 +5474,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00008213729116492457",
             "extra": "mean: 7.398976598467145 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ramon@nuclia.com",
+            "name": "Ramon Navarro Bosch",
+            "username": "bloodbare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4950342b147ae6a289cb3e19c736b2e95774e45e",
+          "message": "Initial chat (#690)\n\n* Initial chat\n\n* Fixing lint",
+          "timestamp": "2023-03-21T17:30:22Z",
+          "tree_id": "13df5f0ed404e10651243fff0790bbf359aa46e7",
+          "url": "https://github.com/nuclia/nucliadb/commit/4950342b147ae6a289cb3e19c736b2e95774e45e"
+        },
+        "date": 1679420367771,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/test_highlight.py::test_highligh_error",
+            "value": 3838.9191324488534,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000008296119632671589",
+            "extra": "mean: 260.48998832702637 usec\nrounds: 5"
           }
         ]
       }
