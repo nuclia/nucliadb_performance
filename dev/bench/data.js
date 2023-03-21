@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679408201380,
+  "lastUpdate": 1679408836017,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -5153,6 +5153,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0008935270380325102",
             "extra": "mean: 9.914789199829102 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5f3b8d74c4cc75021442554186d8c5164b8834db",
+          "message": "tag ndb releases and build images for dev (#681)\n\n* tag ndb releases and build images for dev\n\n* tweak\n\n* fix branch extract\n\n* againg\n\n* gh actions hates me\n\n* .\n\n* could i be this dumb?",
+          "timestamp": "2023-03-21T14:23:22Z",
+          "tree_id": "2f1497fce41840813941193a902174d0ca5e40fb",
+          "url": "https://github.com/nuclia/nucliadb/commit/5f3b8d74c4cc75021442554186d8c5164b8834db"
+        },
+        "date": 1679408835697,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 73.6817474343254,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0003278112221969651",
+            "extra": "mean: 13.571882247924805 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 140.31570641417767,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00010937047999118838",
+            "extra": "mean: 7.1267859141031895 msec\nrounds: 5"
           }
         ]
       }
