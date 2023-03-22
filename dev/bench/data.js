@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679482178586,
+  "lastUpdate": 1679491499451,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -5750,6 +5750,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 7.268549254255538e-8",
             "extra": "mean: 166.5637016296387 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "00fc4549a45445d8e986b5174ad0f5eaffbaaf0b",
+          "message": "Properly finalize Redis (maindb and pubsub) (#695)",
+          "timestamp": "2023-03-22T13:20:52Z",
+          "tree_id": "bd87b47a5548ae44206e5528efe7f2a12b6e1717",
+          "url": "https://github.com/nuclia/nucliadb/commit/00fc4549a45445d8e986b5174ad0f5eaffbaaf0b"
+        },
+        "date": 1679491498932,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 66.04924390592649,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00022551453601895704",
+            "extra": "mean: 15.140218734741211 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 130.77035249493687,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00005847898234543183",
+            "extra": "mean: 7.646993228367396 msec\nrounds: 5"
           }
         ]
       }
