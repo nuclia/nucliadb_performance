@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679503562576,
+  "lastUpdate": 1679510831013,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -5888,6 +5888,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 5.2569161153306936e-8",
             "extra": "mean: 166.7410373687744 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ramon@nuclia.com",
+            "name": "Ramon Navarro Bosch",
+            "username": "bloodbare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f01adce25c62f253f2d7ca3dd576caa7b8877e7c",
+          "message": "Fixing chat endpoiint (#696)\n\n* Fixing chat endpoiint\n\n* Fix",
+          "timestamp": "2023-03-22T18:43:03Z",
+          "tree_id": "a5e82908945fdd76983f7b86955f04a8c6868e06",
+          "url": "https://github.com/nuclia/nucliadb/commit/f01adce25c62f253f2d7ca3dd576caa7b8877e7c"
+        },
+        "date": 1679510830452,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 62.95721351215448,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0010921682014207097",
+            "extra": "mean: 15.883803367614746 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 122.17622018358492,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00015091194816932915",
+            "extra": "mean: 8.184898816622221 msec\nrounds: 5"
           }
         ]
       }
