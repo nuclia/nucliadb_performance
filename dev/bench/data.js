@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679423464001,
+  "lastUpdate": 1679478171978,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -5650,6 +5650,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0006594581810004766",
             "extra": "mean: 12.590432167053223 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "44120086+hermeGarcia@users.noreply.github.com",
+            "name": "Herme",
+            "username": "hermeGarcia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b6c628f5c0fa15412165cde9f0e298c9025a8990",
+          "message": "Hermegarcia/sc 4598 (#686)\n\n* return labels along with vectors\n\n* bump up binding\n\n* fix metadata indexing\n\n* sort protos fields by id",
+          "timestamp": "2023-03-21T18:13:08Z",
+          "tree_id": "47aaa85620e8fb121d2063465696ecf2f0873576",
+          "url": "https://github.com/nuclia/nucliadb/commit/b6c628f5c0fa15412165cde9f0e298c9025a8990"
+        },
+        "date": 1679478171248,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/test_highlight.py::test_highligh_error",
+            "value": 5982.238290339171,
+            "unit": "iter/sec",
+            "range": "stddev: 1.2761914289061296e-7",
+            "extra": "mean: 167.16151237487793 usec\nrounds: 5"
           }
         ]
       }
