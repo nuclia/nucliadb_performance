@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679482017820,
+  "lastUpdate": 1679482178586,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -5719,6 +5719,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0003110020088177211",
             "extra": "mean: 8.43887726465861 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ramon@nuclia.com",
+            "name": "Ramon Navarro Bosch",
+            "username": "bloodbare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "409e896e7cbb958ef898ae7c728b5e08a6a3eec9",
+          "message": "Fix Chat endpoint (#692)\n\n* WIP\n\n* Fixing chat\n\n* Fixing\n\n* Fix",
+          "timestamp": "2023-03-22T10:42:53Z",
+          "tree_id": "37dbb7dbf4b2b2155cdd3482a61ac8cda48b95fe",
+          "url": "https://github.com/nuclia/nucliadb/commit/409e896e7cbb958ef898ae7c728b5e08a6a3eec9"
+        },
+        "date": 1679482177804,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/test_highlight.py::test_highligh_error",
+            "value": 6003.709032737166,
+            "unit": "iter/sec",
+            "range": "stddev: 7.268549254255538e-8",
+            "extra": "mean: 166.5637016296387 usec\nrounds: 5"
           }
         ]
       }
