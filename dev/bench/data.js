@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679513568874,
+  "lastUpdate": 1679590175054,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -6026,6 +6026,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.6652845690524892e-7",
             "extra": "mean: 190.04135131835938 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "51aa8ecde04b740300c1c0bf941335cf2e8ea272",
+          "message": "Chitchat fixes (#702)\n\n* improve chitchat resiliency\n\n* tweak",
+          "timestamp": "2023-03-23T16:45:43Z",
+          "tree_id": "a9090c280821f9eeb8a61063c55338eab3285df7",
+          "url": "https://github.com/nuclia/nucliadb/commit/51aa8ecde04b740300c1c0bf941335cf2e8ea272"
+        },
+        "date": 1679590174498,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 78.7150373109259,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00016160788173382706",
+            "extra": "mean: 12.704052925109862 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 152.20650780210477,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00003600394917096601",
+            "extra": "mean: 6.570021311442058 msec\nrounds: 5"
           }
         ]
       }
