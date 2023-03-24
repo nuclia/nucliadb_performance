@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679667083148,
+  "lastUpdate": 1679675567693,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -6240,6 +6240,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000054377031816165857",
             "extra": "mean: 7.088715689522879 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "44120086+hermeGarcia@users.noreply.github.com",
+            "name": "Herme",
+            "username": "hermeGarcia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "eaad56ab7abad93359b47e5c2c5de3da54755e30",
+          "message": "Node metadata ref (#706)\n\n* remove unnecessary async\n\n* node_metadata refactor + anyhow backtrace\n\n* fmt\n\n* fix node_metadata creation\n\n* add backtrace to errors\n\n* happy clippy\n\n* fmt\n\n* remove unnecessary mut",
+          "timestamp": "2023-03-24T16:20:12Z",
+          "tree_id": "4fcec32a851ceb290f91f693eb131b2736f14053",
+          "url": "https://github.com/nuclia/nucliadb/commit/eaad56ab7abad93359b47e5c2c5de3da54755e30"
+        },
+        "date": 1679675567317,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 69.24774399805578,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00018603768239277787",
+            "extra": "mean: 14.440903663635254 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 134.3918711948026,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00011824900865473102",
+            "extra": "mean: 7.440926233927409 msec\nrounds: 5"
           }
         ]
       }
