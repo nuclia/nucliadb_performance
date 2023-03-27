@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679906616058,
+  "lastUpdate": 1679909917710,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -6454,6 +6454,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.6934112164026584e-7",
             "extra": "mean: 190.10910987854004 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "50199d731adea127d9838f2acbfbef7350d89cfd",
+          "message": "Fix chat stream headers (#715)",
+          "timestamp": "2023-03-27T09:35:00Z",
+          "tree_id": "83c422d8bdc572383d20f4266ab9c3a215692b0d",
+          "url": "https://github.com/nuclia/nucliadb/commit/50199d731adea127d9838f2acbfbef7350d89cfd"
+        },
+        "date": 1679909917292,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 80.79651810354227,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000354489728089193",
+            "extra": "mean: 12.376770973205566 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 145.96769964989778,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000040528624586299424",
+            "extra": "mean: 6.850830713907878 msec\nrounds: 5"
           }
         ]
       }
