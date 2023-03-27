@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679927746235,
+  "lastUpdate": 1679927858834,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -6806,6 +6806,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00005263320089918121",
             "extra": "mean: 6.766958236694336 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "44120086+hermeGarcia@users.noreply.github.com",
+            "name": "Herme",
+            "username": "hermeGarcia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4e82f988eb7c95e55035cfe0a1e542d0eadec210",
+          "message": "fix similarity retrieval on old shards (#719)",
+          "timestamp": "2023-03-27T12:09:14Z",
+          "tree_id": "b5243d5dd971c2f02b263e8ea105b6d44b2c0a5b",
+          "url": "https://github.com/nuclia/nucliadb/commit/4e82f988eb7c95e55035cfe0a1e542d0eadec210"
+        },
+        "date": 1679927858498,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 73.02404535032113,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00009666438207864167",
+            "extra": "mean: 13.694119453430176 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 138.1273129323987,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0001776681190443501",
+            "extra": "mean: 7.239697774251302 msec\nrounds: 5"
           }
         ]
       }
