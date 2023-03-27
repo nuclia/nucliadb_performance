@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679918791294,
+  "lastUpdate": 1679918951090,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -6661,6 +6661,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.277019186044856e-7",
             "extra": "mean: 189.0127658843994 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "594db73636f2db02b22d638483f93978ddc25ce4",
+          "message": "Change ordering of get_storage in purge to force caching different scope (#717)\n\n* use full control gcs scope\n\n* fix",
+          "timestamp": "2023-03-27T12:05:11Z",
+          "tree_id": "1af08f1d08a1e4f203185b8d458393da6c485e59",
+          "url": "https://github.com/nuclia/nucliadb/commit/594db73636f2db02b22d638483f93978ddc25ce4"
+        },
+        "date": 1679918950442,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 72.95142072769421,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00046490363886486755",
+            "extra": "mean: 13.707752227783203 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 142.05433935408007,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00005064123417439603",
+            "extra": "mean: 7.039559682210286 msec\nrounds: 5"
           }
         ]
       }
