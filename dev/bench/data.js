@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679923896045,
+  "lastUpdate": 1679927746235,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -6768,6 +6768,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.634390574713005e-7",
             "extra": "mean: 227.30355262756348 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "290c9fe0c4b3ac3d4febf969377aa32ddc2e70c8",
+          "message": "Remove widget endpoints (#720)\n\n* wip\n\n* Deleting widget endpoints\n\n* remove more\n\n* Cleanup docs",
+          "timestamp": "2023-03-27T14:31:35Z",
+          "tree_id": "b177d6ee8c6660eed9e1722e1a246faaec697414",
+          "url": "https://github.com/nuclia/nucliadb/commit/290c9fe0c4b3ac3d4febf969377aa32ddc2e70c8"
+        },
+        "date": 1679927745841,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 74.7541170599558,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000263902989480528",
+            "extra": "mean: 13.377189636230469 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 147.77688364876045,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00005263320089918121",
+            "extra": "mean: 6.766958236694336 msec\nrounds: 5"
           }
         ]
       }
