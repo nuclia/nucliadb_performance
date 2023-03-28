@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680002313743,
+  "lastUpdate": 1680002335899,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -7058,6 +7058,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0001538937001599031",
             "extra": "mean: 7.097383907863072 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b899ebe1c51ece66a009b0914caecad1a749fe3e",
+          "message": "Sidecar indexed stream (#700)\n\n* Added index publisher\n\n* Fix\n\n* Add unit tests@\n\n* Fix partition type in tests\n\n* Fix more tests\n\n* Fix\n\n* Fix\n\n* Remove queueIR\n\n* Remove settings nucliadb_utils dependency\n\n* Fix process message tests\n\n* Fix tests",
+          "timestamp": "2023-03-28T11:06:32Z",
+          "tree_id": "d0f9bda983819427ff1ea08e600704e2977b9af2",
+          "url": "https://github.com/nuclia/nucliadb/commit/b899ebe1c51ece66a009b0914caecad1a749fe3e"
+        },
+        "date": 1680002335513,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/test_highlight.py::test_highligh_error",
+            "value": 5260.997560348449,
+            "unit": "iter/sec",
+            "range": "stddev: 3.0754263962129936e-7",
+            "extra": "mean: 190.0780200958252 usec\nrounds: 5"
           }
         ]
       }
