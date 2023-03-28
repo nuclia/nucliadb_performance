@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680039013323,
+  "lastUpdate": 1680039310365,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -7303,6 +7303,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0002626837873448301",
             "extra": "mean: 8.966094797307795 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bea362ac4e9c4a7ea82abd3301e29ec78225d88c",
+          "message": "improve naming and comments on resource shard management (#714)\n\n* improve naming and comments on resource shard management\n\n* bah",
+          "timestamp": "2023-03-28T21:22:51Z",
+          "tree_id": "673814d1f59d41d349aa35aa9bea987fd4e8b0f7",
+          "url": "https://github.com/nuclia/nucliadb/commit/bea362ac4e9c4a7ea82abd3301e29ec78225d88c"
+        },
+        "date": 1680039309481,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 80.69476349336442,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00005453065261662722",
+            "extra": "mean: 12.392377853393555 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 138.01889346310395,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0003401162842332134",
+            "extra": "mean: 7.245384852091472 msec\nrounds: 5"
           }
         ]
       }
