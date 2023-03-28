@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679964322128,
+  "lastUpdate": 1680000496526,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -6951,6 +6951,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00026196447045899517",
             "extra": "mean: 7.52598558153425 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9c8470df3151aebc92fa6da30f3f9eece75f245e",
+          "message": "Update docs and remove duplicate docs from docs.nuclia.dev (#693)\n\n* .\n\n* more docs updates/cleanup",
+          "timestamp": "2023-03-28T10:44:32Z",
+          "tree_id": "947c0d5def1353daabf9cd9db842fbf9a3facba7",
+          "url": "https://github.com/nuclia/nucliadb/commit/9c8470df3151aebc92fa6da30f3f9eece75f245e"
+        },
+        "date": 1680000496157,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 65.6676842280285,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0005055520928206303",
+            "extra": "mean: 15.228190422058105 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 124.4755726232943,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0005201320225614337",
+            "extra": "mean: 8.03370475769043 msec\nrounds: 5"
           }
         ]
       }
