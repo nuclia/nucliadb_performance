@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680006054142,
+  "lastUpdate": 1680006107531,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -7234,6 +7234,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.1791246275178133e-7",
             "extra": "mean: 167.7915096282959 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bb88f30df81b095ffe227c4356ac723d3a07fca2",
+          "message": "Add basic find api tests (#710)\n\n* Add basic find tests\n\n* rerun\n\n* install rerun failures",
+          "timestamp": "2023-03-28T12:14:37Z",
+          "tree_id": "cc5b833fc1d6d8af82691f2e9e01661140ab6333",
+          "url": "https://github.com/nuclia/nucliadb/commit/bb88f30df81b095ffe227c4356ac723d3a07fca2"
+        },
+        "date": 1680006107139,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5308.114067836679,
+            "unit": "iter/sec",
+            "range": "stddev: 5.852085893800925e-8",
+            "extra": "mean: 188.39082717895508 usec\nrounds: 5"
           }
         ]
       }
