@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680002575330,
+  "lastUpdate": 1680005846016,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -7127,6 +7127,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00016424433950612468",
             "extra": "mean: 11.085424423217773 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "12eef7e791a625c09a2396ce7d39c0c48980f9e4",
+          "message": "add health checks for nodes in ingest and search (#697)\n\n* add health checks for node\n\n* add ingest check\n\n* lic\n\n* mypy\n\n* fix for tests\n\n* another\n\n* nak in stead of wait\n\n* note about carles\n\n* use in progress\n\n* comment update\n\n* more warning\n\n* while",
+          "timestamp": "2023-03-28T12:13:33Z",
+          "tree_id": "dc9e6a57374aac57a93eff0fb530283d71ab588b",
+          "url": "https://github.com/nuclia/nucliadb/commit/12eef7e791a625c09a2396ce7d39c0c48980f9e4"
+        },
+        "date": 1680005845218,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 78.21481744485453,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00007669143322620089",
+            "extra": "mean: 12.785301208496094 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 147.70784187038902,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000024182230231760756",
+            "extra": "mean: 6.770121256510417 msec\nrounds: 5"
           }
         ]
       }
