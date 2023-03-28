@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680005903577,
+  "lastUpdate": 1680006054142,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -7203,6 +7203,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000886480039901885",
             "extra": "mean: 7.023566109793527 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "12eef7e791a625c09a2396ce7d39c0c48980f9e4",
+          "message": "add health checks for nodes in ingest and search (#697)\n\n* add health checks for node\n\n* add ingest check\n\n* lic\n\n* mypy\n\n* fix for tests\n\n* another\n\n* nak in stead of wait\n\n* note about carles\n\n* use in progress\n\n* comment update\n\n* more warning\n\n* while",
+          "timestamp": "2023-03-28T12:13:33Z",
+          "tree_id": "dc9e6a57374aac57a93eff0fb530283d71ab588b",
+          "url": "https://github.com/nuclia/nucliadb/commit/12eef7e791a625c09a2396ce7d39c0c48980f9e4"
+        },
+        "date": 1680006053591,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/test_highlight.py::test_highligh_error",
+            "value": 5959.777119922656,
+            "unit": "iter/sec",
+            "range": "stddev: 1.1791246275178133e-7",
+            "extra": "mean: 167.7915096282959 usec\nrounds: 5"
           }
         ]
       }
