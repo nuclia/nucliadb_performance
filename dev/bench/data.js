@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680090978184,
+  "lastUpdate": 1680093784010,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -7548,6 +7548,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00042074459331866766",
             "extra": "mean: 10.631709098815918 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c1f22ee00f9e6da2185cdf31350ecfdd97f8e262",
+          "message": "Small improvements (#726)\n\n* Only cleanup storage on resource creations\n\n* fix\n\n* Add logger.info on publisher\n\n* Add unit test\n\n* Add unit test\n\n* Add storage type  hints",
+          "timestamp": "2023-03-29T11:40:03Z",
+          "tree_id": "5c092e5692e80149601b7900abd504294844c729",
+          "url": "https://github.com/nuclia/nucliadb/commit/c1f22ee00f9e6da2185cdf31350ecfdd97f8e262"
+        },
+        "date": 1680093783309,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 4440.706362052478,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00000547357762353728",
+            "extra": "mean: 225.18939971923828 usec\nrounds: 5"
           }
         ]
       }
