@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680079112792,
+  "lastUpdate": 1680079286268,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -7410,6 +7410,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0001191776945709796",
             "extra": "mean: 8.510438601175945 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d2d7279138f20b0fea9f7c1e06ea6b2b8a2c9d84",
+          "message": "New Entities API (#713)\n\n* Add gRPC methods on ingest to create and update entities groups\n\n* Implement new entities API and deprecate old POST\n\n* Return custom HTTP error classes instead of raise an exception\n\n* Move responses to nucliadb package\n\n* Use txn context manager and remove useless aborts\n\n* Add doc for entities maps\n\n* Fix import\n\n* Check existence of an entities group before create\n\n* Add custom response object for 500\n\n* Fix ingest servicer tests",
+          "timestamp": "2023-03-29T08:33:59Z",
+          "tree_id": "675dd1bf9bd39f2f568a7f64229ffb631dd157d8",
+          "url": "https://github.com/nuclia/nucliadb/commit/d2d7279138f20b0fea9f7c1e06ea6b2b8a2c9d84"
+        },
+        "date": 1680079285899,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5995.276739011672,
+            "unit": "iter/sec",
+            "range": "stddev: 6.349718364710383e-8",
+            "extra": "mean: 166.79797172546387 usec\nrounds: 5"
           }
         ]
       }
