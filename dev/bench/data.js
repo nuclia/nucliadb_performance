@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680079286268,
+  "lastUpdate": 1680086390772,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -7441,6 +7441,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 6.349718364710383e-8",
             "extra": "mean: 166.79797172546387 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "adc7ab17e9aece8b73aa66c5fa5c82a7f5a2e8d8",
+          "message": "Fix indexed entity deletion (#727)",
+          "timestamp": "2023-03-29T10:35:52Z",
+          "tree_id": "987b90d90aaf3bd69dfa867e460912cfdd7d5a5f",
+          "url": "https://github.com/nuclia/nucliadb/commit/adc7ab17e9aece8b73aa66c5fa5c82a7f5a2e8d8"
+        },
+        "date": 1680086390375,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 73.17841013020067,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00014498395778533377",
+            "extra": "mean: 13.66523265838623 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 138.5633098791937,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00019697941882154484",
+            "extra": "mean: 7.216917673746745 msec\nrounds: 5"
           }
         ]
       }
