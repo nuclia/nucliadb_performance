@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680284638853,
+  "lastUpdate": 1680285735698,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -8549,6 +8549,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.441835839672402e-7",
             "extra": "mean: 188.6338233947754 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6295ccb7f1dd5138239ebdbf9dac553ade5cb6c6",
+          "message": "Revert update_interval change and fix predict metric label (#751)\n\n* Fix\n\n* Rever update interval increase",
+          "timestamp": "2023-03-31T17:58:24Z",
+          "tree_id": "0ef56e407a2c8b8d1089f0dcc93f73c6638c3d32",
+          "url": "https://github.com/nuclia/nucliadb/commit/6295ccb7f1dd5138239ebdbf9dac553ade5cb6c6"
+        },
+        "date": 1680285734861,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 74.1619109117258,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00015755853837264732",
+            "extra": "mean: 13.484010696411133 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 143.1359121562746,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002192024062292434",
+            "extra": "mean: 6.986366907755534 msec\nrounds: 5"
           }
         ]
       }
