@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680268960500,
+  "lastUpdate": 1680269055817,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -8273,6 +8273,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0011765739802499483",
             "extra": "mean: 10.643529891967773 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f76204a4616367ca3f0f124fd4040c521f79eb49",
+          "message": "Fix ranking on find endpoint for kbs with (#737)\n\n* Extract some utility functions from search\n\n* Add order attribute to /find paragraphs\n\n* Fix orderer and keep it simpler. Add unit test\n\n* Refactor orderer\n\n* Fix find test\n\n* Clean orderer unused var\n\n* Fix test",
+          "timestamp": "2023-03-31T13:15:50Z",
+          "tree_id": "96abb93e0cccf8b65ed35b4b3d6c7d150d95a282",
+          "url": "https://github.com/nuclia/nucliadb/commit/f76204a4616367ca3f0f124fd4040c521f79eb49"
+        },
+        "date": 1680269055378,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5010.352065802155,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000012954634558770855",
+            "extra": "mean: 199.58677291870117 usec\nrounds: 5"
           }
         ]
       }
