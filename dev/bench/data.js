@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680268798511,
+  "lastUpdate": 1680268832972,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -8166,6 +8166,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000507924788973062",
             "extra": "mean: 9.096860885620117 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ramon@nuclia.com",
+            "name": "Ramon Navarro Bosch",
+            "username": "bloodbare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d6bc4849c25e6ae778cadbe760078e0a2823dc13",
+          "message": "Do not start pulling until there are some nodes on the cluster (#745)",
+          "timestamp": "2023-03-31T09:07:09-04:00",
+          "tree_id": "ef97a733ec03c44b3b1b29cea7010abc12b8c1b4",
+          "url": "https://github.com/nuclia/nucliadb/commit/d6bc4849c25e6ae778cadbe760078e0a2823dc13"
+        },
+        "date": 1680268831944,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 4417.269196509157,
+            "unit": "iter/sec",
+            "range": "stddev: 7.55405073860502e-7",
+            "extra": "mean: 226.38421058654785 usec\nrounds: 5"
           }
         ]
       }
