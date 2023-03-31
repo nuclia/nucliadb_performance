@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680289783675,
+  "lastUpdate": 1680304832625,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -8763,6 +8763,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0005577231692029151",
             "extra": "mean: 12.109265327453613 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "93f4cc1a2a284ef7ab8b992be427f77ecbec4235",
+          "message": "unify how we configure tracing on jetstream (#754)\n\n* unify how we configure tracing on jetstream\n\n* fix\n\n* lic\n\n* lint\n\n* Update nucliadb_utils/nucliadb_utils/nats.py\n\nCo-authored-by: Ferran Llamas <ferran@nuclia.com>\n\n* naming\n\n* fix\n\n* fix\n\n---------\n\nCo-authored-by: Ferran Llamas <ferran@nuclia.com>",
+          "timestamp": "2023-03-31T23:04:50Z",
+          "tree_id": "4901610843ac21139f6813565d199dee2b004d00",
+          "url": "https://github.com/nuclia/nucliadb/commit/93f4cc1a2a284ef7ab8b992be427f77ecbec4235"
+        },
+        "date": 1680304831751,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 47.226983862468416,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0014591045596792239",
+            "extra": "mean: 21.174335479736325 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 103.34792174494665,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00037606863482521265",
+            "extra": "mean: 9.67605330727317 msec\nrounds: 5"
           }
         ]
       }
