@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680269055817,
+  "lastUpdate": 1680275014026,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -8304,6 +8304,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000012954634558770855",
             "extra": "mean: 199.58677291870117 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "06a846e105bc1be443abbc577b8660739c7f0daa",
+          "message": "increase bucket range for msg proc histo (#747)\n\n* bucket\n\n* .\n\n* lint",
+          "timestamp": "2023-03-31T14:59:51Z",
+          "tree_id": "71af58cec3672bfe5f0a76d749025a5a40b2dda1",
+          "url": "https://github.com/nuclia/nucliadb/commit/06a846e105bc1be443abbc577b8660739c7f0daa"
+        },
+        "date": 1680275013610,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 67.21063703502391,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002498153015317869",
+            "extra": "mean: 14.878597259521484 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 130.498273661154,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00007977911709107998",
+            "extra": "mean: 7.662936619349889 msec\nrounds: 5"
           }
         ]
       }
