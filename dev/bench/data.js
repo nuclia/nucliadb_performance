@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680283420746,
+  "lastUpdate": 1680284106758,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -8480,6 +8480,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00010596483855280989",
             "extra": "mean: 7.159636815388997 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "61ccf4a63f1f17750c2a79d5a33dee4e46a14449",
+          "message": "Handle limits exceeded error responses for proxy and predict apis (#732)\n\n* Handle 402 and 413 limits exceeded errors\n\n* Handle over limit errors on search endpoints\n\n* Add metrics and test\n\n* more handling\n\n* Add processing engine metrics\n\n* Added tests and requested changes",
+          "timestamp": "2023-03-31T17:31:19Z",
+          "tree_id": "1011cf1642dda813f1f7fb79f364bcb2b536de7c",
+          "url": "https://github.com/nuclia/nucliadb/commit/61ccf4a63f1f17750c2a79d5a33dee4e46a14449"
+        },
+        "date": 1680284106031,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 74.99679936716873,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00013945705410087187",
+            "extra": "mean: 13.333902359008789 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 143.66724774878253,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000046271502151637564",
+            "extra": "mean: 6.9605286916097 msec\nrounds: 5"
           }
         ]
       }
