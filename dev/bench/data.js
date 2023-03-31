@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680275227905,
+  "lastUpdate": 1680275499963,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -8373,6 +8373,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.269457725785652e-7",
             "extra": "mean: 189.20750617980957 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6acb24228adb6679a2169e114deffe81431810de",
+          "message": "implement fs change events, metrics, fix startup/shutdown handling (#730)",
+          "timestamp": "2023-03-31T10:59:30-04:00",
+          "tree_id": "953d7dd78e63309e66afa53f5fe1562c2b1dec69",
+          "url": "https://github.com/nuclia/nucliadb/commit/6acb24228adb6679a2169e114deffe81431810de"
+        },
+        "date": 1680275496267,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 78.88876099077402,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00021879932828717475",
+            "extra": "mean: 12.676076889038086 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 147.24089026188304,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00001978219484437479",
+            "extra": "mean: 6.791591644287109 msec\nrounds: 5"
           }
         ]
       }
