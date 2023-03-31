@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680263284538,
+  "lastUpdate": 1680268798511,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -8128,6 +8128,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00000170645782992629",
             "extra": "mean: 223.25339317321777 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f76204a4616367ca3f0f124fd4040c521f79eb49",
+          "message": "Fix ranking on find endpoint for kbs with (#737)\n\n* Extract some utility functions from search\n\n* Add order attribute to /find paragraphs\n\n* Fix orderer and keep it simpler. Add unit test\n\n* Refactor orderer\n\n* Fix find test\n\n* Clean orderer unused var\n\n* Fix test",
+          "timestamp": "2023-03-31T13:15:50Z",
+          "tree_id": "96abb93e0cccf8b65ed35b4b3d6c7d150d95a282",
+          "url": "https://github.com/nuclia/nucliadb/commit/f76204a4616367ca3f0f124fd4040c521f79eb49"
+        },
+        "date": 1680268797667,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 51.1011163456651,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0012684335630996956",
+            "extra": "mean: 19.56904411315918 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 109.92803040230638,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000507924788973062",
+            "extra": "mean: 9.096860885620117 msec\nrounds: 5"
           }
         ]
       }
