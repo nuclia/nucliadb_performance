@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680275704537,
+  "lastUpdate": 1680283420746,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -8442,6 +8442,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000007756052961037877",
             "extra": "mean: 227.2632122039795 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b26f29f856b3a4d8abaf59e50fe63fc0b51066db",
+          "message": "add ingest grpc deployment and service separate from consumer (#748)\n\n* add ingest grpc deployment and service separate from consumer\n\n* fix\n\n* screw coverage on this for now, startup errors are handled via alarms\n\n* fix init",
+          "timestamp": "2023-03-31T17:19:44Z",
+          "tree_id": "6fb893c1bae071c8feae19711e90dfdd9ea11f1d",
+          "url": "https://github.com/nuclia/nucliadb/commit/b26f29f856b3a4d8abaf59e50fe63fc0b51066db"
+        },
+        "date": 1680283420294,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 79.30749944220275,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00017479674589948975",
+            "extra": "mean: 12.609148025512695 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 139.67188920122175,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00010596483855280989",
+            "extra": "mean: 7.159636815388997 msec\nrounds: 5"
           }
         ]
       }
