@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680284106758,
+  "lastUpdate": 1680284638853,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -8518,6 +8518,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000046271502151637564",
             "extra": "mean: 6.9605286916097 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b26f29f856b3a4d8abaf59e50fe63fc0b51066db",
+          "message": "add ingest grpc deployment and service separate from consumer (#748)\n\n* add ingest grpc deployment and service separate from consumer\n\n* fix\n\n* screw coverage on this for now, startup errors are handled via alarms\n\n* fix init",
+          "timestamp": "2023-03-31T17:19:44Z",
+          "tree_id": "6fb893c1bae071c8feae19711e90dfdd9ea11f1d",
+          "url": "https://github.com/nuclia/nucliadb/commit/b26f29f856b3a4d8abaf59e50fe63fc0b51066db"
+        },
+        "date": 1680284638201,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5301.276208069995,
+            "unit": "iter/sec",
+            "range": "stddev: 1.441835839672402e-7",
+            "extra": "mean: 188.6338233947754 usec\nrounds: 5"
           }
         ]
       }
