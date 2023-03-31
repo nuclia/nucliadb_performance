@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680254020266,
+  "lastUpdate": 1680257947169,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -7921,6 +7921,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00010105029802423172",
             "extra": "mean: 7.190700939723423 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "58d14949bafdd3bde787dd73a2c21bdaa3f17645",
+          "message": "Increase update interval chitchat (#742)",
+          "timestamp": "2023-03-31T10:15:31Z",
+          "tree_id": "2170c5040b604a0b53b95af3773af2026acbc924",
+          "url": "https://github.com/nuclia/nucliadb/commit/58d14949bafdd3bde787dd73a2c21bdaa3f17645"
+        },
+        "date": 1680257946726,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 75.06691818406348,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0001902726540941442",
+            "extra": "mean: 13.321447372436523 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 142.1766478392117,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00009609059581808927",
+            "extra": "mean: 7.0335038503011065 msec\nrounds: 5"
           }
         ]
       }
