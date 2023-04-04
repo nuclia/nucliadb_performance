@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680622034154,
+  "lastUpdate": 1680622139534,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -9091,6 +9091,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00015334816502941647",
             "extra": "mean: 7.621887751988003 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9b2b1ff672f684a1a6e3be53768014caa62a6855",
+          "message": "add utility to setup telemetry with one function (#759)",
+          "timestamp": "2023-04-04T11:19:15-04:00",
+          "tree_id": "d906d812893861e99e3d6dccf00ae3d5f238a4a3",
+          "url": "https://github.com/nuclia/nucliadb/commit/9b2b1ff672f684a1a6e3be53768014caa62a6855"
+        },
+        "date": 1680622139102,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 4405.796322004443,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000004066308008053986",
+            "extra": "mean: 226.97372436523438 usec\nrounds: 5"
           }
         ]
       }
