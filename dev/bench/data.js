@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680812279406,
+  "lastUpdate": 1680817892899,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -9643,6 +9643,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00016525265201807648",
             "extra": "mean: 6.5349966287612915 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d7177c04361fc887d90c77a9b9fc927dd6144d7d",
+          "message": "Revert \"upgrade telemetry (#772)\" (#774)\n\nThis reverts commit 2078b30ec194d83f39704b26ded37ba511120206.",
+          "timestamp": "2023-04-06T17:46:14-04:00",
+          "tree_id": "7764e1bf6898f18daa8f84eeb8e0dbc35e8d324d",
+          "url": "https://github.com/nuclia/nucliadb/commit/d7177c04361fc887d90c77a9b9fc927dd6144d7d"
+        },
+        "date": 1680817892485,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 3849.4509377423515,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00003412696110145918",
+            "extra": "mean: 259.777307510376 usec\nrounds: 5"
           }
         ]
       }
