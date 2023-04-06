@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680759135912,
+  "lastUpdate": 1680779778532,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -9329,6 +9329,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00047343373340786015",
             "extra": "mean: 10.71127544749867 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9bd9fd21f8fb31e4d50e1a0d876b5447832c0d2a",
+          "message": "implement fastapi prometheus metrics (#762)",
+          "timestamp": "2023-04-06T11:11:37Z",
+          "tree_id": "6c88862b8b433d6c5a63dbc9ea9e9aae45a2e0f1",
+          "url": "https://github.com/nuclia/nucliadb/commit/9bd9fd21f8fb31e4d50e1a0d876b5447832c0d2a"
+        },
+        "date": 1680779777711,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 45.01718235188177,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0007644943295201918",
+            "extra": "mean: 22.21374034881592 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 96.44960562926852,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00033742763211678454",
+            "extra": "mean: 10.368108749389648 msec\nrounds: 5"
           }
         ]
       }
