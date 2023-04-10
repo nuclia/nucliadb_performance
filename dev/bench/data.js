@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681147849592,
+  "lastUpdate": 1681148025047,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -9981,6 +9981,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 3.886101214723092e-7",
             "extra": "mean: 190.36822319030762 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6d3a47ac28baeeae160d4e62655da4c0e8279abe",
+          "message": "fix tikv transaction leaks (#777)\n\n* fix tikv transaction leaks\n\n* mypy\n\n* unc\n\n* missed file!\n\n* should not need this\n\n* also lock for abort\n\n* not optional\n\n* fix test ref\n\n* another test fix",
+          "timestamp": "2023-04-10T17:21:37Z",
+          "tree_id": "a29855fbf9657e44f7744e399aac6fca24805030",
+          "url": "https://github.com/nuclia/nucliadb/commit/6d3a47ac28baeeae160d4e62655da4c0e8279abe"
+        },
+        "date": 1681148024620,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 70.61517284479392,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0006294905957587257",
+            "extra": "mean: 14.161262512207031 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 148.10967278397754,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0001732119411594703",
+            "extra": "mean: 6.751753489176432 msec\nrounds: 5"
           }
         ]
       }
