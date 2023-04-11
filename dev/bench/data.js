@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681148025047,
+  "lastUpdate": 1681199775254,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -10019,6 +10019,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0001732119411594703",
             "extra": "mean: 6.751753489176432 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ramon@nuclia.com",
+            "name": "Ramon Navarro Bosch",
+            "username": "bloodbare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9be11baa9005245aa763e777f79b9f0975097ce1",
+          "message": "Add Asyncpg on docker image (#783)",
+          "timestamp": "2023-04-11T07:52:11Z",
+          "tree_id": "215d9de3bfe543eb92e80db6e2cf0e5321b4b4c5",
+          "url": "https://github.com/nuclia/nucliadb/commit/9be11baa9005245aa763e777f79b9f0975097ce1"
+        },
+        "date": 1681199774804,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 77.70432774695642,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000056350140635072755",
+            "extra": "mean: 12.869296073913574 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 152.94296322834307,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00011515681897774493",
+            "extra": "mean: 6.5383851528167725 msec\nrounds: 5"
           }
         ]
       }
