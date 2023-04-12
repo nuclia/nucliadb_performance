@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681299600301,
+  "lastUpdate": 1681317274976,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -10447,6 +10447,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00006473819041481052",
             "extra": "mean: 6.4352452754974365 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7954bd9a7bb38145c623e4825d528ab194be1e2b",
+          "message": "Remove deprecated codecov dependency (#791)",
+          "timestamp": "2023-04-12T16:30:20Z",
+          "tree_id": "76a74e7c21215bbc1402843dc9c6ffd7faf84b43",
+          "url": "https://github.com/nuclia/nucliadb/commit/7954bd9a7bb38145c623e4825d528ab194be1e2b"
+        },
+        "date": 1681317274116,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 54.48493900701186,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0005140238340261716",
+            "extra": "mean: 18.3536958694458 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 105.64216917641686,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0008727573305491519",
+            "extra": "mean: 9.465916951497396 msec\nrounds: 5"
           }
         ]
       }
