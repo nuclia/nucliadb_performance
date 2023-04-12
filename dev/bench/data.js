@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681292561190,
+  "lastUpdate": 1681295944629,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -10340,6 +10340,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00017418723757853033",
             "extra": "mean: 9.45520003636678 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "191afde3414177da7aaa5c261481433a910f83a3",
+          "message": "Increase ingest consumer ack wait (#788)",
+          "timestamp": "2023-04-12T10:35:08Z",
+          "tree_id": "a811d311137b70c7e6bd648bc329ae78753fbf70",
+          "url": "https://github.com/nuclia/nucliadb/commit/191afde3414177da7aaa5c261481433a910f83a3"
+        },
+        "date": 1681295943842,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 68.14468501858164,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0005064080978926697",
+            "extra": "mean: 14.67465877532959 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 138.513767592021,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00014473115205506382",
+            "extra": "mean: 7.219498952229818 msec\nrounds: 5"
           }
         ]
       }
