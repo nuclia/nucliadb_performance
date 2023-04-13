@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681403771397,
+  "lastUpdate": 1681403830833,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -10768,6 +10768,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0003372036274185232",
             "extra": "mean: 7.6745913578913765 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4254c4994066673059e8cd8f1062da3e6f662ec9",
+          "message": "Github actions time optimization v1 (#792)\n\n* Add missing need to nucliadb_node python test workflow\n\n* Sort and add more patterns to .dockerignore\n\n* Dockerfile format\n\n* Update rust-cache gh action to v2\n\n* Add missing libraries to workspace\n\n* Add missing files to .dockerignore\n\n* Add missing comma to gha workflow\n\n* There's no need to build unused docker images\n\n* Tests on actions should fail fast\n\n* Job names\n\n* WIP: prebuild tests while clippy to speedup tests\n\n* WIP: fix shared-key\n\n* WIP: tests need prebuild\n\n* WIP: playing with build-push-action\n\n* WIP: fix\n\n* WIP: Comment everything else\n\n* WIP: fix tag name\n\n* WIP: add gha cache to docker build\n\n* WIP: setup buildx to cache gha\n\n* WIP: rebuild to test cache\n\n* Multi-stage node docker using cargo chef\n\n* WIP: properly copy nucliadb_protos\n\n* WIP: rerun GHA\n\n* Fix rust-code-lint target\n\n* Fix paragraphs stop_words formatting\n\n* WIP: Dummy change to rerun with cache\n\n* WIP: release profile\n\n* rustfmt ignore rust files, not everything\n\n* Format protos build script\n\n* WIP: dummy change to rebuild using cache\n\n* WIP: Uncomment jobs and set as real\n\n* Join rustup and cargo installations in one RUN\n\n* Improve message on ingest get_driver error\n\n* Add explanation to multiple COPY commands\n\n* WIP: use base image to build node\n\n* WIP: fix\n\n* WIP: comment more\n\n* WIP: add buildx\n\n* WIP: Auth to gcloud and fix\n\n* WIP: uncomment and ready\n\n* Update node_local",
+          "timestamp": "2023-04-13T16:32:12Z",
+          "tree_id": "06f06421756204111d728b35bce1c49eda504dfa",
+          "url": "https://github.com/nuclia/nucliadb/commit/4254c4994066673059e8cd8f1062da3e6f662ec9"
+        },
+        "date": 1681403830299,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 4510.190528297082,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000015371910098381527",
+            "extra": "mean: 221.72012329101562 usec\nrounds: 5"
           }
         ]
       }
