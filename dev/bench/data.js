@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681403830833,
+  "lastUpdate": 1681412634832,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -10799,6 +10799,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000015371910098381527",
             "extra": "mean: 221.72012329101562 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1d9cf7246a8202e587009c7b2dab2b3c6009527c",
+          "message": "Fix Dockerfiles (#797)",
+          "timestamp": "2023-04-13T18:59:32Z",
+          "tree_id": "c3b2ca69a0758a41a7997c8b0e8a2c1e43af7b6b",
+          "url": "https://github.com/nuclia/nucliadb/commit/1d9cf7246a8202e587009c7b2dab2b3c6009527c"
+        },
+        "date": 1681412634034,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 54.56020817230306,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0003721814591804126",
+            "extra": "mean: 18.328375816345215 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 110.81696710079015,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002484048925206312",
+            "extra": "mean: 9.0238889058431 msec\nrounds: 5"
           }
         ]
       }
