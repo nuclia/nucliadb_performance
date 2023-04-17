@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681741747820,
+  "lastUpdate": 1681741960311,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -11327,6 +11327,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00020555129466202346",
             "extra": "mean: 9.197785637595436 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ad499c916e09f1b754f61811d48d890c9b48d3c2",
+          "message": "Add option to download files inline (#804)\n\n* Done\n\n* Done\n\n* Done",
+          "timestamp": "2023-04-17T14:28:48Z",
+          "tree_id": "6621904bc4e9b03207fa88db06c0b99a013281f9",
+          "url": "https://github.com/nuclia/nucliadb/commit/ad499c916e09f1b754f61811d48d890c9b48d3c2"
+        },
+        "date": 1681741959620,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 72.53007514636386,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00019505002711067349",
+            "extra": "mean: 13.787384033203123 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 148.85826814503056,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00012600714234933268",
+            "extra": "mean: 6.7177995045979815 msec\nrounds: 5"
           }
         ]
       }
