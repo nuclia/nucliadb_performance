@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681485854353,
+  "lastUpdate": 1681714610681,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -11013,6 +11013,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00006482917770191961",
             "extra": "mean: 6.132019267362707 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2c29aaed62dd50f714f492d926e30059b4de0c85",
+          "message": "Fix token classifier NER computation  (#801)\n\n* wip\n\n* more\n\n* Fix token classifier segments computing\n\n---------\n\nCo-authored-by: Ferran Llamas <llamas.arroniz@gmail.com>",
+          "timestamp": "2023-04-17T06:52:54Z",
+          "tree_id": "579db370a1fd48e4e09dbb0bdf57bb83b2ca1d14",
+          "url": "https://github.com/nuclia/nucliadb/commit/2c29aaed62dd50f714f492d926e30059b4de0c85"
+        },
+        "date": 1681714609938,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 76.57215297839339,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00007523993370253538",
+            "extra": "mean: 13.059577941894531 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 146.57444631444753,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00033366000381804484",
+            "extra": "mean: 6.822471618652344 msec\nrounds: 5"
           }
         ]
       }
