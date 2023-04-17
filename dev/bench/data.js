@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681735698355,
+  "lastUpdate": 1681735766877,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -11189,6 +11189,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0017167133564722872",
             "extra": "mean: 9.710431098937988 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7ec4807fd32f123fba614d257ba1185952fa46b2",
+          "message": "remove write sync metrics since they can not work properly (#803)\n\n* remove write sync metrics since they can not work properly with the number of files we have on a node\n\n* hmmm, where did that come from\n\n* fix",
+          "timestamp": "2023-04-17T12:42:42Z",
+          "tree_id": "37376f6c5fe2e41126f0139826a10fdc4f4753bf",
+          "url": "https://github.com/nuclia/nucliadb/commit/7ec4807fd32f123fba614d257ba1185952fa46b2"
+        },
+        "date": 1681735766461,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 4064.589140910468,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000014559119047490713",
+            "extra": "mean: 246.02732658386228 usec\nrounds: 5"
           }
         ]
       }
