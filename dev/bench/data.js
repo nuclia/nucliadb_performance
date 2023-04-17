@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681735790631,
+  "lastUpdate": 1681736052657,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -11251,6 +11251,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00001557389824511607",
             "extra": "mean: 236.00597381591797 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7ec4807fd32f123fba614d257ba1185952fa46b2",
+          "message": "remove write sync metrics since they can not work properly (#803)\n\n* remove write sync metrics since they can not work properly with the number of files we have on a node\n\n* hmmm, where did that come from\n\n* fix",
+          "timestamp": "2023-04-17T12:42:42Z",
+          "tree_id": "37376f6c5fe2e41126f0139826a10fdc4f4753bf",
+          "url": "https://github.com/nuclia/nucliadb/commit/7ec4807fd32f123fba614d257ba1185952fa46b2"
+        },
+        "date": 1681736052131,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 80.77246309270251,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002432071733481242",
+            "extra": "mean: 12.380456924438477 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 159.06498039996038,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00006188022355830304",
+            "extra": "mean: 6.28673890057732 msec\nrounds: 5"
           }
         ]
       }
