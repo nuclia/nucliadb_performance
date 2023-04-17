@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681727568410,
+  "lastUpdate": 1681727649968,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -11120,6 +11120,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00006854524673968484",
             "extra": "mean: 6.402894854545593 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ramon@nuclia.com",
+            "name": "Ramon Navarro Bosch",
+            "username": "bloodbare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ae20fe313b2eb22ba7b92e79279bf63a49e90868",
+          "message": "Chat SDK (#744)\n\n* WIP Chat SDK\n\n* WIP\n\n* Chat SDK\n\n* Fix Dataset\n\n* Update nucliadb/nucliadb/search/predict.py\n\nCo-authored-by: Ferran Llamas <ferran@nuclia.com>\n\n* Update nucliadb/nucliadb/search/predict.py\n\nCo-authored-by: Ferran Llamas <ferran@nuclia.com>\n\n* Fix lint\n\n* Fix lint\n\n* Fix\n\n---------\n\nCo-authored-by: Ferran Llamas <ferran@nuclia.com>",
+          "timestamp": "2023-04-17T10:29:09Z",
+          "tree_id": "7d5bc29defeb24d70cb25c2596b69d052ea790b3",
+          "url": "https://github.com/nuclia/nucliadb/commit/ae20fe313b2eb22ba7b92e79279bf63a49e90868"
+        },
+        "date": 1681727649533,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 4373.492093979262,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000016380479544197567",
+            "extra": "mean: 228.65023612976074 usec\nrounds: 5"
           }
         ]
       }
