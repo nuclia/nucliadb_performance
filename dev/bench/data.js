@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681714667666,
+  "lastUpdate": 1681727568410,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -11082,6 +11082,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00002479169228890891",
             "extra": "mean: 224.50461387634277 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ramon@nuclia.com",
+            "name": "Ramon Navarro Bosch",
+            "username": "bloodbare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ae20fe313b2eb22ba7b92e79279bf63a49e90868",
+          "message": "Chat SDK (#744)\n\n* WIP Chat SDK\n\n* WIP\n\n* Chat SDK\n\n* Fix Dataset\n\n* Update nucliadb/nucliadb/search/predict.py\n\nCo-authored-by: Ferran Llamas <ferran@nuclia.com>\n\n* Update nucliadb/nucliadb/search/predict.py\n\nCo-authored-by: Ferran Llamas <ferran@nuclia.com>\n\n* Fix lint\n\n* Fix lint\n\n* Fix\n\n---------\n\nCo-authored-by: Ferran Llamas <ferran@nuclia.com>",
+          "timestamp": "2023-04-17T10:29:09Z",
+          "tree_id": "7d5bc29defeb24d70cb25c2596b69d052ea790b3",
+          "url": "https://github.com/nuclia/nucliadb/commit/ae20fe313b2eb22ba7b92e79279bf63a49e90868"
+        },
+        "date": 1681727568026,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 75.24584087860104,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002020688537356629",
+            "extra": "mean: 13.28977108001709 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 156.17935679360284,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00006854524673968484",
+            "extra": "mean: 6.402894854545593 msec\nrounds: 5"
           }
         ]
       }
