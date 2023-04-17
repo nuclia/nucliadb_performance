@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681743423154,
+  "lastUpdate": 1681744221498,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -11396,6 +11396,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00003064653334482044",
             "extra": "mean: 217.08312034606934 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ead122da3f42de87fe5eb57b546225776928871b",
+          "message": "implement forked tracing to improve fastapi integration (#802)\n\n* implement forked tracing to improve fastapi integration\n\n* lic",
+          "timestamp": "2023-04-17T14:52:05Z",
+          "tree_id": "c8901df2eea8aa6e185e93c77232b73071002cb3",
+          "url": "https://github.com/nuclia/nucliadb/commit/ead122da3f42de87fe5eb57b546225776928871b"
+        },
+        "date": 1681744220790,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 79.36869935976016,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00027683035909969236",
+            "extra": "mean: 12.599425315856934 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 157.1737751667321,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00008607379617579119",
+            "extra": "mean: 6.362384557723999 msec\nrounds: 5"
           }
         ]
       }
