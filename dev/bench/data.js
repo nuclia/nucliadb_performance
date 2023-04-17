@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681727649968,
+  "lastUpdate": 1681735698355,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -11151,6 +11151,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000016380479544197567",
             "extra": "mean: 228.65023612976074 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "740a3435c4cf9b7d4a923305f24dbb349d71d8ed",
+          "message": "Clean up duplicate metrics api (#800)\n\n* remove utils metrics endpoint and use telemetry\n\n* lint\n\n* another\n\n* fix",
+          "timestamp": "2023-04-17T12:43:53Z",
+          "tree_id": "bc9da52ce15f932e95c68082d4b3f85ee605d494",
+          "url": "https://github.com/nuclia/nucliadb/commit/740a3435c4cf9b7d4a923305f24dbb349d71d8ed"
+        },
+        "date": 1681735697615,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 51.98513288340657,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0018143629496403888",
+            "extra": "mean: 19.236268997192383 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 102.9820396037173,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0017167133564722872",
+            "extra": "mean: 9.710431098937988 msec\nrounds: 5"
           }
         ]
       }
