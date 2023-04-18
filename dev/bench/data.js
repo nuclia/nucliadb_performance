@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681814591914,
+  "lastUpdate": 1681814653444,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -11472,6 +11472,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00002033180166520955",
             "extra": "mean: 6.064681445851045 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "197313a401be0227577054f01fbc35cf1c87fc7b",
+          "message": "Filter unhandled paths in path template label for prometheus metrics (#812)",
+          "timestamp": "2023-04-18T10:38:41Z",
+          "tree_id": "ef2237f2a5a37c7358d6ac7346d1e8fbedfa0d83",
+          "url": "https://github.com/nuclia/nucliadb/commit/197313a401be0227577054f01fbc35cf1c87fc7b"
+        },
+        "date": 1681814652578,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 3736.7814478060964,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000025296420875219102",
+            "extra": "mean: 267.60997772216797 usec\nrounds: 5"
           }
         ]
       }
