@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681814688950,
+  "lastUpdate": 1681820212641,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -11534,6 +11534,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00002759148020112228",
             "extra": "mean: 224.73406791687012 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "44120086+hermeGarcia@users.noreply.github.com",
+            "name": "Herme",
+            "username": "hermeGarcia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8c572ceb4c6cb7873791775bc73c226547af7781",
+          "message": "rust prometheus metrics for reader/writer (#767)\n\n* initial prometheus metrics design\n\n* ConsoleLog\n\n* reader metrics\n\n* happy clippy\n\n* node metrics\n\n* vectors metrics\n\n* paragraphs metrics\n\n* relations metrics\n\n* paragraphs metrics\n\n* fmt\n\n* move info to debug\n\n* collect metrics\n\n* metrics client\n\n* metrics client\n\n* fmt\n\n* doing what was actually required\n\n* clear metrics after collect\n\n* no need to clear metrics\n\n* set RUSTFLAGS\n\n* tweaks\n\n* wire up metrics\n\n* remove unnecessary variable assignment\n\n* build time flags\n\n* tweak to make sure to never get conflicts\n\n---------\n\nCo-authored-by: vangheem <vangheem@gmail.com>",
+          "timestamp": "2023-04-18T12:04:45Z",
+          "tree_id": "9a7c10168fa83d05717218f648ddc3106ce1db16",
+          "url": "https://github.com/nuclia/nucliadb/commit/8c572ceb4c6cb7873791775bc73c226547af7781"
+        },
+        "date": 1681820211882,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 76.37797254307104,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00008449862383866984",
+            "extra": "mean: 13.092780113220215 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 155.68045876752623,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000036052508817391276",
+            "extra": "mean: 6.4234137535095215 msec\nrounds: 5"
           }
         ]
       }
