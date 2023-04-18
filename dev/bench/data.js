@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681824286398,
+  "lastUpdate": 1681824315011,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -11648,6 +11648,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0006969593962217026",
             "extra": "mean: 9.562749862670898 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7f23399ce8df6be8ce7e89a1df75716c2e7a9055",
+          "message": "Return 404 on GET entitiesgroups that don't exist (#811)\n\n* Fixed\n\n* Fixed",
+          "timestamp": "2023-04-18T13:18:28Z",
+          "tree_id": "cc1aeb4df364cccf98594b1903187394244b0e8c",
+          "url": "https://github.com/nuclia/nucliadb/commit/7f23399ce8df6be8ce7e89a1df75716c2e7a9055"
+        },
+        "date": 1681824314256,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5891.775065691199,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000005760726578331258",
+            "extra": "mean: 169.72813606262207 usec\nrounds: 5"
           }
         ]
       }
