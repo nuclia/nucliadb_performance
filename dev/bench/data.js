@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681829041250,
+  "lastUpdate": 1681830845315,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -11717,6 +11717,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0001718982027799475",
             "extra": "mean: 6.289748584522921 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c2fd509df9592b04df47c18e3badcdf68320c429",
+          "message": "Support python 3.11 for node bindings build (#809)\n\n* improve node bindings build\n\n* hhmmm\n\n* ok, do not change thigns\n\n* support test builds",
+          "timestamp": "2023-04-18T15:01:06Z",
+          "tree_id": "dff89edf6ec39c2f7e8b48b3ea0d1b15955b23ac",
+          "url": "https://github.com/nuclia/nucliadb/commit/c2fd509df9592b04df47c18e3badcdf68320c429"
+        },
+        "date": 1681830844501,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 58.37541607214534,
+            "unit": "iter/sec",
+            "range": "stddev: 0.001707695065801111",
+            "extra": "mean: 17.1304988861084 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 127.41418891414598,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00016106781379672706",
+            "extra": "mean: 7.848419461931501 msec\nrounds: 5"
           }
         ]
       }
