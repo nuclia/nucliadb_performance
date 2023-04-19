@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681916422695,
+  "lastUpdate": 1681919489561,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -12176,6 +12176,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000009055176730947875",
             "extra": "mean: 246.830415725708 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4fd9fbda14c9745108e3f9b952d3e9c025013728",
+          "message": "always upgrade pip, is this bad? (#824)\n\n* always upgrade pip, is this bad?\n\n* .\n\n* latest pip could be issue\n\n* note",
+          "timestamp": "2023-04-19T15:45:44Z",
+          "tree_id": "bf48872d754aca5f62ab10deaf175e3ada5d9a98",
+          "url": "https://github.com/nuclia/nucliadb/commit/4fd9fbda14c9745108e3f9b952d3e9c025013728"
+        },
+        "date": 1681919488764,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 4040.6953499919173,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000022844759780900955",
+            "extra": "mean: 247.48215675354004 usec\nrounds: 5"
           }
         ]
       }
