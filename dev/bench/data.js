@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681938064475,
+  "lastUpdate": 1681938164632,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -12566,6 +12566,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000211962622512535",
             "extra": "mean: 8.558459715409711 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "785d3c75b790bcae7bf7a507d04eb3c79f6d6401",
+          "message": "fix span logging (#830)\n\n* fix span logging\n\n* tweak\n\n* missing telemetry pins",
+          "timestamp": "2023-04-19T20:56:51Z",
+          "tree_id": "00cce61416a4df5e69eacb6262835c37ab795c74",
+          "url": "https://github.com/nuclia/nucliadb/commit/785d3c75b790bcae7bf7a507d04eb3c79f6d6401"
+        },
+        "date": 1681938163764,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 4446.756128265091,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000004683417547259113",
+            "extra": "mean: 224.88303184509277 usec\nrounds: 5"
           }
         ]
       }
