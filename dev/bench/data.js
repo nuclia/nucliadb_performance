@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681908804534,
+  "lastUpdate": 1681916275903,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -12107,6 +12107,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000002653648555079821",
             "extra": "mean: 168.19558143615723 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "759a6de96def10a51730039487cc57a38c8d2ed2",
+          "message": "Fix problems with PATCH entitiesgroup (#819)\n\n* Add more tests for update entities group\n\n* Change error details talking about grpc\n\n* Implement entitiesgroup title and color update\n\n* Fix update indexed entities\n\n* Change KeyError for custom error",
+          "timestamp": "2023-04-19T14:54:18Z",
+          "tree_id": "3fa0c5876069b99556fa223ce03be7013d30f346",
+          "url": "https://github.com/nuclia/nucliadb/commit/759a6de96def10a51730039487cc57a38c8d2ed2"
+        },
+        "date": 1681916275351,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 70.31436659461392,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002499971714809426",
+            "extra": "mean: 14.221844673156738 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 135.30356254201718,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0001289987137047157",
+            "extra": "mean: 7.390788396199544 msec\nrounds: 5"
           }
         ]
       }
