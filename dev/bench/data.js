@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681932645940,
+  "lastUpdate": 1681932954591,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -12352,6 +12352,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000021145463395390614",
             "extra": "mean: 267.1961784362793 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c58ff7dcb96e870c8e625137b713f13110e3820f",
+          "message": "fix structured access logging (#827)",
+          "timestamp": "2023-04-19T15:31:05-04:00",
+          "tree_id": "312eefd2be8c12883c5d56dc03a9ad72b7f21a6f",
+          "url": "https://github.com/nuclia/nucliadb/commit/c58ff7dcb96e870c8e625137b713f13110e3820f"
+        },
+        "date": 1681932954050,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5214.723102607471,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00002895255198228435",
+            "extra": "mean: 191.7647361755371 usec\nrounds: 5"
           }
         ]
       }
