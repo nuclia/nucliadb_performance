@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681908785132,
+  "lastUpdate": 1681908804534,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -12076,6 +12076,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0007303601394700605",
             "extra": "mean: 10.209918022155762 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1ebf9e0afc8c7ec2d9d82845fdca0c14f181b8f8",
+          "message": "Improve ingest consumer logs (#820)\n\n* Add partition to some of the logs\n\n* Check telemetry headers from proxy response\n\n* add type hints\n\n* add type hints\n\n* add type hints",
+          "timestamp": "2023-04-19T12:48:20Z",
+          "tree_id": "8a7ee7219211610377235a453068ad63e0b62fdb",
+          "url": "https://github.com/nuclia/nucliadb/commit/1ebf9e0afc8c7ec2d9d82845fdca0c14f181b8f8"
+        },
+        "date": 1681908803835,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5945.45939590913,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000002653648555079821",
+            "extra": "mean: 168.19558143615723 usec\nrounds: 5"
           }
         ]
       }
