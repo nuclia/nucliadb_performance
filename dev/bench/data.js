@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681992697391,
+  "lastUpdate": 1681994007621,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -12880,6 +12880,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 3.311869470099137e-7",
             "extra": "mean: 188.97066116333008 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "44120086+hermeGarcia@users.noreply.github.com",
+            "name": "Herme",
+            "username": "hermeGarcia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6ad83ed1a8868f1da4a54dac687017437950546b",
+          "message": "Text search with count (#814)\n\n* we dont actually need MultiCollector\n\n* total is not number of returned results anymore\n\n* hermegarcia/sc-5108/add-exact-match-count-functionality",
+          "timestamp": "2023-04-20T12:29:39Z",
+          "tree_id": "23039927fd072ac501c1fd63c20cddd1c30ac5a5",
+          "url": "https://github.com/nuclia/nucliadb/commit/6ad83ed1a8868f1da4a54dac687017437950546b"
+        },
+        "date": 1681994006908,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 80.37038981604294,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00020380037601822244",
+            "extra": "mean: 12.44239330291748 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 162.17974449068268,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00010415053231153457",
+            "extra": "mean: 6.16599812227137 msec\nrounds: 5"
           }
         ]
       }
