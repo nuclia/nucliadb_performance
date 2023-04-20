@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681938164632,
+  "lastUpdate": 1681981981029,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -12597,6 +12597,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000004683417547259113",
             "extra": "mean: 224.88303184509277 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5285842824df1c5e82a1b19f8197619fc8ddb81d",
+          "message": "Document streaming should OR filter labels (#815)\n\n* Typo\n\n* Test token classification use OR between labels\n\n* Document streaming uses OR filter for facets\n\n* Typo and more time for the streamer\n\n* Fix token classifier tests\n\n* Add conjunction to filter to allow AND, OR and NOT\n\n* Rename\n\n* Implement filter conjunctions on text queries\n\n* Add OR conjunction to token classification query\n\n* Use new StreamFilter to filter stream request\n\n* Creat IntoOccur trait instead of using utils\n\n* Lints",
+          "timestamp": "2023-04-20T09:07:08Z",
+          "tree_id": "d767bac2bf8093b9a076f74aafa2b38619b9f90c",
+          "url": "https://github.com/nuclia/nucliadb/commit/5285842824df1c5e82a1b19f8197619fc8ddb81d"
+        },
+        "date": 1681981980130,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 4286.8633820266905,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00004986792535123545",
+            "extra": "mean: 233.27078819274902 usec\nrounds: 5"
           }
         ]
       }
