@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681992663147,
+  "lastUpdate": 1681992697391,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -12849,6 +12849,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00012710081003536314",
             "extra": "mean: 6.443905830383301 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "587a07ce0998577b92fcb5f5ba9581e23f3c6f74",
+          "message": "implement seeking to paragraph position support (#807)\n\n* implement seeking to paragraph position support\n\n* fix",
+          "timestamp": "2023-04-20T12:07:05Z",
+          "tree_id": "ba89f6706e06a16549a2f60c825814b7a6d206ff",
+          "url": "https://github.com/nuclia/nucliadb/commit/587a07ce0998577b92fcb5f5ba9581e23f3c6f74"
+        },
+        "date": 1681992696929,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5291.826751538354,
+            "unit": "iter/sec",
+            "range": "stddev: 3.311869470099137e-7",
+            "extra": "mean: 188.97066116333008 usec\nrounds: 5"
           }
         ]
       }
