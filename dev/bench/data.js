@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681994007621,
+  "lastUpdate": 1682016640661,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -12918,6 +12918,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00010415053231153457",
             "extra": "mean: 6.16599812227137 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "dbb9d5f632444643b7e29125355dfeccb991ea6e",
+          "message": "fix redis connection leak 2 (#838)\n\n* fix redis connection leak 2\n\n* tests\n\n* .\n\n* Update nucliadb/nucliadb/writer/tests/unit/tus/test_dm.py\n\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>\n\n* fix\n\n---------\n\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+          "timestamp": "2023-04-20T18:46:18Z",
+          "tree_id": "0a81321cb8b90dc6d1c437ddfeec3a8ac9cc5aa1",
+          "url": "https://github.com/nuclia/nucliadb/commit/dbb9d5f632444643b7e29125355dfeccb991ea6e"
+        },
+        "date": 1682016639795,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 54.46645828761244,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0008795220453038355",
+            "extra": "mean: 18.35992336273193 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 115.9718598300272,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0004899160029538109",
+            "extra": "mean: 8.6227814356486 msec\nrounds: 5"
           }
         ]
       }
