@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681982359084,
+  "lastUpdate": 1681983735343,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -12666,6 +12666,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00003467492439316082",
             "extra": "mean: 5.914311938815647 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ad7d88fffc6ad83d821f30cdec876835db4addbd",
+          "message": "Add pagination params to search sdk (#834)",
+          "timestamp": "2023-04-20T09:38:39Z",
+          "tree_id": "1a7fba6af8ae02787644bfc42a2a676cb3afe46a",
+          "url": "https://github.com/nuclia/nucliadb/commit/ad7d88fffc6ad83d821f30cdec876835db4addbd"
+        },
+        "date": 1681983734738,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 75.05708506139419,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00037564378985310636",
+            "extra": "mean: 13.323192596435549 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 152.76505561415962,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00014192027409323967",
+            "extra": "mean: 6.545999646186829 msec\nrounds: 5"
           }
         ]
       }
