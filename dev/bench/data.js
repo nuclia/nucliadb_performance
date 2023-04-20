@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681981981029,
+  "lastUpdate": 1681982359084,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -12628,6 +12628,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00004986792535123545",
             "extra": "mean: 233.27078819274902 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5285842824df1c5e82a1b19f8197619fc8ddb81d",
+          "message": "Document streaming should OR filter labels (#815)\n\n* Typo\n\n* Test token classification use OR between labels\n\n* Document streaming uses OR filter for facets\n\n* Typo and more time for the streamer\n\n* Fix token classifier tests\n\n* Add conjunction to filter to allow AND, OR and NOT\n\n* Rename\n\n* Implement filter conjunctions on text queries\n\n* Add OR conjunction to token classification query\n\n* Use new StreamFilter to filter stream request\n\n* Creat IntoOccur trait instead of using utils\n\n* Lints",
+          "timestamp": "2023-04-20T09:07:08Z",
+          "tree_id": "d767bac2bf8093b9a076f74aafa2b38619b9f90c",
+          "url": "https://github.com/nuclia/nucliadb/commit/5285842824df1c5e82a1b19f8197619fc8ddb81d"
+        },
+        "date": 1681982358368,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 78.08871158123951,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0005808932678838987",
+            "extra": "mean: 12.805948257446289 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 169.08137588026037,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00003467492439316082",
+            "extra": "mean: 5.914311938815647 msec\nrounds: 5"
           }
         ]
       }
