@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681984412795,
+  "lastUpdate": 1681988850955,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -12773,6 +12773,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000009483350118672104",
             "extra": "mean: 195.2939033508301 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "f7be77f7506598b3f4a3d2c2fbe500f50361f226",
+          "message": "Revert \"do not leak redis connections in file data manager (#808)\" (#837)\n\nThis reverts commit dae5ce9f1631f479725bea69a3616f04640fd7c6.",
+          "timestamp": "2023-04-20T11:03:47Z",
+          "tree_id": "c2ee0050543016ac85fca90a6d0c49f76689a76e",
+          "url": "https://github.com/nuclia/nucliadb/commit/f7be77f7506598b3f4a3d2c2fbe500f50361f226"
+        },
+        "date": 1681988850214,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 84.21975868390564,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000020725836924146873",
+            "extra": "mean: 11.873698234558105 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 160.0046540660372,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00004431997942705687",
+            "extra": "mean: 6.249818205833435 msec\nrounds: 5"
           }
         ]
       }
