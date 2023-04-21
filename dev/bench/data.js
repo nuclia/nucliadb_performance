@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682083721949,
+  "lastUpdate": 1682083761299,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -13032,6 +13032,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000178484665682824",
             "extra": "mean: 6.857439875602722 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c84c135661f0c1cffa3677106001fdf6d85a1f4a",
+          "message": "Remove tracing alert and enrich ingest span info (#842)\n\n* Remove sentry alerting\n\n* Set kbid and rid on span",
+          "timestamp": "2023-04-21T13:24:36Z",
+          "tree_id": "a16e4e5364498a93038fe5438c17a6b149f726fa",
+          "url": "https://github.com/nuclia/nucliadb/commit/c84c135661f0c1cffa3677106001fdf6d85a1f4a"
+        },
+        "date": 1682083760822,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5311.235602200319,
+            "unit": "iter/sec",
+            "range": "stddev: 1.3860826579024474e-7",
+            "extra": "mean: 188.2801055908203 usec\nrounds: 5"
           }
         ]
       }
