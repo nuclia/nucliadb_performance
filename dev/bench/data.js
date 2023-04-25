@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682436961555,
+  "lastUpdate": 1682438882799,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -13477,6 +13477,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000009270537161379197",
             "extra": "mean: 217.78950691223145 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4b6b149c8a77318bbf4f9e8a2ef95e849c63bf7e",
+          "message": "adjust ingest probes, readiness no longer makes sense and blocks other ingest pods from starting (#845)",
+          "timestamp": "2023-04-25T16:04:13Z",
+          "tree_id": "f5a2e68ca988a01a5e7fecc45ab36223b46ae88c",
+          "url": "https://github.com/nuclia/nucliadb/commit/4b6b149c8a77318bbf4f9e8a2ef95e849c63bf7e"
+        },
+        "date": 1682438882087,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 75.8953060870717,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0003690288364335974",
+            "extra": "mean: 13.176045417785645 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 156.74353719932628,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00015454531022351595",
+            "extra": "mean: 6.379848368027631 msec\nrounds: 5"
           }
         ]
       }
