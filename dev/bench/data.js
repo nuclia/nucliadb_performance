@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682413376237,
+  "lastUpdate": 1682413383321,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -13239,6 +13239,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00033904886236125694",
             "extra": "mean: 9.558955105868252 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "10ee742e85d214c6d7247c3e99c5fcbb3b6fd9f2",
+          "message": "Update basic summary with computed summary (#843)\n\n* Maybe update summary\n\n* Add unit tests\n\n* Add unit tests\n\n* Fix",
+          "timestamp": "2023-04-25T08:58:21Z",
+          "tree_id": "cc15d002e30a11212a4ba98cfbf6513cd3cade97",
+          "url": "https://github.com/nuclia/nucliadb/commit/10ee742e85d214c6d7247c3e99c5fcbb3b6fd9f2"
+        },
+        "date": 1682413382819,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5254.129090382509,
+            "unit": "iter/sec",
+            "range": "stddev: 2.3931872198634093e-7",
+            "extra": "mean: 190.32649993896484 usec\nrounds: 5"
           }
         ]
       }
