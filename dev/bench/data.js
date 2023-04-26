@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682536427731,
+  "lastUpdate": 1682536527742,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -13660,6 +13660,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000421433143240306",
             "extra": "mean: 7.9635766836313095 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "37420dae83957b7ba7d04582f3ad31e1c6701be2",
+          "message": "Settings unification and management proposal (#782)\n\n* Settings unification and management proposal\n\n* fix\n\n* log http server running",
+          "timestamp": "2023-04-26T19:09:28Z",
+          "tree_id": "59667afc554eac038090b55ed881749bbe90534a",
+          "url": "https://github.com/nuclia/nucliadb/commit/37420dae83957b7ba7d04582f3ad31e1c6701be2"
+        },
+        "date": 1682536526897,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 4484.383523212648,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00000365533937388745",
+            "extra": "mean: 222.99609184265137 usec\nrounds: 5"
           }
         ]
       }
