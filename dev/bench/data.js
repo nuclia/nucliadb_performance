@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682438882799,
+  "lastUpdate": 1682490500236,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -13515,6 +13515,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00015454531022351595",
             "extra": "mean: 6.379848368027631 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7843ed61d7251bd6a0f7e536567268b7384e7b10",
+          "message": "Refactor ingest processing txn logic (#848)\n\n* Fix reindex logic\n\n* Refactor apply_message\n\n* better\n\n* Refactor index resource logic into its own method\n\n* Fix\n\n* Fix",
+          "timestamp": "2023-04-26T06:24:29Z",
+          "tree_id": "138b469e4e36bdf7563b94c1b3fe416e16c8ebf7",
+          "url": "https://github.com/nuclia/nucliadb/commit/7843ed61d7251bd6a0f7e536567268b7384e7b10"
+        },
+        "date": 1682490499303,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 78.90146421775074,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000171983528014678",
+            "extra": "mean: 12.674036026000977 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 157.55451346971856,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000058080424219000077",
+            "extra": "mean: 6.347009539604187 msec\nrounds: 5"
           }
         ]
       }
