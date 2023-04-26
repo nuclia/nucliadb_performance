@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682514692146,
+  "lastUpdate": 1682515095581,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -13584,6 +13584,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000005921990046051976",
             "extra": "mean: 217.87371635437012 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e2e13bbb498964ffb9216df60c2d4bbd940166dd",
+          "message": "Fix CI search tests (#851)\n\n* Fix ci search tests\n\n* Remove commented asserts\n\n* commented asserts",
+          "timestamp": "2023-04-26T13:05:45Z",
+          "tree_id": "6b3411f76f104e1bbc1ad0f4776345fd3c6a9871",
+          "url": "https://github.com/nuclia/nucliadb/commit/e2e13bbb498964ffb9216df60c2d4bbd940166dd"
+        },
+        "date": 1682515094875,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 57.376348157537414,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00038240521634774435",
+            "extra": "mean: 17.428784370422363 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 136.8285097920971,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002472111585269493",
+            "extra": "mean: 7.308418410164969 msec\nrounds: 5"
           }
         ]
       }
