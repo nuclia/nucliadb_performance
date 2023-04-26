@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682536527742,
+  "lastUpdate": 1682543730613,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -13691,6 +13691,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00000365533937388745",
             "extra": "mean: 222.99609184265137 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a0838cb051c9e90d1cc5d167ff418bb07f2a7322",
+          "message": "More ingest refactor improvements (#852)\n\n* Commit slug only if modified\n\n* Index resource after commiting the transactionI\n\n* Use transaction context manager for main db transaction\n\n* Fix typing\n\n* Fix warnings\n\n* Make sure to commit slug on creation",
+          "timestamp": "2023-04-26T21:11:07Z",
+          "tree_id": "9d00563f97d922fee7ea5172e5f7b0de49d9dbb9",
+          "url": "https://github.com/nuclia/nucliadb/commit/a0838cb051c9e90d1cc5d167ff418bb07f2a7322"
+        },
+        "date": 1682543729727,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 59.26942515650715,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0007468882391727955",
+            "extra": "mean: 16.872105598449707 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 122.65824662137744,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000470035575601353",
+            "extra": "mean: 8.152733530317034 msec\nrounds: 5"
           }
         ]
       }
