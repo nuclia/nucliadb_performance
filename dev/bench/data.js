@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682543730613,
+  "lastUpdate": 1682543850207,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -13729,6 +13729,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000470035575601353",
             "extra": "mean: 8.152733530317034 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a0838cb051c9e90d1cc5d167ff418bb07f2a7322",
+          "message": "More ingest refactor improvements (#852)\n\n* Commit slug only if modified\n\n* Index resource after commiting the transactionI\n\n* Use transaction context manager for main db transaction\n\n* Fix typing\n\n* Fix warnings\n\n* Make sure to commit slug on creation",
+          "timestamp": "2023-04-26T21:11:07Z",
+          "tree_id": "9d00563f97d922fee7ea5172e5f7b0de49d9dbb9",
+          "url": "https://github.com/nuclia/nucliadb/commit/a0838cb051c9e90d1cc5d167ff418bb07f2a7322"
+        },
+        "date": 1682543849650,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5256.789464924191,
+            "unit": "iter/sec",
+            "range": "stddev: 3.230186119149044e-7",
+            "extra": "mean: 190.2301788330078 usec\nrounds: 5"
           }
         ]
       }
