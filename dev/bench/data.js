@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682621988211,
+  "lastUpdate": 1682622019157,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -14012,6 +14012,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0003302941571827976",
             "extra": "mean: 7.819968003493088 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8064b355a867bb326e1bf55d9ad03f87c148da4c",
+          "message": "Use different status codes to distinguis root causes (#853)",
+          "timestamp": "2023-04-27T18:55:41Z",
+          "tree_id": "05329bc679b0fc0c767312b17d59a9184735943a",
+          "url": "https://github.com/nuclia/nucliadb/commit/8064b355a867bb326e1bf55d9ad03f87c148da4c"
+        },
+        "date": 1682622018497,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5293.667445471858,
+            "unit": "iter/sec",
+            "range": "stddev: 8.365943240666878e-7",
+            "extra": "mean: 188.9049530029297 usec\nrounds: 5"
           }
         ]
       }
