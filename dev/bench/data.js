@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682622019157,
+  "lastUpdate": 1682673054891,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -14043,6 +14043,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 8.365943240666878e-7",
             "extra": "mean: 188.9049530029297 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2f2e9d67d00d0e185a11f49b8b82fa5f10ef756a",
+          "message": "Various chitchat monitor error fixes (#866)\n\n* Fix them\n\n* Remove access logs for metrics server\n\n* Add sentry alarm when there are too many destroyed nodes",
+          "timestamp": "2023-04-28T09:06:20Z",
+          "tree_id": "33f114aef009de93685acaf2015f4f4aa8caf688",
+          "url": "https://github.com/nuclia/nucliadb/commit/2f2e9d67d00d0e185a11f49b8b82fa5f10ef756a"
+        },
+        "date": 1682673053950,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 52.89988671617925,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0008447677230748906",
+            "extra": "mean: 18.903632164001465 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 116.68077297067808,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0004804921443149354",
+            "extra": "mean: 8.570392315204327 msec\nrounds: 5"
           }
         ]
       }
