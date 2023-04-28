@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682678076531,
+  "lastUpdate": 1682678210903,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -14150,6 +14150,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000024190649384971148",
             "extra": "mean: 6.176140729118796 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "aef5b7a5ddc9b318f026ae92b1a1203a0eecce65",
+          "message": "Revert ingest refactors (#867)\n\n* Revert \"More ingest refactor improvements (#852)\"\n\nThis reverts commit a0838cb051c9e90d1cc5d167ff418bb07f2a7322.\n\n* Revert \"Refactor ingest processing txn logic (#848)\"\n\nThis reverts commit 7843ed61d7251bd6a0f7e536567268b7384e7b10.",
+          "timestamp": "2023-04-28T10:30:52Z",
+          "tree_id": "07da7f333ce6300e01d2bfed08d26edf6399b43c",
+          "url": "https://github.com/nuclia/nucliadb/commit/aef5b7a5ddc9b318f026ae92b1a1203a0eecce65"
+        },
+        "date": 1682678210069,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 4174.381347580537,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000001551625782824773",
+            "extra": "mean: 239.55645561218262 usec\nrounds: 5"
           }
         ]
       }
