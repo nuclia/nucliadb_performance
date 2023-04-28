@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682716873069,
+  "lastUpdate": 1682716959430,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -14495,6 +14495,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00008448659904381708",
             "extra": "mean: 8.186985896183893 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e97b282b638ea9e9da676e487ef2d97e9ee2aabf",
+          "message": "node query error handling (#871)\n\n* node query error handling\n\n* .\n\n* Update nucliadb/nucliadb/search/tests/unit/search/requesters/test_utils.py\n\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>\n\n* test uniq\n\n---------\n\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+          "timestamp": "2023-04-28T21:16:48Z",
+          "tree_id": "5ea2f6491c9912a672d0c5118e6bd2f1163be8fa",
+          "url": "https://github.com/nuclia/nucliadb/commit/e97b282b638ea9e9da676e487ef2d97e9ee2aabf"
+        },
+        "date": 1682716958318,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 4214.403332372752,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000006194205439004037",
+            "extra": "mean: 237.28151321411133 usec\nrounds: 5"
           }
         ]
       }
