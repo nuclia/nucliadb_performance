@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682713857654,
+  "lastUpdate": 1682716873069,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -14457,6 +14457,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00011177328200947112",
             "extra": "mean: 8.398807965792141 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e97b282b638ea9e9da676e487ef2d97e9ee2aabf",
+          "message": "node query error handling (#871)\n\n* node query error handling\n\n* .\n\n* Update nucliadb/nucliadb/search/tests/unit/search/requesters/test_utils.py\n\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>\n\n* test uniq\n\n---------\n\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+          "timestamp": "2023-04-28T21:16:48Z",
+          "tree_id": "5ea2f6491c9912a672d0c5118e6bd2f1163be8fa",
+          "url": "https://github.com/nuclia/nucliadb/commit/e97b282b638ea9e9da676e487ef2d97e9ee2aabf"
+        },
+        "date": 1682716871987,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 54.62075834267054,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0006298863679673101",
+            "extra": "mean: 18.30805778503418 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 122.14507422885859,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00008448659904381708",
+            "extra": "mean: 8.186985896183893 msec\nrounds: 5"
           }
         ]
       }
