@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682943734830,
+  "lastUpdate": 1682943795406,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -14564,6 +14564,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000041804539946964217",
             "extra": "mean: 6.225904822349548 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6af51a7533ae4b15e9d5f3172570c40861eea26d",
+          "message": "repo/build cleanup/speedup (#872)\n\n* repo/build cleanup/speedup\n\n* fix models\n\n* missing target\n\n* .\n\n* not worth it\n\n* setup buildx\n\n* add retry\n\n* tweak",
+          "timestamp": "2023-05-01T12:18:23Z",
+          "tree_id": "8f36a5ca1571c7e89f351849f915ff0b04788eb2",
+          "url": "https://github.com/nuclia/nucliadb/commit/6af51a7533ae4b15e9d5f3172570c40861eea26d"
+        },
+        "date": 1682943794690,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5269.1321335724915,
+            "unit": "iter/sec",
+            "range": "stddev: 2.0404245894944435e-7",
+            "extra": "mean: 189.784574508667 usec\nrounds: 5"
           }
         ]
       }
