@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683036188710,
+  "lastUpdate": 1683036566129,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -14778,6 +14778,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00012654372045490514",
             "extra": "mean: 6.407582759857178 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1be092521b2cfb2cce98ef659ec12bd839c8667a",
+          "message": "Remove unused shadow shard logic (#869)\n\n* Remove unused shadow shard logic\n\n* Remove unused shadow shard logic\n\n* Fix\n\n* typo fix\n\n* Fix",
+          "timestamp": "2023-05-02T13:50:57Z",
+          "tree_id": "3eb62e0ad75f4ebf5dc110c527380e84d15364e2",
+          "url": "https://github.com/nuclia/nucliadb/commit/1be092521b2cfb2cce98ef659ec12bd839c8667a"
+        },
+        "date": 1683036565269,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 6051.35109633474,
+            "unit": "iter/sec",
+            "range": "stddev: 9.710803653565952e-8",
+            "extra": "mean: 165.25235176086426 usec\nrounds: 5"
           }
         ]
       }
