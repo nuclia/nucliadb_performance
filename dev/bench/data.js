@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683036566129,
+  "lastUpdate": 1683044154471,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -14809,6 +14809,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 9.710803653565952e-8",
             "extra": "mean: 165.25235176086426 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5b69a0ddf123b201f7351bf3d75cfd8e86df4afc",
+          "message": "Logging standardization (#832)\n\n* Unify and update log configuration setup\n\n* lint\n\n* fix setting\n\n* disable logging integration since it is not enabled anywhere\n\n* lint",
+          "timestamp": "2023-05-02T16:08:47Z",
+          "tree_id": "89f6df49a4aec19c32bae8432846d7f9ccb7bfd4",
+          "url": "https://github.com/nuclia/nucliadb/commit/5b69a0ddf123b201f7351bf3d75cfd8e86df4afc"
+        },
+        "date": 1683044153407,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 4557.596388784996,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000002227152567657507",
+            "extra": "mean: 219.4139003753662 usec\nrounds: 5"
           }
         ]
       }
