@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683019120634,
+  "lastUpdate": 1683019919147,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -14709,6 +14709,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00011108598632547377",
             "extra": "mean: 6.020593643188477 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bacd7d4becf9942de7893ddcc05677e1d72abda8",
+          "message": "Detect icon value from text fields automatically (#870)\n\n* Done\n\n* Added unit tests\n\n* Add type hints\n\n* Fix icon validator",
+          "timestamp": "2023-05-02T09:12:54Z",
+          "tree_id": "607d7d62a656f6222192516b766f31acede9942e",
+          "url": "https://github.com/nuclia/nucliadb/commit/bacd7d4becf9942de7893ddcc05677e1d72abda8"
+        },
+        "date": 1683019918443,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5262.433888722018,
+            "unit": "iter/sec",
+            "range": "stddev: 1.4501628539457577e-7",
+            "extra": "mean: 190.0261402130127 usec\nrounds: 5"
           }
         ]
       }
