@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683056449057,
+  "lastUpdate": 1683056474224,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -15023,6 +15023,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00014803815015991068",
             "extra": "mean: 7.436230977376303 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "437f97af3775492db964746a3c219f3b717e572b",
+          "message": "Fix metric app from disabling all access logs (#875)",
+          "timestamp": "2023-05-02T15:36:56-04:00",
+          "tree_id": "a7b2342896948669ff2fea5ca9a1ab0387dcc7e7",
+          "url": "https://github.com/nuclia/nucliadb/commit/437f97af3775492db964746a3c219f3b717e572b"
+        },
+        "date": 1683056473479,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5943.575551200462,
+            "unit": "iter/sec",
+            "range": "stddev: 3.094574885578701e-7",
+            "extra": "mean: 168.24889183044434 usec\nrounds: 5"
           }
         ]
       }
