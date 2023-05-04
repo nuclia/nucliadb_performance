@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683197674184,
+  "lastUpdate": 1683197846250,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -15168,6 +15168,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0001963771782179557",
             "extra": "mean: 8.981859683990479 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "44120086+hermeGarcia@users.noreply.github.com",
+            "name": "Herme",
+            "username": "hermeGarcia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "61afe9283a2deb3c311a7e3064803e09c074005b",
+          "message": "remove per-shard data (#878)\n\n* remove per-shard data\n\n* Remove load score usage\n\n* Remove load score usage\n\n* Updated protos\n\n* remove test\n\n---------\n\nCo-authored-by: Ferran Llamas <llamas.arroniz@gmail.com>",
+          "timestamp": "2023-05-04T10:37:00Z",
+          "tree_id": "25c41c79ac55896ace5e0557dcb6d7c9c9e20f9c",
+          "url": "https://github.com/nuclia/nucliadb/commit/61afe9283a2deb3c311a7e3064803e09c074005b"
+        },
+        "date": 1683197845383,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5949.649245794056,
+            "unit": "iter/sec",
+            "range": "stddev: 3.042978925540498e-7",
+            "extra": "mean: 168.07713508605957 usec\nrounds: 5"
           }
         ]
       }
