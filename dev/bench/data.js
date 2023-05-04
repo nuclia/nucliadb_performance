@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683201689421,
+  "lastUpdate": 1683201755970,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -15268,6 +15268,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00008423362598637091",
             "extra": "mean: 6.606760025024414 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "78fa39d918d113671471253d7352992690de46df",
+          "message": "Run cpu bound code at ingest in an executor (#876)\n\n* Add missing details for exception\n\n* Move functions at the end of the file\n\n* Split apply_extracted in smaller functions\n\n* Rename\n\n* Run apply_field_metadata in executor\n\n* Add concrete thread pool executor for cpu bounds\n\n* Run cpu bound apply_field_vectors in executor",
+          "timestamp": "2023-05-04T11:57:36Z",
+          "tree_id": "769185c9028d656448ebc5a3b86b09a6002a4bdf",
+          "url": "https://github.com/nuclia/nucliadb/commit/78fa39d918d113671471253d7352992690de46df"
+        },
+        "date": 1683201755183,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5996.015526181562,
+            "unit": "iter/sec",
+            "range": "stddev: 6.067777523072959e-7",
+            "extra": "mean: 166.7774200439453 usec\nrounds: 5"
           }
         ]
       }
