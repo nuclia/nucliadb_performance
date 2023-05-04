@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683108619871,
+  "lastUpdate": 1683197316472,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -15092,6 +15092,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00005196930033301336",
             "extra": "mean: 6.324711441993713 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "44120086+hermeGarcia@users.noreply.github.com",
+            "name": "Herme",
+            "username": "hermeGarcia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "61afe9283a2deb3c311a7e3064803e09c074005b",
+          "message": "remove per-shard data (#878)\n\n* remove per-shard data\n\n* Remove load score usage\n\n* Remove load score usage\n\n* Updated protos\n\n* remove test\n\n---------\n\nCo-authored-by: Ferran Llamas <llamas.arroniz@gmail.com>",
+          "timestamp": "2023-05-04T10:37:00Z",
+          "tree_id": "25c41c79ac55896ace5e0557dcb6d7c9c9e20f9c",
+          "url": "https://github.com/nuclia/nucliadb/commit/61afe9283a2deb3c311a7e3064803e09c074005b"
+        },
+        "date": 1683197315533,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 85.10878687577208,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002814116640292588",
+            "extra": "mean: 11.74966812133789 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 177.16811231794486,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000021979253985170505",
+            "extra": "mean: 5.644356577019943 msec\nrounds: 5"
           }
         ]
       }
