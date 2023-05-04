@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683197846250,
+  "lastUpdate": 1683199668278,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -15199,6 +15199,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 3.042978925540498e-7",
             "extra": "mean: 168.07713508605957 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2a53914f5dc760218be998388963d45b55147a65",
+          "message": "Remove document from find features (#879)\n\n* Add test\n\n* Fix\n\n* Better implementation\n\n* Fix sdk find\n\n* Simply handle validation errors\n\n* Fix typo\n\n* Fix tests",
+          "timestamp": "2023-05-04T10:49:58Z",
+          "tree_id": "f0e014e6c2c36613ab335da8d920e2d7e7da0e4e",
+          "url": "https://github.com/nuclia/nucliadb/commit/2a53914f5dc760218be998388963d45b55147a65"
+        },
+        "date": 1683199667466,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5205.68925454323,
+            "unit": "iter/sec",
+            "range": "stddev: 7.465840467146076e-7",
+            "extra": "mean: 192.09752082824707 usec\nrounds: 5"
           }
         ]
       }
