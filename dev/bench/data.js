@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683286100118,
+  "lastUpdate": 1683301691844,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -15506,6 +15506,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000009139037956672858",
             "extra": "mean: 246.93675041198728 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "cd5b4b3d2adb6dbedf33fac570ff6b72a04c7766",
+          "message": "Fix observer decorator on generators (#883)\n\n* Fix observer decorator on generators\n\n* Fix urllib dependency\n\n* bump telemetry package",
+          "timestamp": "2023-05-05T15:44:23Z",
+          "tree_id": "e0f760cb998ddaa39969375a740d0f5ef6b3aa76",
+          "url": "https://github.com/nuclia/nucliadb/commit/cd5b4b3d2adb6dbedf33fac570ff6b72a04c7766"
+        },
+        "date": 1683301691008,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 78.77369847824151,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00026202126965836647",
+            "extra": "mean: 12.694592475891112 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 159.48340854917785,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00013636521528620388",
+            "extra": "mean: 6.270244717597961 msec\nrounds: 5"
           }
         ]
       }
