@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683285525430,
+  "lastUpdate": 1683286100118,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -15475,6 +15475,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00008028361331475267",
             "extra": "mean: 6.323611736297607 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "33b3e12bb450cbb836948d65f14606568ac49c3b",
+          "message": "Replace chitchat monitor for an HTTP connection (#865)\n\n* Simply do the http impl\n\n* Add some comments\n\n* remove stale test\n\n* fix\n\n* Raise exception\n\n* fix\n\n* Fix type hints\n\n* Fix type hints\n\n* Fix\n\n* fix cargo\n\n* Fix node type enum\n\n* Fix tests\n\n* libssl\n\n* Fix dockerfile\n\n* Provide more details on errored requests\n\n* Adapt model to cluster manager payload\n\n* Adapt model to cluster manager payload\n\n* Fix model\n\n* Final fixes\n\n* Final fixes\n\n* Fix test\n\n* Add cors middleware\n\n* Improve logging\n\n* Try out without cache\n\n* remove load score\n\n* remove middleware logic: not needed, there is no browser here\n\n* Add comment on gh action\n\n* Fix tests\n\n* Pin urllib\n\n* Fix more gh actions",
+          "timestamp": "2023-05-05T11:14:49Z",
+          "tree_id": "c9c6d98c0626dd519e5a265559c7f1a2421de6d0",
+          "url": "https://github.com/nuclia/nucliadb/commit/33b3e12bb450cbb836948d65f14606568ac49c3b"
+        },
+        "date": 1683286098829,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 4049.6199870274804,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000009139037956672858",
+            "extra": "mean: 246.93675041198728 usec\nrounds: 5"
           }
         ]
       }
