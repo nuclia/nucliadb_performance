@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683209228162,
+  "lastUpdate": 1683285525430,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -15437,6 +15437,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000013236439847486037",
             "extra": "mean: 233.1993579864502 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "33b3e12bb450cbb836948d65f14606568ac49c3b",
+          "message": "Replace chitchat monitor for an HTTP connection (#865)\n\n* Simply do the http impl\n\n* Add some comments\n\n* remove stale test\n\n* fix\n\n* Raise exception\n\n* fix\n\n* Fix type hints\n\n* Fix type hints\n\n* Fix\n\n* fix cargo\n\n* Fix node type enum\n\n* Fix tests\n\n* libssl\n\n* Fix dockerfile\n\n* Provide more details on errored requests\n\n* Adapt model to cluster manager payload\n\n* Adapt model to cluster manager payload\n\n* Fix model\n\n* Final fixes\n\n* Final fixes\n\n* Fix test\n\n* Add cors middleware\n\n* Improve logging\n\n* Try out without cache\n\n* remove load score\n\n* remove middleware logic: not needed, there is no browser here\n\n* Add comment on gh action\n\n* Fix tests\n\n* Pin urllib\n\n* Fix more gh actions",
+          "timestamp": "2023-05-05T11:14:49Z",
+          "tree_id": "c9c6d98c0626dd519e5a265559c7f1a2421de6d0",
+          "url": "https://github.com/nuclia/nucliadb/commit/33b3e12bb450cbb836948d65f14606568ac49c3b"
+        },
+        "date": 1683285524834,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 73.23969436430492,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002342757768202277",
+            "extra": "mean: 13.65379810333252 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 158.1374761293436,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00008028361331475267",
+            "extra": "mean: 6.323611736297607 msec\nrounds: 5"
           }
         ]
       }
