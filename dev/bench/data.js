@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683548234119,
+  "lastUpdate": 1683560255441,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -15675,6 +15675,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000019472405772157845",
             "extra": "mean: 227.88472175598145 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4365a5ec126a7a24b7db463f7fb83036920e7155",
+          "message": "Refactor dummy nuclia engines (#826)\n\n* Refactored\n\n* fix\n\n* Fix\n\n* Handle connection closed on transaction utility teardown\n\n* Fix\n\n* remove breakpoint",
+          "timestamp": "2023-05-08T15:31:39Z",
+          "tree_id": "2e15b05bcc86e57aae37b6f955b6e69e64711832",
+          "url": "https://github.com/nuclia/nucliadb/commit/4365a5ec126a7a24b7db463f7fb83036920e7155"
+        },
+        "date": 1683560254803,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5217.633177462553,
+            "unit": "iter/sec",
+            "range": "stddev: 4.6529653473403885e-7",
+            "extra": "mean: 191.65778160095215 usec\nrounds: 5"
           }
         ]
       }
