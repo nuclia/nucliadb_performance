@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683301857590,
+  "lastUpdate": 1683545856574,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -15575,6 +15575,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000010299153101850966",
             "extra": "mean: 216.35675430297852 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ba5b0080e68cb0f0618be23232bdfe6289db8a18",
+          "message": "Fix updating node address changes on chitchat monitor (#884)\n\n* Fix\n\n* fix",
+          "timestamp": "2023-05-08T11:33:54Z",
+          "tree_id": "25c01cf9e80ea2412e3472fffaf0de9cd835fdab",
+          "url": "https://github.com/nuclia/nucliadb/commit/ba5b0080e68cb0f0618be23232bdfe6289db8a18"
+        },
+        "date": 1683545855885,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 81.22199845081333,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002159892603942729",
+            "extra": "mean: 12.311935424804688 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 167.600221890014,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000019766094398931492",
+            "extra": "mean: 5.9665792128619035 msec\nrounds: 5"
           }
         ]
       }
