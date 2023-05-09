@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683618414305,
+  "lastUpdate": 1683625334103,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -15851,6 +15851,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00008703491367324924",
             "extra": "mean: 6.424185434977214 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "137b5ca3a79bfb08a379b2c19499538077af8397",
+          "message": "Remove seek to paragraph implementation (#886)\n\n* Removing seek to paragraph impl\n\n* Removing seek to paragraph impl\n\n* remove more\n\n* fix format",
+          "timestamp": "2023-05-09T09:36:56Z",
+          "tree_id": "f1c60c0d075c46ab49217cec03eafc94c1806f63",
+          "url": "https://github.com/nuclia/nucliadb/commit/137b5ca3a79bfb08a379b2c19499538077af8397"
+        },
+        "date": 1683625332356,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 78.03013672329922,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00021940773841607549",
+            "extra": "mean: 12.815561294555664 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 166.56481980262595,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00005546695708782706",
+            "extra": "mean: 6.003668728996726 msec\nrounds: 5"
           }
         ]
       }
