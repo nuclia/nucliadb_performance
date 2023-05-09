@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683625363305,
+  "lastUpdate": 1683653445527,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -15920,6 +15920,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000015820355172912892",
             "extra": "mean: 226.08489990234375 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5beb93ec6af0236e7c3ee86cac17001315515c84",
+          "message": "Skip sentence transformers test in CI (#893)\n\n* Skip transformers test in CI\n\n* Fix marker",
+          "timestamp": "2023-05-09T17:23:59Z",
+          "tree_id": "079d6b2bde12eabcafeed164001a239583a65ecc",
+          "url": "https://github.com/nuclia/nucliadb/commit/5beb93ec6af0236e7c3ee86cac17001315515c84"
+        },
+        "date": 1683653444557,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 56.74705204601997,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0008484615238675212",
+            "extra": "mean: 17.622060775756836 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 124.51275202973365,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00022875382892576545",
+            "extra": "mean: 8.031305899986855 msec\nrounds: 5"
           }
         ]
       }
