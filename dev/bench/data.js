@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683653445527,
+  "lastUpdate": 1683703905340,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -15958,6 +15958,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00022875382892576545",
             "extra": "mean: 8.031305899986855 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "70e7e9945f2c11f05a113ba69220a44d19a7f7d7",
+          "message": "Remove usage of deprecated set-output GH action commands (#895)",
+          "timestamp": "2023-05-10T07:28:12Z",
+          "tree_id": "b628fafb96b731b4fd6f2f556ff9b5b3337ad95a",
+          "url": "https://github.com/nuclia/nucliadb/commit/70e7e9945f2c11f05a113ba69220a44d19a7f7d7"
+        },
+        "date": 1683703904646,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 79.59296292838367,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00007384850748024285",
+            "extra": "mean: 12.563924789428711 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 167.72843221108474,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00002424707413933963",
+            "extra": "mean: 5.962018405689912 msec\nrounds: 5"
           }
         ]
       }
