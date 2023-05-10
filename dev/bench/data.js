@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683717919875,
+  "lastUpdate": 1683733694811,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -16165,6 +16165,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 4.291327458265342e-7",
             "extra": "mean: 189.41903114318848 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "0d6d49dddda5c90dfeb802b0d177c474e8a8aaed",
+          "message": "Add search cache config (#891)\n\n* Add values and cm env vars\n\n* Use env generic setting\n\n* fix example\n\n* Fix lint errors",
+          "timestamp": "2023-05-10T11:20:19Z",
+          "tree_id": "277dfea9b71bc358c21020730f5948251a80c301",
+          "url": "https://github.com/nuclia/nucliadb/commit/0d6d49dddda5c90dfeb802b0d177c474e8a8aaed"
+        },
+        "date": 1683733693634,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 4626.239309904244,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000003836087047860487",
+            "extra": "mean: 216.15829467773438 usec\nrounds: 5"
           }
         ]
       }
