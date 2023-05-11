@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683807167973,
+  "lastUpdate": 1683807247481,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -16303,6 +16303,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00006908847692170706",
             "extra": "mean: 6.253328919410706 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "dc36889350ac428a2e580477164f1679cb5cce86",
+          "message": "Standalone deploy improvements (#896)\n\n* add chart and pull worker error handling fixes\n\n* add config endpoint\n\n* more updates\n\n* get processing url\n\n* .\n\n* logo\n\n* more fixes\n\n* icon fix\n\n* fix\n\n* fix\n\n* .\n\n* fix\n\n* comments",
+          "timestamp": "2023-05-11T12:09:09Z",
+          "tree_id": "62a35f7a73fd4befc6eef79b33d20d445c7bdb6b",
+          "url": "https://github.com/nuclia/nucliadb/commit/dc36889350ac428a2e580477164f1679cb5cce86"
+        },
+        "date": 1683807246693,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5302.436972070293,
+            "unit": "iter/sec",
+            "range": "stddev: 2.2082030964216251e-7",
+            "extra": "mean: 188.592529296875 usec\nrounds: 5"
           }
         ]
       }
