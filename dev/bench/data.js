@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683804382117,
+  "lastUpdate": 1683804396121,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -16234,6 +16234,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0003063181640901985",
             "extra": "mean: 8.618367802013049 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e25721ac37badc9b6ec251b6b56e59f491a53eb8",
+          "message": "chitchat server shoudl not configure logs (#897)",
+          "timestamp": "2023-05-11T11:21:58Z",
+          "tree_id": "17fd95c84a5aac0987bbf9acfc429ed218c48bd2",
+          "url": "https://github.com/nuclia/nucliadb/commit/e25721ac37badc9b6ec251b6b56e59f491a53eb8"
+        },
+        "date": 1683804395398,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5317.139165586583,
+            "unit": "iter/sec",
+            "range": "stddev: 1.684527569650562e-7",
+            "extra": "mean: 188.0710601806641 usec\nrounds: 5"
           }
         ]
       }
