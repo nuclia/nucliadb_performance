@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683807247481,
+  "lastUpdate": 1683823783286,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -16334,6 +16334,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.2082030964216251e-7",
             "extra": "mean: 188.592529296875 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e828d6579d01f021e811feac2c8950911663ad6a",
+          "message": "Counters/auditing logic refactoring and decoupling (#888)\n\n* Refactor counters and auditing\n\npull out field auditing from ingest processor\npull out index auditing from ingest processor\npull out shard allocation from ingest processor\n\n* lint\n\n* b/w compat\n\n* tweak\n\n* test fix",
+          "timestamp": "2023-05-11T16:46:09Z",
+          "tree_id": "1611fb2abd56158fb6a328a5c20652e106ccaa77",
+          "url": "https://github.com/nuclia/nucliadb/commit/e828d6579d01f021e811feac2c8950911663ad6a"
+        },
+        "date": 1683823782591,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 76.73266221817791,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0009404237312687814",
+            "extra": "mean: 13.032259941101074 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 159.0653973454994,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00009336644970838625",
+            "extra": "mean: 6.286722421646118 msec\nrounds: 5"
           }
         ]
       }
