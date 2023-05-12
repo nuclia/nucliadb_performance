@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683877300753,
+  "lastUpdate": 1683883115159,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -16679,6 +16679,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00005326941229543374",
             "extra": "mean: 6.29805326461792 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4a971464726098d22909dfde2a5e05085758ed88",
+          "message": "Instrument TiKV client (#894)\n\n* Fix typo on indexing jetstream service name\n\n* Remove tikv.py from gitignore, it's a module name!\n\n* Remove Exception guard on jetstream instrumentation\n\n* Add TiKVInstrumentor\n\n* Instrument TiKV in setup_telemetry\n\n* Fix mypy complains\n\n* Add tikv-client dependency on nucliadb_telemetry\n\n* Mock party test for TiKV instrumentation\n\n* Move tikv instrumentation test to unit",
+          "timestamp": "2023-05-12T09:14:47Z",
+          "tree_id": "f0a0642b1fe3d13327e8518c51e276be6d62d52d",
+          "url": "https://github.com/nuclia/nucliadb/commit/4a971464726098d22909dfde2a5e05085758ed88"
+        },
+        "date": 1683883114559,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 72.49747988401244,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0003049906235076706",
+            "extra": "mean: 13.793582916259766 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 154.180661838261,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00013272964303056453",
+            "extra": "mean: 6.485897699991862 msec\nrounds: 5"
           }
         ]
       }
