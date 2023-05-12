@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683885666917,
+  "lastUpdate": 1683885807409,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -16786,6 +16786,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00009520364073969",
             "extra": "mean: 6.603625615437826 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "84f77390f54d62e7961013287fd868d5aef92b96",
+          "message": "Improve ingest metrics and health checks (#899)\n\n* add subscriber metrics\n\n* implement better health checks\n\n* lint\n\n* fix\n\n* fix naming\n\n* try;\n\n* fix",
+          "timestamp": "2023-05-12T09:57:18Z",
+          "tree_id": "1bfc3870d05ae339143aded38a52eafbd4c47b26",
+          "url": "https://github.com/nuclia/nucliadb/commit/84f77390f54d62e7961013287fd868d5aef92b96"
+        },
+        "date": 1683885806139,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 4229.992446269172,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000008184167331422772",
+            "extra": "mean: 236.40704154968262 usec\nrounds: 5"
           }
         ]
       }
