@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683868449956,
+  "lastUpdate": 1683877267578,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -16610,6 +16610,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.662539201906777e-7",
             "extra": "mean: 227.81858444213867 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "425713b6f3d8e337953b9a494103192f20caddff",
+          "message": "add prestop hooks and adjust readiness probes (#900)",
+          "timestamp": "2023-05-12T07:36:12Z",
+          "tree_id": "d041a1e7c5d82b3c09ff24e7dc6a4d8f5e605ef4",
+          "url": "https://github.com/nuclia/nucliadb/commit/425713b6f3d8e337953b9a494103192f20caddff"
+        },
+        "date": 1683877266506,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5295.577616758771,
+            "unit": "iter/sec",
+            "range": "stddev: 2.2449726862734576e-7",
+            "extra": "mean: 188.83681297302246 usec\nrounds: 5"
           }
         ]
       }
