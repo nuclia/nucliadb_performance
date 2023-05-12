@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683868357626,
+  "lastUpdate": 1683868449956,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -16579,6 +16579,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0001403153997801416",
             "extra": "mean: 6.238665300257066 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9a9ca7ff63f9ad2b60ed9f4bbc63e9b5649f9249",
+          "message": "add support for APIs that are only available for standalone (#898)",
+          "timestamp": "2023-05-12T05:09:00Z",
+          "tree_id": "0d4da9c01393bb5797cdf494f4be004d5de4e712",
+          "url": "https://github.com/nuclia/nucliadb/commit/9a9ca7ff63f9ad2b60ed9f4bbc63e9b5649f9249"
+        },
+        "date": 1683868449091,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 4389.4575258147115,
+            "unit": "iter/sec",
+            "range": "stddev: 2.662539201906777e-7",
+            "extra": "mean: 227.81858444213867 usec\nrounds: 5"
           }
         ]
       }
