@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683885807409,
+  "lastUpdate": 1683885876473,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -16817,6 +16817,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000008184167331422772",
             "extra": "mean: 236.40704154968262 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7c20e30470ed6588a2a57a2c2b8aa0c6fc1dbdd7",
+          "message": "reset grpc conns on fail (#901)\n\n* reset conns on fail\n\n* diff\n\n* .\n\n* tests\n\n* targeted reset\n\n* overload does not play nice with backoff\n\n* logs/notes\n\n* dup",
+          "timestamp": "2023-05-12T10:00:49Z",
+          "tree_id": "73c9cbae4d8149f524f4f3b854c462725141ca53",
+          "url": "https://github.com/nuclia/nucliadb/commit/7c20e30470ed6588a2a57a2c2b8aa0c6fc1dbdd7"
+        },
+        "date": 1683885875526,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 66.67616237664055,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0003950128857913725",
+            "extra": "mean: 14.99786376953125 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 144.04565167519064,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00016495324937740473",
+            "extra": "mean: 6.942243576049805 msec\nrounds: 5"
           }
         ]
       }
