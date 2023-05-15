@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683885940239,
+  "lastUpdate": 1684134046339,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -16886,6 +16886,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.1760163436252366e-7",
             "extra": "mean: 167.61293411254883 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4a065abe7cab8fad35893efcfcde409fb906902e",
+          "message": "Rename TiKV span to be more verbose (#902)\n\n* Rename tikv span to be more verbose\n\n* Fix tests",
+          "timestamp": "2023-05-15T06:56:37Z",
+          "tree_id": "dbe4ce5a3be0349cb25bf5222f3384816df1300e",
+          "url": "https://github.com/nuclia/nucliadb/commit/4a065abe7cab8fad35893efcfcde409fb906902e"
+        },
+        "date": 1684134045024,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 69.1946680744358,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0005656069797401456",
+            "extra": "mean: 14.451980590820312 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 140.32853813733223,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00020932194972275776",
+            "extra": "mean: 7.1261342366536455 msec\nrounds: 5"
           }
         ]
       }
