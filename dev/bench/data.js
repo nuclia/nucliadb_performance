@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684158272156,
+  "lastUpdate": 1684162870045,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -16993,6 +16993,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0004564615711765611",
             "extra": "mean: 8.7201942097057 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "608554266ccc32e5604c836a3156e382cff4fddb",
+          "message": "Standalone upstream authentication schemes support (#903)\n\n* initial refactor\n\n* moar\n\n* fixes\n\n* fix\n\n* bump\n\n* docs\n\n* spelling\n\n* fix",
+          "timestamp": "2023-05-15T14:56:24Z",
+          "tree_id": "650ed0c7638d45225900bbb1219174bae4aadce2",
+          "url": "https://github.com/nuclia/nucliadb/commit/608554266ccc32e5604c836a3156e382cff4fddb"
+        },
+        "date": 1684162869185,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5997.9070337451485,
+            "unit": "iter/sec",
+            "range": "stddev: 3.041010050563639e-8",
+            "extra": "mean: 166.7248249053955 usec\nrounds: 5"
           }
         ]
       }
