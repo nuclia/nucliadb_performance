@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684247975744,
+  "lastUpdate": 1684248659275,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -17300,6 +17300,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.856161736171892e-7",
             "extra": "mean: 189.62101936340332 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "cecce2ffb9489b03c2e1869332036ade2ffc834c",
+          "message": "do not hard fail if resource does not have any metadata (#910)\n\n* do not hard fail if resource does not have any metadata\n\n* Check on the right pb\n\n* Only on set resource\n\n* Only on set resource\n\n* Only on set resource\n\n* Replace resource.txn on errors\n\n* Remove marking resource error\n\n* Skip tests\n\n* Skip tests\n\n---------\n\nCo-authored-by: Ferran Llamas <llamas.arroniz@gmail.com>",
+          "timestamp": "2023-05-16T14:33:29Z",
+          "tree_id": "195682655008c298eb7687d9af6493ebc9f827c0",
+          "url": "https://github.com/nuclia/nucliadb/commit/cecce2ffb9489b03c2e1869332036ade2ffc834c"
+        },
+        "date": 1684248657994,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 69.70795580363925,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002900420974997634",
+            "extra": "mean: 14.345564842224121 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 163.3681393585164,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00008451084082341022",
+            "extra": "mean: 6.121144575231216 msec\nrounds: 5"
           }
         ]
       }
