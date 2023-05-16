@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684232407423,
+  "lastUpdate": 1684234898704,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -17200,6 +17200,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00011967360346417324",
             "extra": "mean: 5.559118588765463 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "cf0d06a8086bbd32a0f6865196699ba6bae11328",
+          "message": "Telemetry fixes and improves (#908)\n\n* Remove bin from gitignore\n\n* Replace too restrictive filtering and decouple from log levels\n\n* Split layer configuration in functions\n\n* Structured JSON logs on nucliadb_node\n\n* Format\n\n* Use regular clippy instead of nightly",
+          "timestamp": "2023-05-16T10:46:52Z",
+          "tree_id": "a1cb5b633a610b517cebf41d01044bf9801890c4",
+          "url": "https://github.com/nuclia/nucliadb/commit/cf0d06a8086bbd32a0f6865196699ba6bae11328"
+        },
+        "date": 1684234898094,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 80.13710591125945,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00034367096977696893",
+            "extra": "mean: 12.47861385345459 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 186.77237621010286,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00009822806610009755",
+            "extra": "mean: 5.3541108181602075 msec\nrounds: 5"
           }
         ]
       }
