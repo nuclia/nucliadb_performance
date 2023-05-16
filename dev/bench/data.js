@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684222599581,
+  "lastUpdate": 1684222746806,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -17093,6 +17093,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 7.233824197384079e-7",
             "extra": "mean: 191.61486625671387 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4ea98b5476e43c17a27b33522bb01beba10ff94e",
+          "message": "Upgrade nats-py to latest (#905)\n\n* Upgrade nats-py\n\n* fix dep\n\n* relax\n\n* relax\n\n* relax\n\n* pin latest\n\n* Fix\n\n* do\n\n* Revert \"do\"\n\nThis reverts commit 818c07516dff85d97ff608cd64df625a1e4c6702.",
+          "timestamp": "2023-05-16T07:31:45Z",
+          "tree_id": "5b32046d5ac92065eb4fd27b09956cb0bda74251",
+          "url": "https://github.com/nuclia/nucliadb/commit/4ea98b5476e43c17a27b33522bb01beba10ff94e"
+        },
+        "date": 1684222745645,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 72.62235304302658,
+            "unit": "iter/sec",
+            "range": "stddev: 0.001971867716869638",
+            "extra": "mean: 13.769865036010742 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 187.70748528452276,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00022586099235555917",
+            "extra": "mean: 5.3274380533318775 msec\nrounds: 5"
           }
         ]
       }
