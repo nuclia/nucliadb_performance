@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684234898704,
+  "lastUpdate": 1684235766928,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -17238,6 +17238,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00009822806610009755",
             "extra": "mean: 5.3541108181602075 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "cf0d06a8086bbd32a0f6865196699ba6bae11328",
+          "message": "Telemetry fixes and improves (#908)\n\n* Remove bin from gitignore\n\n* Replace too restrictive filtering and decouple from log levels\n\n* Split layer configuration in functions\n\n* Structured JSON logs on nucliadb_node\n\n* Format\n\n* Use regular clippy instead of nightly",
+          "timestamp": "2023-05-16T10:46:52Z",
+          "tree_id": "a1cb5b633a610b517cebf41d01044bf9801890c4",
+          "url": "https://github.com/nuclia/nucliadb/commit/cf0d06a8086bbd32a0f6865196699ba6bae11328"
+        },
+        "date": 1684235765675,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 4708.393736875771,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000038191648875638664",
+            "extra": "mean: 212.38665580749512 usec\nrounds: 5"
           }
         ]
       }
