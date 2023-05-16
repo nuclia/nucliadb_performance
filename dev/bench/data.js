@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684222746806,
+  "lastUpdate": 1684232378383,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -17131,6 +17131,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00022586099235555917",
             "extra": "mean: 5.3274380533318775 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ef4f21841f1a9d379c36b80899a96ce1e66b5582",
+          "message": "Extra metadata (#904)\n\n* Done\n\n* Done\n\n* remove unused import\n\n* remove unused import\n\n* Fix when origin_json is None\n\n* Naming\n\n* Naming\n\n* Naming",
+          "timestamp": "2023-05-16T10:13:45Z",
+          "tree_id": "11d4991a6690b1e573eca9f140fe1394128a18d9",
+          "url": "https://github.com/nuclia/nucliadb/commit/ef4f21841f1a9d379c36b80899a96ce1e66b5582"
+        },
+        "date": 1684232377156,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 4361.717173229775,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000006207799430951517",
+            "extra": "mean: 229.2675018310547 usec\nrounds: 5"
           }
         ]
       }
