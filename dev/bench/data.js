@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684332814280,
+  "lastUpdate": 1684333842287,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -17414,6 +17414,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00010872251509401834",
             "extra": "mean: 6.371244788169861 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "543258edf061946d239e3064e8ba57edbaed8f37",
+          "message": "Remove locking on new_shard operations (#911)\n\n* Remove locking on new_shard\n\n* Fix test",
+          "timestamp": "2023-05-17T13:55:54Z",
+          "tree_id": "6ac612953bd4525aac4f5516552ab20f9d3e6ba0",
+          "url": "https://github.com/nuclia/nucliadb/commit/543258edf061946d239e3064e8ba57edbaed8f37"
+        },
+        "date": 1684333840952,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 4168.475293387115,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000025718651320707976",
+            "extra": "mean: 239.8958683013916 usec\nrounds: 5"
           }
         ]
       }
