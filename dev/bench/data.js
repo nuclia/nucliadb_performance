@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684401957699,
+  "lastUpdate": 1684410149592,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -17621,6 +17621,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0002004670723202471",
             "extra": "mean: 6.4885298411051435 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ba38ebc2f0a7568a8206f0e18d768bd4a8b85b63",
+          "message": "Sharding on paragraph count (#909)\n\n* Sharding based on paragraph count\n\n* Sharding based on paragraph count\n\n* Fix test\n\n* Reindex should create new shards too\n\n* Fix 2 logic shard test\n\n* Fix mypy\n\n* Fix\n\n* Fix\n\n* Remove dup shard creator\n\n* lower target codecov sdk\n\n* remove max_shard_fields completely",
+          "timestamp": "2023-05-18T11:36:13Z",
+          "tree_id": "c43b45d314d4047e41a8cdd9d71a8f76d9428025",
+          "url": "https://github.com/nuclia/nucliadb/commit/ba38ebc2f0a7568a8206f0e18d768bd4a8b85b63"
+        },
+        "date": 1684410148146,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 4106.297825014294,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000006341544090906803",
+            "extra": "mean: 243.5283660888672 usec\nrounds: 5"
           }
         ]
       }
