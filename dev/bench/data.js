@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684401800823,
+  "lastUpdate": 1684401957699,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -17583,6 +17583,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.3431522746825092e-7",
             "extra": "mean: 166.2391185760498 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0e9a15e78ad4cfb67c56041cc7b07b6ebe930d94",
+          "message": "Fix splits on find and increase conversations coverage (#913)\n\n* test\n\n* add unit test\n\n* add more unit test\n\n* Test more things\n\n* Add more tests\n\n* Fix find",
+          "timestamp": "2023-05-18T09:18:34Z",
+          "tree_id": "b02a0e6e7107e6c95cc53e90ee39fc511b5e9883",
+          "url": "https://github.com/nuclia/nucliadb/commit/0e9a15e78ad4cfb67c56041cc7b07b6ebe930d94"
+        },
+        "date": 1684401956405,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 70.975975848934,
+            "unit": "iter/sec",
+            "range": "stddev: 0.001037163889198904",
+            "extra": "mean: 14.089274406433105 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 154.11811681360433,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002004670723202471",
+            "extra": "mean: 6.4885298411051435 msec\nrounds: 5"
           }
         ]
       }
