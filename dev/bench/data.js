@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684350338472,
+  "lastUpdate": 1684396149826,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -17483,6 +17483,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0003343027680392579",
             "extra": "mean: 7.8350884573800235 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "355cad9bdf371802c88328e3ac000840d958376e",
+          "message": "Add source code info to TiKV spans (#912)",
+          "timestamp": "2023-05-18T07:44:02Z",
+          "tree_id": "e6ae0c56d5ed905f925c743db3a0ec5a45a2826e",
+          "url": "https://github.com/nuclia/nucliadb/commit/355cad9bdf371802c88328e3ac000840d958376e"
+        },
+        "date": 1684396148711,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5319.591164386029,
+            "unit": "iter/sec",
+            "range": "stddev: 7.617652432785721e-7",
+            "extra": "mean: 187.9843711853027 usec\nrounds: 5"
           }
         ]
       }
