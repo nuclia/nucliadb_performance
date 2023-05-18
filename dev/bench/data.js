@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684410149592,
+  "lastUpdate": 1684416438731,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -17652,6 +17652,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000006341544090906803",
             "extra": "mean: 243.5283660888672 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ba38ebc2f0a7568a8206f0e18d768bd4a8b85b63",
+          "message": "Sharding on paragraph count (#909)\n\n* Sharding based on paragraph count\n\n* Sharding based on paragraph count\n\n* Fix test\n\n* Reindex should create new shards too\n\n* Fix 2 logic shard test\n\n* Fix mypy\n\n* Fix\n\n* Fix\n\n* Remove dup shard creator\n\n* lower target codecov sdk\n\n* remove max_shard_fields completely",
+          "timestamp": "2023-05-18T11:36:13Z",
+          "tree_id": "c43b45d314d4047e41a8cdd9d71a8f76d9428025",
+          "url": "https://github.com/nuclia/nucliadb/commit/ba38ebc2f0a7568a8206f0e18d768bd4a8b85b63"
+        },
+        "date": 1684416437614,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 79.438267833394,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00033875795937895553",
+            "extra": "mean: 12.588391304016113 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 181.93921096441844,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002461705220199361",
+            "extra": "mean: 5.496341303775185 msec\nrounds: 5"
           }
         ]
       }
