@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684505078711,
+  "lastUpdate": 1684505166315,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -17790,6 +17790,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 5.303306311936351e-7",
             "extra": "mean: 189.18752670288086 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "9f49611126355639196ae08e82e8c89937ca4401",
+          "message": "Ingest processing metrics (#916)\n\n* Add metrics\n\n* Add metrics\n\n* Return shard\n\n* Return shard\n\n* add metrics file\n\n* Commit and then store the seqid\n\n* Commit and then store the seqid\n\n* Fix",
+          "timestamp": "2023-05-19T13:59:32Z",
+          "tree_id": "c69ececcac5dd552d98b403b217bfee98d74fdde",
+          "url": "https://github.com/nuclia/nucliadb/commit/9f49611126355639196ae08e82e8c89937ca4401"
+        },
+        "date": 1684505165454,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 83.59296961135475,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0003752647210667491",
+            "extra": "mean: 11.962728500366211 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 189.91486598705558,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00008679135565893285",
+            "extra": "mean: 5.265517234802246 msec\nrounds: 5"
           }
         ]
       }
