@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684701224710,
+  "lastUpdate": 1684701333871,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -17928,6 +17928,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.6832532354903252e-7",
             "extra": "mean: 166.44949913024902 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8d61cbada990a9f8847e403a81348a1b17abfdb0",
+          "message": "Improve node repr and str so that we can infer the node from sentry events (#914)",
+          "timestamp": "2023-05-21T20:29:03Z",
+          "tree_id": "41c29c30f1fc080c06c10396e6132e06f754319c",
+          "url": "https://github.com/nuclia/nucliadb/commit/8d61cbada990a9f8847e403a81348a1b17abfdb0"
+        },
+        "date": 1684701333217,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 83.01594012201706,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00026108425366249",
+            "extra": "mean: 12.045879364013672 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 188.85121585812468,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00007914530645995362",
+            "extra": "mean: 5.295173745406301 msec\nrounds: 5"
           }
         ]
       }
