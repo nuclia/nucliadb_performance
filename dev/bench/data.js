@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684763405126,
+  "lastUpdate": 1684763503493,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -18173,6 +18173,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.486435229944037e-7",
             "extra": "mean: 189.57195281982425 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c9a53cdaa2dcede41d0147d3aea6f79fa19d13dd",
+          "message": "Fix nats max payload error handling (#923)",
+          "timestamp": "2023-05-22T13:45:15Z",
+          "tree_id": "b1cf22332746d7fd0edfbde92cd9fa772dc01087",
+          "url": "https://github.com/nuclia/nucliadb/commit/c9a53cdaa2dcede41d0147d3aea6f79fa19d13dd"
+        },
+        "date": 1684763502793,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 68.70137281404931,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0005575062216040494",
+            "extra": "mean: 14.555749893188477 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 176.63891280274424,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00041619195160183563",
+            "extra": "mean: 5.661266728451377 msec\nrounds: 5"
           }
         ]
       }
