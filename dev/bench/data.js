@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684840803273,
+  "lastUpdate": 1684850583586,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -18287,6 +18287,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00025370909398056185",
             "extra": "mean: 6.043010599472943 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "25dec7218f5a9e743a8728d319e9e1463eae6850",
+          "message": "Async sdk support (#928)\n\n* add async sdk 2 support\n\n* lint\n\n* fix\n\n* bump\n\n* add timeout setting support",
+          "timestamp": "2023-05-23T13:24:03Z",
+          "tree_id": "562dcd056c9b49dd71f70a6f832def35444b0e0e",
+          "url": "https://github.com/nuclia/nucliadb/commit/25dec7218f5a9e743a8728d319e9e1463eae6850"
+        },
+        "date": 1684850582039,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 43.26942082600021,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0015731842547920796",
+            "extra": "mean: 23.11100959777832 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 115.99527276548751,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000504999455476682",
+            "extra": "mean: 8.621040980021158 msec\nrounds: 5"
           }
         ]
       }
