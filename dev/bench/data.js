@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684833655269,
+  "lastUpdate": 1684840803273,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -18249,6 +18249,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00011845191443187555",
             "extra": "mean: 6.290555000305176 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "67ee9f30c54f6371d6872312827b5320203a879f",
+          "message": "SDK be able to point to stashify (#927)",
+          "timestamp": "2023-05-23T11:12:35Z",
+          "tree_id": "92961534c798db615569255af3731f85fa50029e",
+          "url": "https://github.com/nuclia/nucliadb/commit/67ee9f30c54f6371d6872312827b5320203a879f"
+        },
+        "date": 1684840801834,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 70.16495766987589,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0001909962685225048",
+            "extra": "mean: 14.252128601074217 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 165.4804312418743,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00025370909398056185",
+            "extra": "mean: 6.043010599472943 msec\nrounds: 5"
           }
         ]
       }
