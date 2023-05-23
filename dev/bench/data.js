@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684858163036,
+  "lastUpdate": 1684858271247,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -18356,6 +18356,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.1643788333660868e-7",
             "extra": "mean: 166.03946685791016 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "558b01fb37a5b925e4c3898dcd1a49ce4d5edff2",
+          "message": "PullWorker small improvements (#925)\n\n* Few fixes\n\n* improve sendtoprocess errors\n\n* Fix tests\n\n* Make it optional to be safe",
+          "timestamp": "2023-05-23T16:04:35Z",
+          "tree_id": "2609a7037cf9fdf16581197309b818d4b74eaf68",
+          "url": "https://github.com/nuclia/nucliadb/commit/558b01fb37a5b925e4c3898dcd1a49ce4d5edff2"
+        },
+        "date": 1684858270275,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 83.40354047622077,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00013657917960956112",
+            "extra": "mean: 11.989898681640625 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 188.64753925670405,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000056142751650846096",
+            "extra": "mean: 5.300890771966231 msec\nrounds: 5"
           }
         ]
       }
