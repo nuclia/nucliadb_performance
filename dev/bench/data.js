@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685013255107,
+  "lastUpdate": 1685013883395,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -18677,6 +18677,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00010650725534065703",
             "extra": "mean: 5.288146671495939 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c8d826673db2d74347a6fc02421a65a60fe9da8e",
+          "message": "Implement telemetry context variables (#917)\n\n* implement context vars with telemetry\n\n* lint\n\n* tweak\n\n* add missing files -- ops\n\n* lint\n\n* lic\n\n* lint\n\n* auto add to span as well\n\n* fix\n\n* fix\n\n* fix\n\n* fix",
+          "timestamp": "2023-05-25T11:18:25Z",
+          "tree_id": "cc41c2ab92dfcc85cbae36097f1894f38c42cefc",
+          "url": "https://github.com/nuclia/nucliadb/commit/c8d826673db2d74347a6fc02421a65a60fe9da8e"
+        },
+        "date": 1685013882331,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 4748.13286472787,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000003014043553588686",
+            "extra": "mean: 210.6091022491455 usec\nrounds: 5"
           }
         ]
       }
