@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685013883395,
+  "lastUpdate": 1685013960305,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -18708,6 +18708,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000003014043553588686",
             "extra": "mean: 210.6091022491455 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c8d826673db2d74347a6fc02421a65a60fe9da8e",
+          "message": "Implement telemetry context variables (#917)\n\n* implement context vars with telemetry\n\n* lint\n\n* tweak\n\n* add missing files -- ops\n\n* lint\n\n* lic\n\n* lint\n\n* auto add to span as well\n\n* fix\n\n* fix\n\n* fix\n\n* fix",
+          "timestamp": "2023-05-25T11:18:25Z",
+          "tree_id": "cc41c2ab92dfcc85cbae36097f1894f38c42cefc",
+          "url": "https://github.com/nuclia/nucliadb/commit/c8d826673db2d74347a6fc02421a65a60fe9da8e"
+        },
+        "date": 1685013958975,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 85.25815656523565,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0001296647115347839",
+            "extra": "mean: 11.729083061218263 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 187.35955194205047,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002067906962505959",
+            "extra": "mean: 5.337331295013428 msec\nrounds: 5"
           }
         ]
       }
