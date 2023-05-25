@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685017505490,
+  "lastUpdate": 1685018852240,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -18915,6 +18915,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00018761720611626447",
             "extra": "mean: 6.52795135974884 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3fec5849abdef8a9b3ba2d32c8457ba20e6621da",
+          "message": "implement injecting context data into logging (#936)\n\n* implement injecting context data into logging\n\n* poke\n\n* lint",
+          "timestamp": "2023-05-25T12:42:17Z",
+          "tree_id": "480326e8df5947cfc564a3cbc4d47bcd3b4fe6b6",
+          "url": "https://github.com/nuclia/nucliadb/commit/3fec5849abdef8a9b3ba2d32c8457ba20e6621da"
+        },
+        "date": 1685018851073,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5981.448301157927,
+            "unit": "iter/sec",
+            "range": "stddev: 7.48790736778831e-8",
+            "extra": "mean: 167.18358993530273 usec\nrounds: 5"
           }
         ]
       }
