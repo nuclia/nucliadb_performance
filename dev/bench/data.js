@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685019718257,
+  "lastUpdate": 1685369221836,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -18984,6 +18984,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0008140256712801334",
             "extra": "mean: 7.6805250985281805 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "649dc488c3dbcd61b9289ffaa321cc3f77b14592",
+          "message": "Add JSON format to text field (#938)\n\n* Add JSON format to text field\n\n* Add JSON validation on TextField",
+          "timestamp": "2023-05-29T14:02:13Z",
+          "tree_id": "fea8c32ec0cc0f9451a4dd6da51d41a89ce710e9",
+          "url": "https://github.com/nuclia/nucliadb/commit/649dc488c3dbcd61b9289ffaa321cc3f77b14592"
+        },
+        "date": 1685369220947,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5275.0764289843055,
+            "unit": "iter/sec",
+            "range": "stddev: 2.3131274213494e-7",
+            "extra": "mean: 189.5707130432129 usec\nrounds: 5"
           }
         ]
       }
