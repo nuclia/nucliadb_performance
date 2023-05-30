@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685443864705,
+  "lastUpdate": 1685455724879,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -19091,6 +19091,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000015593227611967964",
             "extra": "mean: 5.153825283050537 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ef2d07beaabac75a10ca9b48a34553f08eaef71b",
+          "message": "More modern type annotations not bw compatible (#940)",
+          "timestamp": "2023-05-30T14:02:19Z",
+          "tree_id": "5dffbbd0954c4bc891acefa155124c5861360c03",
+          "url": "https://github.com/nuclia/nucliadb/commit/ef2d07beaabac75a10ca9b48a34553f08eaef71b"
+        },
+        "date": 1685455723987,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 80.05292194890497,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0007376813360479061",
+            "extra": "mean: 12.49173641204834 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 189.85864387200272,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000022511276253972008",
+            "extra": "mean: 5.26707649230957 msec\nrounds: 5"
           }
         ]
       }
