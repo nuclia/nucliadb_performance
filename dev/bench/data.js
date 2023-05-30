@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685371296273,
+  "lastUpdate": 1685443864705,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -19053,6 +19053,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00006983115115197211",
             "extra": "mean: 5.63256475660536 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d3447e2ef3dc423a034ab3bf530d3ee09478fc08",
+          "message": "SDK annotations with List instead of list (#939)",
+          "timestamp": "2023-05-30T10:44:59Z",
+          "tree_id": "5da09e20730c97374dcd9a5a03b0e2971e769c4f",
+          "url": "https://github.com/nuclia/nucliadb/commit/d3447e2ef3dc423a034ab3bf530d3ee09478fc08"
+        },
+        "date": 1685443863900,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 86.04893724750345,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00019402607795398124",
+            "extra": "mean: 11.621294021606445 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 194.0306364844604,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000015593227611967964",
+            "extra": "mean: 5.153825283050537 msec\nrounds: 5"
           }
         ]
       }
