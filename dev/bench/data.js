@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685612647572,
+  "lastUpdate": 1685617566246,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -19267,6 +19267,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00010274752263986008",
             "extra": "mean: 5.256522329230058 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b06957ceecbcb535e38cfb2b44c1a2255ebb2aa2",
+          "message": "Instrument tokio runtime (#942)\n\n* Expect message\n\n* Refactor metrics and split in different modules\n\n* Move context get_metrics/create_metrics to metrics mod\n\n* Rename metrics collector to collectors\n\n* Add task monitor middleware as tower service\n\n* Rename metrics instrumentor to task_instrumentor\n\n* Tokio metrics to prometheus. Refactoring\n\n* Licences\n\n* Remove forgotten print\n\n* MultiTaskMonitor export_all returns an iterator\n\n* use create_metrics\n\n* Clippy",
+          "timestamp": "2023-06-01T10:50:57Z",
+          "tree_id": "8896bfadbf34d84ec05493bc3fb4ff9a1d738c0c",
+          "url": "https://github.com/nuclia/nucliadb/commit/b06957ceecbcb535e38cfb2b44c1a2255ebb2aa2"
+        },
+        "date": 1685617564999,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 84.44146842613236,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00018257723721952447",
+            "extra": "mean: 11.842522621154785 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 196.84415146796422,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000049446946646912376",
+            "extra": "mean: 5.080161094665527 msec\nrounds: 5"
           }
         ]
       }
