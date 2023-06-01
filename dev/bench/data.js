@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685612573014,
+  "lastUpdate": 1685612647572,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -19229,6 +19229,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.465330769058777e-7",
             "extra": "mean: 166.92142486572266 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5f00749a16e2a8d061436f66836bc4e1521d8138",
+          "message": "Do not send sentry event when nodes are down. We already have alarms for this (#944)",
+          "timestamp": "2023-06-01T09:37:48Z",
+          "tree_id": "6da9a30fb0d24b3c23156e2eb12efa655597c25d",
+          "url": "https://github.com/nuclia/nucliadb/commit/5f00749a16e2a8d061436f66836bc4e1521d8138"
+        },
+        "date": 1685612646800,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 85.65796643039252,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00009279189594766739",
+            "extra": "mean: 11.674337387084961 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 190.23984630280714,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00010274752263986008",
+            "extra": "mean: 5.256522329230058 msec\nrounds: 5"
           }
         ]
       }
