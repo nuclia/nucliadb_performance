@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685611467233,
+  "lastUpdate": 1685611603748,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -19160,6 +19160,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.4682723209672303e-7",
             "extra": "mean: 166.67580604553223 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "afbee5ca153e771fae1a3d36a3e2c81a683fdf00",
+          "message": "upgrade actions (#945)",
+          "timestamp": "2023-06-01T09:19:08Z",
+          "tree_id": "bf4549c056c01189869cc0bc644f51d795097668",
+          "url": "https://github.com/nuclia/nucliadb/commit/afbee5ca153e771fae1a3d36a3e2c81a683fdf00"
+        },
+        "date": 1685611602389,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 67.15829250328241,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0010240978959328527",
+            "extra": "mean: 14.890193939208984 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 158.94340988293743,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00006969743303788148",
+            "extra": "mean: 6.291547417640686 msec\nrounds: 5"
           }
         ]
       }
