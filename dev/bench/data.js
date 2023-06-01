@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685624640755,
+  "lastUpdate": 1685624789244,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -19367,6 +19367,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 9.860912881600407e-8",
             "extra": "mean: 227.0527362823486 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3edca12f551cc3b2fd231b8a578819ad3bcafe27",
+          "message": "Improve iterating over resource fields (#947)\n\n* Add proto for all fields key value\n\n* Add allfields tikv key\n\n* Improve how generic fields are added\n\n* Rename VALID_GLOBAL -> VALID_GENERIC_FIELDS to be more explicit\n\n* Add get and set field ids\n\n* Properly update all fields key\n\n* Add tests and fix typing\n\n* Fix delete field: remove from all fields keys\n\n* Fix typing\n\n* Fix more mypy",
+          "timestamp": "2023-06-01T12:58:07Z",
+          "tree_id": "5ab98c327ae40f04da2ad4a8c7247d53636f115f",
+          "url": "https://github.com/nuclia/nucliadb/commit/3edca12f551cc3b2fd231b8a578819ad3bcafe27"
+        },
+        "date": 1685624788019,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 53.362809250308146,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000882338434618222",
+            "extra": "mean: 18.739643096923828 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 135.39219572535129,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0001853962968815256",
+            "extra": "mean: 7.385950088500977 msec\nrounds: 5"
           }
         ]
       }
