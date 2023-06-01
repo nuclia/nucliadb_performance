@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685654783635,
+  "lastUpdate": 1685655039458,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -19512,6 +19512,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00008218201437811982",
             "extra": "mean: 5.065384365263439 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "dd1b8539228363733c9c3272fa380de5ac4fb3d9",
+          "message": "correctly map resource statuses in query (#948)",
+          "timestamp": "2023-06-01T21:24:58Z",
+          "tree_id": "391373148723966a00cad30fa804621110a43122",
+          "url": "https://github.com/nuclia/nucliadb/commit/dd1b8539228363733c9c3272fa380de5ac4fb3d9"
+        },
+        "date": 1685655038300,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 4560.30098849374,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000036262018545098883",
+            "extra": "mean: 219.28377151489258 usec\nrounds: 5"
           }
         ]
       }
