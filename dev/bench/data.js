@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685617566246,
+  "lastUpdate": 1685618523981,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -19305,6 +19305,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000049446946646912376",
             "extra": "mean: 5.080161094665527 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b06957ceecbcb535e38cfb2b44c1a2255ebb2aa2",
+          "message": "Instrument tokio runtime (#942)\n\n* Expect message\n\n* Refactor metrics and split in different modules\n\n* Move context get_metrics/create_metrics to metrics mod\n\n* Rename metrics collector to collectors\n\n* Add task monitor middleware as tower service\n\n* Rename metrics instrumentor to task_instrumentor\n\n* Tokio metrics to prometheus. Refactoring\n\n* Licences\n\n* Remove forgotten print\n\n* MultiTaskMonitor export_all returns an iterator\n\n* use create_metrics\n\n* Clippy",
+          "timestamp": "2023-06-01T10:50:57Z",
+          "tree_id": "8896bfadbf34d84ec05493bc3fb4ff9a1d738c0c",
+          "url": "https://github.com/nuclia/nucliadb/commit/b06957ceecbcb535e38cfb2b44c1a2255ebb2aa2"
+        },
+        "date": 1685618522515,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 4370.3841553901775,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000005641368380136675",
+            "extra": "mean: 228.812837600708 usec\nrounds: 5"
           }
         ]
       }
