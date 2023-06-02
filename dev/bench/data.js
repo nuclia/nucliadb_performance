@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685655060995,
+  "lastUpdate": 1685703069838,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -19581,6 +19581,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00004300270394576163",
             "extra": "mean: 5.09326696395874 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3f05686bbca9b354a934e8349b0f3b6394cbd6d8",
+          "message": "Remove unneeded diff from tokio task metrics collect (#949)\n\n* Remove unneeded diff from tokio task metrics collect\n\n* Comment",
+          "timestamp": "2023-06-02T10:44:37Z",
+          "tree_id": "a390340434a95edc85f61c717ba44987c6432939",
+          "url": "https://github.com/nuclia/nucliadb/commit/3f05686bbca9b354a934e8349b0f3b6394cbd6d8"
+        },
+        "date": 1685703068635,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 78.30231088954237,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00028716705070464633",
+            "extra": "mean: 12.771015167236328 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 182.28679393748084,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00007559576895934097",
+            "extra": "mean: 5.485860924971731 msec\nrounds: 5"
           }
         ]
       }
