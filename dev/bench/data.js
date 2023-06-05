@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685935928116,
+  "lastUpdate": 1685935956063,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -19681,6 +19681,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 6.039134702138932e-7",
             "extra": "mean: 190.4930591583252 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "784a70d68d8f7f8b15e00ba2f5ad5313a848c778",
+          "message": "Search autofilter mode (#950)\n\n* Add autofilter param\n\n* Implement autofilter\n\n* Add auto-filter to find request too\n\n* Added test\n\n* fix default value",
+          "timestamp": "2023-06-05T03:26:13Z",
+          "tree_id": "8ff55baca6e4c7f2d223697d1854fb2436ed3496",
+          "url": "https://github.com/nuclia/nucliadb/commit/784a70d68d8f7f8b15e00ba2f5ad5313a848c778"
+        },
+        "date": 1685935955127,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 82.74466696600416,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00032468424636154596",
+            "extra": "mean: 12.085371017456055 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 188.4706049405017,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00004339089398255864",
+            "extra": "mean: 5.305867195129395 msec\nrounds: 5"
           }
         ]
       }
