@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685936020466,
+  "lastUpdate": 1685966261718,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -19757,6 +19757,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00020814685038490232",
             "extra": "mean: 5.5603557162814665 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e1e2c352e02ce8eb5e9c70411184eca767caf9cb",
+          "message": "Add autofilter option to chat endpoint (#953)\n\n* Add autofilter option to chat\n\n* better\n\n* better",
+          "timestamp": "2023-06-05T11:52:39Z",
+          "tree_id": "4de6eacd08fc4734e52b52247c7b7d5aee8d0657",
+          "url": "https://github.com/nuclia/nucliadb/commit/e1e2c352e02ce8eb5e9c70411184eca767caf9cb"
+        },
+        "date": 1685966260935,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5271.933626214066,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000016101461401675833",
+            "extra": "mean: 189.68372344970703 usec\nrounds: 5"
           }
         ]
       }
