@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686045572823,
+  "lastUpdate": 1686047794693,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -19933,6 +19933,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000186134355069323",
             "extra": "mean: 6.469553709030151 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "44120086+hermeGarcia@users.noreply.github.com",
+            "name": "Herme",
+            "username": "hermeGarcia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "60a4e32307361e86cf949c59f93ab196504ec4dd",
+          "message": "Better locking strategy for vectors (#889)\n\n* initial approach\n\n* better locking strategy, WIP\n\n* no state locking\n\n* reader integration\n\n* vectors operative\n\n* with background updates\n\n* bug fix for old shards\n\n* fix status updating\n\n* explicit drop\n\n* using renaming instead of locking, wip\n\n* rename strategy\n\n* fix merge strategy\n\n* conflicts resolved",
+          "timestamp": "2023-06-06T10:21:27Z",
+          "tree_id": "4f51268fde571f53d5f206c7a948fc69518cb98b",
+          "url": "https://github.com/nuclia/nucliadb/commit/60a4e32307361e86cf949c59f93ab196504ec4dd"
+        },
+        "date": 1686047793662,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 87.52746773467202,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00017784497116076208",
+            "extra": "mean: 11.4249849319458 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 193.15300578910458,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00015510086879180665",
+            "extra": "mean: 5.177242755889893 msec\nrounds: 5"
           }
         ]
       }
