@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686146765994,
+  "lastUpdate": 1686172147881,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -20192,6 +20192,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00031764925151954405",
             "extra": "mean: 5.772285991244846 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "c.iniesta@gmail.com",
+            "name": "Carmen Iniesta",
+            "username": "Ciniesta"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "de57a032383129c5642cfaaadcce4012559860b9",
+          "message": "Small fix for the notebook (#967)\n\nremoves duplicated function and credential",
+          "timestamp": "2023-06-07T21:01:06Z",
+          "tree_id": "3e8215e38b84eeed01a91e8fa691b9073a5f226b",
+          "url": "https://github.com/nuclia/nucliadb/commit/de57a032383129c5642cfaaadcce4012559860b9"
+        },
+        "date": 1686172146714,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 57.754215104951115,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0006450570552202599",
+            "extra": "mean: 17.314753532409668 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 143.60692081092313,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00028576229978305055",
+            "extra": "mean: 6.963452696800232 msec\nrounds: 5"
           }
         ]
       }
