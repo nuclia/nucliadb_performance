@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686063768835,
+  "lastUpdate": 1686138131194,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -20116,6 +20116,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.0361654360887441e-7",
             "extra": "mean: 167.78593063354492 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "c.iniesta@gmail.com",
+            "name": "Carmen Iniesta",
+            "username": "Ciniesta"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fbcd3f9f9964dea4f0b77b41daa7209f2632043d",
+          "message": "Adds notebook for pydata workshop (#962)\n\n* Adds notebook for pydata workshop\n\n* remove crendetials",
+          "timestamp": "2023-06-07T11:35:43Z",
+          "tree_id": "845ac7eca0a314c8d1ec04330c5d1aaf2e492a03",
+          "url": "https://github.com/nuclia/nucliadb/commit/fbcd3f9f9964dea4f0b77b41daa7209f2632043d"
+        },
+        "date": 1686138130081,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 82.36978406698138,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00028522991274347977",
+            "extra": "mean: 12.140374183654785 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 186.65633025718344,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00008453501849688011",
+            "extra": "mean: 5.3574395179748535 msec\nrounds: 5"
           }
         ]
       }
