@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686191817818,
+  "lastUpdate": 1686217284113,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -20337,6 +20337,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000042917239840597255",
             "extra": "mean: 5.29914655183491 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "47b2426983626e38540682fb067624ad481c1bcc",
+          "message": "Add tracing middleware to core and clean gRPC instrumentation (#963)\n\n* Add tracing middleware to core and clean grpc instrumentation\n\n* create data\n\n---------\n\nCo-authored-by: herme garcia <hermegarcianavarro@gmail.com>",
+          "timestamp": "2023-06-08T09:23:37Z",
+          "tree_id": "7fd64e808f329a612a8a0074ba016dd4e3031693",
+          "url": "https://github.com/nuclia/nucliadb/commit/47b2426983626e38540682fb067624ad481c1bcc"
+        },
+        "date": 1686217282865,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 62.63629200912029,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0011712346166218315",
+            "extra": "mean: 15.965185165405273 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 157.48735386352988,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0001099109262350056",
+            "extra": "mean: 6.3497161865234375 msec\nrounds: 5"
           }
         ]
       }
