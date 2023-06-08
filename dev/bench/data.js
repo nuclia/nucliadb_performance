@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686218056662,
+  "lastUpdate": 1686226931818,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -20406,6 +20406,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000002746172402965872",
             "extra": "mean: 228.52649688720703 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "cf4669f6e30e62d9f4bf9f3602b252b63cc13528",
+          "message": "fix retry policy integration (#966)\n\n* fix retry policy integration\n\n* req",
+          "timestamp": "2023-06-08T12:17:34Z",
+          "tree_id": "4c245e9a65cb1ebb585d02d01b60c6b462b17d0d",
+          "url": "https://github.com/nuclia/nucliadb/commit/cf4669f6e30e62d9f4bf9f3602b252b63cc13528"
+        },
+        "date": 1686226930898,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5987.6321673286275,
+            "unit": "iter/sec",
+            "range": "stddev: 2.2076148148633365e-7",
+            "extra": "mean: 167.01092720031738 usec\nrounds: 5"
           }
         ]
       }
