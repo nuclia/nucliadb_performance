@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686172147881,
+  "lastUpdate": 1686191064721,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -20230,6 +20230,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00028576229978305055",
             "extra": "mean: 6.963452696800232 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "44120086+hermeGarcia@users.noreply.github.com",
+            "name": "Herme",
+            "username": "hermeGarcia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "16d8a8521bdaab54f791c4f8263ba01ec7b97946",
+          "message": "clean env use (#961)\n\n* clean env use\n\n* handle vectorset creation\n\n* create readers when reading\n\n* fix tmp creation\n\n* fix tmp_path\n\n* clean function type\n\n* dump logs\n\n* pfm\n\n* mypy\n\n* less logs\n\n* less logs\n\n* allow failure\n\n* tweak\n\n* try setting cargo profile for better build speed\n\n* try\n\n* try\n\n* nope\n\n* one more\n\n* .\n\n---------\n\nCo-authored-by: vangheem <vangheem@gmail.com>",
+          "timestamp": "2023-06-08T02:08:40Z",
+          "tree_id": "c00477bb4c959f37b8ce594b08ee64f16292d5fe",
+          "url": "https://github.com/nuclia/nucliadb/commit/16d8a8521bdaab54f791c4f8263ba01ec7b97946"
+        },
+        "date": 1686191063961,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 79.13431746598357,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00017634384344964967",
+            "extra": "mean: 12.63674259185791 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 185.64228142267447,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00003873955367493372",
+            "extra": "mean: 5.386703892758018 msec\nrounds: 5"
           }
         ]
       }
