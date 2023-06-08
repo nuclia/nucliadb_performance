@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686226931818,
+  "lastUpdate": 1686227245820,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -20437,6 +20437,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.2076148148633365e-7",
             "extra": "mean: 167.01092720031738 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "409c73db7819ea2f7bdb2e3921c100e2df25284e",
+          "message": "fix getting empty conversation field (#969)",
+          "timestamp": "2023-06-08T12:22:10Z",
+          "tree_id": "aeb72b91ec365e9ad1bce085d8a5c640db8da98c",
+          "url": "https://github.com/nuclia/nucliadb/commit/409c73db7819ea2f7bdb2e3921c100e2df25284e"
+        },
+        "date": 1686227244939,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 4014.679222238601,
+            "unit": "iter/sec",
+            "range": "stddev: 2.9555014650585805e-7",
+            "extra": "mean: 249.0859031677246 usec\nrounds: 5"
           }
         ]
       }
