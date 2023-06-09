@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686327422409,
+  "lastUpdate": 1686327495527,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -20575,6 +20575,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.0251222742445913e-7",
             "extra": "mean: 207.92455673217773 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4009dc2a523f70144b41a3e6e1f64631ff20ee48",
+          "message": "SDK Docs (#960)\n\n* SDK Docs\n\n* More documentation fixes\n\n* wip\n\n* added\n\n* dynamically inject signature to methods\n\n* More improvements\n\n* More improvements\n\n* Done\n\n* Structure examples\n\n* Final tweaks\n\n* Final fixes\n\n* Docstrings where they need to be\n\n* Fix\n\n* Fix test\n\n* add TODOs",
+          "timestamp": "2023-06-09T16:12:06Z",
+          "tree_id": "b007f92f1bc3b847c66539d5939e8bff7f478258",
+          "url": "https://github.com/nuclia/nucliadb/commit/4009dc2a523f70144b41a3e6e1f64631ff20ee48"
+        },
+        "date": 1686327494667,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 87.24457745816765,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00028031666687153707",
+            "extra": "mean: 11.462030410766602 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 189.92220727155387,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00004552155345040439",
+            "extra": "mean: 5.265313700625771 msec\nrounds: 5"
           }
         ]
       }
