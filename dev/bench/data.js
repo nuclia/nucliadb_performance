@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686227864325,
+  "lastUpdate": 1686327422409,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -20544,6 +20544,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00021726318276694672",
             "extra": "mean: 7.524885450090681 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4009dc2a523f70144b41a3e6e1f64631ff20ee48",
+          "message": "SDK Docs (#960)\n\n* SDK Docs\n\n* More documentation fixes\n\n* wip\n\n* added\n\n* dynamically inject signature to methods\n\n* More improvements\n\n* More improvements\n\n* Done\n\n* Structure examples\n\n* Final tweaks\n\n* Final fixes\n\n* Docstrings where they need to be\n\n* Fix\n\n* Fix test\n\n* add TODOs",
+          "timestamp": "2023-06-09T16:12:06Z",
+          "tree_id": "b007f92f1bc3b847c66539d5939e8bff7f478258",
+          "url": "https://github.com/nuclia/nucliadb/commit/4009dc2a523f70144b41a3e6e1f64631ff20ee48"
+        },
+        "date": 1686327421564,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 4809.436728957774,
+            "unit": "iter/sec",
+            "range": "stddev: 2.0251222742445913e-7",
+            "extra": "mean: 207.92455673217773 usec\nrounds: 5"
           }
         ]
       }
