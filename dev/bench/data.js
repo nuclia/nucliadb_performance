@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686561690854,
+  "lastUpdate": 1686562640193,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -20651,6 +20651,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00006926939532093377",
             "extra": "mean: 6.047577016493853 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "44120086+hermeGarcia@users.noreply.github.com",
+            "name": "Herme",
+            "username": "hermeGarcia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "668c556a5582d81b1fd5370e5d31c333277218c2",
+          "message": "Revert locking system (#978)\n\n* Revert \"clean env use (#961)\"\n\nThis reverts commit 16d8a8521bdaab54f791c4f8263ba01ec7b97946.\n\n* Revert \"same mount disk for tmp (#958)\"\n\nThis reverts commit 24ea27187fd257c2217b97a7b1f25b1752faaa9a.\n\n* Revert \"Better locking strategy for vectors (#889)\"\n\nThis reverts commit 60a4e32307361e86cf949c59f93ab196504ec4dd.",
+          "timestamp": "2023-06-12T08:34:45Z",
+          "tree_id": "030132e8301d343a7cdf73498f92fd0aad2e7aac",
+          "url": "https://github.com/nuclia/nucliadb/commit/668c556a5582d81b1fd5370e5d31c333277218c2"
+        },
+        "date": 1686562638868,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 4457.133117074259,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000019775343676513382",
+            "extra": "mean: 224.35946464538574 usec\nrounds: 5"
           }
         ]
       }
