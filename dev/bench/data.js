@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686579386543,
+  "lastUpdate": 1686587705754,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -20827,6 +20827,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00013458764674448867",
             "extra": "mean: 5.323531627655029 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "46e7023360d61b58b0597fff6671c773193a4498",
+          "message": "Complete documentation for search endpoints (#979)\n\n* Added mode docs to search endpoints\n\n* Added mode docs to search endpoints\n\n* Add more\n\n* Add more\n\n* More and more fields\n\n* More and more fields\n\n* More search fields\n\n* More docs\n\n* Shorter and simpler naming\n\n* Fix\n\n* Wip\n\n* Wip\n\n* Fix\n\n* Add highlight find results of chat endpoint",
+          "timestamp": "2023-06-12T16:28:16Z",
+          "tree_id": "bc15d3b95646882cdcaeb1dc1511f9b69e1d9d2a",
+          "url": "https://github.com/nuclia/nucliadb/commit/46e7023360d61b58b0597fff6671c773193a4498"
+        },
+        "date": 1686587704342,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 4141.5301380627225,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00000807428746061998",
+            "extra": "mean: 241.45665168762204 usec\nrounds: 5"
           }
         ]
       }
