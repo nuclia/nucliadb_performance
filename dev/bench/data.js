@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686587705754,
+  "lastUpdate": 1686587721592,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -20858,6 +20858,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00000807428746061998",
             "extra": "mean: 241.45665168762204 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "46e7023360d61b58b0597fff6671c773193a4498",
+          "message": "Complete documentation for search endpoints (#979)\n\n* Added mode docs to search endpoints\n\n* Added mode docs to search endpoints\n\n* Add more\n\n* Add more\n\n* More and more fields\n\n* More and more fields\n\n* More search fields\n\n* More docs\n\n* Shorter and simpler naming\n\n* Fix\n\n* Wip\n\n* Wip\n\n* Fix\n\n* Add highlight find results of chat endpoint",
+          "timestamp": "2023-06-12T16:28:16Z",
+          "tree_id": "bc15d3b95646882cdcaeb1dc1511f9b69e1d9d2a",
+          "url": "https://github.com/nuclia/nucliadb/commit/46e7023360d61b58b0597fff6671c773193a4498"
+        },
+        "date": 1686587720451,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 81.64384606909675,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00009904213169644038",
+            "extra": "mean: 12.248320579528809 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 184.889745695843,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00007361929047920213",
+            "extra": "mean: 5.408628781636557 msec\nrounds: 5"
           }
         ]
       }
