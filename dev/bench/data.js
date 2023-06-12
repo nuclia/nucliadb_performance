@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686589200173,
+  "lastUpdate": 1686589800692,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -20934,6 +20934,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00007451929300001384",
             "extra": "mean: 5.541970994737413 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "89015587ac0257d84ec7c227865d99d24a289368",
+          "message": "Remove dead GetShards call (#982)\n\n* Remove dead GetShards call\n\n* Fix dummy grpc node",
+          "timestamp": "2023-06-12T16:43:04Z",
+          "tree_id": "a66ef25dd1a41737087739110237b41b0a84b66f",
+          "url": "https://github.com/nuclia/nucliadb/commit/89015587ac0257d84ec7c227865d99d24a289368"
+        },
+        "date": 1686589799639,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5886.593742193179,
+            "unit": "iter/sec",
+            "range": "stddev: 1.166643038393609e-7",
+            "extra": "mean: 169.8775291442871 usec\nrounds: 5"
           }
         ]
       }
