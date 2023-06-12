@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686573448419,
+  "lastUpdate": 1686575246635,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -20720,6 +20720,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00016802468213351126",
             "extra": "mean: 5.592632293701172 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "1c6935f87ca83da071580fa1c60fe4374cab062e",
+          "message": "better conversation field support for chat (#972)\n\n* better conversation field support for chat\n\n* smarter\n\n* fix\n\n* more notes\n\n* add unit tests\n\n* lic\n\n* tweak",
+          "timestamp": "2023-06-12T13:02:42Z",
+          "tree_id": "10c7149a72bd34fd9e20ef2f055c4e9a7cc1e3c3",
+          "url": "https://github.com/nuclia/nucliadb/commit/1c6935f87ca83da071580fa1c60fe4374cab062e"
+        },
+        "date": 1686575245824,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 4806.164278234971,
+            "unit": "iter/sec",
+            "range": "stddev: 4.76710052238816e-7",
+            "extra": "mean: 208.06612968444824 usec\nrounds: 5"
           }
         ]
       }
