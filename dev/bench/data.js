@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686692500288,
+  "lastUpdate": 1686693398579,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -21134,6 +21134,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000017508113075937077",
             "extra": "mean: 220.88794708251953 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "48b04e976051620f45130be51bc78b40ca3aa565",
+          "message": "Refactor cluster manager/nodes/shards (#968)\n\n* Refactor cluster/nodes/shards orm management\n\n* tyr\n\n* fix tikv install\n\n* better naming",
+          "timestamp": "2023-06-13T21:36:27Z",
+          "tree_id": "307ff772cedc11556868025bcc26b96c526bdaf7",
+          "url": "https://github.com/nuclia/nucliadb/commit/48b04e976051620f45130be51bc78b40ca3aa565"
+        },
+        "date": 1686693397511,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 55.07733116226544,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0009610091294200562",
+            "extra": "mean: 18.15629005432129 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 131.82720510122363,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0006703897461913289",
+            "extra": "mean: 7.585687637329102 msec\nrounds: 5"
           }
         ]
       }
