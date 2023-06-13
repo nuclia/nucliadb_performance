@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686654617798,
+  "lastUpdate": 1686686761865,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -21034,6 +21034,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000015309567821878528",
             "extra": "mean: 5.079667568206787 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c028b8ea8deae30b173b3b78705fe87fcd3f6b50",
+          "message": "Remove sort options from find request (#984)\n\n* Remove sort options from find request\n\n* Handle no sort options\n\n---------\n\nCo-authored-by: Nathan Van Gheem <vangheem@gmail.com>",
+          "timestamp": "2023-06-13T19:59:37Z",
+          "tree_id": "6af9bcbe8e092e957f826870882a8a2d24cd4b13",
+          "url": "https://github.com/nuclia/nucliadb/commit/c028b8ea8deae30b173b3b78705fe87fcd3f6b50"
+        },
+        "date": 1686686760290,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 4244.742578159235,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000005474743017602884",
+            "extra": "mean: 235.58554649353027 usec\nrounds: 5"
           }
         ]
       }
