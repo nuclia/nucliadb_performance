@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686749981128,
+  "lastUpdate": 1686750568486,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -21317,6 +21317,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00006832274747527552",
             "extra": "mean: 5.303955078125 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "07bcaac879df961fd013b23705149514f06c539d",
+          "message": "Clean dead GetShard from index node writer (#991)",
+          "timestamp": "2023-06-14T13:23:21Z",
+          "tree_id": "caad9bcc72e31d272e4d1fa186d57e0c1763dbf7",
+          "url": "https://github.com/nuclia/nucliadb/commit/07bcaac879df961fd013b23705149514f06c539d"
+        },
+        "date": 1686750567097,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5861.355588287083,
+            "unit": "iter/sec",
+            "range": "stddev: 2.0730430329819912e-7",
+            "extra": "mean: 170.6089973449707 usec\nrounds: 5"
           }
         ]
       }
