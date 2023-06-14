@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686758720753,
+  "lastUpdate": 1686760348349,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -21455,6 +21455,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.001998069693177603",
             "extra": "mean: 6.292601635581568 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "022747637fdc090002583d03f9bd316c2a6a18e5",
+          "message": "Return auto filters on search response (#990)\n\n* Done\n\n* remove timeout none\n\n* Add init file\n\n* Fix import\n\n* Better logic\n\n* fix test\n\n* Fix test\n\n* clear nodes\n\n---------\n\nCo-authored-by: vangheem <vangheem@gmail.com>",
+          "timestamp": "2023-06-14T16:27:36Z",
+          "tree_id": "75ade8a90cbbdff9e2606a58cc53a13bc366d94c",
+          "url": "https://github.com/nuclia/nucliadb/commit/022747637fdc090002583d03f9bd316c2a6a18e5"
+        },
+        "date": 1686760347473,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5978.733558248942,
+            "unit": "iter/sec",
+            "range": "stddev: 3.2909953784270637e-7",
+            "extra": "mean: 167.25950241088867 usec\nrounds: 5"
           }
         ]
       }
