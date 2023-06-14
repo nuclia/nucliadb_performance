@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686762079543,
+  "lastUpdate": 1686763299946,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -21562,6 +21562,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00376746755743446",
             "extra": "mean: 8.723542425367567 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "74eea3462469c91726223880d0dc963ce3d52fc6",
+          "message": "Handle find incomplete results on chat endpoint (#996)\n\n* Chat should handle find incomplete results\n\n* Refactor",
+          "timestamp": "2023-06-14T17:13:53Z",
+          "tree_id": "2ceeedd5a300fa70b4165333ddd9e8558d26c04c",
+          "url": "https://github.com/nuclia/nucliadb/commit/74eea3462469c91726223880d0dc963ce3d52fc6"
+        },
+        "date": 1686763298997,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 55.434221767337995,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0013779129154867335",
+            "extra": "mean: 18.039398193359375 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 184.37106782918028,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00010059240707244777",
+            "extra": "mean: 5.423844488043534 msec\nrounds: 5"
           }
         ]
       }
