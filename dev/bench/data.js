@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686758586421,
+  "lastUpdate": 1686758720753,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -21417,6 +21417,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 6.395619690895909e-7",
             "extra": "mean: 184.16852951049805 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d204e80e9495eea8ed0d54c9cbba45015d5c7c4f",
+          "message": "add page structure field (#995)\n\n* add page structure field\n\n* moar structure",
+          "timestamp": "2023-06-14T15:58:00Z",
+          "tree_id": "b859ca78f2ea2d8d315721223dc4e25c9e0620e1",
+          "url": "https://github.com/nuclia/nucliadb/commit/d204e80e9495eea8ed0d54c9cbba45015d5c7c4f"
+        },
+        "date": 1686758719414,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 84.17621859023683,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002632123148682351",
+            "extra": "mean: 11.87983989715576 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 158.91678162899927,
+            "unit": "iter/sec",
+            "range": "stddev: 0.001998069693177603",
+            "extra": "mean: 6.292601635581568 msec\nrounds: 5"
           }
         ]
       }
