@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686814883113,
+  "lastUpdate": 1686816379266,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -21638,6 +21638,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00017735104447960578",
             "extra": "mean: 5.249063592208059 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "51dac9ce06a2dbc6e99d14b5866374e01474cdc1",
+          "message": "Fix querying to multiple nodes (#999)\n\n* Fix querying to multiple nodes\n\n* Fix querying to multiple nodes",
+          "timestamp": "2023-06-15T08:01:36Z",
+          "tree_id": "d12618744f65d26ec28d33f01e5d738bfc6a580e",
+          "url": "https://github.com/nuclia/nucliadb/commit/51dac9ce06a2dbc6e99d14b5866374e01474cdc1"
+        },
+        "date": 1686816378338,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5138.890692665886,
+            "unit": "iter/sec",
+            "range": "stddev: 3.727966148657889e-7",
+            "extra": "mean: 194.59452629089355 usec\nrounds: 5"
           }
         ]
       }
