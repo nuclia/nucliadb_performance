@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686816530831,
+  "lastUpdate": 1686817763892,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -21707,6 +21707,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000032256635743531065",
             "extra": "mean: 5.322039754767167 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "b456f9e4e1df0cf63fc6a8c7459726b92525e1b3",
+          "message": "Fix blocking threads in the node (#980)\n\n* Start implementing new explicit shard cache layer\n\n* Use DashMap to avoid shard blocking\n\n* Reorder gRPC reader search methods\n\n* Start shifting towards nonblocking gRPC service\n\n* Drop dashmap and use a RwLock HashMap of Arc Shards\n\n* Nonblocking search request\n\n* Cleaning\n\n* Add env var for max shards per node\n\n* Add comment explaining initial hashmap capacity\n\n* Move telemetry/middleware to middleware/telemetry\n\n* Add debug logs middleware to remove debug! from code\n\n* Nonblocking reader: get_shard and searches\n\n* Nonblocking reader: more nonblocking methods\n\n* Small refactors and comments to gRPC reader\n\n* Refinements after rebase\n\n* Use return value from spawn_blocking instead of a channel\n\n* Split shard providers in modules. Fully nonblocking reader\n\n* Small fixes for lints\n\n* Remove nonblocking macro and use spawn_blocking directly\n\n* Forward panics as errors in gRPC server\n\n* Use anyhow Context for cache task panics\n\n* Use nucliadb_core to not import anyhow",
+          "timestamp": "2023-06-15T07:25:25Z",
+          "tree_id": "8e8774cd8fa0d8d57a8bb5ab821f98c8ac0ff7bf",
+          "url": "https://github.com/nuclia/nucliadb/commit/b456f9e4e1df0cf63fc6a8c7459726b92525e1b3"
+        },
+        "date": 1686817762917,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5560.342176208445,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000003820292491088679",
+            "extra": "mean: 179.8450469970703 usec\nrounds: 5"
           }
         ]
       }
