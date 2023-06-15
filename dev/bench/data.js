@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686818939614,
+  "lastUpdate": 1686834204927,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -21807,6 +21807,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00010816075185456403",
             "extra": "mean: 6.162055333455403 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "44120086+hermeGarcia@users.noreply.github.com",
+            "name": "Herme",
+            "username": "hermeGarcia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4c0fa7771dcf517160e2b1d2022c44af2f1d24a6",
+          "message": "Sc 5134 backup (#1002)\n\n* formula allows filtering by key\n\n* empty compound is true\n\n* add testing\n\n* just tabs\n\n* rebase",
+          "timestamp": "2023-06-15T12:43:15Z",
+          "tree_id": "48643b0c088875bc143187025fd63ecec559d782",
+          "url": "https://github.com/nuclia/nucliadb/commit/4c0fa7771dcf517160e2b1d2022c44af2f1d24a6"
+        },
+        "date": 1686834203718,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 53.670576119681066,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0009465829547502149",
+            "extra": "mean: 18.632183074951175 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 145.1756980896623,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00009398208351138518",
+            "extra": "mean: 6.888205210367838 msec\nrounds: 5"
           }
         ]
       }
