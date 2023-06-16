@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686858111178,
+  "lastUpdate": 1686919687038,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -22021,6 +22021,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0006781541047553902",
             "extra": "mean: 6.361206840066349 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "253ba90794cdbb7ab1c9392dd5aac80784ecd23b",
+          "message": "Consider pg as local driver (from processing PoV) (#1007)",
+          "timestamp": "2023-06-16T12:41:05Z",
+          "tree_id": "79ce4bb5aca2ff5f2df31dd343ef8fb9e20fcef7",
+          "url": "https://github.com/nuclia/nucliadb/commit/253ba90794cdbb7ab1c9392dd5aac80784ecd23b"
+        },
+        "date": 1686919685726,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 83.12215415445885,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00015745781056594884",
+            "extra": "mean: 12.030487060546875 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 180.98448459974227,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00022755287797575393",
+            "extra": "mean: 5.525335512663189 msec\nrounds: 5"
           }
         ]
       }
