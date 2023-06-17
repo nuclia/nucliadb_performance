@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686939904248,
+  "lastUpdate": 1686966487357,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -22197,6 +22197,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0001233752596076159",
             "extra": "mean: 5.3465339872572155 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "c9aefbf49e40709aa9c1684be54395c19018d11c",
+          "message": "fix TUS PG Support (#1008)\n\n* fix TUS PG Support\n\n* file\n\n* lint\n\n* more fixes\n\n* delete beforehand\n\n* another\n\n* fix tests\n\n* fix thumbnails\n\n* no lock\n\n* lint\n\n* tweak",
+          "timestamp": "2023-06-17T01:43:01Z",
+          "tree_id": "982a2c43d9fd42c9e1c2d539eea4bb589de607b8",
+          "url": "https://github.com/nuclia/nucliadb/commit/c9aefbf49e40709aa9c1684be54395c19018d11c"
+        },
+        "date": 1686966486424,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 4785.343716571195,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000005159966723115244",
+            "extra": "mean: 208.97140502929688 usec\nrounds: 5"
           }
         ]
       }
