@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1687187968438,
+  "lastUpdate": 1687190181640,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -22487,6 +22487,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.7272479101778893e-7",
             "extra": "mean: 196.93560600280762 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "f9c1e2bf963b0efb154b6cce1031e85a345c285a",
+          "message": "Protos modifications for Donut PAWLS (#1016)\n\n* Change some PageStructureToken fields to float\n\n* Add PageStructure to LinkExtractedData\n\n* Deprecate int fields in favor of float ones",
+          "timestamp": "2023-06-19T15:49:43Z",
+          "tree_id": "e2706f5c7fa884c3b9d8e74b3cf4e77f4d96f088",
+          "url": "https://github.com/nuclia/nucliadb/commit/f9c1e2bf963b0efb154b6cce1031e85a345c285a"
+        },
+        "date": 1687190180667,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 83.4557155659694,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0007997734042371075",
+            "extra": "mean: 11.982402801513672 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 165.90575710056467,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002763777010728741",
+            "extra": "mean: 6.027518378363715 msec\nrounds: 5"
           }
         ]
       }
