@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1687256504946,
+  "lastUpdate": 1687271325949,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -22808,6 +22808,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000830268567344258",
             "extra": "mean: 9.04242075406588 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "andrewhcloete@gmail.com",
+            "name": "Andrew",
+            "username": "AndrewCloete"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "de8efaafce6ef9fb5176550e0465386917151d6b",
+          "message": "Fixes typo \"KnowlwedgeBox\". Closes nuclia#1012. (#1021)\n\n* Fixes typo \"KnowlwedgeBox\". Closes nuclia#1012.\n\n* Hnsw minscore (#1023)\n\n* Pass min score to node\n\n* Update protos\n\n* Done in the node\n\n* Done in the node\n\n* Fix find incomplete results logic (#1022)\n\n* Fix incomplete results logic\n\n* Fix find incomplete results logic\n\n* Refactor search endpoint/view logic in its own function\n\n* min score can only be used on the final filtering (#1025)\n\n---------\n\nCo-authored-by: Ferran Llamas <ferran@nuclia.com>\nCo-authored-by: Herme <44120086+hermeGarcia@users.noreply.github.com>",
+          "timestamp": "2023-06-20T14:21:47Z",
+          "tree_id": "c219bbdf1323b78d0d169c03e7d0678f648ae6f2",
+          "url": "https://github.com/nuclia/nucliadb/commit/de8efaafce6ef9fb5176550e0465386917151d6b"
+        },
+        "date": 1687271324484,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 88.47559208325299,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00012320526461543656",
+            "extra": "mean: 11.302552223205566 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 181.5920406625854,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00005952462989204957",
+            "extra": "mean: 5.50684928894043 msec\nrounds: 5"
           }
         ]
       }
