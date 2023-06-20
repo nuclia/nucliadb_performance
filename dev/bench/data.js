@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1687249418044,
+  "lastUpdate": 1687250170809,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -22632,6 +22632,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00008741171964141176",
             "extra": "mean: 5.922743853400735 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4bf362c40591b95707969596d5a1b83d1cae8b1a",
+          "message": "Fix find incomplete results logic (#1022)\n\n* Fix incomplete results logic\n\n* Fix find incomplete results logic\n\n* Refactor search endpoint/view logic in its own function",
+          "timestamp": "2023-06-20T08:29:03Z",
+          "tree_id": "b21b2d462887556c3390cc9edf3a15d120a30f52",
+          "url": "https://github.com/nuclia/nucliadb/commit/4bf362c40591b95707969596d5a1b83d1cae8b1a"
+        },
+        "date": 1687250169177,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 74.57622296852307,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00033161865429089495",
+            "extra": "mean: 13.409099578857422 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 159.5624250242839,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0006216410416919727",
+            "extra": "mean: 6.267139646742079 msec\nrounds: 5"
           }
         ]
       }
