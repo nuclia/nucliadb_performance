@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1687256333662,
+  "lastUpdate": 1687256504946,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -22770,6 +22770,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000007032005039586037",
             "extra": "mean: 226.33590698242188 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2b3bae06141dbf59c15368aa699a9e8dd1851ce3",
+          "message": "Improve logging on node errors (#1024)\n\n* Improve logging on node errors\n\n* Add test",
+          "timestamp": "2023-06-20T10:12:45Z",
+          "tree_id": "9392e43cb30583ac14a305867f9a4e61501ee346",
+          "url": "https://github.com/nuclia/nucliadb/commit/2b3bae06141dbf59c15368aa699a9e8dd1851ce3"
+        },
+        "date": 1687256503449,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 45.436172978594335,
+            "unit": "iter/sec",
+            "range": "stddev: 0.004319423639185525",
+            "extra": "mean: 22.008895874023438 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 110.58985499545072,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000830268567344258",
+            "extra": "mean: 9.04242075406588 msec\nrounds: 5"
           }
         ]
       }
