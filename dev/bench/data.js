@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1687352557503,
+  "lastUpdate": 1687352663106,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -22915,6 +22915,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000034331615536030957",
             "extra": "mean: 245.97945213317874 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "23bd787a35d5d8a8cce8355df848bf37bc4538f3",
+          "message": "Return trace ids on response headers (#1026)\n\n* Add middleware that returns trace id on all HTTP responses\n\n* Add middleware that returns trace id on all HTTP responses\n\n* Add tests\n\n* Configure nucliadb components to return trace id header on responses\n\n* Remove empty test module\n\n* Add missing init dunder files\n\n* Fix search resource all test?\n\n* Marking another search test as xfail...\n\n* Simpler middleware: header is hardcoded\n\n* Simpler middleware: header is hardcoded\n\n* Fix test",
+          "timestamp": "2023-06-21T12:56:52Z",
+          "tree_id": "ca3d8b7024c375ed790ecbddb4df97e992a4d49f",
+          "url": "https://github.com/nuclia/nucliadb/commit/23bd787a35d5d8a8cce8355df848bf37bc4538f3"
+        },
+        "date": 1687352661841,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 83.63710905376875,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0009464479443752839",
+            "extra": "mean: 11.956415176391603 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 193.81688543036105,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000876467345683561",
+            "extra": "mean: 5.159509181976318 msec\nrounds: 5"
           }
         ]
       }
