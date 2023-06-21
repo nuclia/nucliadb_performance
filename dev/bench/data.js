@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1687271325949,
+  "lastUpdate": 1687344221587,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -22846,6 +22846,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00005952462989204957",
             "extra": "mean: 5.50684928894043 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "a8b464c770a64a8b372bf10d3eb0e4ceeb8af766",
+          "message": "Chat on a resource (with find) (#1009)\n\n* Done\n\n* Handle SendToPredict errors on chat\n\n* Fix tests\n\n* Remove unnecessary --force-reinstall param on bindings install\n\n* Do not propagate x_ prefix on function params\n\n* Refactor exceptions in its own module\n\n* Better naming for resources/key filtering params and proto\n\n* Fix\n\n* Better naming",
+          "timestamp": "2023-06-21T10:25:17Z",
+          "tree_id": "3a4a221d44f44ecc8f1158924b897a3adeca0973",
+          "url": "https://github.com/nuclia/nucliadb/commit/a8b464c770a64a8b372bf10d3eb0e4ceeb8af766"
+        },
+        "date": 1687344220232,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 57.668581755445196,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00037598708889818367",
+            "extra": "mean: 17.340464591979984 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 138.20881528635553,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002246448638311109",
+            "extra": "mean: 7.23542849222819 msec\nrounds: 5"
           }
         ]
       }
