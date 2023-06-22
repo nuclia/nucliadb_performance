@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1687436909856,
+  "lastUpdate": 1687453381400,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -23267,6 +23267,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0001452729889874987",
             "extra": "mean: 6.210543127620921 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "abb0860f7908b23253370450e59d1148719cd23f",
+          "message": "Access Control Expose Trace Id header (#1033)\n\n* Add x-nuclia-trace-id to exposed headers\n\n* Added unit tests",
+          "timestamp": "2023-06-22T16:58:39Z",
+          "tree_id": "3911d6e35116eb9df7887b0f0f2ffb0cbe3936c7",
+          "url": "https://github.com/nuclia/nucliadb/commit/abb0860f7908b23253370450e59d1148719cd23f"
+        },
+        "date": 1687453380200,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5829.431575717077,
+            "unit": "iter/sec",
+            "range": "stddev: 2.0419541510463362e-7",
+            "extra": "mean: 171.5433120727539 usec\nrounds: 5"
           }
         ]
       }
