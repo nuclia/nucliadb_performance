@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1687432026456,
+  "lastUpdate": 1687436909856,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -23229,6 +23229,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0001548031074742034",
             "extra": "mean: 5.641441875033909 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9a04141cec383437d4cafe0cde22dd22aae2b765",
+          "message": "Text index indexing optimizations (#1032)\n\n* Remove unneeded iter-cloned-collect\n\n* Remove unneeded clone\n\n* Renames\n\n* Add doc comments to text schema\n\n* Rename",
+          "timestamp": "2023-06-22T12:20:20Z",
+          "tree_id": "decb3bea691033fa2ec56d714b1acc027503c617",
+          "url": "https://github.com/nuclia/nucliadb/commit/9a04141cec383437d4cafe0cde22dd22aae2b765"
+        },
+        "date": 1687436908504,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 60.67861961371614,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0019011366913005904",
+            "extra": "mean: 16.48026943206787 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 161.01651328248178,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0001452729889874987",
+            "extra": "mean: 6.210543127620921 msec\nrounds: 5"
           }
         ]
       }
