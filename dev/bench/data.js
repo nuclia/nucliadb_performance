@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1687361905512,
+  "lastUpdate": 1687427289437,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -23022,6 +23022,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 8.179304682740567e-7",
             "extra": "mean: 194.80886459350586 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "d785463b59fab28748c793061514e89f4fe57708",
+          "message": "Teardown cluster is a finalizer, not a health check (#1030)",
+          "timestamp": "2023-06-22T09:43:34Z",
+          "tree_id": "e80db4fc968822b788c62d60f54f0b5e0a30a4f8",
+          "url": "https://github.com/nuclia/nucliadb/commit/d785463b59fab28748c793061514e89f4fe57708"
+        },
+        "date": 1687427288446,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5171.826856728831,
+            "unit": "iter/sec",
+            "range": "stddev: 2.2574200817829142e-7",
+            "extra": "mean: 193.35527420043945 usec\nrounds: 5"
           }
         ]
       }
