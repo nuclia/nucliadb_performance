@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1687428373666,
+  "lastUpdate": 1687428466612,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -23122,6 +23122,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000013240369557908809",
             "extra": "mean: 237.7457618713379 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e282f8033d48a42e30c5f2d0f34c236f8023528c",
+          "message": "Chat on docs tweaks (#1029)\n\n* Add resource search ops virtual services\n\n* Fix tikv transaction leak\n\n* Do not offer by slug on resource search operations\n\n* Done\n\n* Done\n\n* Remove test\n\n* more consistent\n\n* add inside string",
+          "timestamp": "2023-06-22T10:00:26Z",
+          "tree_id": "a97e1cf201e3a2c2e4a642aee322c550e9471f98",
+          "url": "https://github.com/nuclia/nucliadb/commit/e282f8033d48a42e30c5f2d0f34c236f8023528c"
+        },
+        "date": 1687428465340,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 68.57153320328466,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0022994192663172083",
+            "extra": "mean: 14.583311080932619 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 125.28960020160457,
+            "unit": "iter/sec",
+            "range": "stddev: 0.002805336243404095",
+            "extra": "mean: 7.981508428400213 msec\nrounds: 5"
           }
         ]
       }
