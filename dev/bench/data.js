@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1687427461144,
+  "lastUpdate": 1687428373666,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -23091,6 +23091,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00008014637202280139",
             "extra": "mean: 5.486864513821072 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e282f8033d48a42e30c5f2d0f34c236f8023528c",
+          "message": "Chat on docs tweaks (#1029)\n\n* Add resource search ops virtual services\n\n* Fix tikv transaction leak\n\n* Do not offer by slug on resource search operations\n\n* Done\n\n* Done\n\n* Remove test\n\n* more consistent\n\n* add inside string",
+          "timestamp": "2023-06-22T10:00:26Z",
+          "tree_id": "a97e1cf201e3a2c2e4a642aee322c550e9471f98",
+          "url": "https://github.com/nuclia/nucliadb/commit/e282f8033d48a42e30c5f2d0f34c236f8023528c"
+        },
+        "date": 1687428372160,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 4206.173822527172,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000013240369557908809",
+            "extra": "mean: 237.7457618713379 usec\nrounds: 5"
           }
         ]
       }
