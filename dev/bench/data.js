@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1687537757755,
+  "lastUpdate": 1687537888372,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -23405,6 +23405,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.550999916497192e-7",
             "extra": "mean: 170.1314926147461 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a9f1b6e20076fa2fdb16923c1f9c122b14a0275b",
+          "message": "More docs for resource operations (#1035)\n\n* More resource field docs\n\n* More resource field docs\n\n* More resource field docs\n\n* Add docstring examples for resource operations\n\n* Add docstring examples for resource operations",
+          "timestamp": "2023-06-23T16:24:25Z",
+          "tree_id": "e7f648fadb79771b065545961de7f7521facf07e",
+          "url": "https://github.com/nuclia/nucliadb/commit/a9f1b6e20076fa2fdb16923c1f9c122b14a0275b"
+        },
+        "date": 1687537886885,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 66.20738425597071,
+            "unit": "iter/sec",
+            "range": "stddev: 0.002548964883312514",
+            "extra": "mean: 15.104055404663086 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 178.4547804081764,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00010126139169719832",
+            "extra": "mean: 5.603660477532281 msec\nrounds: 5"
           }
         ]
       }
