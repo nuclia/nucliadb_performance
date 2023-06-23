@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1687453537944,
+  "lastUpdate": 1687519971512,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -23336,6 +23336,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0005915758528455666",
             "extra": "mean: 5.581203259919819 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e41a9f8727134efd057b6079da79574ae772d887",
+          "message": "Fix SDK by increasing pydantic min version (#1034)",
+          "timestamp": "2023-06-23T09:52:16Z",
+          "tree_id": "adafd4159d97c0e9ef22cd11099dd6576476330b",
+          "url": "https://github.com/nuclia/nucliadb/commit/e41a9f8727134efd057b6079da79574ae772d887"
+        },
+        "date": 1687519970055,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 77.44395137153008,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0011272570412310325",
+            "extra": "mean: 12.912564277648926 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 161.56677917680284,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0005573385682339306",
+            "extra": "mean: 6.189391192267923 msec\nrounds: 5"
           }
         ]
       }
