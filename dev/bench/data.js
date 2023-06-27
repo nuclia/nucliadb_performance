@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1687848988412,
+  "lastUpdate": 1687856421148,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -24009,6 +24009,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00012170945889220564",
             "extra": "mean: 6.462809443473816 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6097dc5e12d158b2e865be0d13378284c8f366fe",
+          "message": "More docs for standalone config options (#1036)\n\n* Add more descriptions to config fields\n\n* Add more descriptions to config fields\n\n* add link to google service account docs",
+          "timestamp": "2023-06-27T08:55:35Z",
+          "tree_id": "0df1b20f7e37283b1924a42fad34f412b9c1dc16",
+          "url": "https://github.com/nuclia/nucliadb/commit/6097dc5e12d158b2e865be0d13378284c8f366fe"
+        },
+        "date": 1687856419278,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 4236.815357938483,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00000895091115704471",
+            "extra": "mean: 236.02633476257324 usec\nrounds: 5"
           }
         ]
       }
