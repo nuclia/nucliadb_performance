@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1687843127109,
+  "lastUpdate": 1687845259379,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -23871,6 +23871,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0007378769911409016",
             "extra": "mean: 6.273996829986572 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "de390f41b727def3d16dd8d9fced6f8d78d71d3c",
+          "message": "Store model vector dimension and min score on KB creation (#1039)\n\n* wip\n\n* Add writer grpc test\n\n* wip\n\n* wip\n\n* Fix tests\n\n* Fix test\n\n* make protos again\n\n* Fix test",
+          "timestamp": "2023-06-27T05:49:59Z",
+          "tree_id": "9d974da33ba55d697f437930190de34f850bbb6d",
+          "url": "https://github.com/nuclia/nucliadb/commit/de390f41b727def3d16dd8d9fced6f8d78d71d3c"
+        },
+        "date": 1687845258391,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5116.99176851109,
+            "unit": "iter/sec",
+            "range": "stddev: 3.1572276405260635e-7",
+            "extra": "mean: 195.4273223876953 usec\nrounds: 5"
           }
         ]
       }
