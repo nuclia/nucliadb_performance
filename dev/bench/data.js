@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1687887790141,
+  "lastUpdate": 1687888020060,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -24216,6 +24216,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.81274225540138e-7",
             "extra": "mean: 171.7287540435791 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2851d7752fdea152bd8faee3f218d0cec86bdac8",
+          "message": "better word counting in chat (#1050)\n\n* better word counting in chat\n\n* put max word check before added text to payload\n\n* more tests",
+          "timestamp": "2023-06-27T17:38:51Z",
+          "tree_id": "7f65f3a6ef580fb5ccac11c51d8022140cb51d23",
+          "url": "https://github.com/nuclia/nucliadb/commit/2851d7752fdea152bd8faee3f218d0cec86bdac8"
+        },
+        "date": 1687888017833,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 65.49040230739348,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0005448309028300968",
+            "extra": "mean: 15.269412994384766 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 152.73835301979145,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00022891619445652536",
+            "extra": "mean: 6.547144055366516 msec\nrounds: 5"
           }
         ]
       }
