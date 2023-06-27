@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1687837220992,
+  "lastUpdate": 1687843127109,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -23833,6 +23833,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0002928561907250447",
             "extra": "mean: 7.385492324829102 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "50dbc9914512e9b82add5feb34cd238c214a2409",
+          "message": "More resilient KB creation (#1018)\n\n* Proposal logic\n\n* Add test",
+          "timestamp": "2023-06-27T05:11:37Z",
+          "tree_id": "fe8ecd8627ed99a30b1f4251decefaed4bda9dcf",
+          "url": "https://github.com/nuclia/nucliadb/commit/50dbc9914512e9b82add5feb34cd238c214a2409"
+        },
+        "date": 1687843125717,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 78.20040973000626,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00029525709928045907",
+            "extra": "mean: 12.787656784057617 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 159.38803080366557,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0007378769911409016",
+            "extra": "mean: 6.273996829986572 msec\nrounds: 5"
           }
         ]
       }
