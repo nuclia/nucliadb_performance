@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1687956686083,
+  "lastUpdate": 1687964545336,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -24461,6 +24461,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000060867679050416325",
             "extra": "mean: 5.556125111050076 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "996e73692c643eceb66e8006e9a3e929de611adf",
+          "message": "Fix grpc node binding (#1054)\n\n* Fix\n\n* add from settings",
+          "timestamp": "2023-06-28T14:54:45Z",
+          "tree_id": "d045e0e41da5c1d60c5ad395571fc406a4adec5a",
+          "url": "https://github.com/nuclia/nucliadb/commit/996e73692c643eceb66e8006e9a3e929de611adf"
+        },
+        "date": 1687964544216,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 56.95334455117934,
+            "unit": "iter/sec",
+            "range": "stddev: 0.004421190909682216",
+            "extra": "mean: 17.558231353759766 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 171.8149105888146,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002698502779292486",
+            "extra": "mean: 5.8202166306345084 msec\nrounds: 5"
           }
         ]
       }
