@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1687947100411,
+  "lastUpdate": 1687956424093,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -24392,6 +24392,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00019512476395428286",
             "extra": "mean: 6.316659029792337 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ff61cd20c9079195902696ba6b937e7c7fb93afc",
+          "message": "Fix audit trace id formattings (#1047)\n\n* Fix audit trace id formattings\n\n* Be defensive on  getting trace id",
+          "timestamp": "2023-06-28T12:42:04Z",
+          "tree_id": "d8222aa62666a23bd2deb2e4080338e6e8cac0b1",
+          "url": "https://github.com/nuclia/nucliadb/commit/ff61cd20c9079195902696ba6b937e7c7fb93afc"
+        },
+        "date": 1687956422360,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5513.557056578614,
+            "unit": "iter/sec",
+            "range": "stddev: 1.488540388486383e-7",
+            "extra": "mean: 181.3711166381836 usec\nrounds: 5"
           }
         ]
       }
