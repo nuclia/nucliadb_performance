@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1687964594388,
+  "lastUpdate": 1687979092525,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -24530,6 +24530,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000010143707844437327",
             "extra": "mean: 231.53419494628906 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "d935fd5df4556facc1889a6e8e301f596ef45e04",
+          "message": "Fix data path (#1057)\n\n* Propagate data_path between settings\n\n* No need to create the directory here\n\n* Fix DATA_PATH updates on tests forcing value change",
+          "timestamp": "2023-06-28T18:56:49Z",
+          "tree_id": "5b2b15a4d00b267b0405ad94d814c596ffbe0f22",
+          "url": "https://github.com/nuclia/nucliadb/commit/d935fd5df4556facc1889a6e8e301f596ef45e04"
+        },
+        "date": 1687979090873,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 62.67994895107612,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0009377135954913414",
+            "extra": "mean: 15.954065322875977 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 156.61119845513105,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0004835030475768646",
+            "extra": "mean: 6.385239432839787 msec\nrounds: 5"
           }
         ]
       }
