@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1687888020060,
+  "lastUpdate": 1687942163836,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -24254,6 +24254,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00022891619445652536",
             "extra": "mean: 6.547144055366516 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "36c7a671776360ff273dfda151adeae989768354",
+          "message": "Improve slug error message (#1051)",
+          "timestamp": "2023-06-28T08:43:33Z",
+          "tree_id": "8694b040f51890deab23df24b7dbba3e7096f27c",
+          "url": "https://github.com/nuclia/nucliadb/commit/36c7a671776360ff273dfda151adeae989768354"
+        },
+        "date": 1687942161823,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 4363.451450081843,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000002876533266394128",
+            "extra": "mean: 229.17637825012207 usec\nrounds: 5"
           }
         ]
       }
