@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1687964545336,
+  "lastUpdate": 1687964594388,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -24499,6 +24499,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0002698502779292486",
             "extra": "mean: 5.8202166306345084 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "44120086+hermeGarcia@users.noreply.github.com",
+            "name": "Herme",
+            "username": "hermeGarcia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1f989a2bcfbfb2773777fc737f5a46781c388f5f",
+          "message": "restructure disk management (#1049)\n\n* restructure disk managment\n\n* fix vectors test\n\n* upgrade bindings\n\n* fix test\n\n* fix tests\n\n* fix test\n\n* create shards folder\n\n* create data in bindings\n\n* fix binding creation\n\n* use makedirs\n\n* changelog\n\n---------\n\nCo-authored-by: Ferran Llamas <llamas.arroniz@gmail.com>",
+          "timestamp": "2023-06-28T14:16:17Z",
+          "tree_id": "280ee2c9a9bdb0329dd0e258a718895a0826e1cf",
+          "url": "https://github.com/nuclia/nucliadb/commit/1f989a2bcfbfb2773777fc737f5a46781c388f5f"
+        },
+        "date": 1687964593189,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 4319.016464207278,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000010143707844437327",
+            "extra": "mean: 231.53419494628906 usec\nrounds: 5"
           }
         ]
       }
