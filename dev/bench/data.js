@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1687942337178,
+  "lastUpdate": 1687946885875,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -24323,6 +24323,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0002707156568350834",
             "extra": "mean: 6.631708145141602 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "b1188ba5459b6201a782517fbfd264f5f9831b8c",
+          "message": "Ask a document (#1048)\n\n* Done\n\n* Add unit tests and fix implementation\n\n* Refactor predict to use common class method helpers\n\n* Fix tests\n\n* Do not split by newlines\n\n* add virtual service",
+          "timestamp": "2023-06-28T10:03:15Z",
+          "tree_id": "7c1c1917e44f130a3148727aa9b8e9be909f1e7b",
+          "url": "https://github.com/nuclia/nucliadb/commit/b1188ba5459b6201a782517fbfd264f5f9831b8c"
+        },
+        "date": 1687946884234,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5880.496337364046,
+            "unit": "iter/sec",
+            "range": "stddev: 1.2095183890101677e-7",
+            "extra": "mean: 170.05367279052734 usec\nrounds: 5"
           }
         ]
       }
