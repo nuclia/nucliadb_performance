@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1688032876928,
+  "lastUpdate": 1688053150605,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -24706,6 +24706,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000047460120158378076",
             "extra": "mean: 5.242331027984619 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "44120086+hermeGarcia@users.noreply.github.com",
+            "name": "Herme",
+            "username": "hermeGarcia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "326af6cae250030aa4e43c07437912e46188f72d",
+          "message": "remove unused code from texts and paragraphs (#1058)\n\n* remove unused code from texts and paragraphs\n\n* fix warnings\n\n* host key directory\n\n* fix funny logic for HOST_KEY_PATH\n\n* nucliadb_node workflow change",
+          "timestamp": "2023-06-29T15:21:42Z",
+          "tree_id": "5ab1c1bbf35da3d3502850e0113a032217445285",
+          "url": "https://github.com/nuclia/nucliadb/commit/326af6cae250030aa4e43c07437912e46188f72d"
+        },
+        "date": 1688053149081,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 66.08531351694917,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00024759260192119164",
+            "extra": "mean: 15.131955146789553 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 151.15509584715198,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00018638172701111337",
+            "extra": "mean: 6.615721384684244 msec\nrounds: 5"
           }
         ]
       }
