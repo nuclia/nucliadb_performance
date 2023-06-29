@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1687980963091,
+  "lastUpdate": 1688031039646,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -24606,6 +24606,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000014954347610200975",
             "extra": "mean: 5.5278075368780835 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "40299864f098b477bcc31f0c88ae489bebbd673c",
+          "message": "Add annotation related metadata to the API (#1053)\n\n* Add new VISUAL_SELECTIONS labelset kind\n\n* Typo and format\n\n* Rename KB_REVERSE_REVERSE to FIELD_TYPE_TO_ID\n\n* Add visual selections to fieldmetadata\n\n* Add test for visual_selections with real data\n\n* Wire API with protos to allow selections read and write\n\n* Remove debug traces\n\n* Use constants for filenames\n\n* Lints\n\n* Fix test fieldmetadata\n\n* Ignore license for test data directory",
+          "timestamp": "2023-06-29T09:25:40Z",
+          "tree_id": "440c6fbd0b82507f79dc8dac1b7f3b81f4887645",
+          "url": "https://github.com/nuclia/nucliadb/commit/40299864f098b477bcc31f0c88ae489bebbd673c"
+        },
+        "date": 1688031038557,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5146.036734689871,
+            "unit": "iter/sec",
+            "range": "stddev: 2.2830588922086869e-7",
+            "extra": "mean: 194.32430267333984 usec\nrounds: 5"
           }
         ]
       }
