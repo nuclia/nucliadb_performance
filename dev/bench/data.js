@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1688058471291,
+  "lastUpdate": 1688059866586,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -24813,6 +24813,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00009379753220257156",
             "extra": "mean: 5.222589091250771 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b8fc0e23dd155ef0bbefa16f7d38fe3f4ef86aac",
+          "message": "Remove reload param (#1052)\n\n* Deprecate and remove reload param from rust side\n\n* Remove reload params from http api down to node requests",
+          "timestamp": "2023-06-29T16:53:22Z",
+          "tree_id": "5bbbe724dd8bbd6cd4292f5de6dc16ed9f653c18",
+          "url": "https://github.com/nuclia/nucliadb/commit/b8fc0e23dd155ef0bbefa16f7d38fe3f4ef86aac"
+        },
+        "date": 1688059864898,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5863.39749332063,
+            "unit": "iter/sec",
+            "range": "stddev: 3.758226101493749e-7",
+            "extra": "mean: 170.5495834350586 usec\nrounds: 5"
           }
         ]
       }
