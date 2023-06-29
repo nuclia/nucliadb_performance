@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1688053150605,
+  "lastUpdate": 1688054379878,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -24744,6 +24744,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00018638172701111337",
             "extra": "mean: 6.615721384684244 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "44120086+hermeGarcia@users.noreply.github.com",
+            "name": "Herme",
+            "username": "hermeGarcia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "326af6cae250030aa4e43c07437912e46188f72d",
+          "message": "remove unused code from texts and paragraphs (#1058)\n\n* remove unused code from texts and paragraphs\n\n* fix warnings\n\n* host key directory\n\n* fix funny logic for HOST_KEY_PATH\n\n* nucliadb_node workflow change",
+          "timestamp": "2023-06-29T15:21:42Z",
+          "tree_id": "5ab1c1bbf35da3d3502850e0113a032217445285",
+          "url": "https://github.com/nuclia/nucliadb/commit/326af6cae250030aa4e43c07437912e46188f72d"
+        },
+        "date": 1688054378105,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5838.500463259925,
+            "unit": "iter/sec",
+            "range": "stddev: 2.3809150672583131e-7",
+            "extra": "mean: 171.27685546875 usec\nrounds: 5"
           }
         ]
       }
