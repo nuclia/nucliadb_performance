@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1688122108607,
+  "lastUpdate": 1688122319518,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -24975,6 +24975,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.611735972215045e-7",
             "extra": "mean: 168.9455509185791 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0ab514c61754d39628ad5c547dd65241967f1b99",
+          "message": "Use stored model min score (#1064)\n\n* Work in progress\n\n* Work in progress\n\n* Add tests\n\n* Add tests\n\n* handle kb not found error\n\n* Add integration tests\n\n* Update nucliadb_models/nucliadb_models/search.py\n\nCo-authored-by: Joan Antoni RE <joanantoni.re16@gmail.com>\n\n* mark tikv test as flaky\n\n---------\n\nCo-authored-by: Joan Antoni RE <joanantoni.re16@gmail.com>",
+          "timestamp": "2023-06-30T10:43:49Z",
+          "tree_id": "87c8e85313a36706bbc0466453f6343bbe686563",
+          "url": "https://github.com/nuclia/nucliadb/commit/0ab514c61754d39628ad5c547dd65241967f1b99"
+        },
+        "date": 1688122318436,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 69.07822335913231,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00040193809200604635",
+            "extra": "mean: 14.47634220123291 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 157.44059338114266,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0001465003562541964",
+            "extra": "mean: 6.351602077484131 msec\nrounds: 5"
           }
         ]
       }
