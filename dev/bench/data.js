@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1688059866586,
+  "lastUpdate": 1688111892184,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -24844,6 +24844,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 3.758226101493749e-7",
             "extra": "mean: 170.5495834350586 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ce17b9a6055cc3ba7262a16a62ebe0e766f5ad11",
+          "message": "Fix selection labelsets and expose annotations through metadata (#1063)\n\n* Add models to serialize processing annotations\n\n* Fix selections\n\n* Add labelsets test and rename visual selections",
+          "timestamp": "2023-06-30T07:53:07Z",
+          "tree_id": "0443b9768cd225c1b762d78504be8bac9ffe9fa8",
+          "url": "https://github.com/nuclia/nucliadb/commit/ce17b9a6055cc3ba7262a16a62ebe0e766f5ad11"
+        },
+        "date": 1688111890702,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5080.088562029758,
+            "unit": "iter/sec",
+            "range": "stddev: 4.876464903214416e-7",
+            "extra": "mean: 196.84696197509766 usec\nrounds: 5"
           }
         ]
       }
