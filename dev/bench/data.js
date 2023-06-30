@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1688119900610,
+  "lastUpdate": 1688122108607,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -24944,6 +24944,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000013929464401115118",
             "extra": "mean: 229.08034324645996 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0ab514c61754d39628ad5c547dd65241967f1b99",
+          "message": "Use stored model min score (#1064)\n\n* Work in progress\n\n* Work in progress\n\n* Add tests\n\n* Add tests\n\n* handle kb not found error\n\n* Add integration tests\n\n* Update nucliadb_models/nucliadb_models/search.py\n\nCo-authored-by: Joan Antoni RE <joanantoni.re16@gmail.com>\n\n* mark tikv test as flaky\n\n---------\n\nCo-authored-by: Joan Antoni RE <joanantoni.re16@gmail.com>",
+          "timestamp": "2023-06-30T10:43:49Z",
+          "tree_id": "87c8e85313a36706bbc0466453f6343bbe686563",
+          "url": "https://github.com/nuclia/nucliadb/commit/0ab514c61754d39628ad5c547dd65241967f1b99"
+        },
+        "date": 1688122107068,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5919.066791418116,
+            "unit": "iter/sec",
+            "range": "stddev: 2.611735972215045e-7",
+            "extra": "mean: 168.9455509185791 usec\nrounds: 5"
           }
         ]
       }
