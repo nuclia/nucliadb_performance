@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1688122319518,
+  "lastUpdate": 1688136546758,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -25013,6 +25013,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0001465003562541964",
             "extra": "mean: 6.351602077484131 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "31b49ecf1bb40b3aa3f70457a5919799e4dbbb1a",
+          "message": "Feature flag min score (#1065)\n\n* Feature-flag usage of model default min score\n\n* Fix tests\n\n* Add negative test",
+          "timestamp": "2023-06-30T14:44:18Z",
+          "tree_id": "82e9772dab3f30bca1d27f700bcf76b6d51be7fb",
+          "url": "https://github.com/nuclia/nucliadb/commit/31b49ecf1bb40b3aa3f70457a5919799e4dbbb1a"
+        },
+        "date": 1688136545471,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5142.398812797637,
+            "unit": "iter/sec",
+            "range": "stddev: 2.062402982669351e-7",
+            "extra": "mean: 194.4617748260498 usec\nrounds: 5"
           }
         ]
       }
