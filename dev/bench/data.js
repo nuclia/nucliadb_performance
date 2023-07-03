@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1688149665585,
+  "lastUpdate": 1688380655739,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -25151,6 +25151,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00011440482203173868",
             "extra": "mean: 5.754333072238498 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "02ed51634a6e2e17a79c600e287039623f225a6c",
+          "message": "Fix chat context token counting (#1069)\n\n* Fix context token count\n\n* Better split\n\n* fix test",
+          "timestamp": "2023-07-03T10:31:52Z",
+          "tree_id": "9e52ef8cb08fd298fd3aba881e914edd3ef65ed8",
+          "url": "https://github.com/nuclia/nucliadb/commit/02ed51634a6e2e17a79c600e287039623f225a6c"
+        },
+        "date": 1688380654221,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 4338.637452119665,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000010540841090827698",
+            "extra": "mean: 230.48710823059085 usec\nrounds: 5"
           }
         ]
       }
