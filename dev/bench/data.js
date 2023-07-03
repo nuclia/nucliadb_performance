@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1688380794424,
+  "lastUpdate": 1688383980327,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -25258,6 +25258,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0011319542754561554",
             "extra": "mean: 6.004505157470703 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a1a6b31a996834da93eb425b573988d7303f149e",
+          "message": "Doc fixes (#1068)\n\n* Fix\n\n* Fix nuclia docs links to point to new docs structure\n\n* Fix nuclia docs links to point to new docs structure",
+          "timestamp": "2023-07-03T11:28:18Z",
+          "tree_id": "52ac245afad54d21a9fb46fe72f30f212fd9db7a",
+          "url": "https://github.com/nuclia/nucliadb/commit/a1a6b31a996834da93eb425b573988d7303f149e"
+        },
+        "date": 1688383978396,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5869.066886001428,
+            "unit": "iter/sec",
+            "range": "stddev: 1.8767392225207015e-7",
+            "extra": "mean: 170.3848361968994 usec\nrounds: 5"
           }
         ]
       }
