@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1688477198650,
+  "lastUpdate": 1688477466608,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -25427,6 +25427,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000005506401571095902",
             "extra": "mean: 229.75735664367676 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "000fdcd4e1c6f86902be14903c7cfcb7c6887838",
+          "message": "Add truncate option to chat request (#1070)",
+          "timestamp": "2023-07-04T13:20:47Z",
+          "tree_id": "46c09e44f92df1a62e36fb691bb6404492d77304",
+          "url": "https://github.com/nuclia/nucliadb/commit/000fdcd4e1c6f86902be14903c7cfcb7c6887838"
+        },
+        "date": 1688477464465,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 45.58008462023805,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0006661626095065305",
+            "extra": "mean: 21.939406394958496 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 128.1310492124077,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0003127097737748996",
+            "extra": "mean: 7.804509571620396 msec\nrounds: 5"
           }
         ]
       }
