@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1688384158301,
+  "lastUpdate": 1688457863758,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -25327,6 +25327,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000046276859957916125",
             "extra": "mean: 5.3305888175964355 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3a0bda39ee55f2f5a3b4997a71a3d544c30c21b3",
+          "message": "Implement new training: image classifier (#1060)\n\n* Implement new training: image classifier (wip)\n\n* Rename get_resource_from_cache with a better name\n\n* Remove unneeded print\n\n* Lints and minor fixes\n\n* Correctly check field id and type\n\n* Train image classifier test",
+          "timestamp": "2023-07-04T07:59:46Z",
+          "tree_id": "b9e73829d47fdf2dbd3fe8886278e9baf69e8b5c",
+          "url": "https://github.com/nuclia/nucliadb/commit/3a0bda39ee55f2f5a3b4997a71a3d544c30c21b3"
+        },
+        "date": 1688457862414,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5846.687925471144,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000001582058521663765",
+            "extra": "mean: 171.03700637817383 usec\nrounds: 5"
           }
         ]
       }
