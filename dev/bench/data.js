@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1688539850856,
+  "lastUpdate": 1688540048356,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -25534,6 +25534,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.8532804590075747e-7",
             "extra": "mean: 193.87249946594238 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7fcae4851a25d4db16158b39edb43c8fcdb89358",
+          "message": "Fix purge: actually delete shards (#1072)\n\n* Fix purge command not cleaning  up shards\n\n* Fix\n\n* go back",
+          "timestamp": "2023-07-05T06:45:58Z",
+          "tree_id": "b5ffb5631daacdaf5169f31b86b48d8a91b707f0",
+          "url": "https://github.com/nuclia/nucliadb/commit/7fcae4851a25d4db16158b39edb43c8fcdb89358"
+        },
+        "date": 1688540046581,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 46.72193728931259,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0034939357904902784",
+            "extra": "mean: 21.40322208404541 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 172.07648109819013,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00031958882133358946",
+            "extra": "mean: 5.8113694190979 msec\nrounds: 5"
           }
         ]
       }
