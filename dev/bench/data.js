@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1688477466608,
+  "lastUpdate": 1688539727087,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -25465,6 +25465,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0003127097737748996",
             "extra": "mean: 7.804509571620396 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "49e988fd834aa78736831edc7111d5ab0dab4c5b",
+          "message": "New dataset image classification (#1071)\n\n* Missing status code check\n\n* Fix image type",
+          "timestamp": "2023-07-05T06:39:45Z",
+          "tree_id": "697c142273f3d704a0b9f5355812ea0cabcbdf69",
+          "url": "https://github.com/nuclia/nucliadb/commit/49e988fd834aa78736831edc7111d5ab0dab4c5b"
+        },
+        "date": 1688539725568,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 50.9280521589792,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0012876640735445801",
+            "extra": "mean: 19.635543823242188 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 156.6995831053269,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000055604492571977515",
+            "extra": "mean: 6.381637909833123 msec\nrounds: 5"
           }
         ]
       }
