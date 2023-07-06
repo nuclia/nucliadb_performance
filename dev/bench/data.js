@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1688627568198,
+  "lastUpdate": 1688627582763,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -25710,6 +25710,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00027252755689767446",
             "extra": "mean: 6.617927551269531 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "d2abe8095eab2f7ea1ca6c1f27cc11d0ba88bedc",
+          "message": "Remove limits on context in nucliadb (#1075)",
+          "timestamp": "2023-07-06T07:05:04Z",
+          "tree_id": "09738521f8f03c35d7be5f865711fa1e38612503",
+          "url": "https://github.com/nuclia/nucliadb/commit/d2abe8095eab2f7ea1ca6c1f27cc11d0ba88bedc"
+        },
+        "date": 1688627581068,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 71.49662929928836,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0005996032266593459",
+            "extra": "mean: 13.986673355102539 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 173.7094255467706,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002837045359112148",
+            "extra": "mean: 5.756740009083467 msec\nrounds: 5"
           }
         ]
       }
