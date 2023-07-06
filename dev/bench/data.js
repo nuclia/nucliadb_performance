@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1688655659899,
+  "lastUpdate": 1688655881822,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -25817,6 +25817,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000006475334042692997",
             "extra": "mean: 198.84724617004395 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "af2af7e67bca381ac65553cd781be0eb5bfbe2da",
+          "message": "Implement shard rollover migration (#1062)\n\n* Implement shard rollover strategy\n\n* add integration test\n\n* lic",
+          "timestamp": "2023-07-06T14:56:07Z",
+          "tree_id": "b781c6c100f58f35670bc26a32c0183a1f4c1ab0",
+          "url": "https://github.com/nuclia/nucliadb/commit/af2af7e67bca381ac65553cd781be0eb5bfbe2da"
+        },
+        "date": 1688655879978,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 77.54549505161005,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00019287912526739866",
+            "extra": "mean: 12.895655632019043 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 182.47414218571222,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00006592358448598851",
+            "extra": "mean: 5.4802285300360785 msec\nrounds: 5"
           }
         ]
       }
