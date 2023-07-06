@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1688669198661,
+  "lastUpdate": 1688669249397,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -26000,6 +26000,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00012977639728902735",
             "extra": "mean: 6.643075942993164 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1aa28cbb62770f4aaa7df19ac5c67f9a50a68041",
+          "message": "better shutdown handling for cluster manager (#1083)",
+          "timestamp": "2023-07-06T14:36:59-04:00",
+          "tree_id": "a7266cda42ad862258a831c91ab1b2583d7fb82a",
+          "url": "https://github.com/nuclia/nucliadb/commit/1aa28cbb62770f4aaa7df19ac5c67f9a50a68041"
+        },
+        "date": 1688669247283,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 4762.587353192587,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000032647121735423466",
+            "extra": "mean: 209.96990203857422 usec\nrounds: 5"
           }
         ]
       }
