@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1688734513762,
+  "lastUpdate": 1688737882123,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -26252,6 +26252,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00016548292704646246",
             "extra": "mean: 6.640046834945679 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "44120086+hermeGarcia@users.noreply.github.com",
+            "name": "Herme",
+            "username": "hermeGarcia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b7e3f154706e384116d597ec2b47dbc8eeec348b",
+          "message": "delay merge data points deletion (#1088)\n\n* delay merge data points deletion\n\n* Rename\n\n* Fix rename\n\n---------\n\nCo-authored-by: Joan Antoni RE <joanantoni.re16@gmail.com>",
+          "timestamp": "2023-07-07T13:34:58Z",
+          "tree_id": "a7dc06abfcf0a8bcaa29d1281333c1e08982f229",
+          "url": "https://github.com/nuclia/nucliadb/commit/b7e3f154706e384116d597ec2b47dbc8eeec348b"
+        },
+        "date": 1688737880326,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 66.84060324929516,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0007331609287121151",
+            "extra": "mean: 14.960966110229494 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 177.62309505826178,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00007750707203277033",
+            "extra": "mean: 5.629898520076977 msec\nrounds: 5"
           }
         ]
       }
