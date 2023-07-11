@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1689101589589,
+  "lastUpdate": 1689101901738,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -26359,6 +26359,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 5.266938120497749e-7",
             "extra": "mean: 197.64232635498047 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2d123e127fa37434bde3f8106aa9806748da2d28",
+          "message": "Sdk feedback + fix bug in find (#1090)\n\n* Add feedback method to sdk\n\n* Fix score find results",
+          "timestamp": "2023-07-11T18:47:54Z",
+          "tree_id": "3a8dc44ba03530143db797d067752f8b28e20540",
+          "url": "https://github.com/nuclia/nucliadb/commit/2d123e127fa37434bde3f8106aa9806748da2d28"
+        },
+        "date": 1689101899808,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 63.706895399462184,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00020011886337917338",
+            "extra": "mean: 15.696887969970705 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 145.98451357684863,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00009660287601977902",
+            "extra": "mean: 6.850041661943709 msec\nrounds: 5"
           }
         ]
       }
