@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1689152368219,
+  "lastUpdate": 1689153207568,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -26504,6 +26504,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00031421890783628196",
             "extra": "mean: 5.758039156595866 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bcfa82d15df89c9cf97318a47b344ecdf57cf129",
+          "message": "Fix at least some flaky tests on search (#1091)\n\n* Fix nucliadb_node Makefile\n\n* Rename misleading proto field name\n\n* Protos (and protobuf version upgrade)\n\n* Renames and nucliadb_node proper format\n\n* Remove unused fixture\n\n* Fix search tests flakiness (one of them)\n\n* Fix missing rename on dummy sidecar stub",
+          "timestamp": "2023-07-12T08:43:13Z",
+          "tree_id": "d75589ec1a7101e459f12055a8a32cb7ae2a2ad7",
+          "url": "https://github.com/nuclia/nucliadb/commit/bcfa82d15df89c9cf97318a47b344ecdf57cf129"
+        },
+        "date": 1689153205216,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5812.2816221880585,
+            "unit": "iter/sec",
+            "range": "stddev: 1.5643287792791947e-7",
+            "extra": "mean: 172.04947471618652 usec\nrounds: 5"
           }
         ]
       }
