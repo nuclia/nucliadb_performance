@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1689151960481,
+  "lastUpdate": 1689152368219,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -26466,6 +26466,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00011428253013002281",
             "extra": "mean: 5.918759769863552 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bcfa82d15df89c9cf97318a47b344ecdf57cf129",
+          "message": "Fix at least some flaky tests on search (#1091)\n\n* Fix nucliadb_node Makefile\n\n* Rename misleading proto field name\n\n* Protos (and protobuf version upgrade)\n\n* Renames and nucliadb_node proper format\n\n* Remove unused fixture\n\n* Fix search tests flakiness (one of them)\n\n* Fix missing rename on dummy sidecar stub",
+          "timestamp": "2023-07-12T08:43:13Z",
+          "tree_id": "d75589ec1a7101e459f12055a8a32cb7ae2a2ad7",
+          "url": "https://github.com/nuclia/nucliadb/commit/bcfa82d15df89c9cf97318a47b344ecdf57cf129"
+        },
+        "date": 1689152366266,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 70.35170619875382,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000319814381361826",
+            "extra": "mean: 14.214296340942383 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 173.67023266149457,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00031421890783628196",
+            "extra": "mean: 5.758039156595866 msec\nrounds: 5"
           }
         ]
       }
