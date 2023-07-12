@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1689153207568,
+  "lastUpdate": 1689163554553,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -26535,6 +26535,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.5643287792791947e-7",
             "extra": "mean: 172.04947471618652 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "44120086+hermeGarcia@users.noreply.github.com",
+            "name": "Herme",
+            "username": "hermeGarcia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a40981da0ecf29dae97d4220d39b1ab6975096fd",
+          "message": "Vectors 2 (#1093)\n\n* move non locking to vectors2\n\n* vectors 2\n\n* rename lib",
+          "timestamp": "2023-07-12T11:56:44Z",
+          "tree_id": "661a23ceb5c4c67867feec90dd0a4cdb8bb1bcab",
+          "url": "https://github.com/nuclia/nucliadb/commit/a40981da0ecf29dae97d4220d39b1ab6975096fd"
+        },
+        "date": 1689163552902,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 60.779932309336715,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0019119907918232523",
+            "extra": "mean: 16.45279884338379 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 182.57436721258293,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002220745559283828",
+            "extra": "mean: 5.477220133731239 msec\nrounds: 5"
           }
         ]
       }
