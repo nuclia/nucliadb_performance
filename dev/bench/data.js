@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1689163554553,
+  "lastUpdate": 1689175786717,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -26573,6 +26573,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0002220745559283828",
             "extra": "mean: 5.477220133731239 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "44120086+hermeGarcia@users.noreply.github.com",
+            "name": "Herme",
+            "username": "hermeGarcia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f8cf79b2f8a79563ce8041a248ae9c288a667dd7",
+          "message": "add vectors 2 to dockers (#1094)",
+          "timestamp": "2023-07-12T15:21:29Z",
+          "tree_id": "7f1acdca3035b5a07b795cea1290e24b6895a513",
+          "url": "https://github.com/nuclia/nucliadb/commit/f8cf79b2f8a79563ce8041a248ae9c288a667dd7"
+        },
+        "date": 1689175784958,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 79.24166275273218,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00009444401026341683",
+            "extra": "mean: 12.619624137878418 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 177.36653182154865,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0004913971391551808",
+            "extra": "mean: 5.638042249177632 msec\nrounds: 5"
           }
         ]
       }
