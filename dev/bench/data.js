@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1689257859576,
+  "lastUpdate": 1689258027439,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -26787,6 +26787,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.8476567709242693e-7",
             "extra": "mean: 194.38209533691406 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "be58ef2e1e1a219d299dd2438aa1edd099c1a3a9",
+          "message": "Do not return semantic results on exact match only queries (#1096)\n\n* Added condition to remove vectors\n\n* Done\n\n* Simpler",
+          "timestamp": "2023-07-13T14:12:23Z",
+          "tree_id": "d4064936f01a88c51b2e1d4d0c3b92c4b784b05d",
+          "url": "https://github.com/nuclia/nucliadb/commit/be58ef2e1e1a219d299dd2438aa1edd099c1a3a9"
+        },
+        "date": 1689258025406,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 80.40561057826498,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00028207490987857",
+            "extra": "mean: 12.436943054199219 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 188.41142141652725,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000025836171016732573",
+            "extra": "mean: 5.307533866480777 msec\nrounds: 5"
           }
         ]
       }
