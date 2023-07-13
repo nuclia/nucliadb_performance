@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1689237731818,
+  "lastUpdate": 1689253744343,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -26649,6 +26649,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00009485218979998025",
             "extra": "mean: 5.491813860441509 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b760df9b00cf74771abf0b22156fc0d3386b5d61",
+          "message": "Fix blocking threads in the node (writer) (#1000)\n\n* Nonblocking gRPC index node writer\n\nRemove dead get_mut_shards\n\nStart implementing async unbounded shard writer cache\n\nImplement writer create\n\nStart shifting writer towards new shard cache layer\n\nFaster search test\n\nImplement shard protection and set_resource, delete and list shards\n\nReader load shard can return an error\n\nCleanup Notify stuff to simplify shard cache\n\nMore nonblocking writer methods\n\n5 shards is enough to list and delete\n\nRemove unneeded clones\n\nMigrate clean_and_upgrade to nonblocking\n\nRemove NodeWriterService from writer's gRPC driver\n\nAvoid unnecessary iterations on load_all\n\nRenames to avoid confusion with unused vars\n\nRemove type annotations in favor of closure return\n\n* GC now returns an error instead of hidding it\n\n* Small ajustments to return proper errors\n\n* Enable anyhow backtrace and run CI tests in debug\n\n* Missing folder copy\n\n* Integration tests initialize reader and writer",
+          "timestamp": "2023-07-13T12:48:08Z",
+          "tree_id": "39d26fb745c283a2fd3fa9ca440c1a7582b26079",
+          "url": "https://github.com/nuclia/nucliadb/commit/b760df9b00cf74771abf0b22156fc0d3386b5d61"
+        },
+        "date": 1689253741931,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 47.67378129800138,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0005036093243002488",
+            "extra": "mean: 20.975890159606937 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 127.04534321997963,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00017154169318252325",
+            "extra": "mean: 7.871205466134207 msec\nrounds: 5"
           }
         ]
       }
