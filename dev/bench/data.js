@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1689349777025,
+  "lastUpdate": 1689349915828,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -26856,6 +26856,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 5.807491101389683e-7",
             "extra": "mean: 233.59384536743164 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2e3975f71575c1c0becf44162fba5962b863604e",
+          "message": "Cache getting field extracted text in memory (#1098)\n\n* Cache getting field extracted text in memory\n\n* Fix requirements\n\n* lower maxsize as extracted texts can be  huge\n\n* Use async lock\n\n* wip\n\n* wip\n\n* Better impl\n\n* remove cachetools dependency",
+          "timestamp": "2023-07-14T15:43:31Z",
+          "tree_id": "4daed4bf436d65dcd0f377f9e925e2463f8e7eaf",
+          "url": "https://github.com/nuclia/nucliadb/commit/2e3975f71575c1c0becf44162fba5962b863604e"
+        },
+        "date": 1689349914001,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 81.69215547262714,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0006092060520609887",
+            "extra": "mean: 12.241077423095703 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 193.43969326085593,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000012466841696463716",
+            "extra": "mean: 5.169569818597091 msec\nrounds: 5"
           }
         ]
       }
