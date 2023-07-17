@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1689605996605,
+  "lastUpdate": 1689611620982,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -27077,6 +27077,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.261027396672106e-7",
             "extra": "mean: 193.31712722778323 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fdc0feded0638134dfa40f2fda6d682c99377cf4",
+          "message": "Audit chat  (#1104)\n\n* Done\n\n* Fix generator usage\n\n* Add unit tests\n\n* Fix answer none\n\n* Add stream unit test\n\n* much simpler\n\n* Make protos again after conflicts\n\n* Fix",
+          "timestamp": "2023-07-17T16:28:31Z",
+          "tree_id": "f483ab3c51152b836a51923a5c6fae1dccc48591",
+          "url": "https://github.com/nuclia/nucliadb/commit/fdc0feded0638134dfa40f2fda6d682c99377cf4"
+        },
+        "date": 1689611619273,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5783.3340089719295,
+            "unit": "iter/sec",
+            "range": "stddev: 2.389052549875492e-7",
+            "extra": "mean: 172.91064262390137 usec\nrounds: 5"
           }
         ]
       }
