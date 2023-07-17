@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1689605406830,
+  "lastUpdate": 1689605996605,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -27046,6 +27046,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00022749663375291984",
             "extra": "mean: 7.11025873819987 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "4c57f05e0864bd57658526a0c4602aa973ff0e6d",
+          "message": "Auto load kubernetes cluster index nodes (#1100)\n\n* initial\n\n* implementation of node_id\n\n* fixes\n\n* k8s api\n\n* k8s impl\n\n* tweak\n\n* async version\n\n* lint\n\n* .\n\n* finishing\n\n* fixes\n\n* fixes\n\n* blah\n\n* warning for remove\n\n* and adding\n\n* only log if already there",
+          "timestamp": "2023-07-17T14:30:59Z",
+          "tree_id": "034261b3adac9294f8d0731d4ff9d0037cf19bcb",
+          "url": "https://github.com/nuclia/nucliadb/commit/4c57f05e0864bd57658526a0c4602aa973ff0e6d"
+        },
+        "date": 1689605995550,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5172.847405401965,
+            "unit": "iter/sec",
+            "range": "stddev: 1.261027396672106e-7",
+            "extra": "mean: 193.31712722778323 usec\nrounds: 5"
           }
         ]
       }
