@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1689605182192,
+  "lastUpdate": 1689605295898,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -26970,6 +26970,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00035840764943472023",
             "extra": "mean: 6.194106270285214 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b0d499e3556996d4e582a0e5a563489687abe365",
+          "message": "python refactoring proposal (#1056)\n\n* python refactoring proposal\n\n* tweak example\n\n* tweaks\n\n* Update proposals/records/4-python-refactoring.md\n\nCo-authored-by: Joan Antoni RE <joanantoni.re16@gmail.com>\n\n* Update proposals/records/4-python-refactoring.md\n\nCo-authored-by: Joan Antoni RE <joanantoni.re16@gmail.com>\n\n* notes on steps forward\n\n---------\n\nCo-authored-by: Joan Antoni RE <joanantoni.re16@gmail.com>",
+          "timestamp": "2023-07-17T14:40:16Z",
+          "tree_id": "6aebfcc58d69118e95b881fa1dafac5b09a575a7",
+          "url": "https://github.com/nuclia/nucliadb/commit/b0d499e3556996d4e582a0e5a563489687abe365"
+        },
+        "date": 1689605294684,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 75.47268676966485,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002809379015899013",
+            "extra": "mean: 13.249826431274414 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 156.78781474909786,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0001680043784227291",
+            "extra": "mean: 6.3780466715494795 msec\nrounds: 5"
           }
         ]
       }
