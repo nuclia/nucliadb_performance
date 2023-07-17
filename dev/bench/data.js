@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1689618660885,
+  "lastUpdate": 1689632554798,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -27291,6 +27291,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0004377745409201615",
             "extra": "mean: 7.309761047363281 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c28a78768fb6bacb918a44ece50b785130da9268",
+          "message": "fix b/w compat chitchat implementation (#1109)",
+          "timestamp": "2023-07-17T18:14:31-04:00",
+          "tree_id": "7f587324b4d489ba6571836091509b7dc1cbdebb",
+          "url": "https://github.com/nuclia/nucliadb/commit/c28a78768fb6bacb918a44ece50b785130da9268"
+        },
+        "date": 1689632553677,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 80.4849471052273,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00024651637549421543",
+            "extra": "mean: 12.424683570861816 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 178.34770320625574,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00023086275908997428",
+            "extra": "mean: 5.607024828592936 msec\nrounds: 5"
           }
         ]
       }
