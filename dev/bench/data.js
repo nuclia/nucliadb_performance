@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1689778506287,
+  "lastUpdate": 1689781323065,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -27543,6 +27543,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00012849605795054128",
             "extra": "mean: 5.708965502287213 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "21ff28d4ae5cbbb2f21ac78c24feb12a55e8e9f6",
+          "message": "fix in cluster config and setup for k8s discovery (#1112)",
+          "timestamp": "2023-07-19T11:36:06-04:00",
+          "tree_id": "ede80112688213dc53e5f7ebb21ec242663ef679",
+          "url": "https://github.com/nuclia/nucliadb/commit/21ff28d4ae5cbbb2f21ac78c24feb12a55e8e9f6"
+        },
+        "date": 1689781321371,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 4634.615660860004,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00000770018169351345",
+            "extra": "mean: 215.76762199401855 usec\nrounds: 5"
           }
         ]
       }
