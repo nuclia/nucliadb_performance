@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1689786013334,
+  "lastUpdate": 1689850582672,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -27612,6 +27612,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00042410078139236987",
             "extra": "mean: 6.7247050149100165 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a78f3a018b9190f47b3ee7941d446b0939e7b6c9",
+          "message": "Implement a better settings module index (#1105)\n\n* Implement settings module and partially replace env\n\nRename parse_log_level to parse_log_levels\n\nFix comment\n\nNew settings proposal\n\nAutomatically add port if missing on reliable lookup\n\nUse derive_builder on settings\n\nMove bin reader and writer to settings\n\nDependencies\n\nClean commented code and add more settings tests\n\nSwitch to mutable builder pattern (instead of owned)\n\nSeed nodes\n\nWip\n\nRemove replaced methods by settings from env\n\nReturn references to slices instead of vectors\n\nMove derived settings using data_path to disk structure\n\n* Fix lookup test to be IPv4/6 compatible\n\n* Fix more IPv4/6 tests\n\n* Remove tempdir from dependencies (already using tempfile)\n\n* gRPC receives global context, replace more env vars\n\n* Add missing disk_structure module\n\n* Fix IPv6 with port",
+          "timestamp": "2023-07-20T10:39:49Z",
+          "tree_id": "e835ad61bf7c185e7d47ceeb5fd109fdbd1722de",
+          "url": "https://github.com/nuclia/nucliadb/commit/a78f3a018b9190f47b3ee7941d446b0939e7b6c9"
+        },
+        "date": 1689850581058,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 81.45152645487438,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002746596499825488",
+            "extra": "mean: 12.277240753173828 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 186.94719615951598,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00004703478036746112",
+            "extra": "mean: 5.349104027999075 msec\nrounds: 5"
           }
         ]
       }
