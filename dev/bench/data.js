@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1689947675761,
+  "lastUpdate": 1690187254282,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -27926,6 +27926,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00001852876887085317",
             "extra": "mean: 5.277596021953381 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d675927e806c1b933cc294e8e13dde74ada2ec10",
+          "message": "Do not audit processor messages (#1119)\n\n* Do not audit messages coming from processing, as they would appear as duplicates in the audit log\n\n* Add unit test",
+          "timestamp": "2023-07-24T08:22:28Z",
+          "tree_id": "d2970a8201a7b8df5766abf662c1ece89963ab9a",
+          "url": "https://github.com/nuclia/nucliadb/commit/d675927e806c1b933cc294e8e13dde74ada2ec10"
+        },
+        "date": 1690187252738,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5862.40422219054,
+            "unit": "iter/sec",
+            "range": "stddev: 2.114147090488768e-7",
+            "extra": "mean: 170.5784797668457 usec\nrounds: 5"
           }
         ]
       }
