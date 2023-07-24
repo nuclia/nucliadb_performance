@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1690210002220,
+  "lastUpdate": 1690210394380,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -28140,6 +28140,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0004100605305794787",
             "extra": "mean: 7.0736630757649746 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a9bfb46020bb3c27d1434b4d4faf3ef4f4acbff0",
+          "message": "Moving and cleaning things around inside nucliadb_node (#1120)\n\n- Delete reader and writer NodeReaderService and NodeWriterService\nabstraction in favor of shard providers.\n- Move services/reader and services/writer to shards module\n- Move versions and node_metadata to shards module\n- Move gRPC servers to new grpc module\n- Move middleware to grpc module (as it's specific to the gRPC\ninterface)\n- More clear shard providers folder organization\n- Rename ShardReaderService and ShardWriterService to ShardReader and\nShardWriter\n- Add documentation to some modules",
+          "timestamp": "2023-07-24T14:23:31Z",
+          "tree_id": "f3d763657f62600c72970c11412bcf702d39a06c",
+          "url": "https://github.com/nuclia/nucliadb/commit/a9bfb46020bb3c27d1434b4d4faf3ef4f4acbff0"
+        },
+        "date": 1690210392289,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5647.748752912877,
+            "unit": "iter/sec",
+            "range": "stddev: 2.2089211796301282e-7",
+            "extra": "mean: 177.06170082092282 usec\nrounds: 5"
           }
         ]
       }
