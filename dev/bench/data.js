@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1690209351940,
+  "lastUpdate": 1690210002220,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -28102,6 +28102,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000058032128523444914",
             "extra": "mean: 6.596320867538452 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fe9be55ae18dcf5348e2a0f0e68eed93660b2aad",
+          "message": "Add migration to populate all fields key in maindb (#1101)\n\n* Add migration\n\n* Fix migration",
+          "timestamp": "2023-07-24T14:35:41Z",
+          "tree_id": "134140bf5736c82c9beadeb698f52308e0d2b85b",
+          "url": "https://github.com/nuclia/nucliadb/commit/fe9be55ae18dcf5348e2a0f0e68eed93660b2aad"
+        },
+        "date": 1690210000364,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 56.938932872859176,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0007821144686478167",
+            "extra": "mean: 17.56267547607422 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 141.3694700029031,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0004100605305794787",
+            "extra": "mean: 7.0736630757649746 msec\nrounds: 5"
           }
         ]
       }
