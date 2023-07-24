@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1690187487190,
+  "lastUpdate": 1690205334505,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -27995,6 +27995,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00013023267005883338",
             "extra": "mean: 5.921773910522461 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "959be0ea93141f74ba5b30fb583e2763e54c8621",
+          "message": "Fix blocking threads in the node - Bindings (#1113)\n\n* Update PyO3 to version 0.19.1\n\n* Split bindings in multiple files\n\n* Add custom errors to avoid TypeError abuse\n\n* Non blocking reader binding implementation\n\n* Implement unbounded shard writer cache (sync)\n\n* Non blocking writer binding implementation\n\n* payload_test now uses unbounded shard caches\n\n* Rebase details\n\n* Return StopIteration on node streams\n\n* Properly export custom exceptions\n\n* Catch IndexNodeException instead of TypeError\n\n* Set asyncio_mode=auto to avoid deprecation issues\n\n* Better logs on unknown exceptions\n\n* Add missing reader/writer initialization\n\n* Replace static method new with a proper constructor\n\n* Debug logs\n\n* Use rust cache on train and nucliadb tests\n\n* Raise ImportError dynamically to explicitly fail\n\n* Bump binding version",
+          "timestamp": "2023-07-24T13:13:08Z",
+          "tree_id": "8b0cab6b8974bb8ce35cd4160d9ea683bac20181",
+          "url": "https://github.com/nuclia/nucliadb/commit/959be0ea93141f74ba5b30fb583e2763e54c8621"
+        },
+        "date": 1690205332700,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 68.89692098749696,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0006348807599680692",
+            "extra": "mean: 14.514436721801758 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 166.6552171283099,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002254226362685567",
+            "extra": "mean: 6.000412211698645 msec\nrounds: 5"
           }
         ]
       }
