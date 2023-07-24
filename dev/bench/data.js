@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1690206479082,
+  "lastUpdate": 1690209351940,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -28064,6 +28064,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.0475860351715576e-7",
             "extra": "mean: 233.88242721557617 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a9bfb46020bb3c27d1434b4d4faf3ef4f4acbff0",
+          "message": "Moving and cleaning things around inside nucliadb_node (#1120)\n\n- Delete reader and writer NodeReaderService and NodeWriterService\nabstraction in favor of shard providers.\n- Move services/reader and services/writer to shards module\n- Move versions and node_metadata to shards module\n- Move gRPC servers to new grpc module\n- Move middleware to grpc module (as it's specific to the gRPC\ninterface)\n- More clear shard providers folder organization\n- Rename ShardReaderService and ShardWriterService to ShardReader and\nShardWriter\n- Add documentation to some modules",
+          "timestamp": "2023-07-24T14:23:31Z",
+          "tree_id": "f3d763657f62600c72970c11412bcf702d39a06c",
+          "url": "https://github.com/nuclia/nucliadb/commit/a9bfb46020bb3c27d1434b4d4faf3ef4f4acbff0"
+        },
+        "date": 1690209350129,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 60.32888220726143,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0003701654869963713",
+            "extra": "mean: 16.57580852508545 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 151.59965988330853,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000058032128523444914",
+            "extra": "mean: 6.596320867538452 msec\nrounds: 5"
           }
         ]
       }
