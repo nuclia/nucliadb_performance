@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1690210394380,
+  "lastUpdate": 1690283152320,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -28171,6 +28171,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.2089211796301282e-7",
             "extra": "mean: 177.06170082092282 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "44120086+hermeGarcia@users.noreply.github.com",
+            "name": "Herme",
+            "username": "hermeGarcia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c2ac1bb782cc9a1e03809280275cb1218764aa16",
+          "message": "remove advance query from external API (#1124)\n\n* remove advance query from external API\n\n* delete deprecated tests\n\n* remove missing advance query\n\n* fix test",
+          "timestamp": "2023-07-25T11:00:42Z",
+          "tree_id": "ee8eec35057ee20eb45db3633146055104376c4c",
+          "url": "https://github.com/nuclia/nucliadb/commit/c2ac1bb782cc9a1e03809280275cb1218764aa16"
+        },
+        "date": 1690283150951,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 4977.338966155598,
+            "unit": "iter/sec",
+            "range": "stddev: 2.584353472143916e-7",
+            "extra": "mean: 200.91056823730472 usec\nrounds: 5"
           }
         ]
       }
