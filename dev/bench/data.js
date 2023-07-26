@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1690379616834,
+  "lastUpdate": 1690381318952,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -28385,6 +28385,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00009986604172220686",
             "extra": "mean: 7.036003470420837 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7f510ec1dccd5d94090cfaba9ebe0ead1ee00ed0",
+          "message": "More chat audit improvements (#1129)\n\n* Wip\n\n* Add more wiring in tests\n\n* Add more wiring in tests",
+          "timestamp": "2023-07-26T14:15:29Z",
+          "tree_id": "b2e48ed053a09277bd7c9cee24a95f0bb0a5f5b1",
+          "url": "https://github.com/nuclia/nucliadb/commit/7f510ec1dccd5d94090cfaba9ebe0ead1ee00ed0"
+        },
+        "date": 1690381316558,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 4235.46509690474,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000006009332568506671",
+            "extra": "mean: 236.1015796661377 usec\nrounds: 5"
           }
         ]
       }
