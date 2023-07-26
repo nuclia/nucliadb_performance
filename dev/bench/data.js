@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1690303686571,
+  "lastUpdate": 1690355129347,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -28278,6 +28278,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00030259528388702615",
             "extra": "mean: 7.729595048086984 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c605f371ccd6ef3eba42241352aec7d63631821d",
+          "message": "Add generic pod extra annotations  (#1122)\n\n* Add ennotations\n\n* more descriptive naming",
+          "timestamp": "2023-07-26T06:55:57Z",
+          "tree_id": "ee79af2e3da6bd351934039f9a18488009f9c61b",
+          "url": "https://github.com/nuclia/nucliadb/commit/c605f371ccd6ef3eba42241352aec7d63631821d"
+        },
+        "date": 1690355127880,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 72.59789187125246,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0006448907801743756",
+            "extra": "mean: 13.774504661560059 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 176.54974239243901,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00022551818375241621",
+            "extra": "mean: 5.66412607828776 msec\nrounds: 5"
           }
         ]
       }
