@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1690453469649,
+  "lastUpdate": 1690459288963,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -28630,6 +28630,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0005007251386460413",
             "extra": "mean: 8.324201290424053 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "00bb94d7c2fae43dcae1fac589bdedcca3a3a282",
+          "message": "Abort transactions asynchronously on search (#1133)\n\n* Abort transaction asynchronously\n\n* Abort transaction asynchronously",
+          "timestamp": "2023-07-27T10:12:45Z",
+          "tree_id": "7d36b632066079630e517fd0750cd137063ca099",
+          "url": "https://github.com/nuclia/nucliadb/commit/00bb94d7c2fae43dcae1fac589bdedcca3a3a282"
+        },
+        "date": 1690459287084,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 4380.788927705718,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000004871694426999099",
+            "extra": "mean: 228.2693862915039 usec\nrounds: 5"
           }
         ]
       }
