@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1690473528705,
+  "lastUpdate": 1690485599005,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -28768,6 +28768,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00016679126878526193",
             "extra": "mean: 7.808039738581731 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "30674383+pyrokin5@users.noreply.github.com",
+            "name": "pyrokin5",
+            "username": "pyrokin5"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c34ba937e55e4f283ef2b9d57fd17b5f01f26ee4",
+          "message": "Update README.md (#1126)\n\nFixed broken link\n\nCo-authored-by: Ferran Llamas <ferran@nuclia.com>",
+          "timestamp": "2023-07-27T19:11:29Z",
+          "tree_id": "4f0a4a05fb5e64adc1003315896c0a093bbcb0e8",
+          "url": "https://github.com/nuclia/nucliadb/commit/c34ba937e55e4f283ef2b9d57fd17b5f01f26ee4"
+        },
+        "date": 1690485597513,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 81.4542471601833,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00020798079477943058",
+            "extra": "mean: 12.276830673217773 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 188.33002796174213,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00012793930562291956",
+            "extra": "mean: 5.30982770417866 msec\nrounds: 5"
           }
         ]
       }
