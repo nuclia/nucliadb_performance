@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1690531998613,
+  "lastUpdate": 1690537705975,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -28844,6 +28844,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00013213982857243154",
             "extra": "mean: 5.497402615017361 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "44120086+hermeGarcia@users.noreply.github.com",
+            "name": "Herme",
+            "username": "hermeGarcia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a5b5d087534586b000df047a5209be8807bdbb09",
+          "message": "WillNeed for vector storage and sequential for hnsw (#1139)",
+          "timestamp": "2023-07-28T09:36:41Z",
+          "tree_id": "e1c448c105b8042c9b083f95f0daf66751ac4b27",
+          "url": "https://github.com/nuclia/nucliadb/commit/a5b5d087534586b000df047a5209be8807bdbb09"
+        },
+        "date": 1690537704542,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 62.8121886948651,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00028452369747578683",
+            "extra": "mean: 15.92047691345215 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 153.36463620527675,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00008540226615769345",
+            "extra": "mean: 6.520407994588216 msec\nrounds: 5"
           }
         ]
       }
