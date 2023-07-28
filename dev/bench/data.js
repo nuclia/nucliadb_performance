@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1690557527867,
+  "lastUpdate": 1690562217843,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -29203,6 +29203,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0001665430827878965",
             "extra": "mean: 5.605163072284899 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7cca7d1f1a0730354f689d051656f0d50f1339a2",
+          "message": "tikv ci fixes (#1145)\n\n* remove tikv setup from gh action\n\n* try\n\n* pin it\n\n* try",
+          "timestamp": "2023-07-28T16:24:57Z",
+          "tree_id": "a8093e0f8fd0187c42486d589191f8dcd1275a13",
+          "url": "https://github.com/nuclia/nucliadb/commit/7cca7d1f1a0730354f689d051656f0d50f1339a2"
+        },
+        "date": 1690562216028,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 53.42583289345772,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00077259607834471",
+            "extra": "mean: 18.717536926269535 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 130.8553875994559,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00011355258167924225",
+            "extra": "mean: 7.64202390398298 msec\nrounds: 5"
           }
         ]
       }
