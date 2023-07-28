@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1690549271475,
+  "lastUpdate": 1690549668987,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -29089,6 +29089,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 5.276043273668445e-7",
             "extra": "mean: 171.07839584350586 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "736c70b27bd32545c21f5eb66cfc456cf9b38c23",
+          "message": "Upgrade CloudFile.size field from int32 to uint64 (#1138)\n\n* Upgrade CloudFile.size field from int32 to uint64\n\n* Fix offset too",
+          "timestamp": "2023-07-28T12:56:00Z",
+          "tree_id": "a50577edff555373f65ca299fd85618e2922f685",
+          "url": "https://github.com/nuclia/nucliadb/commit/736c70b27bd32545c21f5eb66cfc456cf9b38c23"
+        },
+        "date": 1690549666626,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 49.025326981308375,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0008948127728336791",
+            "extra": "mean: 20.397620201110836 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 126.57579058868264,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0003040496070450799",
+            "extra": "mean: 7.900404930114745 msec\nrounds: 5"
           }
         ]
       }
