@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1690544064599,
+  "lastUpdate": 1690544286431,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -28913,6 +28913,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.3168161499340405e-7",
             "extra": "mean: 170.9092140197754 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "525d08d947c370e7ec959377dfdb369b44406c4f",
+          "message": "fix s3 support (#1135)\n\n* fix s3 support\n\n* fix",
+          "timestamp": "2023-07-28T11:29:13Z",
+          "tree_id": "41349e76a6b2842df6c72303003eb73fff295e94",
+          "url": "https://github.com/nuclia/nucliadb/commit/525d08d947c370e7ec959377dfdb369b44406c4f"
+        },
+        "date": 1690544284553,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 76.02045624917531,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0006193363530595031",
+            "extra": "mean: 13.154354095458984 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 183.725573734814,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00022398964795371405",
+            "extra": "mean: 5.442900406686882 msec\nrounds: 5"
           }
         ]
       }
