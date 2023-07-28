@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1690544326980,
+  "lastUpdate": 1690544758429,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -28989,6 +28989,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00008119845624886766",
             "extra": "mean: 5.564335772865697 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "efffd0dffc63b010397e0681c96b7773f3f057a8",
+          "message": "Fix transaction contextmanager (#1140)\n\n* Reproduce in test\n\n* Fix transaction context manager",
+          "timestamp": "2023-07-28T11:40:57Z",
+          "tree_id": "157d15aa575317357624c5861b0950fce48aaab0",
+          "url": "https://github.com/nuclia/nucliadb/commit/efffd0dffc63b010397e0681c96b7773f3f057a8"
+        },
+        "date": 1690544757051,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5860.965723241614,
+            "unit": "iter/sec",
+            "range": "stddev: 4.1064534605788464e-7",
+            "extra": "mean: 170.62034606933594 usec\nrounds: 5"
           }
         ]
       }
