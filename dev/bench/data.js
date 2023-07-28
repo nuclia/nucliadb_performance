@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1690565325650,
+  "lastUpdate": 1690565431425,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -29272,6 +29272,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000008836881812130538",
             "extra": "mean: 258.35409164428705 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b1eb630837e511c85ac80b4509fbac42daa5dfd3",
+          "message": "Purge needs cluster to delete shards (#1144)\n\n* Purge needs cluster to delete shards\n\n* Remove unused entrypoint\n\n* try\n\n* maybe it is not ready\n\n* try again\n\n* simple\n\n---------\n\nCo-authored-by: Nathan Van Gheem <vangheem@gmail.com>",
+          "timestamp": "2023-07-28T17:21:37Z",
+          "tree_id": "ea50df618b1d436271e8579ba16ff15508129cfc",
+          "url": "https://github.com/nuclia/nucliadb/commit/b1eb630837e511c85ac80b4509fbac42daa5dfd3"
+        },
+        "date": 1690565429850,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 66.16871768513987,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0003880474072349361",
+            "extra": "mean: 15.112881660461428 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 146.32054400505143,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00008682810947198894",
+            "extra": "mean: 6.834310293197632 msec\nrounds: 5"
           }
         ]
       }
