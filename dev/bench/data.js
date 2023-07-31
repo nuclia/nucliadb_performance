@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1690569772810,
+  "lastUpdate": 1690820487766,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -29348,6 +29348,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00010731269713468144",
             "extra": "mean: 7.081270217895508 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bc0a72d3eb7a4dcd7d07caf3055f5031cd84660c",
+          "message": "Remove chitchat (#1127)\n\n* first crack on removing chitchat\n\n* moar\n\n* fixes\n\n* pin tikv version\n\n* fix\n\n* fix lint\n\n* tweak\n\n* no need to send the shard count\n\n---------\n\nCo-authored-by: herme garcia <hermegarcianavarro@gmail.com>",
+          "timestamp": "2023-07-31T16:08:21Z",
+          "tree_id": "596515bc29828f9d7f681cccfb4406419c5017b8",
+          "url": "https://github.com/nuclia/nucliadb/commit/bc0a72d3eb7a4dcd7d07caf3055f5031cd84660c"
+        },
+        "date": 1690820485798,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 64.10873912721834,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0010741190853416512",
+            "extra": "mean: 15.598497390747072 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 149.44938418271167,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0001537944737963959",
+            "extra": "mean: 6.691228642183192 msec\nrounds: 5"
           }
         ]
       }
