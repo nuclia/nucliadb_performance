@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1690820487766,
+  "lastUpdate": 1690821351762,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -29386,6 +29386,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0001537944737963959",
             "extra": "mean: 6.691228642183192 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bc0a72d3eb7a4dcd7d07caf3055f5031cd84660c",
+          "message": "Remove chitchat (#1127)\n\n* first crack on removing chitchat\n\n* moar\n\n* fixes\n\n* pin tikv version\n\n* fix\n\n* fix lint\n\n* tweak\n\n* no need to send the shard count\n\n---------\n\nCo-authored-by: herme garcia <hermegarcianavarro@gmail.com>",
+          "timestamp": "2023-07-31T16:08:21Z",
+          "tree_id": "596515bc29828f9d7f681cccfb4406419c5017b8",
+          "url": "https://github.com/nuclia/nucliadb/commit/bc0a72d3eb7a4dcd7d07caf3055f5031cd84660c"
+        },
+        "date": 1690821350293,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5841.364278900053,
+            "unit": "iter/sec",
+            "range": "stddev: 1.3473508328975285e-7",
+            "extra": "mean: 171.19288444519043 usec\nrounds: 5"
           }
         ]
       }
