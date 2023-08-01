@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1690900153127,
+  "lastUpdate": 1690901531303,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -29524,6 +29524,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0001986386837780645",
             "extra": "mean: 5.393285751342773 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "06365c8d9ad35ed3ea02f9b1ba082ec8d0307cf8",
+          "message": "Standalone temp token support (#1147)\n\n* .\n\n* implement jwk temp token auth\n\n* lint\n\n* fix test\n\n* add tests\n\n* Update nucliadb/nucliadb/standalone/tests/unit/test_api_router.py\n\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>\n\n* longer token duration\n\n* bye inheritance\n\n---------\n\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+          "timestamp": "2023-08-01T14:42:56Z",
+          "tree_id": "01bc8a139e0583054f2338add98c831ddd0a84df",
+          "url": "https://github.com/nuclia/nucliadb/commit/06365c8d9ad35ed3ea02f9b1ba082ec8d0307cf8"
+        },
+        "date": 1690901529863,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 73.07610689036485,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00021451447524468856",
+            "extra": "mean: 13.68436336517334 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 172.21138686131388,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00023669057651566137",
+            "extra": "mean: 5.806816948784722 msec\nrounds: 5"
           }
         ]
       }
