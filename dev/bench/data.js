@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1690990117095,
+  "lastUpdate": 1690990435649,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -29928,6 +29928,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 6.735849486654943e-7",
             "extra": "mean: 194.68631744384766 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9792e3bdce5e744740fe0fc9397d49a35705d73b",
+          "message": "fix calling sync fastapi functions from decorator (#1158)",
+          "timestamp": "2023-08-02T15:23:26Z",
+          "tree_id": "b49566b1f05d0c5f6a5729d19305a07d8787d1aa",
+          "url": "https://github.com/nuclia/nucliadb/commit/9792e3bdce5e744740fe0fc9397d49a35705d73b"
+        },
+        "date": 1690990433189,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 57.802065564345135,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0005956060748280062",
+            "extra": "mean: 17.300419807434082 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 149.2522980483551,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00021289400845426134",
+            "extra": "mean: 6.700064341227214 msec\nrounds: 5"
           }
         ]
       }
