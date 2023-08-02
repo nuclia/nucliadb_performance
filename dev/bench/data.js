@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1690923637578,
+  "lastUpdate": 1690967752973,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -29676,6 +29676,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00015683022686450635",
             "extra": "mean: 8.147117069789342 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "db89866a718c0d8a7677be1c7ced8d6d3297266a",
+          "message": "Fix extra annotations on cronjob template pod spec (#1153)\n\n* Fix extra annotations on cronjob template pod spec\n\n* Fix extra annotations on cronjob template pod spec",
+          "timestamp": "2023-08-02T09:05:25Z",
+          "tree_id": "8ec871e785b54fa85eeb73480007dbd5abd64d41",
+          "url": "https://github.com/nuclia/nucliadb/commit/db89866a718c0d8a7677be1c7ced8d6d3297266a"
+        },
+        "date": 1690967751395,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 58.887442159285584,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002348672824487687",
+            "extra": "mean: 16.98154926300049 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 129.70779823209395,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0007660141116152684",
+            "extra": "mean: 7.709636688232422 msec\nrounds: 5"
           }
         ]
       }
