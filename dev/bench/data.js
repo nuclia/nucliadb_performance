@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691067244087,
+  "lastUpdate": 1691067530660,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -30456,6 +30456,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.3495424578733583e-7",
             "extra": "mean: 235.99491119384766 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "91744383412f68f3880a127c48fa594030307e8f",
+          "message": "Do not call predict chat if no context is found (#1159)\n\n* Do not call predict chat if no context is found\n\n* Fix parsing rephrase response\n\n* Add test",
+          "timestamp": "2023-08-03T12:48:20Z",
+          "tree_id": "52306453811ec918643a81afcf011b811454ac53",
+          "url": "https://github.com/nuclia/nucliadb/commit/91744383412f68f3880a127c48fa594030307e8f"
+        },
+        "date": 1691067528696,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 63.23263278945753,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0011496691985661666",
+            "extra": "mean: 15.814619064331056 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 146.7535321161907,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000269706551051499",
+            "extra": "mean: 6.814146041870117 msec\nrounds: 5"
           }
         ]
       }
