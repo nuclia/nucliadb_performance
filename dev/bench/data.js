@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691059273221,
+  "lastUpdate": 1691059478009,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -30280,6 +30280,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000017035278811339402",
             "extra": "mean: 228.04274559020996 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fb8869449080860b4cf65e5f397ec58a530cb8fa",
+          "message": "Fix parsing rephrase response so that it does not include \" characters (#1162)\n\n* Fix parsing rephrase response so that it does not include \" characters\n\n* Add test",
+          "timestamp": "2023-08-03T10:35:06Z",
+          "tree_id": "d31e97ed3b4754cada31a134a5f4878c29164716",
+          "url": "https://github.com/nuclia/nucliadb/commit/fb8869449080860b4cf65e5f397ec58a530cb8fa"
+        },
+        "date": 1691059476014,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 71.63138299689176,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002760858403848521",
+            "extra": "mean: 13.96036148071289 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 173.0497288360848,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00025193539271716614",
+            "extra": "mean: 5.778685738058651 msec\nrounds: 5"
           }
         ]
       }
