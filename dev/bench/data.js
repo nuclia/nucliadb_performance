@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691062074795,
+  "lastUpdate": 1691062993477,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -30356,6 +30356,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00021515037493256159",
             "extra": "mean: 5.728337499830458 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b7231b73b9eef5f37f0d0ee90d8c0693325d277d",
+          "message": "More logging for cluster changes and node query errors (#1164)\n\n* prevent setting up multiple cluster discoveries at the same time\n\n* .\n\n* more logging for cluster changes\n\n* tweak\n\n* better",
+          "timestamp": "2023-08-03T11:37:13Z",
+          "tree_id": "cf177c839f2c0aeaa517d48c124f054414da10ab",
+          "url": "https://github.com/nuclia/nucliadb/commit/b7231b73b9eef5f37f0d0ee90d8c0693325d277d"
+        },
+        "date": 1691062991566,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 4361.612852036405,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000013239863016226792",
+            "extra": "mean: 229.27298545837405 usec\nrounds: 5"
           }
         ]
       }
