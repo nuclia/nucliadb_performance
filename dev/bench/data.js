@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691080268797,
+  "lastUpdate": 1691134315860,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -30677,6 +30677,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00016168851819477924",
             "extra": "mean: 5.642498864067925 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a7b414238e999ef6d8cdb96ee0f92dc89f6e807f",
+          "message": "provide job concurrency settings for workflows (#1175)",
+          "timestamp": "2023-08-04T07:26:41Z",
+          "tree_id": "6ae08ba15ac3cc5a1b8fb66b44e249e9c0a5f762",
+          "url": "https://github.com/nuclia/nucliadb/commit/a7b414238e999ef6d8cdb96ee0f92dc89f6e807f"
+        },
+        "date": 1691134313798,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5465.361190669166,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000005834283093248037",
+            "extra": "mean: 182.97052383422852 usec\nrounds: 5"
           }
         ]
       }
