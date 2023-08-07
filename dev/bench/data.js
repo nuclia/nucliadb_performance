@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691435942050,
+  "lastUpdate": 1691437476585,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -31074,6 +31074,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0002604700500645063",
             "extra": "mean: 5.684154912045127 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "616ca80409b95315c58bcd2ff01437c1b8654981",
+          "message": "fix github sha in ci (#1183)",
+          "timestamp": "2023-08-07T15:32:27-04:00",
+          "tree_id": "fd1e082c0b15c83a9feec233faf4d7e7cace28b3",
+          "url": "https://github.com/nuclia/nucliadb/commit/616ca80409b95315c58bcd2ff01437c1b8654981"
+        },
+        "date": 1691437473652,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 42.643606220431735,
+            "unit": "iter/sec",
+            "range": "stddev: 0.001026713745011613",
+            "extra": "mean: 23.45017433166504 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 110.41204346454934,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0007766792613684672",
+            "extra": "mean: 9.05698299407959 msec\nrounds: 5"
           }
         ]
       }
