@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691437476585,
+  "lastUpdate": 1691492367735,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -31112,6 +31112,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0007766792613684672",
             "extra": "mean: 9.05698299407959 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tarek@ziade.org",
+            "name": "Tarek Ziade",
+            "username": "tarekziade"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f9b58f6507685650ee9f7e4639c7ea6dcbb9ec41",
+          "message": "Simplify the shard counting  (#1182)\n\n* first pass at removing the metadata static file\n\n* linted\n\n* fix redundant closure\n\n* more formatting\n\n* fly-by tipo fix\n\n* make the shard reading more robust\n\n* move metadata creation after `initialize_writer`\n\n* remove error handling",
+          "timestamp": "2023-08-08T10:46:02Z",
+          "tree_id": "bc0e8c34c8efe819c03ebc84f60e0d082a0d75a5",
+          "url": "https://github.com/nuclia/nucliadb/commit/f9b58f6507685650ee9f7e4639c7ea6dcbb9ec41"
+        },
+        "date": 1691492365137,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 45.67019363673246,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0005619708770059615",
+            "extra": "mean: 21.896119117736816 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 112.08013745790173,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0008406543000544716",
+            "extra": "mean: 8.922187487284344 msec\nrounds: 5"
           }
         ]
       }
