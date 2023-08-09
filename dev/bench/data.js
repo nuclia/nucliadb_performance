@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691589192696,
+  "lastUpdate": 1691589792397,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -31464,6 +31464,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0005610910306974682",
             "extra": "mean: 7.442651476178851 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fb4cf3b1e7db3b63c61bddb9f567b8c8813f4b38",
+          "message": "Fix retrying async generators (#1196)\n\n* Fix retry logic\n\n* Add test file\n\n* Use globals for constants",
+          "timestamp": "2023-08-09T13:57:40Z",
+          "tree_id": "fd96883c7c351cd6ea9b3ab65677276bceb95d5b",
+          "url": "https://github.com/nuclia/nucliadb/commit/fb4cf3b1e7db3b63c61bddb9f567b8c8813f4b38"
+        },
+        "date": 1691589789952,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 4321.099758658212,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000002317038382294167",
+            "extra": "mean: 231.4225673675537 usec\nrounds: 5"
           }
         ]
       }
