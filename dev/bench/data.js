@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691623590622,
+  "lastUpdate": 1691624130069,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -31771,6 +31771,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000057494636899871666",
             "extra": "mean: 250.1406192779541 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e617bbbce2babb3a1a9d8f5bb8ed83598fab7674",
+          "message": "Better garbage collection scheduling (#1189)\n\n* .\n\n* better\n\n* clear it\n\n* use lru though\n\n* better\n\n* not using lrucache anymore",
+          "timestamp": "2023-08-09T23:19:27Z",
+          "tree_id": "91846c843450078cc10011294dbf5c316f0c5377",
+          "url": "https://github.com/nuclia/nucliadb/commit/e617bbbce2babb3a1a9d8f5bb8ed83598fab7674"
+        },
+        "date": 1691624127406,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 58.72945773143736,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0021337639117725306",
+            "extra": "mean: 17.027230262756348 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 150.0352882890456,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00015836827839211813",
+            "extra": "mean: 6.665098667144775 msec\nrounds: 5"
           }
         ]
       }
