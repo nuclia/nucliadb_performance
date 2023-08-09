@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691514977519,
+  "lastUpdate": 1691583742440,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -31288,6 +31288,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0002694305793190675",
             "extra": "mean: 8.364182252150316 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d7c284f15ba1476c766e26bffe9d7a2ef6968e6a",
+          "message": "remove keys method in driver (#1190)\n\n* remove keys method in driver\n\n* fix\n\n* fix\n\n* fixes",
+          "timestamp": "2023-08-09T12:17:11Z",
+          "tree_id": "6f8df43bbb975e9284afdb4f0b6ccec8dba50a1a",
+          "url": "https://github.com/nuclia/nucliadb/commit/d7c284f15ba1476c766e26bffe9d7a2ef6968e6a"
+        },
+        "date": 1691583740128,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 4273.933362041541,
+            "unit": "iter/sec",
+            "range": "stddev: 1.6564949870920307e-7",
+            "extra": "mean: 233.97650718688965 usec\nrounds: 5"
           }
         ]
       }
