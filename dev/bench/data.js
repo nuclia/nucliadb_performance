@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691589792397,
+  "lastUpdate": 1691592345272,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -31495,6 +31495,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000002317038382294167",
             "extra": "mean: 231.4225673675537 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "c850746b441c74429414314883fdff3090371d04",
+          "message": "Retry client connection errors on predict and processing api clients (#1185)\n\n* Done\n\n* Use global var for constant\n\n* Retry connection errors on processing api client too",
+          "timestamp": "2023-08-09T14:40:02Z",
+          "tree_id": "5fa6befe6b5cc74837cdfb2e01c3e3e78794ef55",
+          "url": "https://github.com/nuclia/nucliadb/commit/c850746b441c74429414314883fdff3090371d04"
+        },
+        "date": 1691592342755,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 4561.471432293921,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000009987931920936278",
+            "extra": "mean: 219.2275047302246 usec\nrounds: 5"
           }
         ]
       }
