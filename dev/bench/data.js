@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691589145426,
+  "lastUpdate": 1691589192696,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -31426,6 +31426,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00018301221636742707",
             "extra": "mean: 7.171705790928431 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tarek@ziade.org",
+            "name": "Tarek Ziade",
+            "username": "tarekziade"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "eb30db76dfc189533f09b2b96fce6033a2309c7e",
+          "message": "Adding coverage to `nucliadb_node_binding` (#1173)\n\n* reorganized the test in the standard layout [sc-6677]\n\n* make the new action run manually for now\n\n* reactivate lints\n\n* fix the name",
+          "timestamp": "2023-08-09T13:42:28Z",
+          "tree_id": "ae8f82d7afec9704021b0bf2da028f62946b414f",
+          "url": "https://github.com/nuclia/nucliadb/commit/eb30db76dfc189533f09b2b96fce6033a2309c7e"
+        },
+        "date": 1691589190053,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 57.83844414002783,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0005596766763802534",
+            "extra": "mean: 17.289538383483887 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 134.36071851552188,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0005610910306974682",
+            "extra": "mean: 7.442651476178851 msec\nrounds: 5"
           }
         ]
       }
