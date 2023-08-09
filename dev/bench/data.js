@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691595070227,
+  "lastUpdate": 1691595334991,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -31595,6 +31595,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00000813777227661664",
             "extra": "mean: 243.24536323547363 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9b13f53262524eed6f97f17441d48ea03a05fdfe",
+          "message": "standalone clustering support (#1118)\n\n* standalone clustering support\n\n* fix url\n\n* fix tests\n\n* pr comments\n\n* fix\n\n* settings doc\n\n* fix test\n\n* explicit better than implicit\n\n* import\n\n* fix",
+          "timestamp": "2023-08-09T15:29:48Z",
+          "tree_id": "ede14d0bc92883921aeb8a7cc6bd5b5c840178db",
+          "url": "https://github.com/nuclia/nucliadb/commit/9b13f53262524eed6f97f17441d48ea03a05fdfe"
+        },
+        "date": 1691595332484,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 4412.7241367773795,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000023163381584658773",
+            "extra": "mean: 226.61738395690918 usec\nrounds: 5"
           }
         ]
       }
