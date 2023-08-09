@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691595480104,
+  "lastUpdate": 1691595623692,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -31664,6 +31664,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00004864622596439546",
             "extra": "mean: 5.611909760369195 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9b13f53262524eed6f97f17441d48ea03a05fdfe",
+          "message": "standalone clustering support (#1118)\n\n* standalone clustering support\n\n* fix url\n\n* fix tests\n\n* pr comments\n\n* fix\n\n* settings doc\n\n* fix test\n\n* explicit better than implicit\n\n* import\n\n* fix",
+          "timestamp": "2023-08-09T15:29:48Z",
+          "tree_id": "ede14d0bc92883921aeb8a7cc6bd5b5c840178db",
+          "url": "https://github.com/nuclia/nucliadb/commit/9b13f53262524eed6f97f17441d48ea03a05fdfe"
+        },
+        "date": 1691595620912,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 59.62306850327661,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0008511659208344302",
+            "extra": "mean: 16.772031784057617 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 144.48701755030612,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0005066562495230266",
+            "extra": "mean: 6.921037038167318 msec\nrounds: 5"
           }
         ]
       }
