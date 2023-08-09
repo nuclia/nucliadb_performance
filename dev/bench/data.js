@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691592618090,
+  "lastUpdate": 1691595070227,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -31564,6 +31564,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00029740190175364965",
             "extra": "mean: 6.856712698936462 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tarek@ziade.org",
+            "name": "Tarek Ziade",
+            "username": "tarekziade"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "52f9515b8fcf02330f80244bc0742f5aa461a017",
+          "message": "force the nodes platform so the test don't choke on silicon chips (#1188)\n\n* force the nodes platform so the test don't choke on silicon chips\n\n* move into the common block\n\n* move into the common block",
+          "timestamp": "2023-08-09T15:23:44Z",
+          "tree_id": "562718392aee674e45386d51e65997e6812e9a8b",
+          "url": "https://github.com/nuclia/nucliadb/commit/52f9515b8fcf02330f80244bc0742f5aa461a017"
+        },
+        "date": 1691595067437,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 4111.075280937422,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00000813777227661664",
+            "extra": "mean: 243.24536323547363 usec\nrounds: 5"
           }
         ]
       }
