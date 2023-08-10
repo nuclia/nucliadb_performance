@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691681142989,
+  "lastUpdate": 1691681322915,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -32078,6 +32078,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000005086369618463568",
             "extra": "mean: 243.12143325805664 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b0e6c6654a751baf15a5ac810d366691443b4094",
+          "message": "Promote extracted languages to basic.metadata (#1197)\n\n* Done\n\n* Fix get current active shard\n\n* Fix get current active shard\n\n* ep\n\n* use native list for type hints",
+          "timestamp": "2023-08-10T15:19:53Z",
+          "tree_id": "5d4d0d23c3dbebaa1a8e7b74705b09a59dbe89b4",
+          "url": "https://github.com/nuclia/nucliadb/commit/b0e6c6654a751baf15a5ac810d366691443b4094"
+        },
+        "date": 1691681320910,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 76.37213147290662,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002231428370954597",
+            "extra": "mean: 13.093781471252441 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 175.9195002693639,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00015613253098774345",
+            "extra": "mean: 5.684418148464627 msec\nrounds: 5"
           }
         ]
       }
