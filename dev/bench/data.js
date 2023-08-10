@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691624130069,
+  "lastUpdate": 1691665119607,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -31809,6 +31809,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00015836827839211813",
             "extra": "mean: 6.665098667144775 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "badd027123ebc99b09c358bb7bc8f1ec2611c256",
+          "message": "implement count for kv driver (#1199)\n\n* implement count for kv driver\n\n* lint\n\n* fix\n\n* lint\n\n* comments",
+          "timestamp": "2023-08-10T10:54:00Z",
+          "tree_id": "67b603e13fcd8e3d13848c16f4e7ec9da1d2686f",
+          "url": "https://github.com/nuclia/nucliadb/commit/badd027123ebc99b09c358bb7bc8f1ec2611c256"
+        },
+        "date": 1691665117569,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5100.917636488304,
+            "unit": "iter/sec",
+            "range": "stddev: 2.188016674872604e-7",
+            "extra": "mean: 196.04315757751465 usec\nrounds: 5"
           }
         ]
       }
