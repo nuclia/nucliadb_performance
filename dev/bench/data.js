@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691667139214,
+  "lastUpdate": 1691674303822,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -31909,6 +31909,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000018937646824810427",
             "extra": "mean: 229.1832447052002 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6092e6ba024bfde69f829ff16c1d8e74882a6af6",
+          "message": "Prevent icon from being modified once is set (#1201)\n\n* Prevent icon from being modified once it has been set\n\n* Prevent icon from being modified once it has been set\n\n* Prevent icon from being modified once it has been set\n\n* Prevent icon from being modified once it has been set\n\n* Fix sdk updating icon\n\n* Switch to tuple\n\n* Switch to tuple",
+          "timestamp": "2023-08-10T13:26:00Z",
+          "tree_id": "33ea72b36257d093c888d44dd5f8a731525f917c",
+          "url": "https://github.com/nuclia/nucliadb/commit/6092e6ba024bfde69f829ff16c1d8e74882a6af6"
+        },
+        "date": 1691674301043,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 4028.7072129763765,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000005257634914971183",
+            "extra": "mean: 248.21858406066895 usec\nrounds: 5"
           }
         ]
       }
