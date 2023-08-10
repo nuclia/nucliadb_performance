@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691682065069,
+  "lastUpdate": 1691682800677,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -32147,6 +32147,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 8.684194241076043e-7",
             "extra": "mean: 194.9617862701416 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4efa9de9e94dc16a544287975476ee431a9f503f",
+          "message": "Cache implementation refactor (#1200)\n\n* refactor cache implementation\n\n* use count now\n\n* add test\n\n* word\n\n* docs\n\n* better conditional\n\n* on prem consideration\n\n* words\n\n* comment",
+          "timestamp": "2023-08-10T15:35:20Z",
+          "tree_id": "debec6b24e171e9768ba38c7c30af17011d44816",
+          "url": "https://github.com/nuclia/nucliadb/commit/4efa9de9e94dc16a544287975476ee431a9f503f"
+        },
+        "date": 1691682798197,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 54.1798801825293,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0010949119861113027",
+            "extra": "mean: 18.457036018371582 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 127.97422394171096,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0001898517355758977",
+            "extra": "mean: 7.81407356262207 msec\nrounds: 5"
           }
         ]
       }
