@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691674539382,
+  "lastUpdate": 1691679082061,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -31978,6 +31978,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00017356177845125905",
             "extra": "mean: 5.869165219758686 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "165cf44f6b9e731d95a4de641792ca18ee9418e5",
+          "message": "More chitchat/cluster-manager/cluster-monitor/swim cleanup (#1203)",
+          "timestamp": "2023-08-10T14:35:19Z",
+          "tree_id": "5833a6d618d0d0253a7664aee15d3993ccfacfaa",
+          "url": "https://github.com/nuclia/nucliadb/commit/165cf44f6b9e731d95a4de641792ca18ee9418e5"
+        },
+        "date": 1691679079071,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 59.636106775302494,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0008917800841347535",
+            "extra": "mean: 16.768364906311035 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 148.4741615629177,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00022367889756726847",
+            "extra": "mean: 6.735178629557291 msec\nrounds: 5"
           }
         ]
       }
