@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691697944408,
+  "lastUpdate": 1691700982227,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -32216,6 +32216,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.271672716211753e-7",
             "extra": "mean: 170.86992263793945 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6cb226eabd6e8174e02b5c0627156025545dedf2",
+          "message": "add back dedicated txn for scan keys (#1206)",
+          "timestamp": "2023-08-10T16:51:55-04:00",
+          "tree_id": "fcda4091d2f679433ab1a2864c1c6e7c3a702d38",
+          "url": "https://github.com/nuclia/nucliadb/commit/6cb226eabd6e8174e02b5c0627156025545dedf2"
+        },
+        "date": 1691700980181,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5036.919118033818,
+            "unit": "iter/sec",
+            "range": "stddev: 2.4914903503328985e-7",
+            "extra": "mean: 198.53405952453613 usec\nrounds: 5"
           }
         ]
       }
