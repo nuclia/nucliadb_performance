@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691778550003,
+  "lastUpdate": 1691779585905,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -32475,6 +32475,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00009186078376062715",
             "extra": "mean: 5.4964040455065275 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "34a4622f4b793e888d1489eb20cd184322da06a8",
+          "message": "Revert \"wait for the lock on GC\" // Fix current deadlock situation in search tests (#1213)",
+          "timestamp": "2023-08-11T14:16:02-04:00",
+          "tree_id": "a13a8f187345fc46a8337ed2c22b9bbc05b7b47e",
+          "url": "https://github.com/nuclia/nucliadb/commit/34a4622f4b793e888d1489eb20cd184322da06a8"
+        },
+        "date": 1691779583948,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 4878.5385451051825,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000003707330053570335",
+            "extra": "mean: 204.97941970825195 usec\nrounds: 5"
           }
         ]
       }
