@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691779585905,
+  "lastUpdate": 1691782134857,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -32506,6 +32506,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000003707330053570335",
             "extra": "mean: 204.97941970825195 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "12444a73d1ca5ddecc10d4bc8add5f1e36a7fadf",
+          "message": "Improve logging and add metric for garbage collecting (#1211)\n\n* improve logging\n\n* add metric for gc",
+          "timestamp": "2023-08-11T19:10:59Z",
+          "tree_id": "1f16ca9364ef7083ae2fb3795daed4c81b474008",
+          "url": "https://github.com/nuclia/nucliadb/commit/12444a73d1ca5ddecc10d4bc8add5f1e36a7fadf"
+        },
+        "date": 1691782132175,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 48.95301364842752,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00042644219512899046",
+            "extra": "mean: 20.427751541137695 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 139.15666789338474,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00012632205494072802",
+            "extra": "mean: 7.186145048875075 msec\nrounds: 5"
           }
         ]
       }
