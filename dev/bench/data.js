@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1692016341413,
+  "lastUpdate": 1692016612621,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -32745,6 +32745,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00035177834170645606",
             "extra": "mean: 5.716449336001747 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tarek@ziade.org",
+            "name": "Tarek Ziade",
+            "username": "tarekziade"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "27e27a9c70b2c73c101683e33dd24d45fdb235d9",
+          "message": "make sure the reader sends telemetry (#1202)\n\n* make sure the reader sends telemetry, and added a settings to disable sentry\n\n* added minimal test coverage\n\n* print out when sentry is disabled\n\n* fmt",
+          "timestamp": "2023-08-14T12:10:33Z",
+          "tree_id": "6e3b01b0295d2f3e19273e8e6112eb562e8331c6",
+          "url": "https://github.com/nuclia/nucliadb/commit/27e27a9c70b2c73c101683e33dd24d45fdb235d9"
+        },
+        "date": 1692016610545,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5782.327817956728,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000031333101374190077",
+            "extra": "mean: 172.94073104858398 usec\nrounds: 5"
           }
         ]
       }
