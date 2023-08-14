@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1692008581158,
+  "lastUpdate": 1692011603285,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -32600,6 +32600,37 @@ window.BENCHMARK_DATA = {
             "name": "Total Storage Size",
             "value": 17954199,
             "unit": "bytes"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "726296a88c02746bb1dd8410646974adf3a4e4e0",
+          "message": "Purge small fixes (#1215)\n\n* Fix connection leaks\n\n* Wait for cluster ready in smarter way",
+          "timestamp": "2023-08-14T11:08:47Z",
+          "tree_id": "89f81b7f3ecbf5a8358f00b5754d6bb8f633078f",
+          "url": "https://github.com/nuclia/nucliadb/commit/726296a88c02746bb1dd8410646974adf3a4e4e0"
+        },
+        "date": 1692011601219,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5858.748737959984,
+            "unit": "iter/sec",
+            "range": "stddev: 2.5055952848481167e-7",
+            "extra": "mean: 170.68490982055664 usec\nrounds: 5"
           }
         ]
       }
