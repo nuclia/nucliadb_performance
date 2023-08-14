@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1692017183610,
+  "lastUpdate": 1692021625817,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -32845,6 +32845,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00018054369370202177",
             "extra": "mean: 7.643853701077974 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fb46bcbd350f19cf0672ead2d76b52d7dbc884d6",
+          "message": "Retry timeout errors for tikv (#1217)\n\n* Retry timeout errors for tikv\n\n* Fix\n\n* Add a comment",
+          "timestamp": "2023-08-14T13:55:15Z",
+          "tree_id": "fe590e3e9bb1aefd868e4829e7de83a63dc765bc",
+          "url": "https://github.com/nuclia/nucliadb/commit/fb46bcbd350f19cf0672ead2d76b52d7dbc884d6"
+        },
+        "date": 1692021623467,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 4345.6139314802085,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000010569539309291964",
+            "extra": "mean: 230.1170825958252 usec\nrounds: 5"
           }
         ]
       }
