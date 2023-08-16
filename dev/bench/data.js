@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1692169762583,
+  "lastUpdate": 1692207252396,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -33079,6 +33079,44 @@ window.BENCHMARK_DATA = {
             "name": "Total Storage Size",
             "value": 17429643,
             "unit": "bytes"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ffc17b6c7b123388e352b6f7b0cfc5505066c3a3",
+          "message": "have ListShards list all the shards in a node (#1227)\n\n* have ListShards list all the shards in a node\n\n* fmt\n\n* lint\n\n* tweak test\n\n* tweak\n\n* try\n\n* fix",
+          "timestamp": "2023-08-16T17:23:34Z",
+          "tree_id": "aba1cd2278786269610389b20bedab58c74d7030",
+          "url": "https://github.com/nuclia/nucliadb/commit/ffc17b6c7b123388e352b6f7b0cfc5505066c3a3"
+        },
+        "date": 1692207250146,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 73.66324252839448,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0005125795848262777",
+            "extra": "mean: 13.575291633605957 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 176.01990513724883,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000975476444117717",
+            "extra": "mean: 5.681175655788845 msec\nrounds: 5"
           }
         ]
       }
