@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1692150773521,
+  "lastUpdate": 1692169762583,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -33052,6 +33052,33 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 8.553360247347651e-7",
             "extra": "mean: 197.37305641174316 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Nathan Van Gheem",
+            "username": "vangheem",
+            "email": "vangheem@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "9923de1f17ee28137608180a25bd3a5c5022647e",
+          "message": "fix possibility of gc multiple times (#1223)",
+          "timestamp": "2023-08-16T01:25:55Z",
+          "url": "https://github.com/nuclia/nucliadb/commit/9923de1f17ee28137608180a25bd3a5c5022647e"
+        },
+        "date": 1692169760016,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total Storage Size",
+            "value": 17429643,
+            "unit": "bytes"
           }
         ]
       }
