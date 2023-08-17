@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1692278904810,
+  "lastUpdate": 1692279084189,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -33286,6 +33286,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 9.932381597645257e-7",
             "extra": "mean: 237.26072311401367 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "15c1a80bd2cda6cfc3a412a10f020236ce54784c",
+          "message": "Look ahead chat stream and parse predict status code (#1228)\n\n* Stream look ahead and parse status code\n\n* Simpler if condition",
+          "timestamp": "2023-08-17T13:22:39Z",
+          "tree_id": "b2a14af6327e16ee9a6bca605e601c14ea028ea0",
+          "url": "https://github.com/nuclia/nucliadb/commit/15c1a80bd2cda6cfc3a412a10f020236ce54784c"
+        },
+        "date": 1692279081977,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 81.36522267120087,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00018288787408655337",
+            "extra": "mean: 12.290263175964355 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 182.50521006525065,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00026321740324438466",
+            "extra": "mean: 5.47929563020405 msec\nrounds: 5"
           }
         ]
       }
