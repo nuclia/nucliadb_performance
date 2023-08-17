@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1692291317168,
+  "lastUpdate": 1692292457690,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -33555,6 +33555,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0006776398353234259",
             "extra": "mean: 9.331655502319336 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "42d077c596674edaa43614ae21d4f78142aec10b",
+          "message": "upgrade nats library to 2.3.1 (#1229)\n\n* upgrade nats library to 2.3.1\n\n* bump tele",
+          "timestamp": "2023-08-17T16:41:24Z",
+          "tree_id": "9ac6b4cf68b55f38991a96107769a8c222a858f1",
+          "url": "https://github.com/nuclia/nucliadb/commit/42d077c596674edaa43614ae21d4f78142aec10b"
+        },
+        "date": 1692292455622,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 4838.509994594275,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000010182159803411428",
+            "extra": "mean: 206.67519569396973 usec\nrounds: 5"
           }
         ]
       }
