@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1692279084189,
+  "lastUpdate": 1692280305327,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -33324,6 +33324,33 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00026321740324438466",
             "extra": "mean: 5.47929563020405 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Tarek Ziadé",
+            "username": "tarekziade",
+            "email": "tarek@ziade.org"
+          },
+          "committer": {
+            "name": "Tarek Ziadé",
+            "username": "tarekziade",
+            "email": "tarek@ziade.org"
+          },
+          "id": "599dfd60a9fcb9fe83d9b50aa92fb70a92cfc7a7",
+          "message": "plugged into the CI",
+          "timestamp": "2023-08-17T13:30:42Z",
+          "url": "https://github.com/nuclia/nucliadb/commit/599dfd60a9fcb9fe83d9b50aa92fb70a92cfc7a7"
+        },
+        "date": 1692280303295,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total Storage Size",
+            "value": 17271795,
+            "unit": "bytes"
           }
         ]
       }
