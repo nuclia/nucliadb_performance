@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1692211522284,
+  "lastUpdate": 1692270888940,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -33217,6 +33217,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000029266763477642915",
             "extra": "mean: 172.205114364624 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "44120086+hermeGarcia@users.noreply.github.com",
+            "name": "Herme",
+            "username": "hermeGarcia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "29253617af0a2c47e7a86508db836b880285e074",
+          "message": "Fix lock gc (#1226)\n\n* WIP lock gc\n\n* fix race condition in gc\n\n* light ref",
+          "timestamp": "2023-08-17T11:04:24Z",
+          "tree_id": "56ab1aad9bd8fa5f836441a334fd319aa028ad3e",
+          "url": "https://github.com/nuclia/nucliadb/commit/29253617af0a2c47e7a86508db836b880285e074"
+        },
+        "date": 1692270886850,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 73.48320905981947,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0009235248999624556",
+            "extra": "mean: 13.608551025390625 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 176.87120065596815,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00008478998202118623",
+            "extra": "mean: 5.65383169386122 msec\nrounds: 5"
           }
         ]
       }
