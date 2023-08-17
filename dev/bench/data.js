@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1692280305327,
+  "lastUpdate": 1692280954847,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -33351,6 +33351,44 @@ window.BENCHMARK_DATA = {
             "name": "Total Storage Size",
             "value": 17271795,
             "unit": "bytes"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tarek@ziade.org",
+            "name": "Tarek Ziade",
+            "username": "tarekziade"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3b7ca680a99639ceb68d1d355a237ede6bed3466",
+          "message": "Fix cron exrpression in nucliadb_nightly_bench.yml (#1224)",
+          "timestamp": "2023-08-17T13:50:14Z",
+          "tree_id": "dc3e1654ea02866fdd1c90eda82b5da1bb661097",
+          "url": "https://github.com/nuclia/nucliadb/commit/3b7ca680a99639ceb68d1d355a237ede6bed3466"
+        },
+        "date": 1692280952139,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 43.73202987825985,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0012885560075509808",
+            "extra": "mean: 22.866535186767578 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 109.80145632148151,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000695719845501733",
+            "extra": "mean: 9.1073473294576 msec\nrounds: 5"
           }
         ]
       }
