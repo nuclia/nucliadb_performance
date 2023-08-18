@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1692372714714,
+  "lastUpdate": 1692381680758,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -33927,6 +33927,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000003904942276966958",
             "extra": "mean: 223.94967079162598 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a4fc6202233b67b866a2df86d91c43a0b5680254",
+          "message": "Standalone support for gc and shard splitting (#1222)\n\n* support gc and shard splitting with standalone\n\n* fix\n\n* fix\n\n* also on delete\n\n* refactor kb orm\n\n* test fixes\n\n* test fixes\n\n* only 1 exception with that name\n\n* exc for datamanagers/\n\n* type hint",
+          "timestamp": "2023-08-18T15:26:06Z",
+          "tree_id": "ccfc2099a63309f423a4c348dcf57861f0ff2117",
+          "url": "https://github.com/nuclia/nucliadb/commit/a4fc6202233b67b866a2df86d91c43a0b5680254"
+        },
+        "date": 1692381678622,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 79.31886786101556,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00020922160019282615",
+            "extra": "mean: 12.607340812683107 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 183.0915662584169,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00019032119488819046",
+            "extra": "mean: 5.461748022782175 msec\nrounds: 5"
           }
         ]
       }
