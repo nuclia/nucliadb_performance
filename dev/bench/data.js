@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1692318308670,
+  "lastUpdate": 1692366987147,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -33613,6 +33613,44 @@ window.BENCHMARK_DATA = {
             "name": "Total Storage Size",
             "value": 15263887,
             "unit": "bytes"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tarek@ziade.org",
+            "name": "Tarek Ziade",
+            "username": "tarekziade"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "dbff5014ca3f3b34a58b6d7518f95227cfc4196f",
+          "message": "Added a new `LabelDictionary` class. (#1225)\n\nThe class uses the `fst` crate to index labels\nalong with their corresponding doc ids, and\nprovides a fast lookup function.",
+          "timestamp": "2023-08-18T13:40:26Z",
+          "tree_id": "4f01b3aadecedcf4ea128ed1afb055151916c06d",
+          "url": "https://github.com/nuclia/nucliadb/commit/dbff5014ca3f3b34a58b6d7518f95227cfc4196f"
+        },
+        "date": 1692366984999,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 72.94195639312343,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0005176304449254586",
+            "extra": "mean: 13.709530830383299 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 175.8309941941101,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00010235859483677775",
+            "extra": "mean: 5.687279450265985 msec\nrounds: 5"
           }
         ]
       }
