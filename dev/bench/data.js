@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1692366987147,
+  "lastUpdate": 1692367289530,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -33651,6 +33651,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00010235859483677775",
             "extra": "mean: 5.687279450265985 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "05c82fa3fa3549096a83c7555ecdf75aa0eaeb4e",
+          "message": "Add missing nonblocking code to GetShard (#1233)",
+          "timestamp": "2023-08-18T13:51:25Z",
+          "tree_id": "1c672fc2992b385848548a54087d555e615b24b0",
+          "url": "https://github.com/nuclia/nucliadb/commit/05c82fa3fa3549096a83c7555ecdf75aa0eaeb4e"
+        },
+        "date": 1692367287256,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 76.34741416908217,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000292450080391177",
+            "extra": "mean: 13.098020553588867 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 181.75231877857135,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00008216058759162117",
+            "extra": "mean: 5.501993078934519 msec\nrounds: 5"
           }
         ]
       }
