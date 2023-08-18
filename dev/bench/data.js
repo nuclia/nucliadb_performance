@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1692371935478,
+  "lastUpdate": 1692372191631,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -33858,6 +33858,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 5.950583469385396e-7",
             "extra": "mean: 171.4885711669922 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "015861474d6e993efb5bc844a2a0dceb2440dab8",
+          "message": "Index Node Sharding and Replication Strategy (#1128)",
+          "timestamp": "2023-08-18T11:14:22-04:00",
+          "tree_id": "e76fe8a30099d00fcdf435b1404bb8f340160be6",
+          "url": "https://github.com/nuclia/nucliadb/commit/015861474d6e993efb5bc844a2a0dceb2440dab8"
+        },
+        "date": 1692372189855,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 77.50064671579243,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00020996551898854168",
+            "extra": "mean: 12.903118133544922 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 178.00103639904935,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00020615908595798726",
+            "extra": "mean: 5.617944817793997 msec\nrounds: 5"
           }
         ]
       }
