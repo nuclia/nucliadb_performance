@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1692372191631,
+  "lastUpdate": 1692372714714,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -33896,6 +33896,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00020615908595798726",
             "extra": "mean: 5.617944817793997 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a4fc6202233b67b866a2df86d91c43a0b5680254",
+          "message": "Standalone support for gc and shard splitting (#1222)\n\n* support gc and shard splitting with standalone\n\n* fix\n\n* fix\n\n* also on delete\n\n* refactor kb orm\n\n* test fixes\n\n* test fixes\n\n* only 1 exception with that name\n\n* exc for datamanagers/\n\n* type hint",
+          "timestamp": "2023-08-18T15:26:06Z",
+          "tree_id": "ccfc2099a63309f423a4c348dcf57861f0ff2117",
+          "url": "https://github.com/nuclia/nucliadb/commit/a4fc6202233b67b866a2df86d91c43a0b5680254"
+        },
+        "date": 1692372712019,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 4465.288993125828,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000003904942276966958",
+            "extra": "mean: 223.94967079162598 usec\nrounds: 5"
           }
         ]
       }
