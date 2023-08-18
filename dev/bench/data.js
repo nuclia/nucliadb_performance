@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1692292457690,
+  "lastUpdate": 1692318308670,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -33586,6 +33586,33 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000010182159803411428",
             "extra": "mean: 206.67519569396973 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Nathan Van Gheem",
+            "username": "vangheem",
+            "email": "vangheem@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "42d077c596674edaa43614ae21d4f78142aec10b",
+          "message": "upgrade nats library to 2.3.1 (#1229)\n\n* upgrade nats library to 2.3.1\n\n* bump tele",
+          "timestamp": "2023-08-17T16:41:24Z",
+          "url": "https://github.com/nuclia/nucliadb/commit/42d077c596674edaa43614ae21d4f78142aec10b"
+        },
+        "date": 1692318306454,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total Storage Size",
+            "value": 15263887,
+            "unit": "bytes"
           }
         ]
       }
