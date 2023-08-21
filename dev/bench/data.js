@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1692648772881,
+  "lastUpdate": 1692652076185,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -34287,6 +34287,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 8.459160971380545e-7",
             "extra": "mean: 196.3595867156982 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8d356e4f15d716761cb32ad7cded973ae12cf074",
+          "message": "Add SentryInterceptor to nucliadb_utils grpc server (II) (#1242)\n\n* Add SentryInterceptor to nucliadb_utils grpc server\n\n* Adjust nucliadb_telemetry requirement",
+          "timestamp": "2023-08-21T21:02:15Z",
+          "tree_id": "1a41c4ae1f37e5d996218a2b1cdd1476c0b937ac",
+          "url": "https://github.com/nuclia/nucliadb/commit/8d356e4f15d716761cb32ad7cded973ae12cf074"
+        },
+        "date": 1692652073581,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 4982.960081945575,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000027709209873103415",
+            "extra": "mean: 200.68392753601074 usec\nrounds: 5"
           }
         ]
       }
