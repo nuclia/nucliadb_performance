@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1692648526877,
+  "lastUpdate": 1692648772881,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -34256,6 +34256,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00036225176938418853",
             "extra": "mean: 10.130095481872559 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "fe72dfdb7e3935c8a6457e114377290523b81cdf",
+          "message": "Use SentryInterceptor in gRPC servers (#1238)\n\n* Add SentryInterceptor to gRPC servers\n\n* Fix nucliadb_utils isort lints\n\n* Move sentry interceptor to nucliadb_telemetry\n\n* Add more typing to nucliadb_telemetry fixtures\n\n* Fix nucliadb_telemetry isort lint and format\n\n* Add tests for SentryInterceptor\n\n* Bump nucliadb_telemetry version\n\n* Use custom capture_exception in SentryInterceptor\n\n* Fix mypy complains\n\n* Remove SentryInterceptor from nucliadb_utils\n\nIt'll be added in the next PR\n\n* Fix tests adding missing clean_telemetry",
+          "timestamp": "2023-08-21T20:08:14Z",
+          "tree_id": "a6c232c0a477158aab4e23b5e4a637d31b156855",
+          "url": "https://github.com/nuclia/nucliadb/commit/fe72dfdb7e3935c8a6457e114377290523b81cdf"
+        },
+        "date": 1692648770812,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5092.697620350275,
+            "unit": "iter/sec",
+            "range": "stddev: 8.459160971380545e-7",
+            "extra": "mean: 196.3595867156982 usec\nrounds: 5"
           }
         ]
       }
