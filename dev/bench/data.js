@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1692608048388,
+  "lastUpdate": 1692648526877,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -34218,6 +34218,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00029498786874930684",
             "extra": "mean: 6.772950291633606 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6ee19c726fbeb57f61ac88940a48302d9b127787",
+          "message": "Clean Makefile (#1240)\n\n* clean docker compose makefile commands\n\n* more things to clean",
+          "timestamp": "2023-08-21T19:56:12Z",
+          "tree_id": "7a1a852c0670832c2d00dc05241076483aa24b07",
+          "url": "https://github.com/nuclia/nucliadb/commit/6ee19c726fbeb57f61ac88940a48302d9b127787"
+        },
+        "date": 1692648523905,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 38.222082086770776,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0032939409689867393",
+            "extra": "mean: 26.16288661956787 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 98.71575265894226,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00036225176938418853",
+            "extra": "mean: 10.130095481872559 msec\nrounds: 5"
           }
         ]
       }
