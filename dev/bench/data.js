@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1692577677776,
+  "lastUpdate": 1692608048388,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -34180,6 +34180,44 @@ window.BENCHMARK_DATA = {
             "name": "Labels Search Time",
             "value": 360,
             "unit": "µs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tarek@ziade.org",
+            "name": "Tarek Ziade",
+            "username": "tarekziade"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d6057d7f07f5ed14170c4be8326db0bb724b446d",
+          "message": "renamed `LabelDictionary` to `LabelIndex` (#1237)\n\n* renamed `LabelDictionnary` to `LabelIndex`\n\n* revert change on Cargo.lock\n\n* more renaming\n\n* lock file changed again...",
+          "timestamp": "2023-08-21T08:42:16Z",
+          "tree_id": "095707498fc9a86fc7ec20e0d2d14078c24ffe88",
+          "url": "https://github.com/nuclia/nucliadb/commit/d6057d7f07f5ed14170c4be8326db0bb724b446d"
+        },
+        "date": 1692608045779,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 64.96236204242724,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00039744212967465515",
+            "extra": "mean: 15.393528938293457 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 147.64614487651946,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00029498786874930684",
+            "extra": "mean: 6.772950291633606 msec\nrounds: 5"
           }
         ]
       }
