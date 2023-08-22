@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1692657032879,
+  "lastUpdate": 1692663985727,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -34394,6 +34394,33 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00008229533133294777",
             "extra": "mean: 5.7157092624240455 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Nathan Van Gheem",
+            "username": "vangheem",
+            "email": "vangheem@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "23975dd77b2f990c7ec9da6c7dbc0103654e3c48",
+          "message": "add lock file for installing nucliadb (#1241)\n\n* add lock file for installing nucliadb\n\n* note about lock gen",
+          "timestamp": "2023-08-21T22:20:59Z",
+          "url": "https://github.com/nuclia/nucliadb/commit/23975dd77b2f990c7ec9da6c7dbc0103654e3c48"
+        },
+        "date": 1692663983256,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total Storage Size",
+            "value": 14897124,
+            "unit": "bytes"
           }
         ]
       }
