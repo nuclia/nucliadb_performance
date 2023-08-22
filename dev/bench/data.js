@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1692688452811,
+  "lastUpdate": 1692701660229,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -34522,6 +34522,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 9.99659846710511e-8",
             "extra": "mean: 194.52028274536133 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c5fe7604f28e81404bcc5a3026f43a8edeb41fff",
+          "message": "Remove unused Rust dependencies (#1243)",
+          "timestamp": "2023-08-22T10:43:22Z",
+          "tree_id": "1acb6b5cd53bf174bbc15aff203acfd94601da7c",
+          "url": "https://github.com/nuclia/nucliadb/commit/c5fe7604f28e81404bcc5a3026f43a8edeb41fff"
+        },
+        "date": 1692701657716,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 65.25787907661038,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0007126146735218736",
+            "extra": "mean: 15.323820114135742 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 171.17240928985572,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00019730230376277416",
+            "extra": "mean: 5.842063006232767 msec\nrounds: 5"
           }
         ]
       }
