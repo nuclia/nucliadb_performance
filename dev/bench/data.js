@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1692702646284,
+  "lastUpdate": 1692703845655,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -34591,6 +34591,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 8.234274999326707e-8",
             "extra": "mean: 170.21045684814453 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "cc10aa3ce6fbe5dffc157314fd41a8505469dfe5",
+          "message": "Fix predict chat response iterator (#1231)\n\n* Done\n\n* Better\n\n* Add more parsing\n\n* Improve comment\n\n* Improve comment",
+          "timestamp": "2023-08-22T11:25:46Z",
+          "tree_id": "e99fc9357f8df4432a158ea07ec7ca57bc5d2514",
+          "url": "https://github.com/nuclia/nucliadb/commit/cc10aa3ce6fbe5dffc157314fd41a8505469dfe5"
+        },
+        "date": 1692703843865,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 5067.283427390632,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000012626458937153688",
+            "extra": "mean: 197.34439849853516 usec\nrounds: 5"
           }
         ]
       }
