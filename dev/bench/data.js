@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1692777295834,
+  "lastUpdate": 1692778385495,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -34757,6 +34757,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00022233477779594728",
             "extra": "mean: 6.490264219396255 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6dd34be621f14ff17b5cbfb0427568532ac4250f",
+          "message": "Upgrade to Python 3.11 (#1246)\n\n* Passing corountines to wait is now forbidden\n\n* Remove unused pytestmark\n\n* Upgrade workflows to lint 3.9-11 and test with 3.11\n\n* Quote Python versions\n\n* Quote 3.11's\n\n* Upgrade docker images to Python 3.11\n\n* Update setup.py's with dropping 3.8\n\n* Upgrade install-vm script to Python 3.11",
+          "timestamp": "2023-08-23T07:40:32Z",
+          "tree_id": "30070e2e787f6bb66e65ee6f02bdc40329ed8780",
+          "url": "https://github.com/nuclia/nucliadb/commit/6dd34be621f14ff17b5cbfb0427568532ac4250f"
+        },
+        "date": 1692778382469,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 7221.714676511638,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000002096924228530564",
+            "extra": "mean: 138.47126960754395 usec\nrounds: 5"
           }
         ]
       }
