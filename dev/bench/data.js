@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1692704113150,
+  "lastUpdate": 1692750402105,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -34660,6 +34660,33 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00024012431693532286",
             "extra": "mean: 5.891180038452148 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ferran Llamas",
+            "username": "lferran",
+            "email": "ferran@nuclia.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "cc10aa3ce6fbe5dffc157314fd41a8505469dfe5",
+          "message": "Fix predict chat response iterator (#1231)\n\n* Done\n\n* Better\n\n* Add more parsing\n\n* Improve comment\n\n* Improve comment",
+          "timestamp": "2023-08-22T11:25:46Z",
+          "url": "https://github.com/nuclia/nucliadb/commit/cc10aa3ce6fbe5dffc157314fd41a8505469dfe5"
+        },
+        "date": 1692750399563,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total Storage Size",
+            "value": 15574322,
+            "unit": "bytes"
           }
         ]
       }
