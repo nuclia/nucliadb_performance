@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1692750451815,
+  "lastUpdate": 1692777295834,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -34719,6 +34719,44 @@ window.BENCHMARK_DATA = {
             "name": "Labels Search Time",
             "value": 497,
             "unit": "µs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6dd34be621f14ff17b5cbfb0427568532ac4250f",
+          "message": "Upgrade to Python 3.11 (#1246)\n\n* Passing corountines to wait is now forbidden\n\n* Remove unused pytestmark\n\n* Upgrade workflows to lint 3.9-11 and test with 3.11\n\n* Quote Python versions\n\n* Quote 3.11's\n\n* Upgrade docker images to Python 3.11\n\n* Update setup.py's with dropping 3.8\n\n* Upgrade install-vm script to Python 3.11",
+          "timestamp": "2023-08-23T07:40:32Z",
+          "tree_id": "30070e2e787f6bb66e65ee6f02bdc40329ed8780",
+          "url": "https://github.com/nuclia/nucliadb/commit/6dd34be621f14ff17b5cbfb0427568532ac4250f"
+        },
+        "date": 1692777292856,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 60.968364451013414,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0007288368999887676",
+            "extra": "mean: 16.40194892883301 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 154.0769321858245,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00022233477779594728",
+            "extra": "mean: 6.490264219396255 msec\nrounds: 5"
           }
         ]
       }
