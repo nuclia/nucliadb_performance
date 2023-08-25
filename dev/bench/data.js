@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1692969458718,
+  "lastUpdate": 1692970990795,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -35051,6 +35051,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00012221270917549444",
             "extra": "mean: 6.770429611206054 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ramon@nuclia.com",
+            "name": "Ramon Navarro Bosch",
+            "username": "bloodbare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ab4fe6b49d15af0454c550c1e8a1d9f895264e01",
+          "message": "Add the option to remove paragraph search on chat endpoint (#1254)",
+          "timestamp": "2023-08-25T09:37:37-04:00",
+          "tree_id": "294e02b0887bd48e6c031922e01515ce9a80975f",
+          "url": "https://github.com/nuclia/nucliadb/commit/ab4fe6b49d15af0454c550c1e8a1d9f895264e01"
+        },
+        "date": 1692970987938,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 7211.451105641306,
+            "unit": "iter/sec",
+            "range": "stddev: 1.962301794257796e-7",
+            "extra": "mean: 138.6683464050293 usec\nrounds: 5"
           }
         ]
       }
