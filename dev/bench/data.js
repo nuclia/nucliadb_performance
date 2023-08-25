@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1692901747627,
+  "lastUpdate": 1692923227065,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -34954,6 +34954,33 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 3.746653110190535e-7",
             "extra": "mean: 115.43722152709961 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Nathan Van Gheem",
+            "username": "vangheem",
+            "email": "vangheem@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "10c998063b5138c8e4825f53d489b13cf88ed526",
+          "message": "nak errored messages (#1251)\n\n* nak errored messages\n\n* add debug\n\n* fix standalone tests\n\n* fix gcs\n\n* sdk changes\n\n* try gh env var",
+          "timestamp": "2023-08-24T17:58:31Z",
+          "url": "https://github.com/nuclia/nucliadb/commit/10c998063b5138c8e4825f53d489b13cf88ed526"
+        },
+        "date": 1692923224133,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total Storage Size",
+            "value": 15267444,
+            "unit": "bytes"
           }
         ]
       }
