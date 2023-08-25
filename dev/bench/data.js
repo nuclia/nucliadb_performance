@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1692923276733,
+  "lastUpdate": 1692969458718,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -35013,6 +35013,44 @@ window.BENCHMARK_DATA = {
             "name": "Labels Search Time",
             "value": 335,
             "unit": "µs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "616cdc25793b368de9e14bdfcf26f4ca8923babd",
+          "message": "Delete deprecated POST /entitiesgroups/{group} (#1110)\n\n* Remove deprecated POST /entitiesgroup/group\n\n* Delete deprecated tests\n\n* Fix integration test\n\n* Fix writer tests\n\n* Fix nucliadb tests\n\n* Update SDKv1 entities with new API\n\n* Fix entities endpoints return models on SDKv2\n\n* Add missing title to update entities (SDKv1)\n\n* Always use IP for docker internal host\n\n* Revert \"Always use IP for docker internal host\"\n\nThis reverts commit c7c0c73fe8bf0e011f517a44f71312ab05f5a3cd.\n\n* Fix after rebase",
+          "timestamp": "2023-08-25T13:05:40Z",
+          "tree_id": "0f37a95d650a0fb6b6a70efadf0f0d493399dba7",
+          "url": "https://github.com/nuclia/nucliadb/commit/616cdc25793b368de9e14bdfcf26f4ca8923babd"
+        },
+        "date": 1692969455894,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 55.93941802681803,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0001737298772448754",
+            "extra": "mean: 17.8764820098877 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 147.70111461536402,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00012221270917549444",
+            "extra": "mean: 6.770429611206054 msec\nrounds: 5"
           }
         ]
       }
