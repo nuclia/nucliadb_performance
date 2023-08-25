@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1692923227065,
+  "lastUpdate": 1692923276733,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -34981,6 +34981,38 @@ window.BENCHMARK_DATA = {
             "name": "Total Storage Size",
             "value": 15267444,
             "unit": "bytes"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Nathan Van Gheem",
+            "username": "vangheem",
+            "email": "vangheem@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "10c998063b5138c8e4825f53d489b13cf88ed526",
+          "message": "nak errored messages (#1251)\n\n* nak errored messages\n\n* add debug\n\n* fix standalone tests\n\n* fix gcs\n\n* sdk changes\n\n* try gh env var",
+          "timestamp": "2023-08-24T17:58:31Z",
+          "url": "https://github.com/nuclia/nucliadb/commit/10c998063b5138c8e4825f53d489b13cf88ed526"
+        },
+        "date": 1692923273848,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Labels Index Time",
+            "value": 2082,
+            "unit": "ms"
+          },
+          {
+            "name": "Labels Search Time",
+            "value": 335,
+            "unit": "µs"
           }
         ]
       }
