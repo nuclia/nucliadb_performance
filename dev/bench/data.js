@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1693009529281,
+  "lastUpdate": 1693085085846,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -35317,6 +35317,44 @@ window.BENCHMARK_DATA = {
             "name": "Labels Search Time",
             "value": 454,
             "unit": "µs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5164bdca82db44465442cbd5e22b0457aa05c389",
+          "message": "Handle shard not found when getting shard info (#1257)\n\n* handle not found error getting shard\n\n* add log\n\n* add missing test file",
+          "timestamp": "2023-08-26T21:14:06Z",
+          "tree_id": "83fead86ffcd7e4718c854ce0322da774b18f910",
+          "url": "https://github.com/nuclia/nucliadb/commit/5164bdca82db44465442cbd5e22b0457aa05c389"
+        },
+        "date": 1693085083207,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 86.62116046594429,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0003385724658065395",
+            "extra": "mean: 11.544523239135744 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 210.49174614989622,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00010207909826039199",
+            "extra": "mean: 4.75078010559082 msec\nrounds: 5"
           }
         ]
       }
