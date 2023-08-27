@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1693096222266,
+  "lastUpdate": 1693170351376,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -35445,6 +35445,44 @@ window.BENCHMARK_DATA = {
             "name": "Labels Search Time",
             "value": 424,
             "unit": "µs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "44120086+hermeGarcia@users.noreply.github.com",
+            "name": "Herme",
+            "username": "hermeGarcia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "185147996562b5d1252c3880d61e5e122002424a",
+          "message": "add middleware tracing (#1258)\n\n* add middleware tracing\n\n* middleware traces",
+          "timestamp": "2023-08-27T20:53:43Z",
+          "tree_id": "df84e0170c7e475744360e5adb223c92b39c86f6",
+          "url": "https://github.com/nuclia/nucliadb/commit/185147996562b5d1252c3880d61e5e122002424a"
+        },
+        "date": 1693170348343,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 78.65077013662565,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0009523391775859995",
+            "extra": "mean: 12.714433670043945 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 184.1813244129664,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00017840903671276098",
+            "extra": "mean: 5.429432127210829 msec\nrounds: 5"
           }
         ]
       }
