@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1693096165985,
+  "lastUpdate": 1693096222266,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -35413,6 +35413,38 @@ window.BENCHMARK_DATA = {
             "name": "Total Storage Size",
             "value": 17150492,
             "unit": "bytes"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Nathan Van Gheem",
+            "username": "vangheem",
+            "email": "vangheem@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "5164bdca82db44465442cbd5e22b0457aa05c389",
+          "message": "Handle shard not found when getting shard info (#1257)\n\n* handle not found error getting shard\n\n* add log\n\n* add missing test file",
+          "timestamp": "2023-08-26T21:14:06Z",
+          "url": "https://github.com/nuclia/nucliadb/commit/5164bdca82db44465442cbd5e22b0457aa05c389"
+        },
+        "date": 1693096219266,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Labels Index Time",
+            "value": 2399,
+            "unit": "ms"
+          },
+          {
+            "name": "Labels Search Time",
+            "value": 424,
+            "unit": "µs"
           }
         ]
       }
