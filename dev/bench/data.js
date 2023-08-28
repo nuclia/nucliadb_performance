@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1693182499722,
+  "lastUpdate": 1693182554473,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -35541,6 +35541,38 @@ window.BENCHMARK_DATA = {
             "name": "Total Storage Size",
             "value": 16235571,
             "unit": "bytes"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Herme",
+            "username": "hermeGarcia",
+            "email": "44120086+hermeGarcia@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "185147996562b5d1252c3880d61e5e122002424a",
+          "message": "add middleware tracing (#1258)\n\n* add middleware tracing\n\n* middleware traces",
+          "timestamp": "2023-08-27T20:53:43Z",
+          "url": "https://github.com/nuclia/nucliadb/commit/185147996562b5d1252c3880d61e5e122002424a"
+        },
+        "date": 1693182551543,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Labels Index Time",
+            "value": 2326,
+            "unit": "ms"
+          },
+          {
+            "name": "Labels Search Time",
+            "value": 396,
+            "unit": "µs"
           }
         ]
       }
