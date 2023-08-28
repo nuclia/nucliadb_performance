@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1693220686412,
+  "lastUpdate": 1693221044592,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -35780,6 +35780,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.7766427166963632e-7",
             "extra": "mean: 101.65910720825195 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b0d041e225caea813f79a871123b8d8de7bd9815",
+          "message": "Revert \"Fix predict chat response iterator (#1231)\" (#1262)\n\nThis reverts commit cc10aa3ce6fbe5dffc157314fd41a8505469dfe5.",
+          "timestamp": "2023-08-28T11:05:49Z",
+          "tree_id": "0720614d576a16a99ecb546d44f499e2fddc87ad",
+          "url": "https://github.com/nuclia/nucliadb/commit/b0d041e225caea813f79a871123b8d8de7bd9815"
+        },
+        "date": 1693221041949,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 9919.289230617875,
+            "unit": "iter/sec",
+            "range": "stddev: 3.831439234497154e-8",
+            "extra": "mean: 100.81367492675781 usec\nrounds: 5"
           }
         ]
       }
