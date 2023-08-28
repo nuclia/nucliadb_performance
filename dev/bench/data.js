@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1693214488517,
+  "lastUpdate": 1693219734659,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -35711,6 +35711,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 8.706678721430624e-7",
             "extra": "mean: 138.4803295135498 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "5cd7611b9580a64cfd4f5daddd359dffe972c34a",
+          "message": "Fix wrong lazy loading logic (#1261)",
+          "timestamp": "2023-08-28T10:38:05Z",
+          "tree_id": "802219244bf06ff624b529e05c154ace8c366b52",
+          "url": "https://github.com/nuclia/nucliadb/commit/5cd7611b9580a64cfd4f5daddd359dffe972c34a"
+        },
+        "date": 1693219732125,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 90.918754785136,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000947438319957143",
+            "extra": "mean: 10.998830795288084 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 212.07186986101757,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00007917161154710493",
+            "extra": "mean: 4.7153825759887695 msec\nrounds: 5"
           }
         ]
       }
