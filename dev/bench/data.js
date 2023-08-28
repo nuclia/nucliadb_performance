@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1693209024319,
+  "lastUpdate": 1693209229446,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -35604,6 +35604,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.4759126853117916e-7",
             "extra": "mean: 139.6287441253662 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ramon@nuclia.com",
+            "name": "Ramon Navarro Bosch",
+            "username": "bloodbare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "dc5516d5fc0b203d1b8ffd412e32a2cc272261bc",
+          "message": "Remove_paragraph_from_chat_option (#1259)\n\n* Add the option to remove paragraph search on chat endpoint\n\n* Fix\n\n* Fix NucliaDB",
+          "timestamp": "2023-08-28T07:44:38Z",
+          "tree_id": "f1417596126b77b7eeaa867ddf231fecdca5c176",
+          "url": "https://github.com/nuclia/nucliadb/commit/dc5516d5fc0b203d1b8ffd412e32a2cc272261bc"
+        },
+        "date": 1693209227517,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 94.3344081068632,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00031239256826287695",
+            "extra": "mean: 10.6005859375 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 210.92909695296427,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000726739809459908",
+            "extra": "mean: 4.74092960357666 msec\nrounds: 5"
           }
         ]
       }
