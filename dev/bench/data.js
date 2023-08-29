@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1693299329033,
+  "lastUpdate": 1693299636153,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -36084,6 +36084,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 3.0101888919206554e-7",
             "extra": "mean: 114.99886512756348 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ebrehault@gmail.com",
+            "name": "Eric BREHAULT",
+            "username": "ebrehault"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c3f218fddc23ff35a41efa48b3f2065f959350c2",
+          "message": "require protobuf 4 (#1266)\n\n* require protobuf 4\n\n* use protobuf==4.22.3",
+          "timestamp": "2023-08-29T08:49:25Z",
+          "tree_id": "1e3cf67fa9df8364c8b0a7485d50dbbb5d3d119b",
+          "url": "https://github.com/nuclia/nucliadb/commit/c3f218fddc23ff35a41efa48b3f2065f959350c2"
+        },
+        "date": 1693299633512,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 93.63995479531754,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002539155569433688",
+            "extra": "mean: 10.67920207977295 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 215.37015255871904,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00006888368328819683",
+            "extra": "mean: 4.643168926239014 msec\nrounds: 5"
           }
         ]
       }
