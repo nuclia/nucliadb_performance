@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1693300711660,
+  "lastUpdate": 1693325753702,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -36229,6 +36229,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000050235210959216976",
             "extra": "mean: 4.687269687652588 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "b27a294258116f9bfa80dc7f46852e41d6bbcf41",
+          "message": "Add tokio runtime metrics for prometheus meter (#1268)\n\n* Add tokio runtime metrics for prometheus meter\n\n* Add config.toml file configuring tokio_unstable\n\n* Rust 1.72 lints\n\n* Handle poison error on runtime metrics lock\n\n* Convert totals from Gauge to Counters\n\n* Add rustflags with cfg tokio_unstable to gha\n\n* Add rustflags to dockerfiles\n\n* Remove prints\n\n* Tests with rustflags",
+          "timestamp": "2023-08-29T15:56:27Z",
+          "tree_id": "0d376c0b0cd1cf2fea05009b90e2d72d8754c2a9",
+          "url": "https://github.com/nuclia/nucliadb/commit/b27a294258116f9bfa80dc7f46852e41d6bbcf41"
+        },
+        "date": 1693325750715,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 61.327657792493014,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00043571926960202256",
+            "extra": "mean: 16.305856704711914 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 157.7740533030843,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0001253878136589759",
+            "extra": "mean: 6.338177786933051 msec\nrounds: 5"
           }
         ]
       }
