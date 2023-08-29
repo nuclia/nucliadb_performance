@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1693258594021,
+  "lastUpdate": 1693268825693,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -35956,6 +35956,33 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000053887284373700776",
             "extra": "mean: 4.652872562408447 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "vangheem",
+            "username": "vangheem",
+            "email": "vangheem@gmail.com"
+          },
+          "committer": {
+            "name": "vangheem",
+            "username": "vangheem",
+            "email": "vangheem@gmail.com"
+          },
+          "id": "7e616977609be37abe5abb7bb1946be17541a354",
+          "message": "release 2.23.0",
+          "timestamp": "2023-08-28T21:27:54Z",
+          "url": "https://github.com/nuclia/nucliadb/commit/7e616977609be37abe5abb7bb1946be17541a354"
+        },
+        "date": 1693268822758,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total Storage Size",
+            "value": 17144698,
+            "unit": "bytes"
           }
         ]
       }
