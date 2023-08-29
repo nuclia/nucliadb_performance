@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1693299636153,
+  "lastUpdate": 1693299839362,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -36122,6 +36122,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00006888368328819683",
             "extra": "mean: 4.643168926239014 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bedc2c761c70efc662bef3b655ef4408f5a00351",
+          "message": "Move metrics grpc middleware to nucliadb_node (#1265)",
+          "timestamp": "2023-08-29T08:48:21Z",
+          "tree_id": "c14966fbabcd66b107a975ffedec38fee88188b6",
+          "url": "https://github.com/nuclia/nucliadb/commit/bedc2c761c70efc662bef3b655ef4408f5a00351"
+        },
+        "date": 1693299836545,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 66.96161273513094,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0005635872729017022",
+            "extra": "mean: 14.933929443359375 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 171.582337574333,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00013829512887161065",
+            "extra": "mean: 5.828105702119715 msec\nrounds: 5"
           }
         ]
       }
