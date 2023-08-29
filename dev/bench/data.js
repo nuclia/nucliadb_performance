@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1693268875792,
+  "lastUpdate": 1693298074350,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -36015,6 +36015,44 @@ window.BENCHMARK_DATA = {
             "name": "Labels Search Time",
             "value": 406,
             "unit": "µs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c726524ecd89329cd9800aadc9f5fd8dc07671d2",
+          "message": "Upgrade tokio metrics to 0.3.0 (#1264)",
+          "timestamp": "2023-08-29T08:22:28Z",
+          "tree_id": "ccaa010236a0f3f78b98f92ad9f3179cb0249356",
+          "url": "https://github.com/nuclia/nucliadb/commit/c726524ecd89329cd9800aadc9f5fd8dc07671d2"
+        },
+        "date": 1693298071562,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 69.63462897925424,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0003102924592460546",
+            "extra": "mean: 14.360671043395996 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 170.97199588747628,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00026484790687879864",
+            "extra": "mean: 5.848911073472765 msec\nrounds: 5"
           }
         ]
       }
