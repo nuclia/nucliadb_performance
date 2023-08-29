@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1693325753702,
+  "lastUpdate": 1693326578926,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -36267,6 +36267,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0001253878136589759",
             "extra": "mean: 6.338177786933051 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "b27a294258116f9bfa80dc7f46852e41d6bbcf41",
+          "message": "Add tokio runtime metrics for prometheus meter (#1268)\n\n* Add tokio runtime metrics for prometheus meter\n\n* Add config.toml file configuring tokio_unstable\n\n* Rust 1.72 lints\n\n* Handle poison error on runtime metrics lock\n\n* Convert totals from Gauge to Counters\n\n* Add rustflags with cfg tokio_unstable to gha\n\n* Add rustflags to dockerfiles\n\n* Remove prints\n\n* Tests with rustflags",
+          "timestamp": "2023-08-29T15:56:27Z",
+          "tree_id": "0d376c0b0cd1cf2fea05009b90e2d72d8754c2a9",
+          "url": "https://github.com/nuclia/nucliadb/commit/b27a294258116f9bfa80dc7f46852e41d6bbcf41"
+        },
+        "date": 1693326575926,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 7268.260831592357,
+            "unit": "iter/sec",
+            "range": "stddev: 1.0158287952002995e-7",
+            "extra": "mean: 137.5844955444336 usec\nrounds: 5"
           }
         ]
       }
