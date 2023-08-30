@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1693393769500,
+  "lastUpdate": 1693396126621,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -36571,6 +36571,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000122310359987674",
             "extra": "mean: 4.708327770233154 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ebd3fffa63773bc6e131c789ee44defc144cbaa3",
+          "message": "Maintain Python 3.8 support for nucliadb_models (#1275)",
+          "timestamp": "2023-08-30T11:42:37Z",
+          "tree_id": "21f1002e7a410e08559b30731c63c5210ef76601",
+          "url": "https://github.com/nuclia/nucliadb/commit/ebd3fffa63773bc6e131c789ee44defc144cbaa3"
+        },
+        "date": 1693396123993,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 8660.381153039772,
+            "unit": "iter/sec",
+            "range": "stddev: 2.4240637305388367e-7",
+            "extra": "mean: 115.46835899353027 usec\nrounds: 5"
           }
         ]
       }
