@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1693355195167,
+  "lastUpdate": 1693393769500,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -36533,6 +36533,44 @@ window.BENCHMARK_DATA = {
             "name": "Labels Search Time",
             "value": 339,
             "unit": "µs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "44120086+hermeGarcia@users.noreply.github.com",
+            "name": "Herme",
+            "username": "hermeGarcia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "35c57f86bed11368d8a0f7447296f6dbcb37a885",
+          "message": "remove par iter (#1276)",
+          "timestamp": "2023-08-30T10:59:43Z",
+          "tree_id": "f6301038a5758eb52a1ba1395d9bc48b2414ec39",
+          "url": "https://github.com/nuclia/nucliadb/commit/35c57f86bed11368d8a0f7447296f6dbcb37a885"
+        },
+        "date": 1693393766956,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 89.69912125184722,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00022792085619415705",
+            "extra": "mean: 11.148381233215332 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 212.38963147854096,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000122310359987674",
+            "extra": "mean: 4.708327770233154 msec\nrounds: 5"
           }
         ]
       }
