@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1693344850234,
+  "lastUpdate": 1693355152533,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -36474,6 +36474,33 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00019043186127305065",
             "extra": "mean: 5.4567442999945746 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Nathan Van Gheem",
+            "username": "vangheem",
+            "email": "vangheem@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "58fc79e64892845618bbad0841aa6607da253c62",
+          "message": "explicit nak on error in ingest (#1269)\n\n* explicit nak on error in ingest\n\n* tweak",
+          "timestamp": "2023-08-29T18:18:18Z",
+          "url": "https://github.com/nuclia/nucliadb/commit/58fc79e64892845618bbad0841aa6607da253c62"
+        },
+        "date": 1693355150252,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total Storage Size",
+            "value": 15931732,
+            "unit": "bytes"
           }
         ]
       }
