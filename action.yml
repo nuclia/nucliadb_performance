@@ -1,0 +1,70 @@
+name: "Always Fast"
+description: "Performance Regression for PRs"
+
+inputs:
+  main_branch:
+    description: "Main Branch"
+    required: true
+    default: "main"
+  benchmark_name:
+    description: "Benchmark name"
+    required: true
+    default: "speeds"
+  metrics_file:
+    description: "Path to metrics file"
+    default: "metrics.json"
+    required: true
+  backend:
+    description: "Backend type"
+    required: true
+    default: "influxdb"
+  influxdb_url:
+    description: "InfluxDB URL"
+    required: true
+    default: "http://localhost:8086"
+  influxdb_org:
+    description: "InfluxDB Organization"
+    required: true
+    default: "acme"
+  influxdb_bucket:
+    description: "InfluxDB bucket"
+    required: true
+    default: "benchmarks"
+  github_token:
+    description: "Github Token"
+    required: true
+    default: "${{ github.token }}"
+  influxdb_token:
+    description: "InfluxDB Token"
+    required: true
+  github_repository:
+    description: "Github repository"
+    required: true
+    default: "${{github.repository}}"
+  head_ref:
+    description: "Head ref"
+    required: true
+  pr_number:
+    description: "pr number"
+    default: ${{ github.event.issue.number }}
+  github_sha:
+    required: true
+    default: ${{ github.sha }}
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+  env:
+    MAIN_BRANCH: ${{ inputs.main_branch }}
+    BACKEND: ${{ inputs.backend }}
+    BENCHMARK_NAME: ${{ inputs.benchmark_name }}
+    INFLUXDB_URL: ${{ inputs.influxdb_url }}
+    INFLUXDB_ORG: ${{ inputs.influxdb_org }}
+    INFLUXDB_BUCKET: ${{ inputs.influxdb_bucket }}
+    INFLUXDB_TOKEN: ${{ inputs.influxdb_token }}
+    GITHUB_TOKEN: ${{ inputs.github_token }}
+    GITHUB_REPOSITORY: ${{ inputs.github_repository }}
+    HEAD_REF: ${{ inputs.head_ref }}
+    PR_NUMBER: ${{ inputs.pr_number }}
+    METRICS_FILE: ${{ inputs.metrics_file }}
+    GITHUB_SHA: ${{ inputs.github_sha }}
