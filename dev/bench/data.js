@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1693486627874,
+  "lastUpdate": 1693495956916,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -36913,6 +36913,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00013344729110215952",
             "extra": "mean: 6.229496002197266 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tarek@ziade.org",
+            "name": "Tarek Ziade",
+            "username": "tarekziade"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "17a871f33311535a0bb9838c8d7c339bb13f4090",
+          "message": "Add `nucliadb_performance` perf regression action (#1274)\n\n* use alwaysfast\n\n* commented out to try out a trigger\n\n* commented out to try out a trigger\n\n* use main for now\n\n* use main for now\n\n* decomment\n\n* switch to nucliadb_performance\n\n* add a nightly/manual run",
+          "timestamp": "2023-08-31T15:23:23Z",
+          "tree_id": "af9e96ca58a5f3f73cce1f0189a7d66d6da2e644",
+          "url": "https://github.com/nuclia/nucliadb/commit/17a871f33311535a0bb9838c8d7c339bb13f4090"
+        },
+        "date": 1693495954890,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 86.98609028559815,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002775047024387241",
+            "extra": "mean: 11.49609088897705 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 212.70718176007358,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0001173638618278447",
+            "extra": "mean: 4.701298713684082 msec\nrounds: 5"
           }
         ]
       }
