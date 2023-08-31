@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1693441611664,
+  "lastUpdate": 1693479227948,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -36806,6 +36806,37 @@ window.BENCHMARK_DATA = {
             "name": "Labels Search Time",
             "value": 333,
             "unit": "µs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e9373ecd450780f70bd31b039456235361a5e5cf",
+          "message": "/chat ignores empty chunks at the end (#1280)\n\n* /chat ignores empty chunks at the end\n\n* Nit\n\n* Fix test",
+          "timestamp": "2023-08-31T10:48:02Z",
+          "tree_id": "197114db86dda779cdd241b3f9b339b2476df69c",
+          "url": "https://github.com/nuclia/nucliadb/commit/e9373ecd450780f70bd31b039456235361a5e5cf"
+        },
+        "date": 1693479224869,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 7190.209954684731,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000014662600590242865",
+            "extra": "mean: 139.0779972076416 usec\nrounds: 5"
           }
         ]
       }
