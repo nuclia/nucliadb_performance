@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1693814713719,
+  "lastUpdate": 1693815001312,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -37120,6 +37120,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 4.195020597631174e-7",
             "extra": "mean: 102.1385669708252 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tarek@ziade.org",
+            "name": "Tarek Ziade",
+            "username": "tarekziade"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "23be4a956bb8ba8250c324d433864e41107072a2",
+          "message": "improved 1mstats and unify bench runner (#1292)\n\n* improved 1mstats and unify bench runner\n\n* try a push in the branch\n\n* put back the branch resitriction",
+          "timestamp": "2023-09-04T08:00:27Z",
+          "tree_id": "7acbb45fd4fa6cb4044ac7be031a8dedd289ac14",
+          "url": "https://github.com/nuclia/nucliadb/commit/23be4a956bb8ba8250c324d433864e41107072a2"
+        },
+        "date": 1693814998433,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 85.81352031713921,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00037358441187087957",
+            "extra": "mean: 11.653175354003906 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 204.37637806402256,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00024577492795285777",
+            "extra": "mean: 4.892933368682861 msec\nrounds: 5"
           }
         ]
       }
