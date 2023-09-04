@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1693818986963,
+  "lastUpdate": 1693819156321,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -37189,6 +37189,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000025835997180628847",
             "extra": "mean: 141.72697067260742 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ab583e3ac618d749bf899ee88b60dba57e20ab6b",
+          "message": "add pod disruption budgets for components (#1291)",
+          "timestamp": "2023-09-04T09:10:21Z",
+          "tree_id": "8c0af576aae880a6119647e31b80a709e425e795",
+          "url": "https://github.com/nuclia/nucliadb/commit/ab583e3ac618d749bf899ee88b60dba57e20ab6b"
+        },
+        "date": 1693819153523,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 89.2076746218945,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00021351517780843313",
+            "extra": "mean: 11.209797859191895 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 209.84076871599964,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00009207623888390192",
+            "extra": "mean: 4.7655181884765625 msec\nrounds: 5"
           }
         ]
       }
