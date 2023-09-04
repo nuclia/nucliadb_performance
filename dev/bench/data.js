@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1693813628060,
+  "lastUpdate": 1693813964318,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -37051,6 +37051,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.1493536311702035e-7",
             "extra": "mean: 115.60778617858887 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ebaba5a450b15ba9913f9c22d100c1831a44cfc7",
+          "message": "Record metric on message sent to nats (#1289)\n\n* add metric for messages sent to nats\n\n* .\n\n* fix\n\n* fastapi pin\n\n* fix test",
+          "timestamp": "2023-09-04T07:42:11Z",
+          "tree_id": "55ec5108b023d2f87b300986b15b2367bc7434ab",
+          "url": "https://github.com/nuclia/nucliadb/commit/ebaba5a450b15ba9913f9c22d100c1831a44cfc7"
+        },
+        "date": 1693813961585,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 70.1285898587431,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0007018185305123336",
+            "extra": "mean: 14.259519577026367 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 169.07910390001288,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0004951479152878025",
+            "extra": "mean: 5.914391411675347 msec\nrounds: 5"
           }
         ]
       }
