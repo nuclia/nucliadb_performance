@@ -11,7 +11,7 @@ permissions: write-all
 
 jobs:
   check-perf-main:
-    if: github.event_name == 'push'
+    if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
     name: Record performance on main
     runs-on: ubuntu-latest
     steps:
