@@ -2,13 +2,11 @@ FROM python:3.11
 
 WORKDIR /usr/src/app
 
-COPY requirements.txt ./
-COPY src ./
-RUN pip install --no-cache-dir -r requirements.txt
+COPY nucliadb_performance/ ./nucliadb_performance
+COPY pyproject.toml ./
+RUN curl -sSL https://install.python-poetry.org | python3 -
+ENV PATH="${PATH}:/root/.local/bin"
+RUN poetry install
+RUN poetry run alwaysfast --version
 
-COPY . .
-
-RUN python /usr/src/app/src/af.py --version
-
-
-CMD [ "python", "/usr/src/app/src/af.py" ]
+CMD [ "poetry", "run", "alwaysfast" ]

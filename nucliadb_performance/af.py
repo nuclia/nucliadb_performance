@@ -3,6 +3,8 @@ import json
 import requests
 import sys
 
+from .metrics import Metrics
+
 
 def markdown_table(data, headers):
     n = max(len(str(x)) for line in data for x in line)
@@ -78,11 +80,11 @@ def main():
 
     backend = os.getenv("BACKEND", "influxdb")
     if backend == "influxdb":
-        from influx import InfluxDBServer
+        from .influx import InfluxDBServer
 
         server = InfluxDBServer(**dict(os.environ))
     elif backend == "prometheus":
-        from prom import PrometheusServer
+        from .prom import PrometheusServer
 
         server = PrometheusServer(**dict(os.environ))
     else:
@@ -92,15 +94,14 @@ def main():
     repository = os.getenv("GITHUB_REPOSITORY")
     gh_token = os.getenv("GITHUB_TOKEN")
 
-    with open(metrics_file) as f:
-        measure = [(e["name"], e["value"]) for e in json.loads(f.read())]
+    metrics = Metrics(metrics_file)
 
     if pr_number == "":
         # metrics for main branch
-        server.send_measure(main_branch, benchmark, sha, dict(measure))
+        server.send_measure(main_branch, benchmark, sha, metrics.measures)
     else:
         res = server.send_measure(
-            current_branch, benchmark, sha, dict(measure), main_branch
+            current_branch, benchmark, sha, metrics.measures, main_branch
         )
 
         headers = ["Test", "PR benchmark", "Main benchmark", "%"]
@@ -120,7 +121,3 @@ def main():
 
         comment = "\n".join([line.lstrip() for line in comment.split("\n")])
         comment_pr(comment, repository, pr_number, gh_token)
-
-
-if __name__ == "__main__":
-    main()
