@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1693927198094,
+  "lastUpdate": 1693927617212,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -37296,6 +37296,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000004256824784506996",
             "extra": "mean: 135.24212837219238 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8dfcc4fa621cfdefd7e9fed692ee04b590f48c9d",
+          "message": "queue implementation missing task_done call (#1287)\n\n* queue implementation missing task done call\n\n* add backoff",
+          "timestamp": "2023-09-05T15:21:46Z",
+          "tree_id": "d94c7af9835abd162948d2e2b2ba60e67a39d818",
+          "url": "https://github.com/nuclia/nucliadb/commit/8dfcc4fa621cfdefd7e9fed692ee04b590f48c9d"
+        },
+        "date": 1693927614602,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 7522.173919281482,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000002809322311094073",
+            "extra": "mean: 132.94029235839844 usec\nrounds: 5"
           }
         ]
       }
