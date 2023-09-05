@@ -5,6 +5,7 @@ on:
       - main
   issue_comment:
     types: [created]
+  workflow_dispatch:
 
 permissions: write-all
 
@@ -19,7 +20,7 @@ jobs:
       - name: Run the bench
         run: python demo.py
       - name: Check perf
-        uses: nuclia/nucliadb_performance@v1
+        uses: nuclia/nucliadb_performance@main
         with:
           github_sha: ${{ github.sha }}
           metrics_file: metrics.json
