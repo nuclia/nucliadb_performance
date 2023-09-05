@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "nucliadb_performance"
+description = "Performance tooling"
+version = "0.1.0"
+authors = ["nuclia"]
+packages = [{include = "nucliadb_performance"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+influxdb_client = "^1.37.0"
+prometheus_client = "^0.17.1"
+requests = "^2.31.0"
+
+[tool.poetry.scripts]
+alwaysfast = "nucliadb_performance.af:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

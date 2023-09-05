@@ -1,0 +1,127 @@
+{
+    "machine_info": {
+        "node": "Tareks-MacBook-Pro.local",
+        "processor": "arm",
+        "machine": "arm64",
+        "python_compiler": "Clang 14.0.3 (clang-1403.0.22.14.1)",
+        "python_implementation": "CPython",
+        "python_implementation_version": "3.11.4",
+        "python_version": "3.11.4",
+        "python_build": [
+            "main",
+            "Aug  9 2023 13:51:29"
+        ],
+        "release": "22.6.0",
+        "system": "Darwin",
+        "cpu": {
+            "python_version": "3.11.4.final.0 (64 bit)",
+            "cpuinfo_version": [
+                9,
+                0,
+                0
+            ],
+            "cpuinfo_version_string": "9.0.0",
+            "arch": "ARM_8",
+            "bits": 64,
+            "count": 12,
+            "arch_string_raw": "arm64",
+            "brand_raw": "Apple M2 Pro"
+        }
+    },
+    "commit_info": {
+        "id": "ab583e3ac618d749bf899ee88b60dba57e20ab6b",
+        "time": "2023-09-04T09:10:21+00:00",
+        "author_time": "2023-09-04T05:10:21-04:00",
+        "dirty": false,
+        "project": "nucliadb",
+        "branch": "tarek/more-perf-metrics"
+    },
+    "benchmarks": [
+        {
+            "group": "search",
+            "name": "test_search_returns_labels",
+            "fullname": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "params": null,
+            "param": null,
+            "extra_info": {},
+            "options": {
+                "disable_gc": true,
+                "timer": "time",
+                "min_rounds": 5,
+                "max_time": 0.5,
+                "min_time": 0.1,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.004562427997589111,
+                "max": 0.00463284969329834,
+                "mean": 0.004592397689819336,
+                "stddev": 2.9122641541729686e-05,
+                "rounds": 5,
+                "median": 0.004592702388763427,
+                "iqr": 4.759967327117899e-05,
+                "q1": 0.004565863013267517,
+                "q3": 0.004613462686538696,
+                "iqr_outliers": 0,
+                "stddev_outliers": 2,
+                "outliers": "2;0",
+                "ld15iqr": 0.004562427997589111,
+                "hd15iqr": 0.00463284969329834,
+                "ops": 217.75117651871736,
+                "total": 0.02296198844909668,
+                "data": [
+                    0.00463284969329834,
+                    0.004607000350952148,
+                    0.004567008018493652,
+                    0.004592702388763427,
+                    0.004562427997589111
+                ],
+                "iterations": 100
+            }
+        },
+        {
+            "group": "search",
+            "name": "test_search_relations",
+            "fullname": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "params": null,
+            "param": null,
+            "extra_info": {},
+            "options": {
+                "disable_gc": true,
+                "timer": "time",
+                "min_rounds": 5,
+                "max_time": 0.5,
+                "min_time": 0.1,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.0018935012817382813,
+                "max": 0.001936039924621582,
+                "mean": 0.001908477783203125,
+                "stddev": 1.622045943878831e-05,
+                "rounds": 5,
+                "median": 0.001905207633972168,
+                "iqr": 1.4654397964477357e-05,
+                "q1": 0.001899230480194092,
+                "q3": 0.0019138848781585693,
+                "iqr_outliers": 1,
+                "stddev_outliers": 1,
+                "outliers": "1;1",
+                "ld15iqr": 0.0018935012817382813,
+                "hd15iqr": 0.001936039924621582,
+                "ops": 523.9778051393575,
+                "total": 0.009542388916015623,
+                "data": [
+                    0.0019064998626708983,
+                    0.001936039924621582,
+                    0.0018935012817382813,
+                    0.0019011402130126953,
+                    0.001905207633972168
+                ],
+                "iterations": 100
+            }
+        }
+    ],
+    "datetime": "2023-09-05T05:52:33.911757",
+    "version": "4.0.0"
+}
