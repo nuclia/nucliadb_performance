@@ -1,12 +1,25 @@
 FROM python:3.11
 
+ENV PYTHONUNBUFFERED=1 \
+    PYTHONDONTWRITEBYTECODE=1 \
+    PIP_NO_CACHE_DIR=off \
+    PIP_DISABLE_PIP_VERSION_CHECK=on \
+    PIP_DEFAULT_TIMEOUT=100 \
+    POETRY_HOME="/opt/poetry" \
+    POETRY_VIRTUALENVS_IN_PROJECT=true \
+    POETRY_NO_INTERACTION=1 \
+    VENV_PATH="/usr/src/app/.venv"
+
+ENV PATH="$POETRY_HOME/bin:$VENV_PATH/bin:$PATH"
+
 WORKDIR /usr/src/app
 
 COPY nucliadb_performance/ ./nucliadb_performance
-COPY pyproject.toml ./
-RUN curl -sSL https://install.python-poetry.org | python3 -
-ENV PATH="${PATH}:/root/.local/bin"
-RUN poetry install
-RUN poetry run alwaysfast --version
+COPY pyproject.toml poetry.lock ./
 
-CMD [ "poetry", "run", "alwaysfast" ]
+RUN curl -sSL https://install.python-poetry.org | python3 -
+RUN poetry install
+RUN alwaysfast --version
+
+
+CMD [ "alwaysfast" ]
