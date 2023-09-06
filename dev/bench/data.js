@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1693989510013,
+  "lastUpdate": 1693992184544,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -37541,6 +37541,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0002549149845959518",
             "extra": "mean: 4.792912110038425 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "44120086+hermeGarcia@users.noreply.github.com",
+            "name": "Herme",
+            "username": "hermeGarcia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3fcd2a2436840222b9e413f0aa4c001dc2c996d3",
+          "message": "thread dump service rust (#1270)\n\n* thread dumb service rust\n\n* fix bug\n\n* fix routing\n\n* change to elfutils\n\n* install lidw-dev\n\n* fix install\n\n* fix install\n\n* set-up in workflows\n\n* train set-up\n\n* more dockerfile\n\n* switch to using Makefiles for system deps\n\n* more centralization\n\n* retrigger CI\n\n* switch to JSON\n\n* format to Trace\n\n* proper formatting\n\n* use match[\n\n* we need libwd-dev at run time too (dynamic lib)\n\n* tipo\n\n* renamed options\n\n---------\n\nCo-authored-by: Tarek Ziadé <tarek@ziade.org>",
+          "timestamp": "2023-09-06T09:07:22Z",
+          "tree_id": "c4906a8d0aec1a07a7919a89c6ce72feeca70941",
+          "url": "https://github.com/nuclia/nucliadb/commit/3fcd2a2436840222b9e413f0aa4c001dc2c996d3"
+        },
+        "date": 1693992181870,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 88.33781098173809,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0004386548882646358",
+            "extra": "mean: 11.320180892944336 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 210.5874109386256,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000024998798360636732",
+            "extra": "mean: 4.748621940612793 msec\nrounds: 5"
           }
         ]
       }
