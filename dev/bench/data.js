@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1693986443973,
+  "lastUpdate": 1693987972218,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -37472,6 +37472,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00017379224549446233",
             "extra": "mean: 6.124811702304416 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "47a7a4b1333ae5de15eb070c09e23f809682d764",
+          "message": "Deduplicate vector results by default in chat (#1299)\n\n* Be able to deduplicate vector results\n\n* Add test",
+          "timestamp": "2023-09-06T07:35:12Z",
+          "tree_id": "e8c5f8f46dd6b504813cd946eb18d976a3180985",
+          "url": "https://github.com/nuclia/nucliadb/commit/47a7a4b1333ae5de15eb070c09e23f809682d764"
+        },
+        "date": 1693987969434,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 6425.391355181349,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000018271799473209007",
+            "extra": "mean: 155.63254356384277 usec\nrounds: 5"
           }
         ]
       }
