@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1693992184544,
+  "lastUpdate": 1693993124616,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -37579,6 +37579,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000024998798360636732",
             "extra": "mean: 4.748621940612793 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "44120086+hermeGarcia@users.noreply.github.com",
+            "name": "Herme",
+            "username": "hermeGarcia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3fcd2a2436840222b9e413f0aa4c001dc2c996d3",
+          "message": "thread dump service rust (#1270)\n\n* thread dumb service rust\n\n* fix bug\n\n* fix routing\n\n* change to elfutils\n\n* install lidw-dev\n\n* fix install\n\n* fix install\n\n* set-up in workflows\n\n* train set-up\n\n* more dockerfile\n\n* switch to using Makefiles for system deps\n\n* more centralization\n\n* retrigger CI\n\n* switch to JSON\n\n* format to Trace\n\n* proper formatting\n\n* use match[\n\n* we need libwd-dev at run time too (dynamic lib)\n\n* tipo\n\n* renamed options\n\n---------\n\nCo-authored-by: Tarek Ziadé <tarek@ziade.org>",
+          "timestamp": "2023-09-06T09:07:22Z",
+          "tree_id": "c4906a8d0aec1a07a7919a89c6ce72feeca70941",
+          "url": "https://github.com/nuclia/nucliadb/commit/3fcd2a2436840222b9e413f0aa4c001dc2c996d3"
+        },
+        "date": 1693993122562,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 8527.119112007811,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000002377807796845594",
+            "extra": "mean: 117.27290153503418 usec\nrounds: 5"
           }
         ]
       }
