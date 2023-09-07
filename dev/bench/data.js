@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1694109068337,
+  "lastUpdate": 1694110522755,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -37976,6 +37976,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000048872109645334115",
             "extra": "mean: 4.627143383026123 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tarek@ziade.org",
+            "name": "Tarek Ziade",
+            "username": "tarekziade"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ff95b70b7d3132e33a77bd3f37dcad5438bc11ee",
+          "message": "Introduced a `node_stack` binary (#1309)\n\n* use a cleaner approach\n\n* add node_stack to both docker images\n\n* why nvim does not do this anymore\n\n* optimize build with debug info\n\n* json using prints :)\n\n* should use serde\n\n* tweaks",
+          "timestamp": "2023-09-07T17:38:21Z",
+          "tree_id": "140b3c858095c374276f0131fc840fc14e30c24f",
+          "url": "https://github.com/nuclia/nucliadb/commit/ff95b70b7d3132e33a77bd3f37dcad5438bc11ee"
+        },
+        "date": 1694110520702,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 8585.479923018758,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000015197479638627578",
+            "extra": "mean: 116.4757251739502 usec\nrounds: 5"
           }
         ]
       }
