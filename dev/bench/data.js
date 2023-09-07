@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1694032123473,
+  "lastUpdate": 1694068032600,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -37755,6 +37755,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.1873203154247067e-7",
             "extra": "mean: 101.01757049560547 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d7e5923fc7a1bcad18c64e048ab7f57b0440310c",
+          "message": "Parse status code from rephrase predict endpoint (#1303)\n\n* Moved test to be  unit\n\n* Add more unit test coverageA",
+          "timestamp": "2023-09-07T06:22:12Z",
+          "tree_id": "a3c4682407e537a9fee150e6b199c767e530440a",
+          "url": "https://github.com/nuclia/nucliadb/commit/d7e5923fc7a1bcad18c64e048ab7f57b0440310c"
+        },
+        "date": 1694068030515,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 8619.794331899273,
+            "unit": "iter/sec",
+            "range": "stddev: 3.6074383206800813e-7",
+            "extra": "mean: 116.01204872131346 usec\nrounds: 5"
           }
         ]
       }
