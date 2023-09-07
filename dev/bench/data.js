@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1694119181580,
+  "lastUpdate": 1694120839618,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -38076,6 +38076,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000003430621485929031",
             "extra": "mean: 141.00899696350098 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3b0849d8f7bf6e5e54b9117c948557ae0bf9dc03",
+          "message": "fix copying stack trace bin (#1311)",
+          "timestamp": "2023-09-07T16:55:19-04:00",
+          "tree_id": "c681de4a7bf22f934df98f35a9865a82650fbcaf",
+          "url": "https://github.com/nuclia/nucliadb/commit/3b0849d8f7bf6e5e54b9117c948557ae0bf9dc03"
+        },
+        "date": 1694120836880,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 70.81355739905831,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00027575186928594447",
+            "extra": "mean: 14.121589660644531 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 182.7348996618686,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002395330082616616",
+            "extra": "mean: 5.472408400641547 msec\nrounds: 5"
           }
         ]
       }
