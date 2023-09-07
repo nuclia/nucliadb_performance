@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1694110522755,
+  "lastUpdate": 1694117480098,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -38007,6 +38007,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000015197479638627578",
             "extra": "mean: 116.4757251739502 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "625cfaf33747e47d37ea44ba2e46675d9de83ef8",
+          "message": "set number of threads in paragraph index (#1310)\n\n* set number of threads in paragraph index\n\n* datatype\n\n* well, I guess usize is req",
+          "timestamp": "2023-09-07T19:59:13Z",
+          "tree_id": "1eb19ba06b714e5ef6d479fa96389197e68bc297",
+          "url": "https://github.com/nuclia/nucliadb/commit/625cfaf33747e47d37ea44ba2e46675d9de83ef8"
+        },
+        "date": 1694117477461,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 66.0437942228308,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0005316069740512838",
+            "extra": "mean: 15.141468048095703 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 168.02764108628222,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000203056343937671",
+            "extra": "mean: 5.951401766608743 msec\nrounds: 5"
           }
         ]
       }
