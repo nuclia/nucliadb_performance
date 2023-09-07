@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1694068270196,
+  "lastUpdate": 1694071893318,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -37824,6 +37824,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00017545886670613714",
             "extra": "mean: 4.550659088861375 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "66a1216bb936e57ca1769db7c4fedd98d6c2dac6",
+          "message": "Fix tokio task metrics counter increment bug (#1306)\n\n* Fix tokio task metrics counter increment bug\n\n* Test some more",
+          "timestamp": "2023-09-07T07:22:44Z",
+          "tree_id": "9a8ac868656f3a2966372ebeae3d2b2dd495a6eb",
+          "url": "https://github.com/nuclia/nucliadb/commit/66a1216bb936e57ca1769db7c4fedd98d6c2dac6"
+        },
+        "date": 1694071890686,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 96.15944896421725,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0004359481708905845",
+            "extra": "mean: 10.399394035339355 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 222.10224180976587,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00006000580038688362",
+            "extra": "mean: 4.50243091583252 msec\nrounds: 5"
           }
         ]
       }
