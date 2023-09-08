@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1694181507212,
+  "lastUpdate": 1694191053047,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -38321,6 +38321,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 5.584118245003331e-7",
             "extra": "mean: 117.14606285095215 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e1e25347974d086eb0d62906c6563b130dc90734",
+          "message": "Revert \"do not use rayon thread for search requests, fix deadlock (#1312)\" (#1316)\n\nThis reverts commit 09f6b65685a3fd96a2570e7628ec2ffd2094ed09.",
+          "timestamp": "2023-09-08T16:03:35Z",
+          "tree_id": "627cd022aa53445a9c49839d8a0383cd1595211e",
+          "url": "https://github.com/nuclia/nucliadb/commit/e1e25347974d086eb0d62906c6563b130dc90734"
+        },
+        "date": 1694191050673,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 10090.709709992807,
+            "unit": "iter/sec",
+            "range": "stddev: 6.43251855203008e-7",
+            "extra": "mean: 99.1010571842833 usec\nrounds: 5"
           }
         ]
       }
