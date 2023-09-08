@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1694170626667,
+  "lastUpdate": 1694170896115,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -38183,6 +38183,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000056031593437785064",
             "extra": "mean: 4.586711883544923 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b3fa7693c9028826018585d0309620664c73c3bd",
+          "message": "Improve tokio metrics (#1314)\n\n* Abstract tokio tasks metrics in one simpler struct\n\n* Abstract tokio runtime metrics in one simpler struct\n\n* Remove useless ConsoleMeter\n\n* Add some new interesting metrics from tokio",
+          "timestamp": "2023-09-08T10:52:21Z",
+          "tree_id": "8d02fb5723ade1ce45d7020425743cee73b8ce33",
+          "url": "https://github.com/nuclia/nucliadb/commit/b3fa7693c9028826018585d0309620664c73c3bd"
+        },
+        "date": 1694170893796,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 86.93279632628816,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00029771127090668417",
+            "extra": "mean: 11.503138542175293 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 209.60882352206255,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002519536604508014",
+            "extra": "mean: 4.770791530609131 msec\nrounds: 5"
           }
         ]
       }
