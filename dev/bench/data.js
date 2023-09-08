@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1694180189527,
+  "lastUpdate": 1694181507212,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -38290,6 +38290,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0003008091626770497",
             "extra": "mean: 5.497676447818154 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tarek@ziade.org",
+            "name": "Tarek Ziade",
+            "username": "tarekziade"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "88549f099e555e4d326e96b4bfce908c36e50d4a",
+          "message": "Display clean info (#1313)\n\n* demangle name and display file/line\n\n* add back the tracing\n\n* use the much simpler addr2line API\n\n* ignore clippy on rstack import\n\n* Update nucliadb_node/src/bin/node_stack.rs\n\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>\n\n* add SYS_PTRACE\n\n* update lock\n\n* fmt\n\n* redundant with --privileged\n\n---------\n\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+          "timestamp": "2023-09-08T13:23:44Z",
+          "tree_id": "3516fd7c7aa74de1c8df6a25d724372ad4380f71",
+          "url": "https://github.com/nuclia/nucliadb/commit/88549f099e555e4d326e96b4bfce908c36e50d4a"
+        },
+        "date": 1694181505048,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 8536.351761751694,
+            "unit": "iter/sec",
+            "range": "stddev: 5.584118245003331e-7",
+            "extra": "mean: 117.14606285095215 usec\nrounds: 5"
           }
         ]
       }
