@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1694456173883,
+  "lastUpdate": 1694464820369,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -38780,6 +38780,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00005038229227753011",
             "extra": "mean: 4.568006992340088 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "d95f24f4e71ef8f9f715f59e1ae2be9d81969439",
+          "message": "Proc macros crate and metrics measure macro (#1250)\n\n* Proc macros crate and metrics measure macro\n\n* Example usage with paragraphs count\n\n* Improve documentation and clarity\n\n* Add test for metric not defined\n\n* Add trybuild and test compilation issues\n\n* Add nucliadb_procs to Dockerfiles\n\n* Lints\n\n* Don't use use statements to avoid brining things in scope",
+          "timestamp": "2023-09-11T20:31:28Z",
+          "tree_id": "904e7f67beee6cd41eca475fa198d099a3b77ce2",
+          "url": "https://github.com/nuclia/nucliadb/commit/d95f24f4e71ef8f9f715f59e1ae2be9d81969439"
+        },
+        "date": 1694464817929,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 88.5347567665921,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00024260878942201575",
+            "extra": "mean: 11.294999122619629 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 220.4183124941476,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00007977658371217132",
+            "extra": "mean: 4.536828127774325 msec\nrounds: 5"
           }
         ]
       }
