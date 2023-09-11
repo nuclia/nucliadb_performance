@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1694451209171,
+  "lastUpdate": 1694456173883,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -38742,6 +38742,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000035770518643325383",
             "extra": "mean: 116.72773361206055 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "805b704987f2f49891ea6373b64dd252c029f46b",
+          "message": "fix deadlock from search implementation (#1321)\n\n* fix deadlock from search implementation\n\n* lint",
+          "timestamp": "2023-09-11T18:07:00Z",
+          "tree_id": "0a89d30fbeb1f5043e5440bb8351e33d3f9c8eb0",
+          "url": "https://github.com/nuclia/nucliadb/commit/805b704987f2f49891ea6373b64dd252c029f46b"
+        },
+        "date": 1694456171659,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 84.13373606548237,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0004879703259967302",
+            "extra": "mean: 11.885838508605957 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 218.91385054288682,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00005038229227753011",
+            "extra": "mean: 4.568006992340088 msec\nrounds: 5"
           }
         ]
       }
