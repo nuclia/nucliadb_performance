@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1694427187289,
+  "lastUpdate": 1694437282732,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -38459,6 +38459,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00046154405885098483",
             "extra": "mean: 6.824827194213867 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tarek@ziade.org",
+            "name": "Tarek Ziade",
+            "username": "tarekziade"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e25caade1d7507688ab9032413eaa8a057778933",
+          "message": "moved to rust-spy (#1322)\n\n* moved to rust-spy\n\n* install rust-spy separately\n\n* fix bin path",
+          "timestamp": "2023-09-11T12:44:14Z",
+          "tree_id": "aa080f594840451527d67081a94173df11e78f76",
+          "url": "https://github.com/nuclia/nucliadb/commit/e25caade1d7507688ab9032413eaa8a057778933"
+        },
+        "date": 1694437280317,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 79.87997161552676,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0004992388959017361",
+            "extra": "mean: 12.518782615661621 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 220.18941006458115,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00008201212929062984",
+            "extra": "mean: 4.54154448075728 msec\nrounds: 5"
           }
         ]
       }
