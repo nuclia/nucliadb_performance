@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1694615734428,
+  "lastUpdate": 1694616282608,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -38932,6 +38932,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0001974226462344029",
             "extra": "mean: 5.33544891758969 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7884805402a74df25726315581690e9039e7e40a",
+          "message": "Support synchronous chat response (#1331)\n\n* initial refactor of chat\n\n* fixes\n\n* test fixes\n\n* add test\n\n* moar\n\n* tweaks\n\n* words",
+          "timestamp": "2023-09-13T14:37:19Z",
+          "tree_id": "d146dc93ecf0e227a1c81f00079676928ac5f846",
+          "url": "https://github.com/nuclia/nucliadb/commit/7884805402a74df25726315581690e9039e7e40a"
+        },
+        "date": 1694616280014,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 8552.891948547704,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000012103923535763295",
+            "extra": "mean: 116.91951751708984 usec\nrounds: 5"
           }
         ]
       }
