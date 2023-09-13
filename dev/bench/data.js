@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1694616282608,
+  "lastUpdate": 1694616491509,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -38963,6 +38963,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000012103923535763295",
             "extra": "mean: 116.91951751708984 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "37e6a4594fd59afd3720585750ae8e406f143c77",
+          "message": "Export / Import logic (#1329)\n\n* Export / Import logic\n\n* Better naming\n\n* Improve ExportStream class and add unit tests\n\n* Do not store binary in disk while exporting\n\n* Add docs\n\n* Refactor into using existing data managers\n\n* Refactor into utils module\n\n* Add unit tests for utils\n\n* Add unit tests for utils",
+          "timestamp": "2023-09-13T14:40:57Z",
+          "tree_id": "a3676306dc318272f4a3ae1a6e4e9059bde0f33a",
+          "url": "https://github.com/nuclia/nucliadb/commit/37e6a4594fd59afd3720585750ae8e406f143c77"
+        },
+        "date": 1694616488954,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 7256.189631286339,
+            "unit": "iter/sec",
+            "range": "stddev: 7.503507953339589e-7",
+            "extra": "mean: 137.8133773803711 usec\nrounds: 5"
           }
         ]
       }
