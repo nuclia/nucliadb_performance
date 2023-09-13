@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1694616680253,
+  "lastUpdate": 1694616844589,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -39032,6 +39032,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0004635463620446412",
             "extra": "mean: 6.616470217704773 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "37e6a4594fd59afd3720585750ae8e406f143c77",
+          "message": "Export / Import logic (#1329)\n\n* Export / Import logic\n\n* Better naming\n\n* Improve ExportStream class and add unit tests\n\n* Do not store binary in disk while exporting\n\n* Add docs\n\n* Refactor into using existing data managers\n\n* Refactor into utils module\n\n* Add unit tests for utils\n\n* Add unit tests for utils",
+          "timestamp": "2023-09-13T14:40:57Z",
+          "tree_id": "a3676306dc318272f4a3ae1a6e4e9059bde0f33a",
+          "url": "https://github.com/nuclia/nucliadb/commit/37e6a4594fd59afd3720585750ae8e406f143c77"
+        },
+        "date": 1694616841584,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 56.97951141368773,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0009662680469820684",
+            "extra": "mean: 17.55016803741455 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 154.31855908796373,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00038585231052921845",
+            "extra": "mean: 6.480101978077608 msec\nrounds: 5"
           }
         ]
       }
