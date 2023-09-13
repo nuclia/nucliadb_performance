@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1694514147473,
+  "lastUpdate": 1694588218031,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -38856,6 +38856,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0002960926844414126",
             "extra": "mean: 6.309032440185547 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "22fb52bb9af7c64c0bad47e5ebbc50846f5a5287",
+          "message": "Migrate node metrics to use new proc macro (#1330)",
+          "timestamp": "2023-09-13T06:44:54Z",
+          "tree_id": "d853d30d76e42bc5161f82bb1411c1f3c89ebec4",
+          "url": "https://github.com/nuclia/nucliadb/commit/22fb52bb9af7c64c0bad47e5ebbc50846f5a5287"
+        },
+        "date": 1694588215144,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 65.02183980176753,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0007500068024974838",
+            "extra": "mean: 15.379447937011719 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 178.8346051274502,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000172180554861828",
+            "extra": "mean: 5.591758928800884 msec\nrounds: 5"
           }
         ]
       }
