@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1694588218031,
+  "lastUpdate": 1694615734428,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -38894,6 +38894,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000172180554861828",
             "extra": "mean: 5.591758928800884 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "36efaacca68209cbfd4338ea3e386e2473d631f4",
+          "message": "be able to configure max_ack_pending (#1333)\n\n* be able to configure max_ack_pending\n\n* add moar settings\n\n* .",
+          "timestamp": "2023-09-13T14:18:44Z",
+          "tree_id": "31f0974ca2552a539b37fdb12d5b537918e6c045",
+          "url": "https://github.com/nuclia/nucliadb/commit/36efaacca68209cbfd4338ea3e386e2473d631f4"
+        },
+        "date": 1694615731308,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 75.1023226315207,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0006582938612671868",
+            "extra": "mean: 13.315167427062988 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 187.42565348217298,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0001974226462344029",
+            "extra": "mean: 5.33544891758969 msec\nrounds: 5"
           }
         ]
       }
