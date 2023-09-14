@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1694684629341,
+  "lastUpdate": 1694684832766,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -39170,6 +39170,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 4.7065701370077537e-7",
             "extra": "mean: 138.999605178833 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fdf14941c3f499ad8e179bec3fe5fe9050201170",
+          "message": "Integrate Export / Import into HTTP api (#1335)\n\n* Export / Import logic\n\n* Better naming\n\n* Improve ExportStream class and add unit tests\n\n* Do not store binary in disk while exporting\n\n* Add docs\n\n* Refactor into using existing data managers\n\n* Refactor into utils module\n\n* Add unit tests for utils\n\n* Add unit tests for utils\n\n* Export / Import logic\n\n* Export / Import logic\n\n* Simpler\n\n* Add virtual services\n\n* Integrated\n\n* Less fancier, but simpler\n\n* Less fancier, but simpler\n\n* Better context injection\n\n* Add integration test\n\n* Fixes\n\n* Add integration tests on writer and reader\n\n* Add unit tests for fastapi export steam\n\n* Add unit tests for app context initialize\n\n* Import fixes\n\n* Standalone does not need nats\n\n* Fix bug\n\n* More up to date with latest asyncio",
+          "timestamp": "2023-09-14T09:36:31Z",
+          "tree_id": "53f12c0bc852761f29b5a1aeaf5c8a7bc8481869",
+          "url": "https://github.com/nuclia/nucliadb/commit/fdf14941c3f499ad8e179bec3fe5fe9050201170"
+        },
+        "date": 1694684829894,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 92.70897019160675,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002660624142566467",
+            "extra": "mean: 10.786442756652832 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 220.21105337363136,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00004239670023634381",
+            "extra": "mean: 4.541098117828369 msec\nrounds: 5"
           }
         ]
       }
