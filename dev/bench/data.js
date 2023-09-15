@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1694708297404,
+  "lastUpdate": 1694763060882,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -39484,6 +39484,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 4.068981700785804e-8",
             "extra": "mean: 115.4977798461914 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "581fc586333ba000f1758ade79076ea422407b67",
+          "message": "nucliadb_texts integration tests (#1339)\n\n* Add test for /catalog prefix search\n\n* Remove unneeded pub for TextWriterService::new\n\n* start doesn't need to know about dirs\n\n* Move integration tests to where they belong\n\n* Move common to a folder to avoid cargo test to search on it\n\n* Add and improve writer tests\n\n* Move and split reader test to integration tests\n\n* Add skip to integration tests for another story\n\n* Comment failing test\n\n* Fix skip\n\n* Named constant",
+          "timestamp": "2023-09-15T07:21:41Z",
+          "tree_id": "979a87cfd5721fb486f79f7ebc06bfef25655e98",
+          "url": "https://github.com/nuclia/nucliadb/commit/581fc586333ba000f1758ade79076ea422407b67"
+        },
+        "date": 1694763058576,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 89.56752739790383,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00012905186514979128",
+            "extra": "mean: 11.16476058959961 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 221.77944749511556,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000044010714757289244",
+            "extra": "mean: 4.508984088897705 msec\nrounds: 5"
           }
         ]
       }
