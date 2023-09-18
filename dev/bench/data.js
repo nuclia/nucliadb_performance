@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1695039965921,
+  "lastUpdate": 1695059596966,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -39667,6 +39667,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000021779185938495015",
             "extra": "mean: 4.493147373199463 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "c84687e697dd11a192f645ff06f3bde16b787532",
+          "message": "support pydantic 2 in telemetry (#1348)\n\n* support pydantic 2 in telemetry\n\n* also fastapi\n\n* lint",
+          "timestamp": "2023-09-18T17:47:33Z",
+          "tree_id": "1749a4d1396eff507ca7566197081e65d4c5abf9",
+          "url": "https://github.com/nuclia/nucliadb/commit/c84687e697dd11a192f645ff06f3bde16b787532"
+        },
+        "date": 1695059594111,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 7511.426605571948,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000015034125610942407",
+            "extra": "mean: 133.13050270080566 usec\nrounds: 5"
           }
         ]
       }
