@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1694931437975,
+  "lastUpdate": 1695028964330,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -39560,6 +39560,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00006336783352009477",
             "extra": "mean: 4.589760780334473 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tarek@ziade.org",
+            "name": "Tarek Ziade",
+            "username": "tarekziade"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "feeaeb797d313177ff39dd5974e21b77e5ba2618",
+          "message": "Bench runner against real shards (#1324)\n\n* savepoint\n\n* plugged everything together\n\n* savepoint\n\n* savepoint\n\n* implemented predict+cache\n\n* tying all together\n\n* plugged tags and key prefixes\n\n* cleanups\n\n* keep all values but compute mean\n\n* added filtered+unfiltered\n\n* added min_results\n\n* savepoint\n\n* one slow query using key prefixes\n\n* added optional basic auth\n\n* tweaks\n\n* use gcloud to get the token since its changing all the time\n\n* split the big script into modules\n\n* error out with a nice message\n\n* env! is evaluated at compile time\n\n* renamed api\n\n* merged cargo locke\n\n* remove comment",
+          "timestamp": "2023-09-18T09:01:49Z",
+          "tree_id": "89a4f128e2ecec960ed045b9874b552dc1d4e896",
+          "url": "https://github.com/nuclia/nucliadb/commit/feeaeb797d313177ff39dd5974e21b77e5ba2618"
+        },
+        "date": 1695028961269,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 70.01812259528386,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00035718901625440787",
+            "extra": "mean: 14.28201675415039 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 182.10676076563115,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0001375561415155591",
+            "extra": "mean: 5.491284320228978 msec\nrounds: 5"
           }
         ]
       }
