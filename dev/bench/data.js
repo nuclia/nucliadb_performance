@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1695039713248,
+  "lastUpdate": 1695039965921,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -39629,6 +39629,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00000905681317392155",
             "extra": "mean: 142.1069622039795 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ramon@nuclia.com",
+            "name": "Ramon Navarro Bosch",
+            "username": "bloodbare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a78758f6d8896d92c9ae9f383a3f118e5ebc67b8",
+          "message": "Enable processing in on prem (#1294)\n\n* Allow to obtain testing values\n\n* Fix lint\n\n* Add writer service\n\n* Fix lint\n\n* Add config on processing\n\n* Fix\n\n* Fix\n\n* Fix\n\n* Fix duplication\n\n* Local Predict headers\n\n* Fix lint\n\n* Make sure local TUS works\n\n* Fix\n\n* Fix lint\n\n* More fixing\n\n* More linting fix\n\n* improve manual discovery mode\n\n* Fix tests\n\n* Fix tests\n\n* Fix tests\n\n* Fix more tests\n\n* Fix predict tests\n\n* Fix tests\n\n---------\n\nCo-authored-by: vangheem <vangheem@gmail.com>\nCo-authored-by: Ferran Llamas <llamas.arroniz@gmail.com>\nCo-authored-by: Ferran Llamas <ferran@nuclia.com>",
+          "timestamp": "2023-09-18T12:16:00Z",
+          "tree_id": "59f7daa0d342b47b1cbe959c46eaf5cd2192f735",
+          "url": "https://github.com/nuclia/nucliadb/commit/a78758f6d8896d92c9ae9f383a3f118e5ebc67b8"
+        },
+        "date": 1695039963624,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 88.77863506709349,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0007844797375331544",
+            "extra": "mean: 11.263971328735352 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 222.56113965118485,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000021779185938495015",
+            "extra": "mean: 4.493147373199463 msec\nrounds: 5"
           }
         ]
       }
