@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1695127066038,
+  "lastUpdate": 1695133194542,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -39912,6 +39912,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000028062232761783396",
             "extra": "mean: 4.535490989685059 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "51f026f45ef79ef723b64ff210955a117badb155",
+          "message": "Build test node Docker images in debug mode (#1352)\n\n* Build test node Docker images in debug mode\n\n* Delete unused build-search-images target\n\n* Sort and update node_modified gha check\n\n* Unrelated rust change to trigger docker builds",
+          "timestamp": "2023-09-19T14:10:16Z",
+          "tree_id": "65bdb0f7297f03c59d7bacb779f0e693f7288021",
+          "url": "https://github.com/nuclia/nucliadb/commit/51f026f45ef79ef723b64ff210955a117badb155"
+        },
+        "date": 1695133191536,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 93.88750254064358,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0003345873059132777",
+            "extra": "mean: 10.651044845581055 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 222.0157847392732,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000023513367133406355",
+            "extra": "mean: 4.5041842460632315 msec\nrounds: 5"
           }
         ]
       }
