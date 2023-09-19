@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1695155055856,
+  "lastUpdate": 1695158940377,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -40081,6 +40081,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000002029923361157876",
             "extra": "mean: 128.8339614868164 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2fa48f8c2fe4258d0fee283c896488159d66db32",
+          "message": "add proposal on short-long term strategy for relations indexing (#1249)",
+          "timestamp": "2023-09-19T17:19:20-04:00",
+          "tree_id": "8b3f8fcd1e741f668ed891a7671ee79419e528a9",
+          "url": "https://github.com/nuclia/nucliadb/commit/2fa48f8c2fe4258d0fee283c896488159d66db32"
+        },
+        "date": 1695158937962,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 85.71124963421074,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0005217186205587168",
+            "extra": "mean: 11.66707992553711 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 214.44697244704403,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000037006990806661615",
+            "extra": "mean: 4.6631574630737305 msec\nrounds: 5"
           }
         ]
       }
