@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1695160621394,
+  "lastUpdate": 1695160656617,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -40157,6 +40157,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000557170619694572",
             "extra": "mean: 4.72274923324585 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ramon@nuclia.com",
+            "name": "Ramon Navarro Bosch",
+            "username": "bloodbare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fa1dc20ae7229793f5f6e8a8a378206162c760d4",
+          "message": "Remove protobuf limitation (#1347)\n\nCo-authored-by: Nathan Van Gheem <vangheem@gmail.com>",
+          "timestamp": "2023-09-19T17:47:37-04:00",
+          "tree_id": "bd3559f738324de3d358823db1d97a2f78213bac",
+          "url": "https://github.com/nuclia/nucliadb/commit/fa1dc20ae7229793f5f6e8a8a378206162c760d4"
+        },
+        "date": 1695160653924,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 86.8803234680012,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0004963410797953742",
+            "extra": "mean: 11.510086059570312 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 217.5992110966102,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00026227800925729687",
+            "extra": "mean: 4.59560489654541 msec\nrounds: 5"
           }
         ]
       }
