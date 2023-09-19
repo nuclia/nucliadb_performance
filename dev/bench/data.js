@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1695114882714,
+  "lastUpdate": 1695117777669,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -39805,6 +39805,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00002274518109212429",
             "extra": "mean: 4.489246368408203 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tarek@ziade.org",
+            "name": "Tarek Ziade",
+            "username": "tarekziade"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2fbe368455bec202b2116184a995a6ddef138ece",
+          "message": "updated a few packages (#1353)",
+          "timestamp": "2023-09-19T09:52:14Z",
+          "tree_id": "df5ee15a54de2b3f2da7dd6764bdc152e7547d64",
+          "url": "https://github.com/nuclia/nucliadb/commit/2fbe368455bec202b2116184a995a6ddef138ece"
+        },
+        "date": 1695117775320,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 80.66338420873879,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0004132744126958236",
+            "extra": "mean: 12.397198677062988 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 206.1497464310449,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00013341583178175974",
+            "extra": "mean: 4.850842735984109 msec\nrounds: 5"
           }
         ]
       }
