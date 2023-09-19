@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1695126808671,
+  "lastUpdate": 1695127066038,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -39874,6 +39874,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.6120384827962968e-8",
             "extra": "mean: 115.32349586486816 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "87616bbb25427015fcc1939a361a0ef70da801a2",
+          "message": "Ease install_requires for nucliadb_proto (#1354)\n\n* Do not have exact versions on install_requires\n\n* Do not have exact versions on install_requires\n\n* Revert \"Do not have exact versions on install_requires\"\n\nThis reverts commit b0b987debd91496f8c0a766d6ca4c096a256144c.\n\n* Fix segfaults\n\n* Remove restriction on httpx\n\n* Revert \"Remove restriction on httpx\"\n\nThis reverts commit e9a638ff45ee0a90437a2cc511bfeaa6d49db6b4.\n\n* Fix segfaults\n\n* Fix segfaults\n\n* Fix segfaults",
+          "timestamp": "2023-09-19T12:28:01Z",
+          "tree_id": "31b2bfad5c74d865b53307659976ebc1c1cf0909",
+          "url": "https://github.com/nuclia/nucliadb/commit/87616bbb25427015fcc1939a361a0ef70da801a2"
+        },
+        "date": 1695127063734,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 90.33685407584817,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00005448239363665783",
+            "extra": "mean: 11.069679260253906 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 220.48329547435378,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000028062232761783396",
+            "extra": "mean: 4.535490989685059 msec\nrounds: 5"
           }
         ]
       }
