@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1695134976963,
+  "lastUpdate": 1695155055856,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -40050,6 +40050,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00014026759785041077",
             "extra": "mean: 4.504151344299316 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "79d910ff87d5a0168ba43bd445f8a85d1f6ad5ff",
+          "message": "Upgrade mypy (#1357)\n\n* remove httpx version pin\n\n* upgrade mypy\n\n* moar\n\n* boom",
+          "timestamp": "2023-09-19T19:50:55Z",
+          "tree_id": "33977f22e988d670c685ec42b0d48b6fc6c02ef1",
+          "url": "https://github.com/nuclia/nucliadb/commit/79d910ff87d5a0168ba43bd445f8a85d1f6ad5ff"
+        },
+        "date": 1695155052760,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 7761.928519929352,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000002029923361157876",
+            "extra": "mean: 128.8339614868164 usec\nrounds: 5"
           }
         ]
       }
