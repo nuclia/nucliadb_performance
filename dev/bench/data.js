@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1695117777669,
+  "lastUpdate": 1695126808671,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -39843,6 +39843,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00013341583178175974",
             "extra": "mean: 4.850842735984109 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "87616bbb25427015fcc1939a361a0ef70da801a2",
+          "message": "Ease install_requires for nucliadb_proto (#1354)\n\n* Do not have exact versions on install_requires\n\n* Do not have exact versions on install_requires\n\n* Revert \"Do not have exact versions on install_requires\"\n\nThis reverts commit b0b987debd91496f8c0a766d6ca4c096a256144c.\n\n* Fix segfaults\n\n* Remove restriction on httpx\n\n* Revert \"Remove restriction on httpx\"\n\nThis reverts commit e9a638ff45ee0a90437a2cc511bfeaa6d49db6b4.\n\n* Fix segfaults\n\n* Fix segfaults\n\n* Fix segfaults",
+          "timestamp": "2023-09-19T12:28:01Z",
+          "tree_id": "31b2bfad5c74d865b53307659976ebc1c1cf0909",
+          "url": "https://github.com/nuclia/nucliadb/commit/87616bbb25427015fcc1939a361a0ef70da801a2"
+        },
+        "date": 1695126806440,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 8671.259854728678,
+            "unit": "iter/sec",
+            "range": "stddev: 2.6120384827962968e-8",
+            "extra": "mean: 115.32349586486816 usec\nrounds: 5"
           }
         ]
       }
