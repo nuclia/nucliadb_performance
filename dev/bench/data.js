@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1695059846937,
+  "lastUpdate": 1695108760027,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -39736,6 +39736,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00003548534231428694",
             "extra": "mean: 4.541059494018555 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "46e34b4d2f67435d9253099903a6241d910c52e0",
+          "message": "Use measure macro in nucliadb_node (#1350)\n\n* Use measure proc macro in nucliadb_node shard rw\n\n* Unrelated formats",
+          "timestamp": "2023-09-19T06:49:16Z",
+          "tree_id": "8bb654997c61da40860360d6912f381b57c4dd64",
+          "url": "https://github.com/nuclia/nucliadb/commit/46e34b4d2f67435d9253099903a6241d910c52e0"
+        },
+        "date": 1695108757286,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 7219.551759263817,
+            "unit": "iter/sec",
+            "range": "stddev: 7.92186991088399e-7",
+            "extra": "mean: 138.51275444030762 usec\nrounds: 5"
           }
         ]
       }
