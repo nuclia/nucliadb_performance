@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1695133194542,
+  "lastUpdate": 1695134024855,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -39950,6 +39950,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000023513367133406355",
             "extra": "mean: 4.5041842460632315 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "51f026f45ef79ef723b64ff210955a117badb155",
+          "message": "Build test node Docker images in debug mode (#1352)\n\n* Build test node Docker images in debug mode\n\n* Delete unused build-search-images target\n\n* Sort and update node_modified gha check\n\n* Unrelated rust change to trigger docker builds",
+          "timestamp": "2023-09-19T14:10:16Z",
+          "tree_id": "65bdb0f7297f03c59d7bacb779f0e693f7288021",
+          "url": "https://github.com/nuclia/nucliadb/commit/51f026f45ef79ef723b64ff210955a117badb155"
+        },
+        "date": 1695134021925,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 10037.133139252466,
+            "unit": "iter/sec",
+            "range": "stddev: 1.6218298899835594e-7",
+            "extra": "mean: 99.63004237627128 usec\nrounds: 5"
           }
         ]
       }
