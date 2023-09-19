@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1695134024855,
+  "lastUpdate": 1695134740645,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -39981,6 +39981,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.6218298899835594e-7",
             "extra": "mean: 99.63004237627128 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8af406888986256af32af5fd24164b8ed263e302",
+          "message": "remove unused requirements file from python protos (#1356)",
+          "timestamp": "2023-09-19T14:40:19Z",
+          "tree_id": "2c019aa5018865857744bf2630bb79a95cda48ae",
+          "url": "https://github.com/nuclia/nucliadb/commit/8af406888986256af32af5fd24164b8ed263e302"
+        },
+        "date": 1695134737928,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 8678.903433608717,
+            "unit": "iter/sec",
+            "range": "stddev: 3.136296680290192e-7",
+            "extra": "mean: 115.2219295501709 usec\nrounds: 5"
           }
         ]
       }
