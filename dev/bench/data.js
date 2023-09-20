@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1695161557787,
+  "lastUpdate": 1695196169930,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -40226,6 +40226,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000001002492058168925",
             "extra": "mean: 100.10323524475098 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tarek@ziade.org",
+            "name": "Tarek Ziade",
+            "username": "tarekziade"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "374ff8403d870bb64eb447ff80511c54b771f165",
+          "message": "fixed nats leak in tests (#1360)",
+          "timestamp": "2023-09-20T07:43:58Z",
+          "tree_id": "a06889631a606cc99780c764c25d20da9e32ba02",
+          "url": "https://github.com/nuclia/nucliadb/commit/374ff8403d870bb64eb447ff80511c54b771f165"
+        },
+        "date": 1695196167604,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 8667.761941074237,
+            "unit": "iter/sec",
+            "range": "stddev: 2.4327377097212595e-7",
+            "extra": "mean: 115.37003517150879 usec\nrounds: 5"
           }
         ]
       }
