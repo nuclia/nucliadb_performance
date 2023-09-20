@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1695205811704,
+  "lastUpdate": 1695219368263,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -40333,6 +40333,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000044443793827463725",
             "extra": "mean: 4.702454566955566 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tarek@ziade.org",
+            "name": "Tarek Ziade",
+            "username": "tarekziade"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3df81b9037d709d95641e04dd545db088fa12926",
+          "message": "Improve list of stop words (#1349)\n\n* trying a combo of lingua+stop-word\n\n* dedicated dir\n\n* tipo\n\n* clean up twice\n\n* tweak the time again\n\n* why is the disk full???\n\n* display more debug info\n\n* 8 gigs of target debug?\n\n* apply proper patch\n\n* empty target",
+          "timestamp": "2023-09-20T14:06:20Z",
+          "tree_id": "fc795b6c4f95d6ff05d2c3e595788ea650ebedb2",
+          "url": "https://github.com/nuclia/nucliadb/commit/3df81b9037d709d95641e04dd545db088fa12926"
+        },
+        "date": 1695219365070,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 93.5721026318314,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00015104363908778574",
+            "extra": "mean: 10.686945915222168 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 222.7971348049131,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00006608517619826219",
+            "extra": "mean: 4.4883880615234375 msec\nrounds: 5"
           }
         ]
       }
