@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1695196417682,
+  "lastUpdate": 1695205811704,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -40295,6 +40295,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00007443337382663215",
             "extra": "mean: 4.517901897430419 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tarek@ziade.org",
+            "name": "Tarek Ziade",
+            "username": "tarekziade"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "a716bcaaf190dadf68a38f52367bad813a0562b0",
+          "message": "Fixes the missing metadata on patch call (#1361)",
+          "timestamp": "2023-09-20T10:20:04Z",
+          "tree_id": "7c9ee2ffd05e9072023ecdb0daf46d68cbf7e2d1",
+          "url": "https://github.com/nuclia/nucliadb/commit/a716bcaaf190dadf68a38f52367bad813a0562b0"
+        },
+        "date": 1695205809340,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 84.51943483689375,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00034245499803618496",
+            "extra": "mean: 11.831598281860352 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 212.6548987898917,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000044443793827463725",
+            "extra": "mean: 4.702454566955566 msec\nrounds: 5"
           }
         ]
       }
