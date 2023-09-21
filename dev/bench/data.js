@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1695303949576,
+  "lastUpdate": 1695304192819,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -40402,6 +40402,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.265343577135367e-7",
             "extra": "mean: 115.83471298217773 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8a76b9aabdc0ccf016597b3fa41672bb8fc5cb4b",
+          "message": "add vm e2e test (#1358)\n\n* add vm e2e test\n\n* exe\n\n* another\n\n* tweak\n\n* try\n\n* try\n\n* try\n\n* tweak\n\n* tweak address\n\n* add host key path config\n\n* fix\n\n* tweak\n\n* try\n\n* blah\n\n* .\n\n* regular node key\n\n* fix\n\n* rev\n\n* pod ip\ni",
+          "timestamp": "2023-09-21T13:40:22Z",
+          "tree_id": "6a451970237a9e159eedf4a232e2446e306dc8d8",
+          "url": "https://github.com/nuclia/nucliadb/commit/8a76b9aabdc0ccf016597b3fa41672bb8fc5cb4b"
+        },
+        "date": 1695304190100,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 92.72143098103837,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00015149344989481424",
+            "extra": "mean: 10.784993171691895 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 226.4731730274342,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00008160541132174446",
+            "extra": "mean: 4.415534019470215 msec\nrounds: 5"
           }
         ]
       }
