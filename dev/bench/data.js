@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1695386939438,
+  "lastUpdate": 1695387131350,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -40471,6 +40471,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 3.110254481411058e-7",
             "extra": "mean: 138.7373447418213 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "057129965c8f3968e4cd0ef06a77fe0f442edede",
+          "message": "Local storage driver fixes (#1363)\n\n* Fix local driver storage\n\n* Add test",
+          "timestamp": "2023-09-22T12:41:16Z",
+          "tree_id": "ed08f9649ae37ba481eb25feaad8a178f7f980e6",
+          "url": "https://github.com/nuclia/nucliadb/commit/057129965c8f3968e4cd0ef06a77fe0f442edede"
+        },
+        "date": 1695387128493,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels",
+            "value": 81.85467613150911,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00007922779174600221",
+            "extra": "mean: 12.21677303314209 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations",
+            "value": 198.1088915349776,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000841602781715384",
+            "extra": "mean: 5.047729015350342 msec\nrounds: 5"
           }
         ]
       }
