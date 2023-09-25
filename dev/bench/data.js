@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1695667222472,
+  "lastUpdate": 1695667523399,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -40792,6 +40792,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 4.0889038635676575e-7",
             "extra": "mean: 99.99523162841797 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ramon@nuclia.com",
+            "name": "Ramon Navarro Bosch",
+            "username": "bloodbare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6fb08403484d0830f3abbc096501949052f4077e",
+          "message": "Upgrade Fast API (#1368)\n\n* Upgrade Fast API\n\n* Upgrade Starlette\n\n* Fix testing\n\n* lint fix\n\n* mock instrument\n\n---------\n\nCo-authored-by: vangheem <vangheem@gmail.com>",
+          "timestamp": "2023-09-25T18:32:06Z",
+          "tree_id": "34db0e8e2c892cf9e28c187027be3fd1bd4160e1",
+          "url": "https://github.com/nuclia/nucliadb/commit/6fb08403484d0830f3abbc096501949052f4077e"
+        },
+        "date": 1695667521074,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels[pg_driver_settings]",
+            "value": 42.45680985606828,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0003568758739382645",
+            "extra": "mean: 23.55334758758545 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations[pg_driver_settings]",
+            "value": 122.2309967463921,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00026980278047804594",
+            "extra": "mean: 8.181230838482197 msec\nrounds: 5"
           }
         ]
       }
