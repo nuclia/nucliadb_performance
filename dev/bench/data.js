@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1695655383337,
+  "lastUpdate": 1695655569306,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -40685,6 +40685,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 5.567760853983116e-7",
             "extra": "mean: 137.49732971191406 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "dfe76d0bd8a0fcb3ceabe8de9b150e94ebf9820b",
+          "message": "Run nucliadb tests on all maindb drivers (#1346)\n\n* Run tests for each driver in parallel\n\n* More fixing...\n\n* More\n\n* Fix skipifs\n\n* add locks to pg driver\n\n* timeout\n\n* try\n\n* needs to be txn\n\n* silly\n\n* try\n\n* better ordering\n\n* fix tests\n\n---------\n\nCo-authored-by: vangheem <vangheem@gmail.com>",
+          "timestamp": "2023-09-25T15:16:39Z",
+          "tree_id": "dde6ced74d981713243928df13c5166f447ab75f",
+          "url": "https://github.com/nuclia/nucliadb/commit/dfe76d0bd8a0fcb3ceabe8de9b150e94ebf9820b"
+        },
+        "date": 1695655566942,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels[pg_driver_settings]",
+            "value": 36.02971987333989,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0007018549311148178",
+            "extra": "mean: 27.75486469268799 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations[pg_driver_settings]",
+            "value": 105.65815261176614,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00023635064503924202",
+            "extra": "mean: 9.464484995061701 msec\nrounds: 5"
           }
         ]
       }
