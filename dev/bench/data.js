@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1695627792949,
+  "lastUpdate": 1695655383337,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -40654,6 +40654,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00017698165615420038",
             "extra": "mean: 5.373954772949219 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "dfe76d0bd8a0fcb3ceabe8de9b150e94ebf9820b",
+          "message": "Run nucliadb tests on all maindb drivers (#1346)\n\n* Run tests for each driver in parallel\n\n* More fixing...\n\n* More\n\n* Fix skipifs\n\n* add locks to pg driver\n\n* timeout\n\n* try\n\n* needs to be txn\n\n* silly\n\n* try\n\n* better ordering\n\n* fix tests\n\n---------\n\nCo-authored-by: vangheem <vangheem@gmail.com>",
+          "timestamp": "2023-09-25T15:16:39Z",
+          "tree_id": "dde6ced74d981713243928df13c5166f447ab75f",
+          "url": "https://github.com/nuclia/nucliadb/commit/dfe76d0bd8a0fcb3ceabe8de9b150e94ebf9820b"
+        },
+        "date": 1695655380261,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 7272.868513848313,
+            "unit": "iter/sec",
+            "range": "stddev: 5.567760853983116e-7",
+            "extra": "mean: 137.49732971191406 usec\nrounds: 5"
           }
         ]
       }
