@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1695655701436,
+  "lastUpdate": 1695667222472,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -40761,6 +40761,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00034471742679103505",
             "extra": "mean: 6.875909169514974 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ramon@nuclia.com",
+            "name": "Ramon Navarro Bosch",
+            "username": "bloodbare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6fb08403484d0830f3abbc096501949052f4077e",
+          "message": "Upgrade Fast API (#1368)\n\n* Upgrade Fast API\n\n* Upgrade Starlette\n\n* Fix testing\n\n* lint fix\n\n* mock instrument\n\n---------\n\nCo-authored-by: vangheem <vangheem@gmail.com>",
+          "timestamp": "2023-09-25T18:32:06Z",
+          "tree_id": "34db0e8e2c892cf9e28c187027be3fd1bd4160e1",
+          "url": "https://github.com/nuclia/nucliadb/commit/6fb08403484d0830f3abbc096501949052f4077e"
+        },
+        "date": 1695667219884,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 10000.476859896655,
+            "unit": "iter/sec",
+            "range": "stddev: 4.0889038635676575e-7",
+            "extra": "mean: 99.99523162841797 usec\nrounds: 5"
           }
         ]
       }
