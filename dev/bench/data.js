@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1695739975655,
+  "lastUpdate": 1695740093616,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -41372,6 +41372,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00021895466097673005",
             "extra": "mean: 5.265662670135498 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "54560df7d641cd061ddb31825a7b0aec3ffe4f72",
+          "message": "Support more VM install tests through github actions (#1370)\n\n* Support more VM install tests\n\n* try\n\n* pg service address\n\n* not user\n\n* txn util warn\n\n* more tests\n\n* chown\n\n* fix\n\n* do not overdo it",
+          "timestamp": "2023-09-26T14:41:38Z",
+          "tree_id": "1dc3bccee12b490dfce3c95cbbdc9e46464d3d51",
+          "url": "https://github.com/nuclia/nucliadb/commit/54560df7d641cd061ddb31825a7b0aec3ffe4f72"
+        },
+        "date": 1695740090136,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels[pg_driver_settings]",
+            "value": 30.986375405013693,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0016488027864915726",
+            "extra": "mean: 32.27224826812744 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations[pg_driver_settings]",
+            "value": 84.17692812204731,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0015822715268577938",
+            "extra": "mean: 11.879739761352539 msec\nrounds: 5"
           }
         ]
       }
