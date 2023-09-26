@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1695742591929,
+  "lastUpdate": 1695742774929,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -41669,6 +41669,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00023559251807081768",
             "extra": "mean: 5.356391270955403 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "vangheem@gmail.com",
+            "name": "vangheem",
+            "username": "vangheem"
+          },
+          "distinct": true,
+          "id": "a3ef5b5fcef0729cb80c6dfaaf6981b32b8050fd",
+          "message": "Semver is back (#1366)\n\n* semver is back\n\n* should be good now",
+          "timestamp": "2023-09-26T11:26:38-04:00",
+          "tree_id": "8dde729346a93d27a4bf0e7d302ff33d333dbb5d",
+          "url": "https://github.com/nuclia/nucliadb/commit/a3ef5b5fcef0729cb80c6dfaaf6981b32b8050fd"
+        },
+        "date": 1695742771680,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 7280.817114408515,
+            "unit": "iter/sec",
+            "range": "stddev: 7.232890409799342e-8",
+            "extra": "mean: 137.34722137451172 usec\nrounds: 5"
           }
         ]
       }
