@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1695740414261,
+  "lastUpdate": 1695740439533,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -41448,6 +41448,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0004067906922817669",
             "extra": "mean: 9.827976226806642 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tarek@ziade.org",
+            "name": "Tarek Ziade",
+            "username": "tarekziade"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "04913a02e04b85afa8d5517da2aeae5fb3c0f87f",
+          "message": "remove label from make file (#1375)",
+          "timestamp": "2023-09-26T14:50:10Z",
+          "tree_id": "590029d9230471b4205bfbe2d2978b1771f56802",
+          "url": "https://github.com/nuclia/nucliadb/commit/04913a02e04b85afa8d5517da2aeae5fb3c0f87f"
+        },
+        "date": 1695740437025,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels[tikv_driver_settings]",
+            "value": 59.494196970242854,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0019122393629737691",
+            "extra": "mean: 16.808362007141113 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations[tikv_driver_settings]",
+            "value": 144.73811225121273,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00043294013981858134",
+            "extra": "mean: 6.909030278523763 msec\nrounds: 5"
           }
         ]
       }
