@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1695719283087,
+  "lastUpdate": 1695732615881,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -41234,6 +41234,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00006749758351569511",
             "extra": "mean: 5.063474178314209 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tarek@ziade.org",
+            "name": "Tarek Ziade",
+            "username": "tarekziade"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a17749b1666f3e2d2a2d0122972258549af50a45",
+          "message": "FST-based brute-force filtered vector search (#1247)",
+          "timestamp": "2023-09-26T12:24:45Z",
+          "tree_id": "f64a68dac1bbf9d0e9df5a26a17841b780b26c42",
+          "url": "https://github.com/nuclia/nucliadb/commit/a17749b1666f3e2d2a2d0122972258549af50a45"
+        },
+        "date": 1695732612826,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 10108.676346504071,
+            "unit": "iter/sec",
+            "range": "stddev: 3.9537948252122597e-7",
+            "extra": "mean: 98.92492011041924 usec\nrounds: 5"
           }
         ]
       }
