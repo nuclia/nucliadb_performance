@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1695735913494,
+  "lastUpdate": 1695739621066,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -41303,6 +41303,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0002387932054101395",
             "extra": "mean: 6.949408849080404 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "54560df7d641cd061ddb31825a7b0aec3ffe4f72",
+          "message": "Support more VM install tests through github actions (#1370)\n\n* Support more VM install tests\n\n* try\n\n* pg service address\n\n* not user\n\n* txn util warn\n\n* more tests\n\n* chown\n\n* fix\n\n* do not overdo it",
+          "timestamp": "2023-09-26T14:41:38Z",
+          "tree_id": "1dc3bccee12b490dfce3c95cbbdc9e46464d3d51",
+          "url": "https://github.com/nuclia/nucliadb/commit/54560df7d641cd061ddb31825a7b0aec3ffe4f72"
+        },
+        "date": 1695739618691,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 8632.82012186337,
+            "unit": "iter/sec",
+            "range": "stddev: 2.10204252143013e-7",
+            "extra": "mean: 115.83700180053711 usec\nrounds: 5"
           }
         ]
       }
