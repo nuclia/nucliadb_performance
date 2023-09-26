@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1695741565015,
+  "lastUpdate": 1695741627476,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -41524,6 +41524,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0001958051854128934",
             "extra": "mean: 6.155148674460018 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b4df92fac2c7140cad1b63a3bfba9a5d8d0ab8bb",
+          "message": "Semver is back (#1366)\n\n* semver is back\n\n* should be good now",
+          "timestamp": "2023-09-26T15:06:41Z",
+          "tree_id": "00c6de4a0ba0fa82581c9647f9aa5debe92b5fe8",
+          "url": "https://github.com/nuclia/nucliadb/commit/b4df92fac2c7140cad1b63a3bfba9a5d8d0ab8bb"
+        },
+        "date": 1695741624278,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels[pg_driver_settings]",
+            "value": 29.287648099988072,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0011771750159706156",
+            "extra": "mean: 34.144086837768555 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations[pg_driver_settings]",
+            "value": 96.46366913473713,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00025410180184560094",
+            "extra": "mean: 10.366597175598145 msec\nrounds: 5"
           }
         ]
       }
