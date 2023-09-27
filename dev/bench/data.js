@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1695800262583,
+  "lastUpdate": 1695822819275,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -42066,6 +42066,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00021220229878493168",
             "extra": "mean: 8.457167943318685 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2b31db7c7c2b5ad1c4a25156682669d58c884ae2",
+          "message": "Upgrade fastapi requirements to <=0.95.2 (#1364)\n\n* Relax and upgrade fastapi requirements to <=0.95.2\n\n* Removing all hack\n\n* Upgrade and pin fastapi to latest version: 0.103.1\n\n* Use lifespan instead of deprecated on_startup and on_shutdown\n\n* Upgrade min version of FastAPI for security reasons\n\n* Update examples as openapi_examples\n\n* Ignore mypy issues with grpc.aio channels\n\n* Revert \"Use lifespan instead of deprecated on_startup and on_shutdown\"\n\nThis reverts commit 6de588f826c9776d1ff05daf7f74bbd966e47631.",
+          "timestamp": "2023-09-27T13:28:14Z",
+          "tree_id": "5245e9befa9b214ff4b9555a5de58bccefb50de5",
+          "url": "https://github.com/nuclia/nucliadb/commit/2b31db7c7c2b5ad1c4a25156682669d58c884ae2"
+        },
+        "date": 1695822816592,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 10081.254638487715,
+            "unit": "iter/sec",
+            "range": "stddev: 1.1767135336427957e-7",
+            "extra": "mean: 99.19400271690881 usec\nrounds: 5"
           }
         ]
       }
