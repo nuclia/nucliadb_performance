@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1695799541662,
+  "lastUpdate": 1695799956441,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -41990,6 +41990,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 3.905548854902772e-7",
             "extra": "mean: 100.3868579864502 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tarek@ziade.org",
+            "name": "Tarek Ziade",
+            "username": "tarekziade"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f403694b008b3c1e2e0428d23bde8443d4732461",
+          "message": "Find endpoint returns wrong resource ids (#1376)\n\n* added a test\n\n* reproduce the issue (seralize returns None)\n\n* verify we issue a warning",
+          "timestamp": "2023-09-27T07:20:16Z",
+          "tree_id": "80919d7311a8a6d6e47eda7dd34619874ca4bbda",
+          "url": "https://github.com/nuclia/nucliadb/commit/f403694b008b3c1e2e0428d23bde8443d4732461"
+        },
+        "date": 1695799953068,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels[tikv_driver_settings]",
+            "value": 55.589994526227066,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00033342717884475136",
+            "extra": "mean: 17.98884868621826 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations[tikv_driver_settings]",
+            "value": 153.94547058653507,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0001462787212458045",
+            "extra": "mean: 6.495806574821472 msec\nrounds: 5"
           }
         ]
       }
