@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1695822819275,
+  "lastUpdate": 1695822876613,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -42097,6 +42097,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.1767135336427957e-7",
             "extra": "mean: 99.19400271690881 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2b31db7c7c2b5ad1c4a25156682669d58c884ae2",
+          "message": "Upgrade fastapi requirements to <=0.95.2 (#1364)\n\n* Relax and upgrade fastapi requirements to <=0.95.2\n\n* Removing all hack\n\n* Upgrade and pin fastapi to latest version: 0.103.1\n\n* Use lifespan instead of deprecated on_startup and on_shutdown\n\n* Upgrade min version of FastAPI for security reasons\n\n* Update examples as openapi_examples\n\n* Ignore mypy issues with grpc.aio channels\n\n* Revert \"Use lifespan instead of deprecated on_startup and on_shutdown\"\n\nThis reverts commit 6de588f826c9776d1ff05daf7f74bbd966e47631.",
+          "timestamp": "2023-09-27T13:28:14Z",
+          "tree_id": "5245e9befa9b214ff4b9555a5de58bccefb50de5",
+          "url": "https://github.com/nuclia/nucliadb/commit/2b31db7c7c2b5ad1c4a25156682669d58c884ae2"
+        },
+        "date": 1695822873541,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels[tikv_driver_settings]",
+            "value": 52.24998748034538,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0005332181922529258",
+            "extra": "mean: 19.138760566711426 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations[tikv_driver_settings]",
+            "value": 143.1320928931033,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00042173125698643165",
+            "extra": "mean: 6.98655332837786 msec\nrounds: 5"
           }
         ]
       }
