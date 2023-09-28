@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1695891242698,
+  "lastUpdate": 1695904021646,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -42356,6 +42356,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0006481942238119014",
             "extra": "mean: 12.272872924804686 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "08125bf794a85495e3ef6ba8600f20b341a1838d",
+          "message": "initial rust rust build server integration (#1378)\n\n* test integrate rust build server\n\n* missing file\n\n* branch\n\n* try\n\n* try\n\n* try\n\n* really?\n\n* get from current\n\n* wow\n\n* i am dumb\n\n* dumb dumb\n\n* insane\n\n* support not running test builds\n\n* retries\n\n* another\n\n* correct build\n\n* retries\n\n* fix\n\n* try\n\n* try\n\n* fix\n\n* maturin build\n\n* fix url\n\n* cleanup\n\n* tweaks\n\n* add cicd notes\n\n* Update docs/CICD.md\n\nCo-authored-by: Joan Antoni RE <joanantoni.re16@gmail.com>\n\n---------\n\nCo-authored-by: Joan Antoni RE <joanantoni.re16@gmail.com>",
+          "timestamp": "2023-09-28T12:18:32Z",
+          "tree_id": "a6f11fe7d88f405f5aa9f40f32c59dc5697eab0d",
+          "url": "https://github.com/nuclia/nucliadb/commit/08125bf794a85495e3ef6ba8600f20b341a1838d"
+        },
+        "date": 1695904018957,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels[pg_driver_settings]",
+            "value": 32.95378209559235,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0008187237991675719",
+            "extra": "mean: 30.34553050994873 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations[pg_driver_settings]",
+            "value": 86.84830188054151,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00024162241152101153",
+            "extra": "mean: 11.51432991027832 msec\nrounds: 5"
           }
         ]
       }
