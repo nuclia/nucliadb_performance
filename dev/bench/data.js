@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1695904170115,
+  "lastUpdate": 1695905074492,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -42463,6 +42463,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 3.3679164098655506e-7",
             "extra": "mean: 114.19897079467773 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2cb70c2a9df80198649ba9a0a67d128e727b9b01",
+          "message": "fix generating openapi spec (#1387)\n\n* fix generating openapi spec\n\n* fix\n\n* fix",
+          "timestamp": "2023-09-28T12:39:21Z",
+          "tree_id": "b806f349de3256de26ba81ad8d28197ee47bce6f",
+          "url": "https://github.com/nuclia/nucliadb/commit/2cb70c2a9df80198649ba9a0a67d128e727b9b01"
+        },
+        "date": 1695905071970,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 8700.041650971496,
+            "unit": "iter/sec",
+            "range": "stddev: 4.110022226402113e-7",
+            "extra": "mean: 114.94197845458984 usec\nrounds: 5"
           }
         ]
       }
