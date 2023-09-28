@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1695886717195,
+  "lastUpdate": 1695886736238,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -42242,6 +42242,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0002487478644592027",
             "extra": "mean: 8.500066170325647 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5fbc68c412d7c4023ea28cc4fe71597f4854093e",
+          "message": "Export/Import v2 api (#1385)\n\n* Export/Import v2 api\n\n* Add sdk support\n\n* Add sdk support\n\n* Unify",
+          "timestamp": "2023-09-28T07:32:58Z",
+          "tree_id": "02395342d77772a5f6dedfe54bd1e56cfb50028b",
+          "url": "https://github.com/nuclia/nucliadb/commit/5fbc68c412d7c4023ea28cc4fe71597f4854093e"
+        },
+        "date": 1695886733200,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels[tikv_driver_settings]",
+            "value": 69.79867022701728,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002547890281530258",
+            "extra": "mean: 14.326920509338379 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations[tikv_driver_settings]",
+            "value": 186.87153214357906,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00013226910660509077",
+            "extra": "mean: 5.351269872565018 msec\nrounds: 5"
           }
         ]
       }
