@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1695904021646,
+  "lastUpdate": 1695904104919,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -42394,6 +42394,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00024162241152101153",
             "extra": "mean: 11.51432991027832 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "08125bf794a85495e3ef6ba8600f20b341a1838d",
+          "message": "initial rust rust build server integration (#1378)\n\n* test integrate rust build server\n\n* missing file\n\n* branch\n\n* try\n\n* try\n\n* try\n\n* really?\n\n* get from current\n\n* wow\n\n* i am dumb\n\n* dumb dumb\n\n* insane\n\n* support not running test builds\n\n* retries\n\n* another\n\n* correct build\n\n* retries\n\n* fix\n\n* try\n\n* try\n\n* fix\n\n* maturin build\n\n* fix url\n\n* cleanup\n\n* tweaks\n\n* add cicd notes\n\n* Update docs/CICD.md\n\nCo-authored-by: Joan Antoni RE <joanantoni.re16@gmail.com>\n\n---------\n\nCo-authored-by: Joan Antoni RE <joanantoni.re16@gmail.com>",
+          "timestamp": "2023-09-28T12:18:32Z",
+          "tree_id": "a6f11fe7d88f405f5aa9f40f32c59dc5697eab0d",
+          "url": "https://github.com/nuclia/nucliadb/commit/08125bf794a85495e3ef6ba8600f20b341a1838d"
+        },
+        "date": 1695904101376,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels[tikv_driver_settings]",
+            "value": 49.813669523916076,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0009464265943978763",
+            "extra": "mean: 20.07481098175049 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations[tikv_driver_settings]",
+            "value": 130.41562900717597,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000971099315533446",
+            "extra": "mean: 7.667792638142903 msec\nrounds: 5"
           }
         ]
       }
