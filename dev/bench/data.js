@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1695905153073,
+  "lastUpdate": 1695906038397,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -42532,6 +42532,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0011715235995671304",
             "extra": "mean: 12.276172637939453 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d15d584972643fb18d0968197738d71ca5b64951",
+          "message": "[sdk] Be able to properly stream downloads to a file (#1388)\n\n* Be able to properly stream downloads to a file\n\n* fix async\n\n* Add docs",
+          "timestamp": "2023-09-28T12:54:59Z",
+          "tree_id": "197fba6356550146f3709703b988acdfd2ffabfe",
+          "url": "https://github.com/nuclia/nucliadb/commit/d15d584972643fb18d0968197738d71ca5b64951"
+        },
+        "date": 1695906035982,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels[tikv_driver_settings]",
+            "value": 70.97422235217991,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0003527442288766767",
+            "extra": "mean: 14.089622497558592 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations[tikv_driver_settings]",
+            "value": 189.43805021743646,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00014926185639594074",
+            "extra": "mean: 5.278770547164114 msec\nrounds: 5"
           }
         ]
       }
