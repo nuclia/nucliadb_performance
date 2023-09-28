@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1695904104919,
+  "lastUpdate": 1695904170115,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -42432,6 +42432,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000971099315533446",
             "extra": "mean: 7.667792638142903 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "08125bf794a85495e3ef6ba8600f20b341a1838d",
+          "message": "initial rust rust build server integration (#1378)\n\n* test integrate rust build server\n\n* missing file\n\n* branch\n\n* try\n\n* try\n\n* try\n\n* really?\n\n* get from current\n\n* wow\n\n* i am dumb\n\n* dumb dumb\n\n* insane\n\n* support not running test builds\n\n* retries\n\n* another\n\n* correct build\n\n* retries\n\n* fix\n\n* try\n\n* try\n\n* fix\n\n* maturin build\n\n* fix url\n\n* cleanup\n\n* tweaks\n\n* add cicd notes\n\n* Update docs/CICD.md\n\nCo-authored-by: Joan Antoni RE <joanantoni.re16@gmail.com>\n\n---------\n\nCo-authored-by: Joan Antoni RE <joanantoni.re16@gmail.com>",
+          "timestamp": "2023-09-28T12:18:32Z",
+          "tree_id": "a6f11fe7d88f405f5aa9f40f32c59dc5697eab0d",
+          "url": "https://github.com/nuclia/nucliadb/commit/08125bf794a85495e3ef6ba8600f20b341a1838d"
+        },
+        "date": 1695904167679,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 8756.646343143797,
+            "unit": "iter/sec",
+            "range": "stddev: 3.3679164098655506e-7",
+            "extra": "mean: 114.19897079467773 usec\nrounds: 5"
           }
         ]
       }
