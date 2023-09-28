@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1695924787706,
+  "lastUpdate": 1695925711138,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -42981,6 +42981,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0002920752966743041",
             "extra": "mean: 8.784775300459428 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5cc1a3de03db512dbb308e2a455a5f012be46d25",
+          "message": "Suggest features implementation (#1382)\n\n* Use params for tests and select specific features\n\n* Extract fixtures from tests\n\n* Query is always used, not only with paragraphs\n\n* Remove unused INTENT /suggest feature\n\n* Test to validate /suggest features exclusion\n\n* Add suggest features\n\n* Migrating suggest tests to rust\n\n* Add small docs in paragraph schema\n\n* Reduce backoff delays improving test performance\n\n* Refactor suggest tests and add one for features\n\n* Implement suggest features\n\n* Remove commented code\n\n* Split suggest tests in different functions\n\n* Remove unneeded async in suggest_query_to_pb\n\n* Rename suggest feature paragraph to paragraphs\n\n* Use suggest features in pb construction\n\n* Improve rust readability\n\n* Remove migrated python suggest tests\n\n* Bump bindings version\n\n* Remove prints\n\n* Migrate suggest with lang filter to rust\n\n* Debugging ci failing tests\n\n* Fix search test\n\n* Add openssl as required system dep\n\n* .\n\n* try\n\n---------\n\nCo-authored-by: vangheem <vangheem@gmail.com>",
+          "timestamp": "2023-09-28T18:19:02Z",
+          "tree_id": "a545120ca1c2ba9626613e76f6afc9cc29811459",
+          "url": "https://github.com/nuclia/nucliadb/commit/5cc1a3de03db512dbb308e2a455a5f012be46d25"
+        },
+        "date": 1695925708186,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels[tikv_driver_settings]",
+            "value": 51.88513458849806,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00043918672305445213",
+            "extra": "mean: 19.273343086242676 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations[tikv_driver_settings]",
+            "value": 145.94829284799937,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00016826304870466079",
+            "extra": "mean: 6.851741671562195 msec\nrounds: 5"
           }
         ]
       }
