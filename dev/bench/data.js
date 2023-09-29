@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1695984552997,
+  "lastUpdate": 1695984590212,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -43233,6 +43233,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00011607051664229713",
             "extra": "mean: 8.10081164042155 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6e3847245dc09f8a9c9508b5a6a6adfb33e2081d",
+          "message": "Tasks api (#1367)\n\n* Work in progress\n\n* Async Tasks api\n\n* Add http api\n\n* Fix\n\n* Add test for endpoints\n\n* Add istio virtual services\n\n* Add unit test coverage\n\n* Add license\n\n* Fix tests\n\n* Do not expose task state via http\n\n* Remove async_\n\n* Remove async_\n\n* Check arguments on producer\n\n* Rename more\n\n* Add more coverage\n\n* better waiting for task\n\n* Simplify api\n\n* Fix type",
+          "timestamp": "2023-09-29T10:43:36Z",
+          "tree_id": "a6be47e3f385c93fe38150430144e837cea452cf",
+          "url": "https://github.com/nuclia/nucliadb/commit/6e3847245dc09f8a9c9508b5a6a6adfb33e2081d"
+        },
+        "date": 1695984587203,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels[tikv_driver_settings]",
+            "value": 58.52511220686193,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0008611747563801089",
+            "extra": "mean: 17.086682319641113 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations[tikv_driver_settings]",
+            "value": 148.32418898823997,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0008698799972551542",
+            "extra": "mean: 6.741988658905029 msec\nrounds: 5"
           }
         ]
       }
