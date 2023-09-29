@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1695983865003,
+  "lastUpdate": 1695984542918,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -43164,6 +43164,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00008001570033792063",
             "extra": "mean: 6.091493718764362 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6e3847245dc09f8a9c9508b5a6a6adfb33e2081d",
+          "message": "Tasks api (#1367)\n\n* Work in progress\n\n* Async Tasks api\n\n* Add http api\n\n* Fix\n\n* Add test for endpoints\n\n* Add istio virtual services\n\n* Add unit test coverage\n\n* Add license\n\n* Fix tests\n\n* Do not expose task state via http\n\n* Remove async_\n\n* Remove async_\n\n* Check arguments on producer\n\n* Rename more\n\n* Add more coverage\n\n* better waiting for task\n\n* Simplify api\n\n* Fix type",
+          "timestamp": "2023-09-29T10:43:36Z",
+          "tree_id": "a6be47e3f385c93fe38150430144e837cea452cf",
+          "url": "https://github.com/nuclia/nucliadb/commit/6e3847245dc09f8a9c9508b5a6a6adfb33e2081d"
+        },
+        "date": 1695984540286,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 8694.688871273203,
+            "unit": "iter/sec",
+            "range": "stddev: 8.983756325407344e-8",
+            "extra": "mean: 115.01274108886719 usec\nrounds: 5"
           }
         ]
       }
