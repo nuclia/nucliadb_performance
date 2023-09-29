@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1695925936161,
+  "lastUpdate": 1695983839188,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -43088,6 +43088,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000016568322275953272",
             "extra": "mean: 138.82222175598145 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f4285353842f1f941e3bb4020c4fdd86d865f718",
+          "message": "Build node bindings wheels without debug (#1393)\n\n* Build node bindings wheels without debug\n\n* try\n\n* Try pyproject config\n\n* Skip suggest test to avoid fails in ci",
+          "timestamp": "2023-09-29T10:31:16Z",
+          "tree_id": "af38b58f48d3e94ad1d43ecaa390e866ba83aa02",
+          "url": "https://github.com/nuclia/nucliadb/commit/f4285353842f1f941e3bb4020c4fdd86d865f718"
+        },
+        "date": 1695983836058,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels[pg_driver_settings]",
+            "value": 38.005530246548666,
+            "unit": "iter/sec",
+            "range": "stddev: 0.001074682481434955",
+            "extra": "mean: 26.311960220336914 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations[pg_driver_settings]",
+            "value": 112.48226120401466,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00026054268113526814",
+            "extra": "mean: 8.890290693803268 msec\nrounds: 5"
           }
         ]
       }
