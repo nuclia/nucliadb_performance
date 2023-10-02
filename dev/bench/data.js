@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1696245449407,
+  "lastUpdate": 1696245793789,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -43492,6 +43492,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0004542178337334878",
             "extra": "mean: 9.276832233775746 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tarek@ziade.org",
+            "name": "Tarek Ziade",
+            "username": "tarekziade"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "491848b940e286525a512f5d4811b27ce55c2ea8",
+          "message": "Stdout logs improvements (#1392)\n\n* plug a json output for the stdout\n\n* cleaner\n\n* switch the flag\n\n* remove unwanted changes\n\n* v1 of a custom filter\n\n* faster implementation\n\n* fix format\n\n* remove prints\n\n* allow DEBUG to overwrite the plain settings\n\n* I like my formatting better\n\n* simplified\n\n* implement our own filter class\n\n* added rea; tests\n\n* cosmetics\n\n* cleanups\n\n* fmt\n\n* cosmetics",
+          "timestamp": "2023-10-02T11:01:00Z",
+          "tree_id": "674dee6a459e45c7dfd44b9f82b3c6e2693b1b3f",
+          "url": "https://github.com/nuclia/nucliadb/commit/491848b940e286525a512f5d4811b27ce55c2ea8"
+        },
+        "date": 1696245790105,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels[tikv_driver_settings]",
+            "value": 52.80939732653233,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0012941516717019945",
+            "extra": "mean: 18.936023712158203 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations[tikv_driver_settings]",
+            "value": 149.60159068870715,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00017335378310630848",
+            "extra": "mean: 6.684420903523763 msec\nrounds: 5"
           }
         ]
       }
