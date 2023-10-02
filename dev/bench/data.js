@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1696245793789,
+  "lastUpdate": 1696246093824,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -43530,6 +43530,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00017335378310630848",
             "extra": "mean: 6.684420903523763 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tarek@ziade.org",
+            "name": "Tarek Ziade",
+            "username": "tarekziade"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "491848b940e286525a512f5d4811b27ce55c2ea8",
+          "message": "Stdout logs improvements (#1392)\n\n* plug a json output for the stdout\n\n* cleaner\n\n* switch the flag\n\n* remove unwanted changes\n\n* v1 of a custom filter\n\n* faster implementation\n\n* fix format\n\n* remove prints\n\n* allow DEBUG to overwrite the plain settings\n\n* I like my formatting better\n\n* simplified\n\n* implement our own filter class\n\n* added rea; tests\n\n* cosmetics\n\n* cleanups\n\n* fmt\n\n* cosmetics",
+          "timestamp": "2023-10-02T11:01:00Z",
+          "tree_id": "674dee6a459e45c7dfd44b9f82b3c6e2693b1b3f",
+          "url": "https://github.com/nuclia/nucliadb/commit/491848b940e286525a512f5d4811b27ce55c2ea8"
+        },
+        "date": 1696246091066,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 9966.064283482707,
+            "unit": "iter/sec",
+            "range": "stddev: 1.8444888394038742e-7",
+            "extra": "mean: 100.34051271948483 usec\nrounds: 5"
           }
         ]
       }
