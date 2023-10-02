@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1696241268976,
+  "lastUpdate": 1696245449407,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -43454,6 +43454,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00040221907659714984",
             "extra": "mean: 11.151208877563477 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tarek@ziade.org",
+            "name": "Tarek Ziade",
+            "username": "tarekziade"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "491848b940e286525a512f5d4811b27ce55c2ea8",
+          "message": "Stdout logs improvements (#1392)\n\n* plug a json output for the stdout\n\n* cleaner\n\n* switch the flag\n\n* remove unwanted changes\n\n* v1 of a custom filter\n\n* faster implementation\n\n* fix format\n\n* remove prints\n\n* allow DEBUG to overwrite the plain settings\n\n* I like my formatting better\n\n* simplified\n\n* implement our own filter class\n\n* added rea; tests\n\n* cosmetics\n\n* cleanups\n\n* fmt\n\n* cosmetics",
+          "timestamp": "2023-10-02T11:01:00Z",
+          "tree_id": "674dee6a459e45c7dfd44b9f82b3c6e2693b1b3f",
+          "url": "https://github.com/nuclia/nucliadb/commit/491848b940e286525a512f5d4811b27ce55c2ea8"
+        },
+        "date": 1696245446560,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels[pg_driver_settings]",
+            "value": 39.10212952252246,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0011918855659196388",
+            "extra": "mean: 25.574054718017578 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations[pg_driver_settings]",
+            "value": 107.79541709929059,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0004542178337334878",
+            "extra": "mean: 9.276832233775746 msec\nrounds: 5"
           }
         ]
       }
