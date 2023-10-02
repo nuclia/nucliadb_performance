@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1696251359402,
+  "lastUpdate": 1696251736941,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -43789,6 +43789,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00013394653231061515",
             "extra": "mean: 6.094004126156078 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7db1557258f3f78c424da24f805f9851f8c0ed66",
+          "message": "Remove nucliadb_client internal usages (#1401)\n\n* Remove github action - the package is no longer maintained\n\n* remove all internal usages of nucliadb_client\n\n* Detect when the stream is in a wrong format\n\n* Fixes\n\n* point to new export\n\n* remove entrypoints",
+          "timestamp": "2023-10-02T12:50:10Z",
+          "tree_id": "3695a881f69a5a397a086689cb7bf455c72d78c9",
+          "url": "https://github.com/nuclia/nucliadb/commit/7db1557258f3f78c424da24f805f9851f8c0ed66"
+        },
+        "date": 1696251733751,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels[tikv_driver_settings]",
+            "value": 77.39593547632326,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00019940983142942924",
+            "extra": "mean: 12.920575141906738 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations[tikv_driver_settings]",
+            "value": 193.5667041403843,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00005808020433944946",
+            "extra": "mean: 5.166177749633789 msec\nrounds: 5"
           }
         ]
       }
