@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1696240430360,
+  "lastUpdate": 1696240464061,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -43378,6 +43378,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 4.876769016662375e-7",
             "extra": "mean: 114.81132507324219 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e9bf84aad31ec86ac0984650a858ec3589b000bf",
+          "message": "Fix exporting conversations (#1400)\n\n* wip\n\n* Fix generating bm conversations\n\n* Be more explicit on page api\n\n* fix",
+          "timestamp": "2023-10-02T09:46:26Z",
+          "tree_id": "967b3f82770c53a628525889dc2a2424b8d217c3",
+          "url": "https://github.com/nuclia/nucliadb/commit/e9bf84aad31ec86ac0984650a858ec3589b000bf"
+        },
+        "date": 1696240461354,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels[tikv_driver_settings]",
+            "value": 72.35405860633482,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00038704827433345675",
+            "extra": "mean: 13.820924758911133 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations[tikv_driver_settings]",
+            "value": 189.5931140287832,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00014834536678977008",
+            "extra": "mean: 5.274453163146973 msec\nrounds: 5"
           }
         ]
       }
