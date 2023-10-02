@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1696250167981,
+  "lastUpdate": 1696250177477,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -43599,6 +43599,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00012238123600908128",
             "extra": "mean: 10.237388610839844 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "632d40434bebb35080d2c40cd25bb4808679bd16",
+          "message": "release node bindings on every node change (#1396)",
+          "timestamp": "2023-10-02T12:26:03Z",
+          "tree_id": "9a0785ba622ce12d92b90732ce8b8011cf95ef1b",
+          "url": "https://github.com/nuclia/nucliadb/commit/632d40434bebb35080d2c40cd25bb4808679bd16"
+        },
+        "date": 1696250173631,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels[tikv_driver_settings]",
+            "value": 46.81942340600571,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0009359222776764158",
+            "extra": "mean: 21.358656883239746 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations[tikv_driver_settings]",
+            "value": 135.32338968864232,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00031417566700596005",
+            "extra": "mean: 7.389705521719796 msec\nrounds: 5"
           }
         ]
       }
