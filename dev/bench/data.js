@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1696332172167,
+  "lastUpdate": 1696332180290,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -44994,6 +44994,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 4.6383696363656193e-7",
             "extra": "mean: 99.07224697029281 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2baefde3f6016414c4fede2cb5ee7a1dc496b7b9",
+          "message": "Export / Import as tasks (#1403)\n\n* Wip\n\n* Finish the wiring\n\n* Add unit tests\n\n* fix lint\n\n* inclusive max tries\n\n* fix\n\n* Fix fastapi / pydantic\n\n* leave as it was\n\n* Comment test for local driver\n\n* Fix tests\n\n* Fix tests and unify helper",
+          "timestamp": "2023-10-03T11:17:26Z",
+          "tree_id": "ac6b0f68fc39910d72b25ba64c01cd5f68820905",
+          "url": "https://github.com/nuclia/nucliadb/commit/2baefde3f6016414c4fede2cb5ee7a1dc496b7b9"
+        },
+        "date": 1696332176854,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels[pg_driver_settings]",
+            "value": 42.13885927906984,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002733787757390979",
+            "extra": "mean: 23.731064796447754 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations[pg_driver_settings]",
+            "value": 118.53433897779784,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00024023564623717517",
+            "extra": "mean: 8.436373869578043 msec\nrounds: 5"
           }
         ]
       }
