@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1696362709758,
+  "lastUpdate": 1696362717402,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -45436,6 +45436,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00030553502817103637",
             "extra": "mean: 8.26872189839681 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "31f6ef5e5a14fda88bcf6d13b4775c6645d2c74f",
+          "message": "Fix uploads to GCS (#1415)\n\n* Fix uploads\n\n* Increase size in integration tests too",
+          "timestamp": "2023-10-03T19:46:26Z",
+          "tree_id": "8aea73893f8552e1212ac23ce53f20b1e358b7f3",
+          "url": "https://github.com/nuclia/nucliadb/commit/31f6ef5e5a14fda88bcf6d13b4775c6645d2c74f"
+        },
+        "date": 1696362714346,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels[tikv_driver_settings]",
+            "value": 75.06390886749406,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00017876651182763566",
+            "extra": "mean: 13.321981430053711 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations[tikv_driver_settings]",
+            "value": 153.6788391955082,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00020918186298720932",
+            "extra": "mean: 6.507076740264893 msec\nrounds: 5"
           }
         ]
       }
