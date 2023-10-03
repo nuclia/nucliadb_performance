@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1696346966709,
+  "lastUpdate": 1696347182244,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -45291,6 +45291,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00019105799289207754",
             "extra": "mean: 6.802957398550851 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "dd4019e7f7deb199ebb68d93b05e2620806bf6ea",
+          "message": "handle large nats messages (#1399)\n\n* handle large nats messages\n\n* fix\n\n* .\n\n* .\n\n* fix lint and add rid\n\n* fix\n\n* fix\n\n* tests\n\n* file\n\n* fix",
+          "timestamp": "2023-10-03T15:09:10Z",
+          "tree_id": "28f3e1ff33cfde196453b65c1c8ac0ab6a626fd5",
+          "url": "https://github.com/nuclia/nucliadb/commit/dd4019e7f7deb199ebb68d93b05e2620806bf6ea"
+        },
+        "date": 1696347178538,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 7352.015049328901,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000024884237342348196",
+            "extra": "mean: 136.01713180541992 usec\nrounds: 5"
           }
         ]
       }
