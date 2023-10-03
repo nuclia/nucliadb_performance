@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1696324834273,
+  "lastUpdate": 1696331678085,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -44932,6 +44932,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00019475596267097222",
             "extra": "mean: 8.412185082068811 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b9c5ecdfaf6405ac21c000236f8468489c202c96",
+          "message": "Nucliadb metrics refinement (#1412)\n\n* Remove uneeded scope in metric\n\nWe can use the container to know to whom it corresponds\n\n* Add grpc_server_op_duration_seconds metric to node\n\n* Measure grpc ops duration in metrics middleware",
+          "timestamp": "2023-10-03T11:02:09Z",
+          "tree_id": "bd94f4d946f05fbbfb413101a0169acbc65ca2b0",
+          "url": "https://github.com/nuclia/nucliadb/commit/b9c5ecdfaf6405ac21c000236f8468489c202c96"
+        },
+        "date": 1696331674839,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 8707.898783100178,
+            "unit": "iter/sec",
+            "range": "stddev: 9.076933795598579e-8",
+            "extra": "mean: 114.83826637268066 usec\nrounds: 5"
           }
         ]
       }
