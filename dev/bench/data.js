@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1696331678085,
+  "lastUpdate": 1696332172167,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -44963,6 +44963,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 9.076933795598579e-8",
             "extra": "mean: 114.83826637268066 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2baefde3f6016414c4fede2cb5ee7a1dc496b7b9",
+          "message": "Export / Import as tasks (#1403)\n\n* Wip\n\n* Finish the wiring\n\n* Add unit tests\n\n* fix lint\n\n* inclusive max tries\n\n* fix\n\n* Fix fastapi / pydantic\n\n* leave as it was\n\n* Comment test for local driver\n\n* Fix tests\n\n* Fix tests and unify helper",
+          "timestamp": "2023-10-03T11:17:26Z",
+          "tree_id": "ac6b0f68fc39910d72b25ba64c01cd5f68820905",
+          "url": "https://github.com/nuclia/nucliadb/commit/2baefde3f6016414c4fede2cb5ee7a1dc496b7b9"
+        },
+        "date": 1696332169066,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 10093.644088842093,
+            "unit": "iter/sec",
+            "range": "stddev: 4.6383696363656193e-7",
+            "extra": "mean: 99.07224697029281 usec\nrounds: 5"
           }
         ]
       }
