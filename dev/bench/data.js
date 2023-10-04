@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1696407550641,
+  "lastUpdate": 1696407584980,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -45588,6 +45588,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00015404792261262918",
             "extra": "mean: 8.689932028452555 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "44e4de1659088ea0b84989e44708704a9494ae2a",
+          "message": "Fix import resumable logic (#1417)\n\n* Fix import resumable logic\n\n* stricter condition",
+          "timestamp": "2023-10-04T08:13:58Z",
+          "tree_id": "6292bf498b43c70dab6e3e7977443e9848f1e638",
+          "url": "https://github.com/nuclia/nucliadb/commit/44e4de1659088ea0b84989e44708704a9494ae2a"
+        },
+        "date": 1696407581817,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels[tikv_driver_settings]",
+            "value": 75.00133218747328,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00020289509794913134",
+            "extra": "mean: 13.333096504211426 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations[tikv_driver_settings]",
+            "value": 195.6949302636558,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00003922702320178364",
+            "extra": "mean: 5.109994411468506 msec\nrounds: 5"
           }
         ]
       }
