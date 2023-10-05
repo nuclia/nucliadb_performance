@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1696489266419,
+  "lastUpdate": 1696489447158,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -45657,6 +45657,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.2431269626758474e-7",
             "extra": "mean: 114.81566429138184 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "85b4a56e76676a494d8ca951792a9434e8994255",
+          "message": "Fix bindings build (#1416)\n\n* fix rust bindings build\n\n* fix rust bindings build\n\n* another flag\n\n* tweak\n\n* rbs integration",
+          "timestamp": "2023-10-05T06:55:39Z",
+          "tree_id": "de1e33e9f43568bb988a7d5e7ecc61acc25544ff",
+          "url": "https://github.com/nuclia/nucliadb/commit/85b4a56e76676a494d8ca951792a9434e8994255"
+        },
+        "date": 1696489443892,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels[tikv_driver_settings]",
+            "value": 77.88142233775879,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00019065044889476912",
+            "extra": "mean: 12.840032577514648 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations[tikv_driver_settings]",
+            "value": 197.10949583477765,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00005679485750240869",
+            "extra": "mean: 5.073322296142578 msec\nrounds: 5"
           }
         ]
       }
