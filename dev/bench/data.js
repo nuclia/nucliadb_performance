@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1696521111614,
+  "lastUpdate": 1696521131275,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -45985,6 +45985,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000326695690786468",
             "extra": "mean: 5.131618976593018 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "57874a987e6533a9efc8eca2e6ab5737b165a4d6",
+          "message": "Add more metrics to find merge process (#1427)",
+          "timestamp": "2023-10-05T15:46:40Z",
+          "tree_id": "62255a2b27f6284b7e852b6031d2c4795046c8a7",
+          "url": "https://github.com/nuclia/nucliadb/commit/57874a987e6533a9efc8eca2e6ab5737b165a4d6"
+        },
+        "date": 1696521128030,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels[pg_driver_settings]",
+            "value": 39.19886834321739,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000317443488902927",
+            "extra": "mean: 25.510940551757812 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations[pg_driver_settings]",
+            "value": 104.4363890545088,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0004205654242127247",
+            "extra": "mean: 9.575206583196467 msec\nrounds: 5"
           }
         ]
       }
