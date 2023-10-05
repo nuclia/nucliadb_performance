@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1696500293490,
+  "lastUpdate": 1696500365269,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -45764,6 +45764,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.8579712209785314e-7",
             "extra": "mean: 115.27433395385741 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "461f3766f9a28c009bcc69d23b22265fd56cd7b7",
+          "message": "A few more export/import polishments (#1423)\n\n* few more tweaks\n\n* few more tweaks\n\n* Fix bug\n\n* Address PR comments",
+          "timestamp": "2023-10-05T09:59:50Z",
+          "tree_id": "824546478842c3977687eb7a77e9e79393b01ae0",
+          "url": "https://github.com/nuclia/nucliadb/commit/461f3766f9a28c009bcc69d23b22265fd56cd7b7"
+        },
+        "date": 1696500361984,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels[tikv_driver_settings]",
+            "value": 66.26518625108103,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0006467098791146739",
+            "extra": "mean: 15.090880393981934 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations[tikv_driver_settings]",
+            "value": 188.07475452059657,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00018798284217188556",
+            "extra": "mean: 5.317034721374512 msec\nrounds: 5"
           }
         ]
       }
