@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1696528161630,
+  "lastUpdate": 1696528288726,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -46092,6 +46092,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0006253979017589705",
             "extra": "mean: 9.155031045277912 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tarek@ziade.org",
+            "name": "Tarek Ziade",
+            "username": "tarekziade"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "eb5fe873da73900d024684c99437a246739b575d",
+          "message": "Retry tikv install 3 times (#1422)\n\n* Retry tikv install 3 times\n\nthis step has been failing intermittently\n\n* remove -x",
+          "timestamp": "2023-10-05T17:43:05Z",
+          "tree_id": "14b151eb24a21977d55ec4240e5342dae675707d",
+          "url": "https://github.com/nuclia/nucliadb/commit/eb5fe873da73900d024684c99437a246739b575d"
+        },
+        "date": 1696528285906,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels[tikv_driver_settings]",
+            "value": 63.42528577114356,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00028502884523326684",
+            "extra": "mean: 15.766582489013672 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations[tikv_driver_settings]",
+            "value": 167.56611282220967,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00012074312217662962",
+            "extra": "mean: 5.96779374515309 msec\nrounds: 5"
           }
         ]
       }
