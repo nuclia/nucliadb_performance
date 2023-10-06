@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1696579107496,
+  "lastUpdate": 1696579219028,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -46161,6 +46161,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 6.704129498212154e-8",
             "extra": "mean: 115.19427299499512 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "173408facefab42c41f0eb2e5fcfd3a05c137898",
+          "message": "Small fixes on Import/Export (#1425)\n\n* Done\n\n* Done\n\n* Be careful not to open a txn when one is already open - pg driver does not like it\n\n* Be careful not to open a txn when one is already open - pg driver does not like it",
+          "timestamp": "2023-10-06T07:52:55Z",
+          "tree_id": "465c751f9671d50114a4e421fa5b6ae17d262efa",
+          "url": "https://github.com/nuclia/nucliadb/commit/173408facefab42c41f0eb2e5fcfd3a05c137898"
+        },
+        "date": 1696579214883,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels[pg_driver_settings]",
+            "value": 23.461120234840315,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0020796368417759963",
+            "extra": "mean: 42.623710632324226 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations[pg_driver_settings]",
+            "value": 65.25643734389143,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000943941601339384",
+            "extra": "mean: 15.324158668518066 msec\nrounds: 5"
           }
         ]
       }
