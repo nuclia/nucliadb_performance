@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1696598075893,
+  "lastUpdate": 1696598390944,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -46382,6 +46382,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000560708898780352",
             "extra": "mean: 9.587159156799316 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tarek@ziade.org",
+            "name": "Tarek Ziade",
+            "username": "tarekziade"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "78bb42564ae455d45ce0e93e7ce49b0841c30ee3",
+          "message": "Adding APIs to read the shard files from disk (#1418)\n\n* savepoint\n\n* plugged all the boiler-plate code\n\n* implemented the apis\n\n* give me the absolute path\n\n* rename/refactor\n\n* cleanups\n\n* retrigger\n\n* added a test\n\n* better naming\n\n* no metrics here for now\n\n* cleanups\n\n* fmt\n\n* Herme's reviews",
+          "timestamp": "2023-10-06T12:57:13Z",
+          "tree_id": "a270096a1a9f9aa47d83ef694218a6848418cd4b",
+          "url": "https://github.com/nuclia/nucliadb/commit/78bb42564ae455d45ce0e93e7ce49b0841c30ee3"
+        },
+        "date": 1696598387010,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels[tikv_driver_settings]",
+            "value": 48.10716499355176,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000832266670738553",
+            "extra": "mean: 20.786924362182617 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations[tikv_driver_settings]",
+            "value": 134.16271362097464,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00039038200861125585",
+            "extra": "mean: 7.453635760716029 msec\nrounds: 5"
           }
         ]
       }
