@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1696528288726,
+  "lastUpdate": 1696579107496,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -46130,6 +46130,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00012074312217662962",
             "extra": "mean: 5.96779374515309 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "173408facefab42c41f0eb2e5fcfd3a05c137898",
+          "message": "Small fixes on Import/Export (#1425)\n\n* Done\n\n* Done\n\n* Be careful not to open a txn when one is already open - pg driver does not like it\n\n* Be careful not to open a txn when one is already open - pg driver does not like it",
+          "timestamp": "2023-10-06T07:52:55Z",
+          "tree_id": "465c751f9671d50114a4e421fa5b6ae17d262efa",
+          "url": "https://github.com/nuclia/nucliadb/commit/173408facefab42c41f0eb2e5fcfd3a05c137898"
+        },
+        "date": 1696579104447,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 8680.987118547528,
+            "unit": "iter/sec",
+            "range": "stddev: 6.704129498212154e-8",
+            "extra": "mean: 115.19427299499512 usec\nrounds: 5"
           }
         ]
       }
