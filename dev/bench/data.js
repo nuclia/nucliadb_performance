@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1696927096480,
+  "lastUpdate": 1696927205374,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -46489,6 +46489,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00012499673823085329",
             "extra": "mean: 6.717586517333984 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f34e175fac0050151a00e6da4416472bc105789d",
+          "message": "Remove requirement of providing content length header (#1433)",
+          "timestamp": "2023-10-10T08:31:24Z",
+          "tree_id": "1e611e622489d7545e67d6014607c1f95f89b02c",
+          "url": "https://github.com/nuclia/nucliadb/commit/f34e175fac0050151a00e6da4416472bc105789d"
+        },
+        "date": 1696927201952,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels[pg_driver_settings]",
+            "value": 37.29311777564899,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000853887662288958",
+            "extra": "mean: 26.81459903717041 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations[pg_driver_settings]",
+            "value": 112.42542370912679,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0003814992479318869",
+            "extra": "mean: 8.894785245259603 msec\nrounds: 5"
           }
         ]
       }
