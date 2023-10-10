@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1696940105073,
+  "lastUpdate": 1696940131186,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -46641,6 +46641,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00042405823025269684",
             "extra": "mean: 10.515613555908203 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7dc66dc47f4c4209968505ddabc6c338a361805c",
+          "message": "automatic python version and release handling (#1431)\n\n* automatic version handling\n\n* fix\n\n* tweak\n\n* fix\n\n* duh\n\n* fix\n\n* fix again\n\n* another fix\n\n* wah?\n\n* fix\n\n* .\n\n* another",
+          "timestamp": "2023-10-10T12:08:47Z",
+          "tree_id": "fb1290e8a6a9b39fa8f41c39113653d41d59d554",
+          "url": "https://github.com/nuclia/nucliadb/commit/7dc66dc47f4c4209968505ddabc6c338a361805c"
+        },
+        "date": 1696940127192,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels[tikv_driver_settings]",
+            "value": 52.70991515500041,
+            "unit": "iter/sec",
+            "range": "stddev: 0.001303866685518512",
+            "extra": "mean: 18.971762657165527 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations[tikv_driver_settings]",
+            "value": 134.35364372875986,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0006642919798255063",
+            "extra": "mean: 7.44304339090983 msec\nrounds: 5"
           }
         ]
       }
