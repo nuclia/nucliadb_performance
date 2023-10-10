@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1696933641553,
+  "lastUpdate": 1696933649718,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -46565,6 +46565,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0001609768682089067",
             "extra": "mean: 8.867740631103516 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "96c897216be3a147d8cf7339dc24d1e822b8e8e6",
+          "message": "Benchmark cluster script (#1432)\n\n* wip\n\n* wip\n\n* fix\n\n* more\n\n* wip\n\n* wip\n\n* Add makefile integration\n\n* Record times\n\n* Record times\n\n* Fix test\n\n* Address PR comments",
+          "timestamp": "2023-10-10T10:22:05Z",
+          "tree_id": "478c0f434259c37a2f9efd79cfe22a723b7d8253",
+          "url": "https://github.com/nuclia/nucliadb/commit/96c897216be3a147d8cf7339dc24d1e822b8e8e6"
+        },
+        "date": 1696933646190,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels[tikv_driver_settings]",
+            "value": 65.93380750672888,
+            "unit": "iter/sec",
+            "range": "stddev: 0.001095911779884072",
+            "extra": "mean: 15.166726112365723 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations[tikv_driver_settings]",
+            "value": 190.99823268856747,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00009450100898841268",
+            "extra": "mean: 5.235650539398193 msec\nrounds: 5"
           }
         ]
       }
