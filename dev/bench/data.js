@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1697024530025,
+  "lastUpdate": 1697024542707,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -47069,6 +47069,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 9.581024956359628e-8",
             "extra": "mean: 115.52133560180663 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ramon@nuclia.com",
+            "name": "Ramon Navarro Bosch",
+            "username": "bloodbare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0b9bd737938b617ba1615ee6107c07b3015b8a5b",
+          "message": "Add support for json str objects on search results (#1419)\n\n* Add support for json str objects on search results\n\n* make the __str__ call safer\n\n* forgot one\n\n* fix upper call\n\n* miminal coverage\n\n* lint\n\n---------\n\nCo-authored-by: Tarek Ziadé <tarek@ziade.org>",
+          "timestamp": "2023-10-11T11:36:50Z",
+          "tree_id": "4e6c6513bbd52dcaa7da417197c74de23ba5de88",
+          "url": "https://github.com/nuclia/nucliadb/commit/0b9bd737938b617ba1615ee6107c07b3015b8a5b"
+        },
+        "date": 1697024539268,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels[pg_driver_settings]",
+            "value": 38.7479535006525,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002428684968488307",
+            "extra": "mean: 25.807814598083496 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations[pg_driver_settings]",
+            "value": 107.09401511008524,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00033543766488757675",
+            "extra": "mean: 9.337589957497338 msec\nrounds: 5"
           }
         ]
       }
