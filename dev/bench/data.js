@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1697024542707,
+  "lastUpdate": 1697034052043,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -47107,6 +47107,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00033543766488757675",
             "extra": "mean: 9.337589957497338 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f3db002b026172bb587db3ccadbdc9f7698c1913",
+          "message": "Remove GC integration since it is moved to the index node writer (#1424)\n\n* Remove GC integration since it is moved to the index node writer\n\n* fix\n\n* one more",
+          "timestamp": "2023-10-11T14:14:38Z",
+          "tree_id": "5fd089b8f85ed88f675ee8b765289cd6a66ca486",
+          "url": "https://github.com/nuclia/nucliadb/commit/f3db002b026172bb587db3ccadbdc9f7698c1913"
+        },
+        "date": 1697034049084,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 8718.694277882936,
+            "unit": "iter/sec",
+            "range": "stddev: 1.925202641129984e-7",
+            "extra": "mean: 114.69607353210449 usec\nrounds: 5"
           }
         ]
       }
