@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1697013516267,
+  "lastUpdate": 1697018783591,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -46893,6 +46893,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.709764818201091e-7",
             "extra": "mean: 137.78400421142578 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "235fbab29bf0a0d6eda106858844d8842039d30d",
+          "message": "Remove `disable_vectors` legacy KB setting (#1437)\n\n* Remove legacy KB setting\n\n* Remove legacy KB setting",
+          "timestamp": "2023-10-11T10:01:05Z",
+          "tree_id": "71ce9e8b38770cbc65999f3a332ecc61c2fd14ec",
+          "url": "https://github.com/nuclia/nucliadb/commit/235fbab29bf0a0d6eda106858844d8842039d30d"
+        },
+        "date": 1697018779967,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels[tikv_driver_settings]",
+            "value": 79.3475583570911,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00018142452494714596",
+            "extra": "mean: 12.602782249450684 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations[tikv_driver_settings]",
+            "value": 187.78341196622833,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00018849332122073567",
+            "extra": "mean: 5.325284004211426 msec\nrounds: 5"
           }
         ]
       }
