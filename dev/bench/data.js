@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1697024522860,
+  "lastUpdate": 1697024530025,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -47038,6 +47038,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000023713958528747272",
             "extra": "mean: 5.058393478393555 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ramon@nuclia.com",
+            "name": "Ramon Navarro Bosch",
+            "username": "bloodbare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0b9bd737938b617ba1615ee6107c07b3015b8a5b",
+          "message": "Add support for json str objects on search results (#1419)\n\n* Add support for json str objects on search results\n\n* make the __str__ call safer\n\n* forgot one\n\n* fix upper call\n\n* miminal coverage\n\n* lint\n\n---------\n\nCo-authored-by: Tarek Ziadé <tarek@ziade.org>",
+          "timestamp": "2023-10-11T11:36:50Z",
+          "tree_id": "4e6c6513bbd52dcaa7da417197c74de23ba5de88",
+          "url": "https://github.com/nuclia/nucliadb/commit/0b9bd737938b617ba1615ee6107c07b3015b8a5b"
+        },
+        "date": 1697024526989,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 8656.40961291276,
+            "unit": "iter/sec",
+            "range": "stddev: 9.581024956359628e-8",
+            "extra": "mean: 115.52133560180663 usec\nrounds: 5"
           }
         ]
       }
