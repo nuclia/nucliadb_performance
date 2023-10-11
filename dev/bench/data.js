@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1697009139174,
+  "lastUpdate": 1697009168373,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -46748,6 +46748,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000026423061343400226",
             "extra": "mean: 4.968252636137462 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "44120086+hermeGarcia@users.noreply.github.com",
+            "name": "Herme",
+            "username": "hermeGarcia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e2de02e971fb4bba89e3768d0ef8fb80b95c6de7",
+          "message": "Shard-centric merge strategy (#1369)\n\n* rebase\n\n* fix rebase error\n\n* merge calls\n\n* fix\n\n* fix merge op\n\n* ref\n\n* touches\n\n* clear merge spawn\n\n* ensuring only one merge per shard at a time\n\n* fix double allocation in cache\n\n* fix test\n\n* fix test bug\n\n* fix test and duplicates\n\n* try force installing\n\n* fix\n\n* print logs\n\n* try\n\n* try\n\n* try\n\n* cleanup\n\n---------\n\nCo-authored-by: vangheem <vangheem@gmail.com>",
+          "timestamp": "2023-10-11T07:14:36Z",
+          "tree_id": "c332b144134439c519e17ae40c14a3904dd743b9",
+          "url": "https://github.com/nuclia/nucliadb/commit/e2de02e971fb4bba89e3768d0ef8fb80b95c6de7"
+        },
+        "date": 1697009165205,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_returns_labels[pg_driver_settings]",
+            "value": 41.671019916191085,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0016154834657604476",
+            "extra": "mean: 23.997492790222168 msec\nrounds: 5"
+          },
+          {
+            "name": "nucliadb/tests/benchmarks/test_search.py::test_search_relations[pg_driver_settings]",
+            "value": 111.48377768120449,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0001967801069290827",
+            "extra": "mean: 8.96991491317749 msec\nrounds: 5"
           }
         ]
       }
