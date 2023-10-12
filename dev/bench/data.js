@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1697041436912,
+  "lastUpdate": 1697095073093,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -47200,6 +47200,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000002538326411607579",
             "extra": "mean: 145.03073692321777 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tarek@ziade.org",
+            "name": "Tarek Ziade",
+            "username": "tarekziade"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3c67a4aa0b5c9e8a5fc1171923bfacdd4cfc3c6c",
+          "message": "Extend the release channel to KBs (#1381)\n\n* use a matrix for release channel\n\n* test the value!\n\n* savepoint\n\n* parametrization\n\n* trigger build\n\n* fix bad merges\n\n* typing tweaks\n\n* more fixes\n\n* more spots\n\n* fix orderign\n\n* more type fix\n\n* fix import\n\n* remove unecessary step\n\n* fixed test\n\n* more tweaking\n\n* more tweaks\n\n* added release_channel\n\n* fix test\n\n* simplify the `maybe_create_new_shard` API sig\n\n* change call to maybe\n\n* fix test\n\n* improve coverage\n\n* use xdist\n\n* remove auto\n\n* extend the test\n\n* set the global state\n\n* fix bad merge\n\n* use stable by default",
+          "timestamp": "2023-10-12T06:50:29Z",
+          "tree_id": "1a1fb28fefe09f7ba67881497d3ce03d5840c155",
+          "url": "https://github.com/nuclia/nucliadb/commit/3c67a4aa0b5c9e8a5fc1171923bfacdd4cfc3c6c"
+        },
+        "date": 1697095069712,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 10016.991725377491,
+            "unit": "iter/sec",
+            "range": "stddev: 6.063433423618221e-7",
+            "extra": "mean: 99.83037097520561 usec\nrounds: 5"
           }
         ]
       }
