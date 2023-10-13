@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1697095073093,
+  "lastUpdate": 1697186118926,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -47231,6 +47231,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 6.063433423618221e-7",
             "extra": "mean: 99.83037097520561 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d69a1e379a65caafe90d4a75eac0b303177c9a85",
+          "message": "Add metrics on search / find features (#1438)\n\n* Done\n\n* simpler\n\n* More performant\n\n* Merge relations is sync\n\n* Faster\n\n* Better naming",
+          "timestamp": "2023-10-13T08:28:51Z",
+          "tree_id": "21caa5fde12b75e516ae6b62e7e848be2318676c",
+          "url": "https://github.com/nuclia/nucliadb/commit/d69a1e379a65caafe90d4a75eac0b303177c9a85"
+        },
+        "date": 1697186115409,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 8379.14292015739,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000002838555063414804",
+            "extra": "mean: 119.34394836425781 usec\nrounds: 5"
           }
         ]
       }
