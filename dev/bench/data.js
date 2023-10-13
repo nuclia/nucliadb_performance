@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1697186118926,
+  "lastUpdate": 1697210662368,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -47262,6 +47262,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000002838555063414804",
             "extra": "mean: 119.34394836425781 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tarek@ziade.org",
+            "name": "Tarek Ziade",
+            "username": "tarekziade"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ca59d35015c48fdd893e63711b6361feeac1721f",
+          "message": "Add Q/A to the broker flow (#1451)\n\n* first draft\n\n* added language\n\n* make proto",
+          "timestamp": "2023-10-13T15:18:49Z",
+          "tree_id": "48eb96a186b3f2b787f433d1b9b164d4d988de4b",
+          "url": "https://github.com/nuclia/nucliadb/commit/ca59d35015c48fdd893e63711b6361feeac1721f"
+        },
+        "date": 1697210658075,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 10121.516968842274,
+            "unit": "iter/sec",
+            "range": "stddev: 5.114944702545913e-7",
+            "extra": "mean: 98.79941940307617 usec\nrounds: 5"
           }
         ]
       }
