@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1697249475377,
+  "lastUpdate": 1697448154632,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -47324,6 +47324,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 4.1246179899752125e-7",
             "extra": "mean: 115.67997932434082 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5c3174c9524c7c93b4802372066c3815d972f43c",
+          "message": "Clear memory leaking resource cache contextvar (#1455)\n\n* Fix memory leak in search\n\n* Short circuit text_score func to prevent getting resource from cache if not needed\n\n* Clear more resource cache\n\n* Better in a try finally block",
+          "timestamp": "2023-10-16T09:17:08Z",
+          "tree_id": "0e06ff32678b73583d2e2d30e59923d7f7924805",
+          "url": "https://github.com/nuclia/nucliadb/commit/5c3174c9524c7c93b4802372066c3815d972f43c"
+        },
+        "date": 1697448151456,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 9933.393772492984,
+            "unit": "iter/sec",
+            "range": "stddev: 3.8950687785833533e-7",
+            "extra": "mean: 100.67052841186523 usec\nrounds: 5"
           }
         ]
       }
