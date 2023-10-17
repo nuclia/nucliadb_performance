@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1697550301216,
+  "lastUpdate": 1697577961770,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -47417,6 +47417,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 3.1166321607290126e-7",
             "extra": "mean: 114.80765342712402 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "44120086+hermeGarcia@users.noreply.github.com",
+            "name": "Herme",
+            "username": "hermeGarcia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "683c2afac46c47b0c9edf65fe10ea7c822b30815",
+          "message": "merge and gc as task (#1462)\n\n* merge and gc as task\n\n* control parallel scheduling jobs\n\n* close semaphore on drop\n\n* tipo",
+          "timestamp": "2023-10-17T20:44:26Z",
+          "tree_id": "ed83ac7da5cf9c43155dd450779c47219e8132a3",
+          "url": "https://github.com/nuclia/nucliadb/commit/683c2afac46c47b0c9edf65fe10ea7c822b30815"
+        },
+        "date": 1697577958561,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 8746.150638084911,
+            "unit": "iter/sec",
+            "range": "stddev: 1.9990264022192523e-7",
+            "extra": "mean: 114.33601379394531 usec\nrounds: 5"
           }
         ]
       }
