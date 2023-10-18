@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1697577961770,
+  "lastUpdate": 1697616481714,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -47448,6 +47448,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.9990264022192523e-7",
             "extra": "mean: 114.33601379394531 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "567894753ab61d9d4d67dcf35dc65e0002531b92",
+          "message": "Revert \"merge and gc as task (#1462)\" (#1464)\n\nThis reverts commit 683c2afac46c47b0c9edf65fe10ea7c822b30815.",
+          "timestamp": "2023-10-18T07:41:49Z",
+          "tree_id": "d13c7feaa8c8ae7df9cd63bb6ba0d1795ddd5fc6",
+          "url": "https://github.com/nuclia/nucliadb/commit/567894753ab61d9d4d67dcf35dc65e0002531b92"
+        },
+        "date": 1697616478235,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 7989.165693648941,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000002807769500163305",
+            "extra": "mean: 125.16951560974121 usec\nrounds: 5"
           }
         ]
       }
