@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1697618980495,
+  "lastUpdate": 1697645193162,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -47510,6 +47510,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.1628142421631663e-7",
             "extra": "mean: 102.2770881652832 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2f162598f6e89aa110963dd962bfbf8d94a7d22a",
+          "message": "remove replica count from components that have hpa (#1470)",
+          "timestamp": "2023-10-18T16:00:58Z",
+          "tree_id": "135fa6770aa8751de3332eb6d9c9bc8452b5dbc8",
+          "url": "https://github.com/nuclia/nucliadb/commit/2f162598f6e89aa110963dd962bfbf8d94a7d22a"
+        },
+        "date": 1697645189465,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 9739.0251185479,
+            "unit": "iter/sec",
+            "range": "stddev: 5.289811019198026e-7",
+            "extra": "mean: 102.6796817779541 usec\nrounds: 5"
           }
         ]
       }
