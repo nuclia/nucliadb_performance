@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1697715572689,
+  "lastUpdate": 1697716602070,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -47603,6 +47603,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000003234538187648496",
             "extra": "mean: 151.02038383483887 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "764d8ce54febe6ed39fadc19af19bd4f52d2e48c",
+          "message": "Be more explicit on vectors chat feature (#1477)\n\n* done\n\n* Fix warnings in tests\n\n* Add vectors conditionally",
+          "timestamp": "2023-10-19T11:50:21Z",
+          "tree_id": "e6bb883495066a0ac072592d0fa1bd6dadd848d8",
+          "url": "https://github.com/nuclia/nucliadb/commit/764d8ce54febe6ed39fadc19af19bd4f52d2e48c"
+        },
+        "date": 1697716598022,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 7282.70581702599,
+            "unit": "iter/sec",
+            "range": "stddev: 2.4499632634284283e-7",
+            "extra": "mean: 137.31160163879395 usec\nrounds: 5"
           }
         ]
       }
