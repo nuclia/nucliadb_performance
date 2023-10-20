@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1697804837587,
+  "lastUpdate": 1697810753391,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -47727,6 +47727,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.337384057472756e-7",
             "extra": "mean: 114.69264030456543 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4974d0c82edee05f5da49f91d333a487c694db05",
+          "message": "Shard replication (#1435)\n\n* Implement replication\n\n* linting\n\n* another lint update\n\n* hhmmm\n\n* fix\n\n* improvements\n\n* fix\n\n* better",
+          "timestamp": "2023-10-20T13:33:05Z",
+          "tree_id": "4e723de5069d01eafd2d0679e6b4a31d305cca73",
+          "url": "https://github.com/nuclia/nucliadb/commit/4974d0c82edee05f5da49f91d333a487c694db05"
+        },
+        "date": 1697810749840,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 7693.79097004445,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000015009309616776199",
+            "extra": "mean: 129.97493743896484 usec\nrounds: 5"
           }
         ]
       }
