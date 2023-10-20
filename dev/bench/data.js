@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1697810753391,
+  "lastUpdate": 1697812300495,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -47758,6 +47758,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000015009309616776199",
             "extra": "mean: 129.97493743896484 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d6880ee7cf014d71981aa30a8dbd5ab1e18b6a67",
+          "message": "Add id to field and paragraph classifications (#1485)\n\n* Add id to field and paragraph classifications\n\n* Populate field and paragraph id on train\n\n* Add ids to pyarrow schema and populate it in datasets\n\n* Fix test",
+          "timestamp": "2023-10-20T14:25:53Z",
+          "tree_id": "50f00b82e858f616f651337231dbff7e839dddbf",
+          "url": "https://github.com/nuclia/nucliadb/commit/d6880ee7cf014d71981aa30a8dbd5ab1e18b6a67"
+        },
+        "date": 1697812296686,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 7322.542473429338,
+            "unit": "iter/sec",
+            "range": "stddev: 6.117256397567318e-7",
+            "extra": "mean: 136.56458854675293 usec\nrounds: 5"
           }
         ]
       }
