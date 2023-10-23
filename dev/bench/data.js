@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1697812300495,
+  "lastUpdate": 1698065963816,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -47789,6 +47789,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 6.117256397567318e-7",
             "extra": "mean: 136.56458854675293 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f40c109cca641723c351709daa8f5d1ea4b7e434",
+          "message": "More tweaks for perf tests (#1490)\n\n* done\n\n* finished\n\n* remove agents stuff\n\n* fix",
+          "timestamp": "2023-10-23T12:52:54Z",
+          "tree_id": "f0f1fe6deddb226a877135380348d9cf8c39c1fe",
+          "url": "https://github.com/nuclia/nucliadb/commit/f40c109cca641723c351709daa8f5d1ea4b7e434"
+        },
+        "date": 1698065960103,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 7876.251536546426,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000006528497425963244",
+            "extra": "mean: 126.96394920349121 usec\nrounds: 5"
           }
         ]
       }
