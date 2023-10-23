@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1698065963816,
+  "lastUpdate": 1698066993027,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -47820,6 +47820,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000006528497425963244",
             "extra": "mean: 126.96394920349121 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "589fbff6a1113b98604f992968fc06a17f88af1d",
+          "message": "Resource cache and node timeout metrics (#1491)\n\n* better\n\n* Add resource cache metric",
+          "timestamp": "2023-10-23T13:08:12Z",
+          "tree_id": "896d9c06459fbed3ab143dd1c2049d5532a42800",
+          "url": "https://github.com/nuclia/nucliadb/commit/589fbff6a1113b98604f992968fc06a17f88af1d"
+        },
+        "date": 1698066989641,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 9682.598164825858,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000012754894919748479",
+            "extra": "mean: 103.2780647277832 usec\nrounds: 5"
           }
         ]
       }
