@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1698125133856,
+  "lastUpdate": 1698187040720,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -47913,6 +47913,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000037544516515913347",
             "extra": "mean: 102.87261009216309 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b01155ee369b18bc68151e831451ac90d0ef559b",
+          "message": "support py3.8 on telemetry (#1492)\n\n* support py3.8 on telemetry\n\n* run tests with 3.8 too just in case\n\n* fix type hints to be bw compat\n\n* fix type hints to be bw compat",
+          "timestamp": "2023-10-24T22:26:29Z",
+          "tree_id": "9c805a626cbfe803e9da34d170d022270d22dfec",
+          "url": "https://github.com/nuclia/nucliadb/commit/b01155ee369b18bc68151e831451ac90d0ef559b"
+        },
+        "date": 1698187037822,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 8675.55726176731,
+            "unit": "iter/sec",
+            "range": "stddev: 1.081225496139296e-7",
+            "extra": "mean: 115.26637077331543 usec\nrounds: 5"
           }
         ]
       }
