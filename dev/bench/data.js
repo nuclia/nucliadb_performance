@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1698187040720,
+  "lastUpdate": 1698249758726,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -47944,6 +47944,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.081225496139296e-7",
             "extra": "mean: 115.26637077331543 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tarek@ziade.org",
+            "name": "Tarek Ziade",
+            "username": "tarekziade"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e528c2f9bb8fca3e0c11faeefc29a56df6f4f171",
+          "message": "Merge gc task 2 (#1467)\n\n* rebase\n\n* rebase\n\n* fmt\n\n* bindings scheduler\n\n* sleep\n\n---------\n\nCo-authored-by: herme garcia <hermegarcianavarro@gmail.com>",
+          "timestamp": "2023-10-25T15:40:42Z",
+          "tree_id": "08cb1234a2c1a3e774aaeb7de848a11bbc3a953e",
+          "url": "https://github.com/nuclia/nucliadb/commit/e528c2f9bb8fca3e0c11faeefc29a56df6f4f171"
+        },
+        "date": 1698249754888,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 7409.268651844021,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000003998441021155528",
+            "extra": "mean: 134.9660873413086 usec\nrounds: 5"
           }
         ]
       }
