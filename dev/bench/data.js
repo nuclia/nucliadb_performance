@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1698310363932,
+  "lastUpdate": 1698326347590,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -48006,6 +48006,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000012573195223436977",
             "extra": "mean: 139.83802795410156 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tarek@ziade.org",
+            "name": "Tarek Ziade",
+            "username": "tarekziade"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "eadd0f4300eab7b4da8bc3b8bcbf9b8279d7b0b8",
+          "message": "adding perf to the docker image (#1495)\n\n* adding perf to the docker image\n\n* adding py-spy to the python docker\n\n* atomic",
+          "timestamp": "2023-10-26T13:00:19Z",
+          "tree_id": "35b8e1ab821943c01e0b88b2fd15cf1d830cf449",
+          "url": "https://github.com/nuclia/nucliadb/commit/eadd0f4300eab7b4da8bc3b8bcbf9b8279d7b0b8"
+        },
+        "date": 1698326343779,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 8046.404089747928,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000063677345559912896",
+            "extra": "mean: 124.27911758422852 usec\nrounds: 5"
           }
         ]
       }
