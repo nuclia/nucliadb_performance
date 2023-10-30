@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1698654776168,
+  "lastUpdate": 1698669489876,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -48099,6 +48099,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000004144402452825132",
             "extra": "mean: 116.50948524475098 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "88a312ce93a900e165f25c8870f79e36e9a3835a",
+          "message": "Revert and start again with new datasets training (#1500)\n\n* Revert \"Add id to field and paragraph classifications (#1485)\"\n\nThis reverts commit d6880ee7cf014d71981aa30a8dbd5ab1e18b6a67.\n\n* Revert \"Field and paragraph classifications without labels 2 (#1484)\"\n\nThis reverts commit 88a5f81ea1379756c61947122c10b82801a9e805.\n\n* Revert \"Fix trains with no filter in dataset component (#1480)\"\n\nThis reverts commit 44500fc838804c9d33bde9b95f7c7639be1eb13d.\n\n* Revert \"Allow field and paragraph classifications without labels (#1469)\"\n\nThis reverts commit af164b3105e8d49551238e560669a9c7685d3830.\n\n* Revert \"Add test (#1452)\"\n\nThis reverts commit b9676bdc15a71b672abe074ed8f4a09cf016b026.\n\n* Revert \"Remove paragraph classif one labelset restriction (#1449)\"\n\nThis reverts commit f273712431cdb5ab67dd7a03b1cb63c442053fae.\n\n* Recover test work\n\n* Moving files around\n\n* More tests\n\n* Split broker message utils in modules\n\n* Use broker message builder on sentence classification tests\n\n* Move token classification unit test to it's folder\n\n* BM stores field builders to be more flexible\n\n* Use bm utils for token classification test\n\n* Clean up some tests",
+          "timestamp": "2023-10-30T12:32:44Z",
+          "tree_id": "ba4172d1f0c1a217745e5ed0d58d78e2545172e1",
+          "url": "https://github.com/nuclia/nucliadb/commit/88a312ce93a900e165f25c8870f79e36e9a3835a"
+        },
+        "date": 1698669486612,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 9651.014778742247,
+            "unit": "iter/sec",
+            "range": "stddev: 5.929084764546726e-7",
+            "extra": "mean: 103.61604690551758 usec\nrounds: 5"
           }
         ]
       }
