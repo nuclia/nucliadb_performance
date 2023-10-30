@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1698326347590,
+  "lastUpdate": 1698652601101,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -48037,6 +48037,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000063677345559912896",
             "extra": "mean: 124.27911758422852 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ramon@nuclia.com",
+            "name": "Ramon Navarro Bosch",
+            "username": "bloodbare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "40437ed245e3089fdbcccfb2eecf76dd04fe3297",
+          "message": "Adapting question answer data model to something better for model scalability (#1501)",
+          "timestamp": "2023-10-30T07:49:49Z",
+          "tree_id": "6ae0c247cbaac6f46ca732eb546f7f656409fbd2",
+          "url": "https://github.com/nuclia/nucliadb/commit/40437ed245e3089fdbcccfb2eecf76dd04fe3297"
+        },
+        "date": 1698652597191,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 7457.009738924014,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000004321068658734246",
+            "extra": "mean: 134.1020107269287 usec\nrounds: 5"
           }
         ]
       }
