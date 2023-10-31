@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1698740235063,
+  "lastUpdate": 1698769130090,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -48161,6 +48161,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.489639478257272e-7",
             "extra": "mean: 114.66493606567383 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5fabf062054d6342131b4656abf50ae369768185",
+          "message": "Replication updates (#1512)\n\n* debugging\n\n* disable istio\n\n* fmt",
+          "timestamp": "2023-10-31T15:48:10Z",
+          "tree_id": "e14585ab743866d8ccc2a56c14380eac518817bc",
+          "url": "https://github.com/nuclia/nucliadb/commit/5fabf062054d6342131b4656abf50ae369768185"
+        },
+        "date": 1698769126093,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 7097.359784001403,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000001053488467071549",
+            "extra": "mean: 140.89746475219727 usec\nrounds: 5"
           }
         ]
       }
