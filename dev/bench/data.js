@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1698769130090,
+  "lastUpdate": 1698772101883,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -48192,6 +48192,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000001053488467071549",
             "extra": "mean: 140.89746475219727 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "9b51d9a4163cba7e46cef7557689ba84bddac1dd",
+          "message": "revert gc integration on sidecar (#1513)",
+          "timestamp": "2023-10-31T17:01:16Z",
+          "tree_id": "811b116d55c7f14b72abc6fdc7f84af9a8ade5d0",
+          "url": "https://github.com/nuclia/nucliadb/commit/9b51d9a4163cba7e46cef7557689ba84bddac1dd"
+        },
+        "date": 1698772098349,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 9711.901148625777,
+            "unit": "iter/sec",
+            "range": "stddev: 2.1996769964397662e-7",
+            "extra": "mean: 102.96645164489746 usec\nrounds: 5"
           }
         ]
       }
