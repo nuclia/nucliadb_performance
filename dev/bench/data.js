@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1698797382396,
+  "lastUpdate": 1698841152425,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -48285,6 +48285,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 3.2721334862239007e-7",
             "extra": "mean: 114.8275375366211 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "390204a7c40a54384a59544f51295aa95dde2d2f",
+          "message": "fix gc lock implementation for replication (#1516)\n\n* fix gc lock implementation\n\n* log levels\n\n* another\n\n* lint\n\n* better\n\n* revert",
+          "timestamp": "2023-11-01T12:10:38Z",
+          "tree_id": "de0fb86061a92add1d80c1f654b8abec0409792a",
+          "url": "https://github.com/nuclia/nucliadb/commit/390204a7c40a54384a59544f51295aa95dde2d2f"
+        },
+        "date": 1698841150323,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12993.90597521893,
+            "unit": "iter/sec",
+            "range": "stddev: 4.707011591233811e-7",
+            "extra": "mean: 76.95915315280335 usec\nrounds: 5"
           }
         ]
       }
