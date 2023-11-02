@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1698927935797,
+  "lastUpdate": 1698938001104,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -48378,6 +48378,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.5717277032658926e-7",
             "extra": "mean: 76.54610142913889 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "19a9d32751d6d42771fd2090bea942b526b0f09e",
+          "message": "add primary_node_id to node metadata and add get_metadata to replication service (#1528)\n\n* add primary_node_id to node metadata\n\n* up\n\n* fix dp\n\n* another\n\n* cov\n\n* oops\n\n* add getting node metadata from reader\n\n* move to replication service\n\n* better way of setting primary id\n\n* fix",
+          "timestamp": "2023-11-02T15:02:38Z",
+          "tree_id": "6a76ac18716eda30c97a65fb41325ae99af4349a",
+          "url": "https://github.com/nuclia/nucliadb/commit/19a9d32751d6d42771fd2090bea942b526b0f09e"
+        },
+        "date": 1698937997258,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 7986.199385369977,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00000871620416892936",
+            "extra": "mean: 125.216007232666 usec\nrounds: 5"
           }
         ]
       }
