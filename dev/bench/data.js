@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1698938001104,
+  "lastUpdate": 1698943064977,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -48409,6 +48409,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00000871620416892936",
             "extra": "mean: 125.216007232666 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e2be91008a651a162ee6c16c160a2ebf9ac75f40",
+          "message": "Create new training to stream ordered paragraphs (#1531)\n\n* Add new train tasks (protobuf)\n\n* Set specifics per field type in bm building\n\n* Simplify train generator code\n\n* Add paragraph streamming train task\n\n* Use train util instead of repeating train stream parsing functions\n\n* Add new paragraph streaming training in dataset\n\n* Validate and create generators in functions. Separate batching concerns\n\n* Remove assert from test util function\n\n* Change types from async iterator to generator",
+          "timestamp": "2023-11-02T16:30:44Z",
+          "tree_id": "9b10dd9f31ccc64457d340698c292df830ee538e",
+          "url": "https://github.com/nuclia/nucliadb/commit/e2be91008a651a162ee6c16c160a2ebf9ac75f40"
+        },
+        "date": 1698943061621,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 8724.399674179562,
+            "unit": "iter/sec",
+            "range": "stddev: 1.1964451495833244e-7",
+            "extra": "mean: 114.62106704711914 usec\nrounds: 5"
           }
         ]
       }
