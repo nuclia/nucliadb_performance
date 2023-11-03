@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1699026549587,
+  "lastUpdate": 1699027374912,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -48564,6 +48564,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000014881224837951447",
             "extra": "mean: 133.47291946411133 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d07f914010aedcefeab9a239abde99c9d237bb6b",
+          "message": "graceful grpc server shutdown (#1532)\n\n* graceful grpc server shutdown\n\n* better\n\n* test shutdown\n\n* better\n\n* less\n\n* fmt fmt fmt\n\n* hate you clippy\n\n* fmt",
+          "timestamp": "2023-11-03T15:49:32Z",
+          "tree_id": "c85accf1d4463f5a9d4888db6a89cfd4cdae8bce",
+          "url": "https://github.com/nuclia/nucliadb/commit/d07f914010aedcefeab9a239abde99c9d237bb6b"
+        },
+        "date": 1699027370291,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 7522.991530163145,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000001395304658722464",
+            "extra": "mean: 132.92584419250488 usec\nrounds: 5"
           }
         ]
       }
