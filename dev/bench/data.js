@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1698995581800,
+  "lastUpdate": 1699011438560,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -48471,6 +48471,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 3.415648170751233e-7",
             "extra": "mean: 115.13118743896484 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7e74e5ae476b8c5baac9106881005f416e505b19",
+          "message": "Unify release channel in config and shards obj (#1537)\n\n* Fix\n\n* Fix\n\n* Fix\n\n* Fix\n\n* Fix mypy",
+          "timestamp": "2023-11-03T11:31:57Z",
+          "tree_id": "cc5d3c62c35c9ed23253df8dcefac1668a73a427",
+          "url": "https://github.com/nuclia/nucliadb/commit/7e74e5ae476b8c5baac9106881005f416e505b19"
+        },
+        "date": 1699011435509,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 8706.506946848905,
+            "unit": "iter/sec",
+            "range": "stddev: 2.6940632702164126e-7",
+            "extra": "mean: 114.85662460327148 usec\nrounds: 5"
           }
         ]
       }
