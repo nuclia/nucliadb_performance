@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1698943064977,
+  "lastUpdate": 1698995581800,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -48440,6 +48440,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.1964451495833244e-7",
             "extra": "mean: 114.62106704711914 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "ace8a04654af698358358a162152da5795af17d5",
+          "message": "Be able to create a KB in experimental channel in stage (#1533)\n\n* wip\n\n* fix\n\n* Check has feature only in stage",
+          "timestamp": "2023-11-03T07:07:32Z",
+          "tree_id": "2f7ea4acca87fad5806da1de41469da1ec0d988f",
+          "url": "https://github.com/nuclia/nucliadb/commit/ace8a04654af698358358a162152da5795af17d5"
+        },
+        "date": 1698995578714,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 8685.743821847887,
+            "unit": "iter/sec",
+            "range": "stddev: 3.415648170751233e-7",
+            "extra": "mean: 115.13118743896484 usec\nrounds: 5"
           }
         ]
       }
