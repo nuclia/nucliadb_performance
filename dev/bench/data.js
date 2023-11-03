@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1699011438560,
+  "lastUpdate": 1699015760417,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -48502,6 +48502,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.6940632702164126e-7",
             "extra": "mean: 114.85662460327148 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "44120086+hermeGarcia@users.noreply.github.com",
+            "name": "Herme",
+            "username": "hermeGarcia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4af0669a2aadbffeb6d4bcb10590b58c53424f1a",
+          "message": "fix test (#1539)\n\n* fix test\n\n* fix more tests\n\n* unneded serial",
+          "timestamp": "2023-11-03T12:34:47Z",
+          "tree_id": "4d87839b0ff2155c02c2cf72a047d5e7ea4be923",
+          "url": "https://github.com/nuclia/nucliadb/commit/4af0669a2aadbffeb6d4bcb10590b58c53424f1a"
+        },
+        "date": 1699015756721,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 7315.362403367124,
+            "unit": "iter/sec",
+            "range": "stddev: 3.9366342740074567e-7",
+            "extra": "mean: 136.69862747192383 usec\nrounds: 5"
           }
         ]
       }
