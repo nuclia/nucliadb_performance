@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1699015760417,
+  "lastUpdate": 1699026549587,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -48533,6 +48533,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 3.9366342740074567e-7",
             "extra": "mean: 136.69862747192383 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ebrehault@gmail.com",
+            "name": "Eric BREHAULT",
+            "username": "ebrehault"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "abb7c81528077cdd09dd34f28918a5b6b451e46b",
+          "message": "After spec upload, trigger merge+deploy (#1541)\n\n* After spec upload, trigger merge+deploy\n\n* one place for triggering api spec publishing changes\n\n---------\n\nCo-authored-by: vangheem <vangheem@gmail.com>",
+          "timestamp": "2023-11-03T15:42:57Z",
+          "tree_id": "e1960c2972be4bea3d84f8eea27778086e3c770b",
+          "url": "https://github.com/nuclia/nucliadb/commit/abb7c81528077cdd09dd34f28918a5b6b451e46b"
+        },
+        "date": 1699026545968,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 7492.156491481282,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000014881224837951447",
+            "extra": "mean: 133.47291946411133 usec\nrounds: 5"
           }
         ]
       }
