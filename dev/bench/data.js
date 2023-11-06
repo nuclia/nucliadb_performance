@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1699268250132,
+  "lastUpdate": 1699269866098,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -48626,6 +48626,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.3837827178805195e-7",
             "extra": "mean: 76.35528918095272 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b6439827367205e3fbfa9abe47a677e855664a97",
+          "message": "Fix mypy on LRU type hints (#1545)\n\n* fix mypy complains on LRU\n\n* fix mypy complains on LRU",
+          "timestamp": "2023-11-06T11:18:59Z",
+          "tree_id": "144f1dc59ae9be06e310a59b0c360b47da1355da",
+          "url": "https://github.com/nuclia/nucliadb/commit/b6439827367205e3fbfa9abe47a677e855664a97"
+        },
+        "date": 1699269862573,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 9732.51221696778,
+            "unit": "iter/sec",
+            "range": "stddev: 1.9038279644100373e-7",
+            "extra": "mean: 102.74839401245116 usec\nrounds: 5"
           }
         ]
       }
