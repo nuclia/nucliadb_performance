@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1699269866098,
+  "lastUpdate": 1699274586894,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -48657,6 +48657,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.9038279644100373e-7",
             "extra": "mean: 102.74839401245116 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "06f852d456a5afaa2a9dd71ddaffaaa6e1702751",
+          "message": "Remove export import as task feature flag (#1546)\n\n* Remove export import as task feature flag\n\n* Better logging on import",
+          "timestamp": "2023-11-06T12:37:39Z",
+          "tree_id": "49e73c375c07ae98d25a37999006124dce1c2cd3",
+          "url": "https://github.com/nuclia/nucliadb/commit/06f852d456a5afaa2a9dd71ddaffaaa6e1702751"
+        },
+        "date": 1699274583735,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 8736.01848885749,
+            "unit": "iter/sec",
+            "range": "stddev: 3.494927441857649e-7",
+            "extra": "mean: 114.4686222076416 usec\nrounds: 5"
           }
         ]
       }
