@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1699027374912,
+  "lastUpdate": 1699268250132,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -48595,6 +48595,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000001395304658722464",
             "extra": "mean: 132.92584419250488 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "44120086+hermeGarcia@users.noreply.github.com",
+            "name": "Herme",
+            "username": "hermeGarcia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1b7016c463a6440449750c5f3891f7e5347fabaa",
+          "message": "Query planner and pre-filtering stage (#1538)\n\n* query planner structure\n\n* forgot a file\n\n* add pre-filter stage\n\n* move plan modification to the node\n\n* small ref",
+          "timestamp": "2023-11-06T10:45:29Z",
+          "tree_id": "b47bba01b290be8e4a6de09aa35b2ee0b2e5df72",
+          "url": "https://github.com/nuclia/nucliadb/commit/1b7016c463a6440449750c5f3891f7e5347fabaa"
+        },
+        "date": 1699268247921,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13096.669670520425,
+            "unit": "iter/sec",
+            "range": "stddev: 1.3837827178805195e-7",
+            "extra": "mean: 76.35528918095272 usec\nrounds: 5"
           }
         ]
       }
