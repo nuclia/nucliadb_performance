@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1699274586894,
+  "lastUpdate": 1699354364790,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -48688,6 +48688,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 3.494927441857649e-7",
             "extra": "mean: 114.4686222076416 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tarek@ziade.org",
+            "name": "Tarek Ziade",
+            "username": "tarekziade"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7a0aa48b1c647807dcd07be762af8a87c98578ab",
+          "message": "Store and retrieve Q/A data (#1478)\n\n* Store and retrieve Q/A data\n\n* not needed\n\n* cleanups\n\n* make sure we can store and retrieves several answers\n\n* added the de;ete op",
+          "timestamp": "2023-11-07T10:48:08Z",
+          "tree_id": "40ca18f5e933bb00480c4ac847e45b5b922cd25a",
+          "url": "https://github.com/nuclia/nucliadb/commit/7a0aa48b1c647807dcd07be762af8a87c98578ab"
+        },
+        "date": 1699354362583,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13092.931577164032,
+            "unit": "iter/sec",
+            "range": "stddev: 2.8295492626739645e-7",
+            "extra": "mean: 76.37708897403427 usec\nrounds: 5"
           }
         ]
       }
