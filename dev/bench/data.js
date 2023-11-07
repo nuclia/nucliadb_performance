@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1699375642662,
+  "lastUpdate": 1699380429530,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -48812,6 +48812,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 6.241637557759934e-7",
             "extra": "mean: 76.39815789142638 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "58edd1f646ef44da59cedb4e4754ee7b96e2bc27",
+          "message": "Integrate cluster read replicas (#1535)\n\n* initial read replicas cluster integration\n\n* flaky test you are killing me\n\n* flaky flaky flaky\n\n* add back shards params\n\n* lint\n\n* use backup nodes when preferred not found\n\n* fix",
+          "timestamp": "2023-11-07T17:57:02Z",
+          "tree_id": "f5abdabc6047cfecccc493d5fc47ddd06d0af659",
+          "url": "https://github.com/nuclia/nucliadb/commit/58edd1f646ef44da59cedb4e4754ee7b96e2bc27"
+        },
+        "date": 1699380427296,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12193.51855082031,
+            "unit": "iter/sec",
+            "range": "stddev: 1.654646750728356e-7",
+            "extra": "mean: 82.01078268197867 usec\nrounds: 5"
           }
         ]
       }
