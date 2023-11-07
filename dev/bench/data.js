@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1699358715793,
+  "lastUpdate": 1699360725720,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -48750,6 +48750,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 3.120416224288245e-7",
             "extra": "mean: 102.07014083862305 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c61575af67bb4c283844fa2044a57fce73abe4dc",
+          "message": "Cleanup rust settings management (#1544)\n\n* completely remove the env module\n\n* tweak\n\n* inner patter settings\n\n* forogot a file\n\n* mypy\n\n* some fixes\n\n* increase memory\n\n* try\n\n* tweak\n\n* fix\n\n* fmt\n\n---------\n\nCo-authored-by: herme garcia <hermegarcianavarro@gmail.com>",
+          "timestamp": "2023-11-07T12:28:35Z",
+          "tree_id": "0c5f328d90437c74316d61f2544ee226c84feb4f",
+          "url": "https://github.com/nuclia/nucliadb/commit/c61575af67bb4c283844fa2044a57fce73abe4dc"
+        },
+        "date": 1699360723665,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12876.065283424545,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000002791629926652573",
+            "extra": "mean: 77.66347700079676 usec\nrounds: 5"
           }
         ]
       }
