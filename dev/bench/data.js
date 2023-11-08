@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1699380429530,
+  "lastUpdate": 1699443783921,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -48843,6 +48843,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.654646750728356e-7",
             "extra": "mean: 82.01078268197867 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "44120086+hermeGarcia@users.noreply.github.com",
+            "name": "Herme",
+            "username": "hermeGarcia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "92dd7392583175a8a3cfe3a1580467b7d7f0a889",
+          "message": "date range in vectors (#1552)\n\n* date range in vectors\n\n* cleaning\n\n* fix\n\n* test\n\n* happy clippy",
+          "timestamp": "2023-11-08T11:28:02Z",
+          "tree_id": "41e89d32ef7262676fd055f49c16d04ce1f2d0f4",
+          "url": "https://github.com/nuclia/nucliadb/commit/92dd7392583175a8a3cfe3a1580467b7d7f0a889"
+        },
+        "date": 1699443781278,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13281.462901998813,
+            "unit": "iter/sec",
+            "range": "stddev: 2.420954964255455e-7",
+            "extra": "mean: 75.2929106815111 usec\nrounds: 5"
           }
         ]
       }
