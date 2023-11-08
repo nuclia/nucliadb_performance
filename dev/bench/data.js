@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1699443783921,
+  "lastUpdate": 1699452273314,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -48874,6 +48874,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.420954964255455e-7",
             "extra": "mean: 75.2929106815111 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d7b1aeb0f6a3863a1ec1bd1ebac5ce4bab091e47",
+          "message": "support better filtering naming and origin metadata support (#1548)\n\n* support better filtering names\n\n* better naming\n\n* tweak\n\n* fix def\n\n* utilize nice names in tests\n\n* fix\n\n* comments\n\n* remove rollover shards\n\n* updates\n\n* output filters as well\n\n* better naming\n\n* lint\n\n* better error msg\n\n* fix\n\n* fix tests\n\n* fix",
+          "timestamp": "2023-11-08T13:59:48Z",
+          "tree_id": "66813f729d9c95be3134545c4aa6a8b7a545b24a",
+          "url": "https://github.com/nuclia/nucliadb/commit/d7b1aeb0f6a3863a1ec1bd1ebac5ce4bab091e47"
+        },
+        "date": 1699452270974,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12984.547243698591,
+            "unit": "iter/sec",
+            "range": "stddev: 1.1936036513745884e-7",
+            "extra": "mean: 77.01462216830862 usec\nrounds: 5"
           }
         ]
       }
