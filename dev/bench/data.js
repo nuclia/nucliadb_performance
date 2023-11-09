@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1699452273314,
+  "lastUpdate": 1699488582570,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -48905,6 +48905,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.1936036513745884e-7",
             "extra": "mean: 77.01462216830862 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "65cc48c605c2fc67d23a2c5b656503d116dc9406",
+          "message": "Fix updating read replica (#1563)\n\n* .\n\n* fix updating read replica status in auto discovery\n\n* fix\n\n* lint\n\n* fix\n\n* fix\n\n* only primaries",
+          "timestamp": "2023-11-09T00:04:41Z",
+          "tree_id": "b3997095fcb2d539a0530fe80d038c7016835b88",
+          "url": "https://github.com/nuclia/nucliadb/commit/65cc48c605c2fc67d23a2c5b656503d116dc9406"
+        },
+        "date": 1699488580219,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12680.28228027047,
+            "unit": "iter/sec",
+            "range": "stddev: 5.897430901177827e-7",
+            "extra": "mean: 78.862597684905 usec\nrounds: 5"
           }
         ]
       }
