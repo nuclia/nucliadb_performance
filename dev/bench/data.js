@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1699511632404,
+  "lastUpdate": 1699523983277,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -49122,6 +49122,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000002494855171168956",
             "extra": "mean: 140.14935493469238 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ramon@nuclia.com",
+            "name": "Ramon Navarro Bosch",
+            "username": "bloodbare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "4aa7ef02231c7cbc32a25c55b596c0ac25c4d8da",
+          "message": "Fix default parameters on search (#1567)\n\n* Fix default parameters on search\n\n* Fix\n\n---------\n\nCo-authored-by: Ferran Llamas <llamas.arroniz@gmail.com>",
+          "timestamp": "2023-11-09T09:55:01Z",
+          "tree_id": "f2810bcd571be484b1f803a4318e049b7c24578e",
+          "url": "https://github.com/nuclia/nucliadb/commit/4aa7ef02231c7cbc32a25c55b596c0ac25c4d8da"
+        },
+        "date": 1699523980819,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12892.12323457425,
+            "unit": "iter/sec",
+            "range": "stddev: 1.6988533103035268e-7",
+            "extra": "mean: 77.56674225066263 usec\nrounds: 5"
           }
         ]
       }
