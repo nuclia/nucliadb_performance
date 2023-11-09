@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1699494808272,
+  "lastUpdate": 1699511632404,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -49091,6 +49091,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000006771114759407697",
             "extra": "mean: 120.34502029418945 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "02f7772cbe00028d5a534157fdf4d01c4ad0266e",
+          "message": "Add user prompt to chat endpoint (#1553)\n\n* done\n\n* Add user prompt\n\n* Fix\n\n* improve wording",
+          "timestamp": "2023-11-09T06:26:06Z",
+          "tree_id": "b59279e9e3e3635084ddc55dd73c72e874852bc1",
+          "url": "https://github.com/nuclia/nucliadb/commit/02f7772cbe00028d5a534157fdf4d01c4ad0266e"
+        },
+        "date": 1699511627236,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 7135.245113800101,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000002494855171168956",
+            "extra": "mean: 140.14935493469238 usec\nrounds: 5"
           }
         ]
       }
