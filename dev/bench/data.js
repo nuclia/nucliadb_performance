@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1699491778298,
+  "lastUpdate": 1699494808272,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -49060,6 +49060,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 6.998298079078572e-8",
             "extra": "mean: 115.1968002319336 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "946192ddee34640a6f002e3739c5d92fda3954ac",
+          "message": "fix primary id wiring (#1565)",
+          "timestamp": "2023-11-08T20:46:57-05:00",
+          "tree_id": "2383a15bea75e41dd92b660c5f36d89c9336e31c",
+          "url": "https://github.com/nuclia/nucliadb/commit/946192ddee34640a6f002e3739c5d92fda3954ac"
+        },
+        "date": 1699494804627,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 8309.442281495734,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000006771114759407697",
+            "extra": "mean: 120.34502029418945 usec\nrounds: 5"
           }
         ]
       }
