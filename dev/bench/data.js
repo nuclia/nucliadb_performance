@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1699523983277,
+  "lastUpdate": 1699612121327,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -49153,6 +49153,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.6988533103035268e-7",
             "extra": "mean: 77.56674225066263 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "834812b198a7074a4dbd24e4b77a6d6244ccbbd1",
+          "message": "Fix date range filtering (#1566)\n\n* Add test\n\n* Add rust test\n\n* Add comment for @hermeGarcia\n\n* Fix prefiltering when no valid fields found\n\n* Fix: multiple conditions are considered as AND\n\n* proper prefilter query\n\n* update comment\n\n* better\n\n* fix edge case\n\n* test\n\n* all\n\n---------\n\nCo-authored-by: herme garcia <hermegarcianavarro@gmail.com>",
+          "timestamp": "2023-11-10T10:18:53Z",
+          "tree_id": "35c692ee93c1d907d7c33553a6685a9941163f77",
+          "url": "https://github.com/nuclia/nucliadb/commit/834812b198a7074a4dbd24e4b77a6d6244ccbbd1"
+        },
+        "date": 1699612118513,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12896.507775275746,
+            "unit": "iter/sec",
+            "range": "stddev: 1.0473086468660979e-7",
+            "extra": "mean: 77.54037119390786 usec\nrounds: 5"
           }
         ]
       }
