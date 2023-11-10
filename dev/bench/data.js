@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1699612121327,
+  "lastUpdate": 1699632556546,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -49184,6 +49184,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.0473086468660979e-7",
             "extra": "mean: 77.54037119390786 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "da0374422d67497badd88282fac8e4e430ce615e",
+          "message": "Refactored maindb driver fixtures in a separate module (#1575)",
+          "timestamp": "2023-11-10T16:04:28Z",
+          "tree_id": "db50fed022b503db035a73e7fa1087b52ad80778",
+          "url": "https://github.com/nuclia/nucliadb/commit/da0374422d67497badd88282fac8e4e430ce615e"
+        },
+        "date": 1699632554356,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12614.70584154756,
+            "unit": "iter/sec",
+            "range": "stddev: 8.504289890983336e-7",
+            "extra": "mean: 79.27255796218559 usec\nrounds: 5"
           }
         ]
       }
