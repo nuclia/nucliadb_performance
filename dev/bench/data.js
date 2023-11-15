@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1699964720369,
+  "lastUpdate": 1700038433570,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -49370,6 +49370,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000017298972711607733",
             "extra": "mean: 131.81910514831543 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b44184963f619053616de30b97cff02e3ce4a021",
+          "message": "Bump otel packages to resolve dependabot security alerts (#1584)\n\n* Bump to resolve dependabot alert\n\n* Bump to resolve dependabot alert\n\n* Bump\n\n* freeze reqs",
+          "timestamp": "2023-11-15T08:43:48Z",
+          "tree_id": "fb3e82daa359e0ed156420818bec937f61a024ee",
+          "url": "https://github.com/nuclia/nucliadb/commit/b44184963f619053616de30b97cff02e3ce4a021"
+        },
+        "date": 1700038431066,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13134.483767565484,
+            "unit": "iter/sec",
+            "range": "stddev: 3.9009119228641535e-7",
+            "extra": "mean: 76.13546277847759 usec\nrounds: 5"
           }
         ]
       }
