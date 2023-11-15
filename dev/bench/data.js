@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1700038433570,
+  "lastUpdate": 1700056884642,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -49401,6 +49401,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 3.9009119228641535e-7",
             "extra": "mean: 76.13546277847759 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "carlesba@gmail.com",
+            "name": "Carles Bruguera Artero",
+            "username": "sunbit"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "c56b6a9f32d3267605cbc0a3854e8981422c71cd",
+          "message": "Set zone on sentry as tag (#1527)\n\n* Set zone on sentry as tag\nremove europe-1 on chart values\n\n* Revert default value",
+          "timestamp": "2023-11-15T13:44:08Z",
+          "tree_id": "3b09712f81b7500e15abe19a657118431919c76e",
+          "url": "https://github.com/nuclia/nucliadb/commit/c56b6a9f32d3267605cbc0a3854e8981422c71cd"
+        },
+        "date": 1700056882381,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12842.290764811127,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000002080500359677494",
+            "extra": "mean: 77.8677276751962 usec\nrounds: 5"
           }
         ]
       }
