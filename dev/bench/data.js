@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1700056884642,
+  "lastUpdate": 1700068506231,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -49432,6 +49432,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000002080500359677494",
             "extra": "mean: 77.8677276751962 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "litus81@gmail.com",
+            "name": "Carlos Lopez",
+            "username": "rastut"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ed2a644a23587a3433909f7ba38a3336485d4fe2",
+          "message": "Add support for service account on ingest components (#1587)\n\n* Add support for service account on ingest components\n\n* Add support for SVC Accounts to all the charts",
+          "timestamp": "2023-11-15T17:10:02Z",
+          "tree_id": "7778e7726851410950bf27ef4925f7afd205066c",
+          "url": "https://github.com/nuclia/nucliadb/commit/ed2a644a23587a3433909f7ba38a3336485d4fe2"
+        },
+        "date": 1700068503617,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13067.8930615689,
+            "unit": "iter/sec",
+            "range": "stddev: 8.161178588614323e-8",
+            "extra": "mean: 76.52343000425061 usec\nrounds: 5"
           }
         ]
       }
