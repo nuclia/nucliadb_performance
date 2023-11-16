@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1700154695662,
+  "lastUpdate": 1700160078186,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -49494,6 +49494,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.3093133666559197e-7",
             "extra": "mean: 76.37598024605794 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bd9b159f4c01fab177745a0776e3b9f0d8199377",
+          "message": "Fix reindex missing some metadata (#1591)\n\n* wip\n\n* fly-by shortcut\n\n* add rollover\n\n---------\n\nCo-authored-by: vangheem <vangheem@gmail.com>",
+          "timestamp": "2023-11-16T18:36:35Z",
+          "tree_id": "583043d9e06252e7e6c38058463695370845e52e",
+          "url": "https://github.com/nuclia/nucliadb/commit/bd9b159f4c01fab177745a0776e3b9f0d8199377"
+        },
+        "date": 1700160076017,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13107.262013919444,
+            "unit": "iter/sec",
+            "range": "stddev: 5.923304800828164e-7",
+            "extra": "mean: 76.29358434568834 usec\nrounds: 5"
           }
         ]
       }
