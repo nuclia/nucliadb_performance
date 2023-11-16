@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1700068506231,
+  "lastUpdate": 1700154695662,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -49463,6 +49463,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 8.161178588614323e-8",
             "extra": "mean: 76.52343000425061 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b051852937b20e3565e9a15dfaebc6332731ef5d",
+          "message": "better error handling and logging for rollover migrations (#1590)\n\n* better error handling and logging for rollover migrations\n\n* fix\n\n* moar\n\n* lint\n\n* lint\n\n* lint lint lint",
+          "timestamp": "2023-11-16T17:06:41Z",
+          "tree_id": "fe235cd8eb580ae55ea6b1dfe18ce09821c3efbe",
+          "url": "https://github.com/nuclia/nucliadb/commit/b051852937b20e3565e9a15dfaebc6332731ef5d"
+        },
+        "date": 1700154692935,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13093.121643458237,
+            "unit": "iter/sec",
+            "range": "stddev: 2.3093133666559197e-7",
+            "extra": "mean: 76.37598024605794 usec\nrounds: 5"
           }
         ]
       }
