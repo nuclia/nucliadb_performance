@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1700231809624,
+  "lastUpdate": 1700484424973,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -49556,6 +49556,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.0388353358651587e-7",
             "extra": "mean: 76.31376806240242 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bcc1420082e1e9bb128de3d7638898e6ff14ae7b",
+          "message": "Concurrent nats tasks consumption  (#1595)\n\n* Done\n\n* Bump aioresponse\n\n* Remove tasks upon finished\n\n* remove global var in test\n\n* skip tests\n\n* skip tests\n\n* Set max on concurrent exports and imports\n\n* fix",
+          "timestamp": "2023-11-20T12:41:48Z",
+          "tree_id": "1fcc9915fd3a23c2fc86d810cb7109224a27eedf",
+          "url": "https://github.com/nuclia/nucliadb/commit/bcc1420082e1e9bb128de3d7638898e6ff14ae7b"
+        },
+        "date": 1700484422278,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12964.491998721302,
+            "unit": "iter/sec",
+            "range": "stddev: 2.6508883029836867e-7",
+            "extra": "mean: 77.13375889303113 usec\nrounds: 5"
           }
         ]
       }
