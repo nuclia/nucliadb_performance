@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1700484424973,
+  "lastUpdate": 1700492789743,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -49587,6 +49587,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.6508883029836867e-7",
             "extra": "mean: 77.13375889303113 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "30612b8bc55e9e729a38bcfea172181f8235d49f",
+          "message": "Fix filtering without needing to reindex (#1592)\n\n* fix detect entities condition\n\n* Added tests\n\n* Add labels pre filters to query planner\n\n* Add key filtering in paragraphs\n\n* Prefilter fields by label keys too\n\n* Rename tags to filters\n\n* Rename tags for labels\n\n* Git filters logic\n\n* wip\n\n* Fix\n\n* Finished\n\n* Experimental tooE\n\n* Add unit tests\n\n* Fix tests\n\n* make clippy happy\n\n* fix more tests\n\n* some perf small fixes\n\n* Fix\n\n* Fix condition",
+          "timestamp": "2023-11-20T14:47:35Z",
+          "tree_id": "4e293c30b9ad072c6818cf9139c2600e860d93e4",
+          "url": "https://github.com/nuclia/nucliadb/commit/30612b8bc55e9e729a38bcfea172181f8235d49f"
+        },
+        "date": 1700492787237,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13070.51355759323,
+            "unit": "iter/sec",
+            "range": "stddev: 2.2214058162259994e-7",
+            "extra": "mean: 76.5080878875686 usec\nrounds: 5"
           }
         ]
       }
