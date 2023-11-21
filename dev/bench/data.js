@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1700567426515,
+  "lastUpdate": 1700578313327,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -49649,6 +49649,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.1909088158156825e-7",
             "extra": "mean: 76.27817133670511 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "af1c3bcff7dc9446f24f37f6eb2161791ec4db07",
+          "message": "Relations refactor (#1573)\n\n* rebase\n\n* fix query parser\n\n---------\n\nCo-authored-by: Ferran Llamas <llamas.arroniz@gmail.com>",
+          "timestamp": "2023-11-21T14:41:34Z",
+          "tree_id": "ba3a7a6025ce050713ebccb3372c43fb20aba829",
+          "url": "https://github.com/nuclia/nucliadb/commit/af1c3bcff7dc9446f24f37f6eb2161791ec4db07"
+        },
+        "date": 1700578311099,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13030.077108690522,
+            "unit": "iter/sec",
+            "range": "stddev: 3.042673577061217e-7",
+            "extra": "mean: 76.74551667334657 usec\nrounds: 5"
           }
         ]
       }
