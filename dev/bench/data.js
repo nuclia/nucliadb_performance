@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1700492789743,
+  "lastUpdate": 1700567426515,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -49618,6 +49618,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.2214058162259994e-7",
             "extra": "mean: 76.5080878875686 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9f39cfae6f76f84522e39110d8883b1d6720d12d",
+          "message": "Finish tests for brain resource (#1597)\n\n* Round min score\n\n* bump nats-py\n\n* fix test\n\n* Extend tests\n\n* Make sure brain resources always have dates set\n\n* fix test\n\n---------\n\nCo-authored-by: herme garcia <hermegarcianavarro@gmail.com>",
+          "timestamp": "2023-11-21T11:31:01Z",
+          "tree_id": "aa3e9ea89af037fe8d9db4e4517af00e40224db2",
+          "url": "https://github.com/nuclia/nucliadb/commit/9f39cfae6f76f84522e39110d8883b1d6720d12d"
+        },
+        "date": 1700567423857,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13109.910508811572,
+            "unit": "iter/sec",
+            "range": "stddev: 2.1909088158156825e-7",
+            "extra": "mean: 76.27817133670511 usec\nrounds: 5"
           }
         ]
       }
