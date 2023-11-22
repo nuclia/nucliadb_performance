@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1700641581226,
+  "lastUpdate": 1700656715766,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -49711,6 +49711,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.5711170940765622e-7",
             "extra": "mean: 77.05633625662401 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "50eb137d6114fafb2f0a063467e0f91584d8a99b",
+          "message": "Fix user classifications not indexed on reindex (#1601)\n\n* Fix\n\n* fix test",
+          "timestamp": "2023-11-22T12:34:05Z",
+          "tree_id": "495f42ea87428a56f1d7cb1cbe0befbd4f6e6244",
+          "url": "https://github.com/nuclia/nucliadb/commit/50eb137d6114fafb2f0a063467e0f91584d8a99b"
+        },
+        "date": 1700656713484,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12840.282138138504,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000016978370917041047",
+            "extra": "mean: 77.87990865323565 usec\nrounds: 5"
           }
         ]
       }
