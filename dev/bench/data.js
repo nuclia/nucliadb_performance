@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1700578313327,
+  "lastUpdate": 1700641581226,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -49680,6 +49680,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 3.042673577061217e-7",
             "extra": "mean: 76.74551667334657 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c03a88bbdfd61d9ca4e8a566516dd5aaccaae6ad",
+          "message": "Provide train stream to retrieve all questions (#1598)\n\n* Add new train task for Q&A streaming\n\n* Add new train: question answer streaming\n\n* Implement question answers dataset\n\n* Lints",
+          "timestamp": "2023-11-22T07:36:11Z",
+          "tree_id": "5f3d5e933f177eaeac2fbbd2c6c327fa3c9ec3fa",
+          "url": "https://github.com/nuclia/nucliadb/commit/c03a88bbdfd61d9ca4e8a566516dd5aaccaae6ad"
+        },
+        "date": 1700641578633,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12977.51811959574,
+            "unit": "iter/sec",
+            "range": "stddev: 1.5711170940765622e-7",
+            "extra": "mean: 77.05633625662401 usec\nrounds: 5"
           }
         ]
       }
