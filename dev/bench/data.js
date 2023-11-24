@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1700669388626,
+  "lastUpdate": 1700865033465,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -49773,6 +49773,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.5167600531129777e-7",
             "extra": "mean: 76.1134412995426 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bc97f8f7b39246835331333a575917af54584a16",
+          "message": "Summarization endpoint (#1588)\n\n* Add virtual service\n\n* Add models\n\n* Add skeleton\n\n* Add predict client method\n\n* Done\n\n* Done\n\n* Done\n\n* Cleaner\n\n* Add summarization tests\n\n* done\n\n* Fix\n\n* Feature flag it\n\n* Feature flag it\n\n* preserve status codes\n\n* cleanup flags\n\n* simplify\n\n* fix test\n\n* remove ff\n\n* more explicit exception\n\n* Unify predict errors\n\n* increase coverage\n\n* Fix tests\n\n* revert\n\n* fix\n\n* more debugging\n\n* fix tests\n\n* no timeout",
+          "timestamp": "2023-11-24T22:25:47Z",
+          "tree_id": "f4a70d9f67a2bc5364287d30b63c01ea070eedd5",
+          "url": "https://github.com/nuclia/nucliadb/commit/bc97f8f7b39246835331333a575917af54584a16"
+        },
+        "date": 1700865031256,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12936.003192367169,
+            "unit": "iter/sec",
+            "range": "stddev: 2.349702401907075e-7",
+            "extra": "mean: 77.30362965510442 usec\nrounds: 5"
           }
         ]
       }
