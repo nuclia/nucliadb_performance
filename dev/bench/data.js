@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1701077630922,
+  "lastUpdate": 1701080331981,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -49835,6 +49835,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.5960681514960203e-7",
             "extra": "mean: 76.22096152116035 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2f2bf393d6eae5c66668570833c227550d3e9b9d",
+          "message": "Create S3 bucket with tags (#1608)\n\n* Create s3 buckets with tags\n\n* cleanup dup code\n\n* Extend tus tests\n\n* fix serialization of summarize response",
+          "timestamp": "2023-11-27T10:13:45Z",
+          "tree_id": "daf17b3d448510fa52ab5101065c8284c6042239",
+          "url": "https://github.com/nuclia/nucliadb/commit/2f2bf393d6eae5c66668570833c227550d3e9b9d"
+        },
+        "date": 1701080329853,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13114.065481929083,
+            "unit": "iter/sec",
+            "range": "stddev: 1.2212794163097207e-7",
+            "extra": "mean: 76.25400386920288 usec\nrounds: 5"
           }
         ]
       }
