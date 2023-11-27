@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1701099158345,
+  "lastUpdate": 1701116460666,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -49897,6 +49897,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 3.5900602763642845e-7",
             "extra": "mean: 76.71278876227302 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "bacd9c072d6dd22bac5a719abf8bfb6a1f609ae0",
+          "message": "Use node writer response on set/delete resource (#1610)\n\n* Use node writer response on set/delete resource\n\n* use custom exception",
+          "timestamp": "2023-11-27T20:06:00Z",
+          "tree_id": "3af972e88ae0f14f0dedec7d4a1d8256613877e3",
+          "url": "https://github.com/nuclia/nucliadb/commit/bacd9c072d6dd22bac5a719abf8bfb6a1f609ae0"
+        },
+        "date": 1701116458154,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13073.552268206211,
+            "unit": "iter/sec",
+            "range": "stddev: 2.344172206362573e-7",
+            "extra": "mean: 76.49030496722125 usec\nrounds: 5"
           }
         ]
       }
