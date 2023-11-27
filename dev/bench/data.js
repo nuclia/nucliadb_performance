@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1701080331981,
+  "lastUpdate": 1701099158345,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -49866,6 +49866,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.2212794163097207e-7",
             "extra": "mean: 76.25400386920288 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ef57279f4afddd3f73a7b97476296d5648d1ba32",
+          "message": "handle error getting shard files (#1609)\n\n* handle error getting shard files\n\n* note about gc\n\n* lint\n\n* if not metadata, ignore",
+          "timestamp": "2023-11-27T15:15:43Z",
+          "tree_id": "238b50d8f847cdeb04b201b8e4a8f38dbc2bdf59",
+          "url": "https://github.com/nuclia/nucliadb/commit/ef57279f4afddd3f73a7b97476296d5648d1ba32"
+        },
+        "date": 1701099155776,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13035.636119277615,
+            "unit": "iter/sec",
+            "range": "stddev: 3.5900602763642845e-7",
+            "extra": "mean: 76.71278876227302 usec\nrounds: 5"
           }
         ]
       }
