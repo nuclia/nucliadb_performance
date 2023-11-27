@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1701116460666,
+  "lastUpdate": 1701121286693,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -49928,6 +49928,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.344172206362573e-7",
             "extra": "mean: 76.49030496722125 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b2e7c1086c8042f168411dd4bb89fed188c608dd",
+          "message": "fix conditional tikv dependency usage on telemetry (#1613)\n\n* fix conditional tikv dependency usage on telemetry\n\n* fix dep",
+          "timestamp": "2023-11-27T21:32:09Z",
+          "tree_id": "04ec4f1b4bb0359b8f85e4ceea71db5feec137f0",
+          "url": "https://github.com/nuclia/nucliadb/commit/b2e7c1086c8042f168411dd4bb89fed188c608dd"
+        },
+        "date": 1701121284349,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13021.077165283219,
+            "unit": "iter/sec",
+            "range": "stddev: 3.2579139865942335e-7",
+            "extra": "mean: 76.79856184757118 usec\nrounds: 5"
           }
         ]
       }
