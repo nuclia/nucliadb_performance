@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1700865033465,
+  "lastUpdate": 1701077630922,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -49804,6 +49804,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.349702401907075e-7",
             "extra": "mean: 77.30362965510442 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a8dfda88a132278a7b5f52c0912d891ebf3b4a4c",
+          "message": "Predict api client tweaks (#1607)\n\n* fix\n\n* Fix\n\n* fix\n\n* debug",
+          "timestamp": "2023-11-27T09:28:40Z",
+          "tree_id": "2ec66b34d2e991eceebf3c22abd9c4b9290d3b0a",
+          "url": "https://github.com/nuclia/nucliadb/commit/a8dfda88a132278a7b5f52c0912d891ebf3b4a4c"
+        },
+        "date": 1701077628321,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13119.750525875766,
+            "unit": "iter/sec",
+            "range": "stddev: 2.5960681514960203e-7",
+            "extra": "mean: 76.22096152116035 usec\nrounds: 5"
           }
         ]
       }
