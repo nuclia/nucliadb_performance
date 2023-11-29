@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1701266454351,
+  "lastUpdate": 1701268169185,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -50021,6 +50021,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.8863946958645605e-7",
             "extra": "mean: 77.036599227464 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "77cc3bf81f676a698b553610c8739b801fa36de9",
+          "message": "fix clippy issues (#1620)",
+          "timestamp": "2023-11-29T14:10:06Z",
+          "tree_id": "215bd7b959bbdb9da6a42c32e838dc61add9c23a",
+          "url": "https://github.com/nuclia/nucliadb/commit/77cc3bf81f676a698b553610c8739b801fa36de9"
+        },
+        "date": 1701268166829,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12797.863876953732,
+            "unit": "iter/sec",
+            "range": "stddev: 2.530775350439327e-7",
+            "extra": "mean: 78.13804003657127 usec\nrounds: 5"
           }
         ]
       }
