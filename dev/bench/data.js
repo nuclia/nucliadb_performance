@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1701268169185,
+  "lastUpdate": 1701269352895,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -50052,6 +50052,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.530775350439327e-7",
             "extra": "mean: 78.13804003657127 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "funollet@fastmail.fm",
+            "name": "Jordi Funollet",
+            "username": "funollet"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5f8e1f6739b65d909a8c69fe942be7d285e578b3",
+          "message": "sc 7877/nucliadb push to aws ecr (#1599)\n\n* Move build logic to a reusable workflow. Use on ingest and node. Push to ECR.\n\nSwitched gcloud auth to workload-identity.\n\n* update every workflow that pushes to GCP\n\n* removing unneeded params (use defaults)\n\n* move main to latest tag\n\n* rev until after merge\n\n---------\n\nCo-authored-by: vangheem <vangheem@gmail.com>",
+          "timestamp": "2023-11-29T14:44:15Z",
+          "tree_id": "fa5195ec8b6f38a78c3f5453bf596d60160fbea8",
+          "url": "https://github.com/nuclia/nucliadb/commit/5f8e1f6739b65d909a8c69fe942be7d285e578b3"
+        },
+        "date": 1701269350568,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13121.501788851354,
+            "unit": "iter/sec",
+            "range": "stddev: 1.6073745729536392e-7",
+            "extra": "mean: 76.21078868042734 usec\nrounds: 5"
           }
         ]
       }
