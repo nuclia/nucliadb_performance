@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1701278296838,
+  "lastUpdate": 1701350719928,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -50114,6 +50114,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.3057473381977447e-7",
             "extra": "mean: 77.07595825195312 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "84cebd9dcbf4cf2ee18ab9a2e02586a382ec8fa6",
+          "message": "Predict proxy endpoint (#1625)\n\n* Added proxy endpoint\n\n* simpler\n\n* Add integration tests\n\n* Add unit tests\n\n* Add unit tests",
+          "timestamp": "2023-11-30T13:20:03Z",
+          "tree_id": "58dd0e704a73664849a78324e32a4e7a3b991575",
+          "url": "https://github.com/nuclia/nucliadb/commit/84cebd9dcbf4cf2ee18ab9a2e02586a382ec8fa6"
+        },
+        "date": 1701350717499,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12982.011001408568,
+            "unit": "iter/sec",
+            "range": "stddev: 3.088010895258411e-7",
+            "extra": "mean: 77.0296681994414 usec\nrounds: 5"
           }
         ]
       }
