@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1701350719928,
+  "lastUpdate": 1701356047058,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -50145,6 +50145,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 3.088010895258411e-7",
             "extra": "mean: 77.0296681994414 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3c0130a7bd8ce006ad0364ca9627863329bab826",
+          "message": "add predict proxy virtual service (#1628)\n\n* add predict proxy virtual service\n\n* Add e2e for predict proxy endpoint\n\n* simpler check",
+          "timestamp": "2023-11-30T14:49:13Z",
+          "tree_id": "9c5715a1687d8b7deab76dbf81c38d387f53fffc",
+          "url": "https://github.com/nuclia/nucliadb/commit/3c0130a7bd8ce006ad0364ca9627863329bab826"
+        },
+        "date": 1701356044566,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12943.701279146402,
+            "unit": "iter/sec",
+            "range": "stddev: 7.755443114231847e-7",
+            "extra": "mean: 77.25765439373204 usec\nrounds: 5"
           }
         ]
       }
