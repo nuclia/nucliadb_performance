@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1701415884107,
+  "lastUpdate": 1701438223914,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -50238,6 +50238,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.230663470940574e-7",
             "extra": "mean: 76.49605259573532 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "519d796727b4279b3dfca1996fc3d19339348667",
+          "message": "Fix task leak (#1632)",
+          "timestamp": "2023-12-01T13:39:09Z",
+          "tree_id": "cdeef704ba8d6a17c46776fea3211bad12cfec0a",
+          "url": "https://github.com/nuclia/nucliadb/commit/519d796727b4279b3dfca1996fc3d19339348667"
+        },
+        "date": 1701438221546,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12962.239042936462,
+            "unit": "iter/sec",
+            "range": "stddev: 9.640725398110143e-8",
+            "extra": "mean: 77.14716544630706 usec\nrounds: 5"
           }
         ]
       }
