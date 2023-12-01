@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1701356047058,
+  "lastUpdate": 1701413908805,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -50176,6 +50176,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 7.755443114231847e-7",
             "extra": "mean: 77.25765439373204 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5cfb25027943af2840b9d121f175ce8ce7b1c636",
+          "message": "Bump aiohttp and cryptography packages + freeze-reqs (#1629)\n\n* Bump aiohttp and cryptography packages + freeze-reqs\n\n* Fix httpx warning",
+          "timestamp": "2023-12-01T06:52:39Z",
+          "tree_id": "a51f2bb3960dc6e69b14c59e0817f4edb019f6d7",
+          "url": "https://github.com/nuclia/nucliadb/commit/5cfb25027943af2840b9d121f175ce8ce7b1c636"
+        },
+        "date": 1701413906143,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12966.028116900434,
+            "unit": "iter/sec",
+            "range": "stddev: 1.6535653754326724e-7",
+            "extra": "mean: 77.12462066132346 usec\nrounds: 5"
           }
         ]
       }
