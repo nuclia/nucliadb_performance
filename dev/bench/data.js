@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1701438223914,
+  "lastUpdate": 1701438436305,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -50269,6 +50269,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 9.640725398110143e-8",
             "extra": "mean: 77.14716544630706 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "706d2330e3b0d940c19b2e8960b570043e107bae",
+          "message": "Add memory profile helper for debugging (#1633)\n\n* Add memory profile helper for debugging\n\n* fix license\n\n* handle kb not found on post too",
+          "timestamp": "2023-12-01T13:42:32Z",
+          "tree_id": "4997a04f4b4663f9672bc3c14840fbb2d866f45b",
+          "url": "https://github.com/nuclia/nucliadb/commit/706d2330e3b0d940c19b2e8960b570043e107bae"
+        },
+        "date": 1701438433971,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13007.201582367901,
+            "unit": "iter/sec",
+            "range": "stddev: 1.9568399147196693e-7",
+            "extra": "mean: 76.88048760277263 usec\nrounds: 5"
           }
         ]
       }
