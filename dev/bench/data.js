@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1701438436305,
+  "lastUpdate": 1701790156122,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -50300,6 +50300,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.9568399147196693e-7",
             "extra": "mean: 76.88048760277263 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c58afd18cc02e13ff46e885cc14eabdabe66b895",
+          "message": "Be able to parametrize storage driver used in tests (#1636)\n\n* fix typo\n\n* Try to reproduce the issue\n\n* Unify using enum\n\n* Unify using enum\n\n* Be able to parametrize storage driver in tests\n\n* add pg too\n\n* fix mypy\n\n* add plugin\n\n* fix tests",
+          "timestamp": "2023-12-05T15:22:51Z",
+          "tree_id": "07f8c5bb73030fead70e0b26ba0d55231aed7452",
+          "url": "https://github.com/nuclia/nucliadb/commit/c58afd18cc02e13ff46e885cc14eabdabe66b895"
+        },
+        "date": 1701790153712,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12981.032187635241,
+            "unit": "iter/sec",
+            "range": "stddev: 7.00172955885655e-7",
+            "extra": "mean: 77.03547649720223 usec\nrounds: 5"
           }
         ]
       }
