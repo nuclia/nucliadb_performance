@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1701955660234,
+  "lastUpdate": 1701958572012,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -50362,6 +50362,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.2813463562089805e-7",
             "extra": "mean: 76.71180812791846 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "20d7e6b3197e7f47fe61a1a6c1199428fefaf7c0",
+          "message": "Fix TUS uploads with s3 driver (#1637)\n\n* Try to reproduce the issue\n\n* Fixed\n\n* Cleaner\n\n* fix envvar\n\n* not ready to run for pg: need to implement indexing bucket creation first\n\n* better\n\n* fix\n\n* fix\n\n* comment e2e\n\n* comment e2e\n\n* comment e2e\n\n* fix s3 storage start\n\n* More storage fixes: protobuf default string is empty string, not none\n\n* comment e2e",
+          "timestamp": "2023-12-07T14:11:10Z",
+          "tree_id": "9bfa315e7d52e8d95549bb8916906830b0994104",
+          "url": "https://github.com/nuclia/nucliadb/commit/20d7e6b3197e7f47fe61a1a6c1199428fefaf7c0"
+        },
+        "date": 1701958569473,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12981.347562933122,
+            "unit": "iter/sec",
+            "range": "stddev: 3.189708565706211e-7",
+            "extra": "mean: 77.03360495911804 usec\nrounds: 5"
           }
         ]
       }
