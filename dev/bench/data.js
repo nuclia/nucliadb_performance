@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1701790156122,
+  "lastUpdate": 1701955660234,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -50331,6 +50331,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 7.00172955885655e-7",
             "extra": "mean: 77.03547649720223 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "528e6677719d3eaeceb92970f6e4701026c63b5e",
+          "message": "cluster auto discovery fixes (#1639)\n\n* cluster management fixes\n\n* add test",
+          "timestamp": "2023-12-07T13:23:04Z",
+          "tree_id": "c445416b25265ab41fa6c02220dd0c8c085ede84",
+          "url": "https://github.com/nuclia/nucliadb/commit/528e6677719d3eaeceb92970f6e4701026c63b5e"
+        },
+        "date": 1701955657864,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13035.80275845513,
+            "unit": "iter/sec",
+            "range": "stddev: 1.2813463562089805e-7",
+            "extra": "mean: 76.71180812791846 usec\nrounds: 5"
           }
         ]
       }
