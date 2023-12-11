@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1702278796722,
+  "lastUpdate": 1702297736335,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -50486,6 +50486,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 3.1555882480413366e-7",
             "extra": "mean: 77.05749701877374 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d7bae80d026276882547d7dfb4ad18b455a36dc0",
+          "message": "add max concurrent processing setting to ingest consumer (#1646)",
+          "timestamp": "2023-12-11T12:23:58Z",
+          "tree_id": "b8a0dda5a2848dc973fa36253d8a348a6fd9a13c",
+          "url": "https://github.com/nuclia/nucliadb/commit/d7bae80d026276882547d7dfb4ad18b455a36dc0"
+        },
+        "date": 1702297733858,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12962.591636114239,
+            "unit": "iter/sec",
+            "range": "stddev: 2.973786294222601e-7",
+            "extra": "mean: 77.14506697981325 usec\nrounds: 5"
           }
         ]
       }
