@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1702308938136,
+  "lastUpdate": 1702320052637,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -50610,6 +50610,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 7.670586261451085e-7",
             "extra": "mean: 76.47874261854614 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "978bb09d3a8e2150cebad940fe0b460093539948",
+          "message": "decouple metadata from shard cache (#1635)\n\n* decouple and cache shard generation ids\n\n* move to metadata for management\n\n* tweak\n\n* fix test\n\n* temp file when writing metadata\n\n* fix\n\n* try\n\n* fix loading\n\n* oops",
+          "timestamp": "2023-12-11T18:26:14Z",
+          "tree_id": "ed74de00e00e933140fc3835156b8b9fe38fcc72",
+          "url": "https://github.com/nuclia/nucliadb/commit/978bb09d3a8e2150cebad940fe0b460093539948"
+        },
+        "date": 1702320050335,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13278.913396782313,
+            "unit": "iter/sec",
+            "range": "stddev: 9.355437253230309e-7",
+            "extra": "mean: 75.30736665865413 usec\nrounds: 5"
           }
         ]
       }
