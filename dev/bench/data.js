@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1702301337629,
+  "lastUpdate": 1702305075001,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -50548,6 +50548,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 7.25819757771388e-7",
             "extra": "mean: 76.53919707206178 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0f1fc3fe6f7aaee3ff63affd1e74e5a3a912082b",
+          "message": "Resumable rollovers (#1647)\n\n* .\n\n* fixes\n\n* add\n\n* fixes\n\n* fix\n\n* local fix\n\n* better",
+          "timestamp": "2023-12-11T14:26:11Z",
+          "tree_id": "fd1a41caa68eecae3fd7a01f1a4e42decb27ed0a",
+          "url": "https://github.com/nuclia/nucliadb/commit/0f1fc3fe6f7aaee3ff63affd1e74e5a3a912082b"
+        },
+        "date": 1702305072246,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13136.322740232645,
+            "unit": "iter/sec",
+            "range": "stddev: 8.665270474666486e-7",
+            "extra": "mean: 76.12480446581125 usec\nrounds: 5"
           }
         ]
       }
