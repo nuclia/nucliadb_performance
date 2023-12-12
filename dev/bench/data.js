@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1702383324246,
+  "lastUpdate": 1702390222909,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -50765,6 +50765,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 5.16180830358174e-7",
             "extra": "mean: 76.91232160552012 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "737e76f6e868fdb7c97f1a638e5eeeb68d35df03",
+          "message": "Signal dispatch captures errors instead of raising (#1658)",
+          "timestamp": "2023-12-12T14:05:38Z",
+          "tree_id": "f95e162f8456a3ebc32917acafd8fa59e5eacccc",
+          "url": "https://github.com/nuclia/nucliadb/commit/737e76f6e868fdb7c97f1a638e5eeeb68d35df03"
+        },
+        "date": 1702390220646,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13109.574742769224,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00000106246424130083",
+            "extra": "mean: 76.28012499425769 usec\nrounds: 5"
           }
         ]
       }
