@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1702324473580,
+  "lastUpdate": 1702368880795,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -50672,6 +50672,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.8317014590709257e-7",
             "extra": "mean: 76.17356766237782 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d116f208676a91fff4082048f30becd80b93caf2",
+          "message": "Sidecar concurrent indexing (#1570)\n\n* Storage doesn't need to build IndexMessage\n\n* Add index message source to IndexMessage\n\n* Specify index message source\n\n* Prioritary multi-shard indexing and refactor with signal dispatcher\n\n- Allow concurrent indexing in node sidecar with priority\n- Don't handle IndexDataNotFound anymore\n- Decouple components waiting for index to succeed with signal/event\ndispatching\n\n* Integrate NatsConnectionManager in pull Worker\n\n* Decouple nats demux from sidecar indexing\n\n- Add a new NatsDemux class in nucliadb_utils implementing concurrent\nmessage demultiplexing.\n- Refactor sidecar indexer to use this new reusable abstraction.\n\n* Let NATS manage seqid in node pull worker\n\n* Use a type instead of callbacks for demux msg processing\n\n* Add unit tests for nats demux\n\n* Logs, tests and fixes\n\n* Fix nucliadb_utils nats demux unit tests\n\n* Add unit tests for signals\n\n* A new start: simple shard indexer without tasks\n\n* Recover old nucliadb_utils nats\n\n* Move task responsibility to PriorityIndexer\n\n* More on the indexers\n\n* Moving unit tests, fixing and improving things\n\n* Add metric for concurrent indexers count\n\n* Move subscriber_observer to indexer\n\n* Set nats_max_ack_pending to 1 again (we'll change it later)\n\n* Set nats_max_ack_pending per test session\n\n* Rename exception\n\n* Flush queue on errors. Some fixes\n\n* Move task management to ConcurrentShardIndexer\n\n* Synchronous index_soon\n\n* Improve indexer unit tests\n\n* Add test for WorkUnit constructor, some improvements\n\n* A bit more work on unit tests and error handling\n\n* push_work_to_indexer doesn't need to be async anymore\n\n* Add kbid to logs\n\n* Add test for aiorpc errors and some pragma nocover\n\n* Unit tests for listeners\n\n* Back to setting max_ack_pending to 10 by default\n\n* Remove unused sync callbacks\n\n* Raise an exception for sync listeners\n\n* Explicitly pass node id to concurrent shard indexer\n\n* Capture exception on gc scheduler\n\n* Fix complex bug that could skip indexing messages\n\n* Fixes, improvements and tests\n\n* Add teardown logic for pull worker\n\n* Clean tests\n\n* Implement better finalize logic for concurrent indexer\n\n* Fix nats message progress updater __aenter__\n\n* Add exception to multi-source multi-txn\n\n* Test errors on signal dispatch\n\n* Pragma no cover\n\n* Use task exception after wait\n\n* Small improvements",
+          "timestamp": "2023-12-12T08:08:59Z",
+          "tree_id": "b4c1b08875d7f44837bad21f47f4e068be560de7",
+          "url": "https://github.com/nuclia/nucliadb/commit/d116f208676a91fff4082048f30becd80b93caf2"
+        },
+        "date": 1702368878204,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13265.942064797828,
+            "unit": "iter/sec",
+            "range": "stddev: 8.026534319423614e-7",
+            "extra": "mean: 75.38100159909298 usec\nrounds: 5"
           }
         ]
       }
