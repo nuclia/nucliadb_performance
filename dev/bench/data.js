@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1702368880795,
+  "lastUpdate": 1702372738544,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -50703,6 +50703,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 8.026534319423614e-7",
             "extra": "mean: 75.38100159909298 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "22954b17b3db8625a217356d660b989ed4452763",
+          "message": "Fix gcloud overlapping log key (#1656)",
+          "timestamp": "2023-12-12T09:13:35Z",
+          "tree_id": "1ffa50328d7a8f1a44bb343c347d5ac402bb0c30",
+          "url": "https://github.com/nuclia/nucliadb/commit/22954b17b3db8625a217356d660b989ed4452763"
+        },
+        "date": 1702372736338,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13218.280179282237,
+            "unit": "iter/sec",
+            "range": "stddev: 1.521685918335159e-7",
+            "extra": "mean: 75.65280705483583 usec\nrounds: 5"
           }
         ]
       }
