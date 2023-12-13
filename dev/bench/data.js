@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1702460716319,
+  "lastUpdate": 1702472560228,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -50827,6 +50827,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.7317806991721728e-7",
             "extra": "mean: 78.4579169909409 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0202464ea0ad8251c29eb9f9b58fc14a8c368f52",
+          "message": "fix metadata usage to always use cache (#1661)\n\nCo-authored-by: Ferran Llamas <ferran@nuclia.com>",
+          "timestamp": "2023-12-13T12:53:34Z",
+          "tree_id": "1a5165a0021e8621d1bdd40ea36429f8085f6aa4",
+          "url": "https://github.com/nuclia/nucliadb/commit/0202464ea0ad8251c29eb9f9b58fc14a8c368f52"
+        },
+        "date": 1702472557004,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12863.005453492215,
+            "unit": "iter/sec",
+            "range": "stddev: 2.2357659294901483e-7",
+            "extra": "mean: 77.74232885274157 usec\nrounds: 5"
           }
         ]
       }
