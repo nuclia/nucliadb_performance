@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1702472560228,
+  "lastUpdate": 1702487760278,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -50858,6 +50858,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.2357659294901483e-7",
             "extra": "mean: 77.74232885274157 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f83ee3bb98cdbfb14cac28ee5323813db7f856cd",
+          "message": "Garbage collection returns a status (#1664)\n\n* Garbage collection returns a status\n\n* Simple test to validate GC try later don't trigger sentry\n\n* Implement from protos for gc status",
+          "timestamp": "2023-12-13T17:00:04Z",
+          "tree_id": "3387136de2f24ea58f01db66da45b175dab300ae",
+          "url": "https://github.com/nuclia/nucliadb/commit/f83ee3bb98cdbfb14cac28ee5323813db7f856cd"
+        },
+        "date": 1702487757161,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13128.237212031288,
+            "unit": "iter/sec",
+            "range": "stddev: 8.054256726723465e-7",
+            "extra": "mean: 76.1716888451373 usec\nrounds: 5"
           }
         ]
       }
