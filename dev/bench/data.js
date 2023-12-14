@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1702492908080,
+  "lastUpdate": 1702570608948,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -50920,6 +50920,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 8.854953057812029e-7",
             "extra": "mean: 75.90398699875585 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4d26330c1688a8c6ed45a06b8d4174f6e4a5e51c",
+          "message": "Safer resource slug patching (#1663)\n\n* safer\n\n* done\n\n* fix",
+          "timestamp": "2023-12-14T16:12:03Z",
+          "tree_id": "27649fe7b371857f5d0b1ac278f220abde72e4ef",
+          "url": "https://github.com/nuclia/nucliadb/commit/4d26330c1688a8c6ed45a06b8d4174f6e4a5e51c"
+        },
+        "date": 1702570606534,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12831.608091166954,
+            "unit": "iter/sec",
+            "range": "stddev: 1.8622041845452893e-7",
+            "extra": "mean: 77.93255474256434 usec\nrounds: 5"
           }
         ]
       }
