@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1702570608948,
+  "lastUpdate": 1702577317267,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -50951,6 +50951,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.8622041845452893e-7",
             "extra": "mean: 77.93255474256434 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8e7164ec13b5f3b648f8fdad39e1d0a1d1699c1a",
+          "message": "Onprem fixes (#1667)\n\n* Resource change event should happen for every replica node?\n\n* Better flaps download response handling\n\n* Retry transient PG server errors\n\n* fix\n\n* this is failing all of a sudden?\n\n* this is failing all of a sudden?\n\n* Add retries",
+          "timestamp": "2023-12-14T18:01:40Z",
+          "tree_id": "d89f96ea0b362c8dcd335972f1edad364987727f",
+          "url": "https://github.com/nuclia/nucliadb/commit/8e7164ec13b5f3b648f8fdad39e1d0a1d1699c1a"
+        },
+        "date": 1702577314862,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12700.444068179795,
+            "unit": "iter/sec",
+            "range": "stddev: 2.1292810716166723e-7",
+            "extra": "mean: 78.73740434835979 usec\nrounds: 5"
           }
         ]
       }
