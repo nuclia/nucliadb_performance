@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1702629654668,
+  "lastUpdate": 1702645562746,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -51044,6 +51044,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.87681053873229e-7",
             "extra": "mean: 78.11856877272295 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5102ed0adc17189b3cd51a042df2c8ffd2a50e2b",
+          "message": "implement read only txn support (#1660)\n\n* implement read only txn support\n\n* pool size\n\n* make max connection pool size configurable\n\n* more verbose on errors\n\n* better naming and default values\n\n* increase default\n\n---------\n\nCo-authored-by: Ferran Llamas <ferran@nuclia.com>\nCo-authored-by: Ferran Llamas <llamas.arroniz@gmail.com>",
+          "timestamp": "2023-12-15T13:01:06Z",
+          "tree_id": "f93f0537a3dd2129e46a345a3d5cd15d6b75793a",
+          "url": "https://github.com/nuclia/nucliadb/commit/5102ed0adc17189b3cd51a042df2c8ffd2a50e2b"
+        },
+        "date": 1702645560240,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13107.977251902848,
+            "unit": "iter/sec",
+            "range": "stddev: 9.832423939984764e-7",
+            "extra": "mean: 76.28942137924696 usec\nrounds: 5"
           }
         ]
       }
