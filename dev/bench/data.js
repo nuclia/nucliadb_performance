@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1702585321327,
+  "lastUpdate": 1702629654668,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -51013,6 +51013,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 5.940716741905013e-7",
             "extra": "mean: 75.61404688828657 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "45dfe197ba1337211461c0742b50ba8b32c4de0f",
+          "message": "Fix audit chat when citations are present (#1670)\n\n* fix audit chat when citations are present\n\n* make sure audit logic is covered in tests\n\n* Refactor header into a const\n\n* increase coverage of chat",
+          "timestamp": "2023-12-15T08:36:16Z",
+          "tree_id": "3c30e0405598abb52f54546f0768530eda6f8e4c",
+          "url": "https://github.com/nuclia/nucliadb/commit/45dfe197ba1337211461c0742b50ba8b32c4de0f"
+        },
+        "date": 1702629652297,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12801.053779023852,
+            "unit": "iter/sec",
+            "range": "stddev: 2.87681053873229e-7",
+            "extra": "mean: 78.11856877272295 usec\nrounds: 5"
           }
         ]
       }
