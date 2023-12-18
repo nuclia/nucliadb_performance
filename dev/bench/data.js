@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1702893524331,
+  "lastUpdate": 1702900102967,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -51106,6 +51106,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000002461444765023132",
             "extra": "mean: 77.28333790147367 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "44120086+hermeGarcia@users.noreply.github.com",
+            "name": "Herme",
+            "username": "hermeGarcia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "050596ecccc8eef964fad645bbe7b2606cc998ef",
+          "message": "safe delete in node (#1668)\n\n* mark as deleted functionality added\n\n* add additional safety\n\n* ifxes\n\n* ..",
+          "timestamp": "2023-12-18T11:33:59Z",
+          "tree_id": "3eeff84d28b175d86745e03223289830c5e9e0e2",
+          "url": "https://github.com/nuclia/nucliadb/commit/050596ecccc8eef964fad645bbe7b2606cc998ef"
+        },
+        "date": 1702900100650,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12827.01645027661,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000002265121685922756",
+            "extra": "mean: 77.96045197856088 usec\nrounds: 5"
           }
         ]
       }
