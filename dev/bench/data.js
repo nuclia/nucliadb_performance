@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1702645562746,
+  "lastUpdate": 1702893524331,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -51075,6 +51075,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 9.832423939984764e-7",
             "extra": "mean: 76.28942137924696 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "55b59ae8c0568f22f347418c069fb4135536fdb6",
+          "message": "Return whether paragaph search results are fuzzy or not (#1673)",
+          "timestamp": "2023-12-18T09:53:53Z",
+          "tree_id": "49273fa4015eb6779871cfeefaabf0607f56e3c3",
+          "url": "https://github.com/nuclia/nucliadb/commit/55b59ae8c0568f22f347418c069fb4135536fdb6"
+        },
+        "date": 1702893521887,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12939.399709609745,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000002461444765023132",
+            "extra": "mean: 77.28333790147367 usec\nrounds: 5"
           }
         ]
       }
