@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1702994620194,
+  "lastUpdate": 1703003547781,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -51199,6 +51199,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 4.578680925419477e-7",
             "extra": "mean: 76.68640189988378 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c80da3f68660f361dce40b8ea7989bd53393c1fb",
+          "message": "Removed bottleneck on search [standalone + pg] (#1681)\n\n* removed bottleneck on search standalone + pg\n\n* fix tests\n\n* fix tests",
+          "timestamp": "2023-12-19T16:27:49Z",
+          "tree_id": "b79340d3b444f62e8fca70d542ff49b5f53e38a2",
+          "url": "https://github.com/nuclia/nucliadb/commit/c80da3f68660f361dce40b8ea7989bd53393c1fb"
+        },
+        "date": 1703003545445,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13079.413774172195,
+            "unit": "iter/sec",
+            "range": "stddev: 2.1955099387319685e-7",
+            "extra": "mean: 76.4560260318923 usec\nrounds: 5"
           }
         ]
       }
