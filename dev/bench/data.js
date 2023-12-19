@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1702900102967,
+  "lastUpdate": 1702986141928,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -51137,6 +51137,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000002265121685922756",
             "extra": "mean: 77.96045197856088 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "a2a9376ffd1a1fb16b46108bb215a6009b5d27b6",
+          "message": "Allow users to pass generic context to LLM (#1678)\n\n* Add chat extra context option to chat endpoint\n\n* Add chat extra context option to chat endpoint\n\n* Add chat extra context option to chat endpoint\n\n* Add sdk integration tests too, as doc\n\n* Add sdk integration tests too, as doc\n\n* fix docstrings",
+          "timestamp": "2023-12-19T11:37:20Z",
+          "tree_id": "536126836f01b1fe5680a959421c45825ce1d80b",
+          "url": "https://github.com/nuclia/nucliadb/commit/a2a9376ffd1a1fb16b46108bb215a6009b5d27b6"
+        },
+        "date": 1702986139542,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12728.254590086523,
+            "unit": "iter/sec",
+            "range": "stddev: 2.0693560511969848e-7",
+            "extra": "mean: 78.56536753899124 usec\nrounds: 5"
           }
         ]
       }
