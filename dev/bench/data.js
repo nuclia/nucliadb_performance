@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1703074968695,
+  "lastUpdate": 1703083241380,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -51292,6 +51292,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 6.590602545749048e-7",
             "extra": "mean: 78.00213992595673 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "233cda09e6df0e899206fd0f338de6d3f57c629f",
+          "message": "Run ingest and search tests with s3 storage backend (#1684)\n\n* fix\n\n* Work in progress\n\n* Also for search\n\n* fix matrix\n\n* run search tests with s3 too\n\n* run search tests with s3 too",
+          "timestamp": "2023-12-20T12:15:33Z",
+          "tree_id": "813cd5e59e387e0df726476980171b06e2c92740",
+          "url": "https://github.com/nuclia/nucliadb/commit/233cda09e6df0e899206fd0f338de6d3f57c629f"
+        },
+        "date": 1703083238804,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12873.094334065521,
+            "unit": "iter/sec",
+            "range": "stddev: 2.6321055155291566e-7",
+            "extra": "mean: 77.68140076110082 usec\nrounds: 5"
           }
         ]
       }
