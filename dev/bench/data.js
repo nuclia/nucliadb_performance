@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1703003547781,
+  "lastUpdate": 1703063908654,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -51230,6 +51230,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.1955099387319685e-7",
             "extra": "mean: 76.4560260318923 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0a1b3fd346045105bdcac352499e00582b3f8eeb",
+          "message": "Add index size property to counters response (#1683)",
+          "timestamp": "2023-12-20T09:13:25Z",
+          "tree_id": "cb2f0e7297040bb64f860616b48d2fa3492346f1",
+          "url": "https://github.com/nuclia/nucliadb/commit/0a1b3fd346045105bdcac352499e00582b3f8eeb"
+        },
+        "date": 1703063905872,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12490.097860839598,
+            "unit": "iter/sec",
+            "range": "stddev: 7.464863058833568e-7",
+            "extra": "mean: 80.06342393323563 usec\nrounds: 5"
           }
         ]
       }
