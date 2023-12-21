@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1703159279785,
+  "lastUpdate": 1703159489937,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -51509,6 +51509,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000016773171479516037",
             "extra": "mean: 76.68065260967892 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "235344b9dcc1901060df4f434f417ded1e6ebfe9",
+          "message": "Improve access log format and print absolute paths at startup (#1685)\n\n* Improve access log format and print absolute paths at startup\n\n* remove\n\n* add more unit test coverage to standalone\n\n* Fix tests",
+          "timestamp": "2023-12-21T11:34:57Z",
+          "tree_id": "4d640876bed5471504b9482dd50b5146d45efaed",
+          "url": "https://github.com/nuclia/nucliadb/commit/235344b9dcc1901060df4f434f417ded1e6ebfe9"
+        },
+        "date": 1703159487341,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13123.099043341359,
+            "unit": "iter/sec",
+            "range": "stddev: 8.795645393684796e-7",
+            "extra": "mean: 76.20151282081488 usec\nrounds: 5"
           }
         ]
       }
