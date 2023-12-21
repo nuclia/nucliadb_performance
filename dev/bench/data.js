@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1703098271988,
+  "lastUpdate": 1703157538689,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -51416,6 +51416,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.1978416201174037e-7",
             "extra": "mean: 78.2174478692423 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "61f72f41cc5fcbbb7b36b93fef49b162de658370",
+          "message": "More resilient node fixture cleanup (#1686)\n\n* More resilient cleanup node\n\n* More resilient cleanup node\n\n* flaky tests",
+          "timestamp": "2023-12-21T11:10:36Z",
+          "tree_id": "2ed5370ca46336f5edaa41840a746ffb3960226e",
+          "url": "https://github.com/nuclia/nucliadb/commit/61f72f41cc5fcbbb7b36b93fef49b162de658370"
+        },
+        "date": 1703157536332,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13673.487589349854,
+            "unit": "iter/sec",
+            "range": "stddev: 9.773198797250485e-7",
+            "extra": "mean: 73.1342310047431 usec\nrounds: 5"
           }
         ]
       }
