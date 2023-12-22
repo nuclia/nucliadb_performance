@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1703271217994,
+  "lastUpdate": 1703273614549,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -51726,6 +51726,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 7.991637073117693e-7",
             "extra": "mean: 76.95390977932297 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "318ffd15443a18275330e1aa8fcb285a1442cb63",
+          "message": "fix bump to not bump deps when on doing a semver change (#1694)",
+          "timestamp": "2023-12-22T14:26:22-05:00",
+          "tree_id": "b2821b2f9184bb62140b22e92532031b0e36096e",
+          "url": "https://github.com/nuclia/nucliadb/commit/318ffd15443a18275330e1aa8fcb285a1442cb63"
+        },
+        "date": 1703273611876,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13317.30059460812,
+            "unit": "iter/sec",
+            "range": "stddev: 1.2088245043270803e-7",
+            "extra": "mean: 75.09029272830847 usec\nrounds: 5"
           }
         ]
       }
