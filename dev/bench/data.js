@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1704191533994,
+  "lastUpdate": 1704192558091,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -51850,6 +51850,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000017638635360002078",
             "extra": "mean: 75.89401389068027 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "140e72181e09e5b29e8998640161134e7c1ee22f",
+          "message": "Add debug messages to detect multiple containers using same port (#1691)\n\n* Add debug prints to check containers using same port\r\n\r\n* Format\r\n\r\n* Check for same container duplicated",
+          "timestamp": "2024-01-02T11:41:18+01:00",
+          "tree_id": "355347b2cb85d63a3eb0c3773bc7b1ab22e51ce8",
+          "url": "https://github.com/nuclia/nucliadb/commit/140e72181e09e5b29e8998640161134e7c1ee22f"
+        },
+        "date": 1704192555465,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12845.638161334115,
+            "unit": "iter/sec",
+            "range": "stddev: 2.651422947252102e-7",
+            "extra": "mean: 77.84743641698083 usec\nrounds: 5"
           }
         ]
       }
