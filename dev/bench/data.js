@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1704274479422,
+  "lastUpdate": 1704275336063,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -52005,6 +52005,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 5.189195459809245e-7",
             "extra": "mean: 78.4518086255657 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "43ea44190f398833fe848724a2c44bb23495f0a8",
+          "message": "New shards in stable channel use relations v2 (#1679)\n\n* New shards default to relations v2\r\n\r\n* Use rstest and enable stable and experimental suggest tests\r\n\r\n* Adjust suggest tests for new fuzzy relations\r\n\r\n* Fix search integration test due to new relations",
+          "timestamp": "2024-01-03T10:26:12+01:00",
+          "tree_id": "59246cbc9c5897f526a286105af7b95a3b534f00",
+          "url": "https://github.com/nuclia/nucliadb/commit/43ea44190f398833fe848724a2c44bb23495f0a8"
+        },
+        "date": 1704275333650,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12808.8450852903,
+            "unit": "iter/sec",
+            "range": "stddev: 9.993586135232157e-8",
+            "extra": "mean: 78.0710511635746 usec\nrounds: 5"
           }
         ]
       }
