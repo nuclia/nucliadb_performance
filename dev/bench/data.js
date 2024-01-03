@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1704205227275,
+  "lastUpdate": 1704274251364,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -51943,6 +51943,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 8.813493931183156e-7",
             "extra": "mean: 77.42096439676003 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "358aaa763ac5297fb8b4869e44ed2e8cdca2599f",
+          "message": "Fix workflows by adding relations2 to filters (#1697)\n\n* Add nucliadb_relations2 to all workflows needing it\r\n\r\n* Fix deprecated folder names",
+          "timestamp": "2024-01-03T10:24:03+01:00",
+          "tree_id": "c5880e8571bfb2f5fddba9d04ef4effc3e129ab0",
+          "url": "https://github.com/nuclia/nucliadb/commit/358aaa763ac5297fb8b4869e44ed2e8cdca2599f"
+        },
+        "date": 1704274248779,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12289.126402456917,
+            "unit": "iter/sec",
+            "range": "stddev: 1.9383611390293006e-7",
+            "extra": "mean: 81.37274914839136 usec\nrounds: 5"
           }
         ]
       }
