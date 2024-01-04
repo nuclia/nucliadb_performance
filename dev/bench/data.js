@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1704360095803,
+  "lastUpdate": 1704360482988,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -52191,6 +52191,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.8979084977827607e-7",
             "extra": "mean: 77.49185773091494 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4a7bb243b80d1b490068a998d6d196b809851f90",
+          "message": "Test agains all release channels in rust integration tests (#1690)",
+          "timestamp": "2024-01-04T10:10:55+01:00",
+          "tree_id": "cbeb317e56dc4bc31d2b50dc497505802d89edc1",
+          "url": "https://github.com/nuclia/nucliadb/commit/4a7bb243b80d1b490068a998d6d196b809851f90"
+        },
+        "date": 1704360480584,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13220.240497773322,
+            "unit": "iter/sec",
+            "range": "stddev: 9.753994021947364e-7",
+            "extra": "mean: 75.64158913511667 usec\nrounds: 5"
           }
         ]
       }
