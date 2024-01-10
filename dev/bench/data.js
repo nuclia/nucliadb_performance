@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1704869348420,
+  "lastUpdate": 1704869694620,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -52532,6 +52532,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.058015887386599e-7",
             "extra": "mean: 77.96265254510897 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4f6c44281ad32ac01d33d87963a2ef737fb50c6a",
+          "message": "Add security search to index node (#1707)",
+          "timestamp": "2024-01-10T07:26:55+01:00",
+          "tree_id": "b45a2da85bb4675dc314a3790b744b904435f33f",
+          "url": "https://github.com/nuclia/nucliadb/commit/4f6c44281ad32ac01d33d87963a2ef737fb50c6a"
+        },
+        "date": 1704869691811,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13232.37415253873,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000012394826072759568",
+            "extra": "mean: 75.57222826926659 usec\nrounds: 5"
           }
         ]
       }
