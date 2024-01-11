@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1704963768876,
+  "lastUpdate": 1704967922179,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -52749,6 +52749,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 9.343602787925933e-7",
             "extra": "mean: 76.30766304558985 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "javier@javiertorres.eu",
+            "name": "Javier Torres",
+            "username": "javitonino"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "de67e3d4fc3d8d5f79d835b55f55a3b4281e179d",
+          "message": "Don't suggest resources (#1714)\n\n* Sidecar protos no longer exist\r\n\r\n* Avoid suggesting resource IDs\r\n\r\n* Only return entities in /suggest relation search",
+          "timestamp": "2024-01-11T10:54:45+01:00",
+          "tree_id": "164acf6b8048aad523bd3dacc8d46d10d3d5f134",
+          "url": "https://github.com/nuclia/nucliadb/commit/de67e3d4fc3d8d5f79d835b55f55a3b4281e179d"
+        },
+        "date": 1704967919755,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12707.616746067908,
+            "unit": "iter/sec",
+            "range": "stddev: 1.3364388973757792e-7",
+            "extra": "mean: 78.69296186552273 usec\nrounds: 5"
           }
         ]
       }
