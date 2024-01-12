@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1705085046909,
+  "lastUpdate": 1705091543490,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -52873,6 +52873,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000001744922733126715",
             "extra": "mean: 77.94229724291029 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ed080cf8e36866bb83eb24772f317639ae2f378c",
+          "message": "Return secondary nodes too on cluster members endpoint (#1723)",
+          "timestamp": "2024-01-12T15:07:22+01:00",
+          "tree_id": "f04bc5b94ea96539031fbbaa9cd55a8a3823c944",
+          "url": "https://github.com/nuclia/nucliadb/commit/ed080cf8e36866bb83eb24772f317639ae2f378c"
+        },
+        "date": 1705091540525,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13129.559224315117,
+            "unit": "iter/sec",
+            "range": "stddev: 8.453819611959503e-7",
+            "extra": "mean: 76.16401913539207 usec\nrounds: 5"
           }
         ]
       }
