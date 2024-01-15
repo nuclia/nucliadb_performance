@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1705091543490,
+  "lastUpdate": 1705315474036,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -52904,6 +52904,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 8.453819611959503e-7",
             "extra": "mean: 76.16401913539207 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a90363e274b152f2172310bae5e6196d98c3291b",
+          "message": "Update Q&A dataset training (#1724)\n\n* Update protos to reflect new training\r\n\r\n* Train returns question and answer paragraphs\r\n\r\n* Update Q&A dataset to use new format\r\n\r\n* Handle get_paragraph errors while streaming Q&A\r\n\r\n* Lints\r\n\r\n* More lints",
+          "timestamp": "2024-01-15T11:36:43+01:00",
+          "tree_id": "77220bdf2b590aa3da4af6e3f8a54c1fee8a8a3b",
+          "url": "https://github.com/nuclia/nucliadb/commit/a90363e274b152f2172310bae5e6196d98c3291b"
+        },
+        "date": 1705315471117,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12871.398964322212,
+            "unit": "iter/sec",
+            "range": "stddev: 2.1432854237018987e-7",
+            "extra": "mean: 77.69163264784702 usec\nrounds: 5"
           }
         ]
       }
