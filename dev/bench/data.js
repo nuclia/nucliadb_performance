@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1705406931693,
+  "lastUpdate": 1705407576386,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -53214,6 +53214,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000011262201811954073",
             "extra": "mean: 77.0457499336142 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "javier@javiertorres.eu",
+            "name": "Javier Torres",
+            "username": "javitonino"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1330a47fc12883c472031e1daf0859de887d17d0",
+          "message": "Return NER family in entity suggestions (#1729)\n\nReturn NER family in entity suggestions",
+          "timestamp": "2024-01-16T12:21:19+01:00",
+          "tree_id": "60ad83bb61d1f18e9b08ee50067a5d01bceb8a05",
+          "url": "https://github.com/nuclia/nucliadb/commit/1330a47fc12883c472031e1daf0859de887d17d0"
+        },
+        "date": 1705407573421,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13172.524737154905,
+            "unit": "iter/sec",
+            "range": "stddev: 2.714951867974406e-7",
+            "extra": "mean: 75.91559097090654 usec\nrounds: 5"
           }
         ]
       }
