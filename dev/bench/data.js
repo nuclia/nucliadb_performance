@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1705406518758,
+  "lastUpdate": 1705406786701,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -53152,6 +53152,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.763326623393483e-7",
             "extra": "mean: 76.91199112528075 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4804ba2806f8de3621c1ee219eb4daa0c690dc8e",
+          "message": "Refactor shared read-only transaction logic (#1725)",
+          "timestamp": "2024-01-16T12:54:18+01:00",
+          "tree_id": "31cdc2cc5ef165ffb59a000c656377477743189d",
+          "url": "https://github.com/nuclia/nucliadb/commit/4804ba2806f8de3621c1ee219eb4daa0c690dc8e"
+        },
+        "date": 1705406783618,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12824.360838926852,
+            "unit": "iter/sec",
+            "range": "stddev: 4.333271677107868e-7",
+            "extra": "mean: 77.97659568066867 usec\nrounds: 5"
           }
         ]
       }
