@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1705439022242,
+  "lastUpdate": 1705439868117,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -53307,6 +53307,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000010744044144415136",
             "extra": "mean: 75.71897969372769 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f76082bba2e172ed4337be568fd0ef5c31b4984f",
+          "message": "Logging sentry integration (#1730)",
+          "timestamp": "2024-01-16T15:51:20-05:00",
+          "tree_id": "3d66c5f0af96083b7494427045e67de925b45068",
+          "url": "https://github.com/nuclia/nucliadb/commit/f76082bba2e172ed4337be568fd0ef5c31b4984f"
+        },
+        "date": 1705439865596,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12911.42934126208,
+            "unit": "iter/sec",
+            "range": "stddev: 7.862853822289366e-7",
+            "extra": "mean: 77.45075882530067 usec\nrounds: 5"
           }
         ]
       }
