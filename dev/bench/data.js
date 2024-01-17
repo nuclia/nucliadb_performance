@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1705485616318,
+  "lastUpdate": 1705486905328,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -53369,6 +53369,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000010528412386766309",
             "extra": "mean: 75.67711791048102 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "javier@javiertorres.eu",
+            "name": "Javier Torres",
+            "username": "javitonino"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8e42cb220df0ca5989faca65a9f654e9399b14a2",
+          "message": "Remove async cache provider (#1720)\n\n* Remove async cache provider\r\n\r\n* Run a single blocking task per grpc call\r\n\r\n* Remove shard cache traits\r\n\r\n* Format",
+          "timestamp": "2024-01-17T10:42:04+01:00",
+          "tree_id": "172a3be205c9978b9dd5be58aa30f88aebe58df3",
+          "url": "https://github.com/nuclia/nucliadb/commit/8e42cb220df0ca5989faca65a9f654e9399b14a2"
+        },
+        "date": 1705486902760,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12932.133745645791,
+            "unit": "iter/sec",
+            "range": "stddev: 2.3796535216329134e-7",
+            "extra": "mean: 77.32675981151965 usec\nrounds: 5"
           }
         ]
       }
