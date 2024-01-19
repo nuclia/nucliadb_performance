@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1705685209542,
+  "lastUpdate": 1705685550920,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -53772,6 +53772,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 8.50143308134075e-8",
             "extra": "mean: 77.19018494408783 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "44120086+hermeGarcia@users.noreply.github.com",
+            "name": "Herme",
+            "username": "hermeGarcia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f418b65d1c1aca9078133e1c4099c142ab8ffb9c",
+          "message": "stop replication when suspecting a partial shard (#1744)",
+          "timestamp": "2024-01-19T18:06:37+01:00",
+          "tree_id": "3abb323cf74e694e18d52b18b6fb0481254562d3",
+          "url": "https://github.com/nuclia/nucliadb/commit/f418b65d1c1aca9078133e1c4099c142ab8ffb9c"
+        },
+        "date": 1705685547792,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12921.083076168363,
+            "unit": "iter/sec",
+            "range": "stddev: 3.7604820555409336e-7",
+            "extra": "mean: 77.39289300324981 usec\nrounds: 5"
           }
         ]
       }
