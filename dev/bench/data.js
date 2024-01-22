@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1705914786259,
+  "lastUpdate": 1705919074119,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -54082,6 +54082,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00000320828694627675",
             "extra": "mean: 77.27891090052522 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "248a05092cc523e3ee02a1a33a3795b6bee3a881",
+          "message": "Move pg fixture to a separate file (#1746)",
+          "timestamp": "2024-01-22T11:17:13+01:00",
+          "tree_id": "d08a54e419cf1510b194f570b0b6f9f9c00ec6c1",
+          "url": "https://github.com/nuclia/nucliadb/commit/248a05092cc523e3ee02a1a33a3795b6bee3a881"
+        },
+        "date": 1705919071083,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13138.404969306408,
+            "unit": "iter/sec",
+            "range": "stddev: 4.876200385816964e-7",
+            "extra": "mean: 76.11273989012925 usec\nrounds: 5"
           }
         ]
       }
