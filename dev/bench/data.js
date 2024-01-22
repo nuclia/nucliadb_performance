@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1705919468721,
+  "lastUpdate": 1705924609751,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -54144,6 +54144,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 4.0642018688901264e-7",
             "extra": "mean: 77.91761308908463 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "da2e8f56cda5fa672c9c7933490ee584ff98e0ee",
+          "message": "Leave only one driver-storage combination on search tests (#1748)",
+          "timestamp": "2024-01-22T12:28:24+01:00",
+          "tree_id": "ade6de631caa71eabb3a4c75c8bebac5fd9a2a4b",
+          "url": "https://github.com/nuclia/nucliadb/commit/da2e8f56cda5fa672c9c7933490ee584ff98e0ee"
+        },
+        "date": 1705924607154,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12857.473645955688,
+            "unit": "iter/sec",
+            "range": "stddev: 1.911472371626859e-7",
+            "extra": "mean: 77.77577676113296 usec\nrounds: 5"
           }
         ]
       }
