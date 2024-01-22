@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1705930661209,
+  "lastUpdate": 1705935594040,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -54206,6 +54206,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 9.299819194952523e-7",
             "extra": "mean: 76.07615254566737 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6e0ad01bdc48a38a18bcd71bc0666a527569f68e",
+          "message": "More idiomatic replication settings using Duration (#1734)",
+          "timestamp": "2024-01-22T13:08:36+01:00",
+          "tree_id": "1b9aea6e5aea25c4e1b87fbf47b3dcefe380a49b",
+          "url": "https://github.com/nuclia/nucliadb/commit/6e0ad01bdc48a38a18bcd71bc0666a527569f68e"
+        },
+        "date": 1705935590991,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12864.14287328523,
+            "unit": "iter/sec",
+            "range": "stddev: 1.4128924996474286e-7",
+            "extra": "mean: 77.73545504354472 usec\nrounds: 5"
           }
         ]
       }
