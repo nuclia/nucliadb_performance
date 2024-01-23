@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1706025250463,
+  "lastUpdate": 1706036250040,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -54330,6 +54330,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 7.334450325766866e-8",
             "extra": "mean: 78.35811550532983 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fb0712a802711c0f986a9870d1c9aba71ae798f7",
+          "message": "Add summary kind to summarize endpoint (#1764)",
+          "timestamp": "2024-01-23T13:46:33-05:00",
+          "tree_id": "ea9559d9dd18a2d665d0433639eb00fe3280abed",
+          "url": "https://github.com/nuclia/nucliadb/commit/fb0712a802711c0f986a9870d1c9aba71ae798f7"
+        },
+        "date": 1706036247045,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13009.879232621099,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000010297539606278186",
+            "extra": "mean: 76.86466431545269 usec\nrounds: 5"
           }
         ]
       }
