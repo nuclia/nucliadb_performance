@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1706023822598,
+  "lastUpdate": 1706025250463,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -54299,6 +54299,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 3.5219884913422036e-7",
             "extra": "mean: 77.32807896320352 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f74d6c252f0dac337a39750792d142e21cd2b068",
+          "message": "Pass kbid as context to read replica feature (#1762)",
+          "timestamp": "2024-01-23T16:29:40+01:00",
+          "tree_id": "9b67f253137ab7bb488d1e3d7a2b4e88f373b400",
+          "url": "https://github.com/nuclia/nucliadb/commit/f74d6c252f0dac337a39750792d142e21cd2b068"
+        },
+        "date": 1706025247422,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12761.919981753275,
+            "unit": "iter/sec",
+            "range": "stddev: 7.334450325766866e-8",
+            "extra": "mean: 78.35811550532983 usec\nrounds: 5"
           }
         ]
       }
