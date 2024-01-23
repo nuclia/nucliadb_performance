@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1705935594040,
+  "lastUpdate": 1706016667441,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -54237,6 +54237,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.4128924996474286e-7",
             "extra": "mean: 77.73545504354472 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "javier@javiertorres.eu",
+            "name": "Javier Torres",
+            "username": "javitonino"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c67870ac1216a04096fb9dd9f6f50cc64c2b2e2b",
+          "message": "Fix flaky relation search test, in case UUID starts with (#1758)",
+          "timestamp": "2024-01-23T14:20:10+01:00",
+          "tree_id": "48e6d27cfcccc7632f0693358f45a31c4dd233f8",
+          "url": "https://github.com/nuclia/nucliadb/commit/c67870ac1216a04096fb9dd9f6f50cc64c2b2e2b"
+        },
+        "date": 1706016664598,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12887.24555746259,
+            "unit": "iter/sec",
+            "range": "stddev: 2.385970996903907e-7",
+            "extra": "mean: 77.59610038787011 usec\nrounds: 5"
           }
         ]
       }
