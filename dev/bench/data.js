@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1706016667441,
+  "lastUpdate": 1706023822598,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -54268,6 +54268,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.385970996903907e-7",
             "extra": "mean: 77.59610038787011 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a99b08a4c99dc5192828eed000ca02ac8a7a822d",
+          "message": "missing sentry setup (#1761)",
+          "timestamp": "2024-01-23T10:06:58-05:00",
+          "tree_id": "6d6e622633927ed20654c17db7e93f8784a63b5b",
+          "url": "https://github.com/nuclia/nucliadb/commit/a99b08a4c99dc5192828eed000ca02ac8a7a822d"
+        },
+        "date": 1706023819984,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12931.913134371913,
+            "unit": "iter/sec",
+            "range": "stddev: 3.5219884913422036e-7",
+            "extra": "mean: 77.32807896320352 usec\nrounds: 5"
           }
         ]
       }
