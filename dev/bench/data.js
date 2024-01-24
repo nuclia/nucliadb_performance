@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1706106384794,
+  "lastUpdate": 1706106596345,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -54516,6 +54516,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 8.632377142703554e-7",
             "extra": "mean: 76.79164874572278 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ramon@nuclia.com",
+            "name": "Ramon Navarro Bosch",
+            "username": "bloodbare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4dc7501882d1205fe399dcc443f99e12398da37d",
+          "message": "Remove Bucket driver from nucliadb_datasets (#1757)\n\n* Remove Bucket driver from nucliadb_datasets\r\n\r\n* WIP on deleting datasets\r\n\r\n* WIP\r\n\r\n* Fix\r\n\r\n* Fix\r\n\r\n* Fix sort\r\n\r\n* Fix lint\r\n\r\n* Update nucliadb_dataset/nucliadb_dataset/settings.py\r\n\r\nCo-authored-by: Joan Antoni RE <joanantoni.re16@gmail.com>\r\n\r\n---------\r\n\r\nCo-authored-by: Joan Antoni RE <joanantoni.re16@gmail.com>",
+          "timestamp": "2024-01-24T15:18:43+01:00",
+          "tree_id": "2c3222bfe88a4185e2152e3f1e7309be3a5f96f6",
+          "url": "https://github.com/nuclia/nucliadb/commit/4dc7501882d1205fe399dcc443f99e12398da37d"
+        },
+        "date": 1706106593157,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13331.868293645879,
+            "unit": "iter/sec",
+            "range": "stddev: 3.31814258499317e-7",
+            "extra": "mean: 75.00824175382915 usec\nrounds: 5"
           }
         ]
       }
