@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1706106782829,
+  "lastUpdate": 1706173093359,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -54578,6 +54578,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.1808676079927311e-7",
             "extra": "mean: 77.80047591972945 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "javier@javiertorres.eu",
+            "name": "Javier Torres",
+            "username": "javitonino"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4ac003700b50870f55dc1c8af3367dd99a6ef56f",
+          "message": "New LRU cache implementation (#1738)\n\nNew LRU cache implementation",
+          "timestamp": "2024-01-25T09:33:42+01:00",
+          "tree_id": "78c04dbc65fc74ae78bb245d237160585bfa9fce",
+          "url": "https://github.com/nuclia/nucliadb/commit/4ac003700b50870f55dc1c8af3367dd99a6ef56f"
+        },
+        "date": 1706173090611,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13307.601378764546,
+            "unit": "iter/sec",
+            "range": "stddev: 9.744836110424792e-7",
+            "extra": "mean: 75.14502212214882 usec\nrounds: 5"
           }
         ]
       }
