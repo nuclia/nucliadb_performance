@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1706173093359,
+  "lastUpdate": 1706195265432,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -54609,6 +54609,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 9.744836110424792e-7",
             "extra": "mean: 75.14502212214882 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "65c7d4f256d5e4edfc9e83f30fd8efec6f20b0d6",
+          "message": "Offer different strategies for building RAG prompt context (#1767)",
+          "timestamp": "2024-01-25T15:56:51+01:00",
+          "tree_id": "7ae5126d86f247e972c25c1ccc382cf3a2ee014a",
+          "url": "https://github.com/nuclia/nucliadb/commit/65c7d4f256d5e4edfc9e83f30fd8efec6f20b0d6"
+        },
+        "date": 1706195261738,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12673.459611039187,
+            "unit": "iter/sec",
+            "range": "stddev: 2.2050150430114456e-7",
+            "extra": "mean: 78.90505281832849 usec\nrounds: 5"
           }
         ]
       }
