@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1706287861162,
+  "lastUpdate": 1706288389952,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -54795,6 +54795,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.2817610124921905e-7",
             "extra": "mean: 77.11750156474562 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "javier@javiertorres.eu",
+            "name": "Javier Torres",
+            "username": "javitonino"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f930a08fa36c431c433960f82b5c91296a4e26be",
+          "message": "Add prometheus metrics to resource cache (#1774)\n\n* Add prometheus metrics to resource cache\r\n\r\n* Make resource cache tests more consistent when running single threaded",
+          "timestamp": "2024-01-26T17:42:21+01:00",
+          "tree_id": "922f3cf9cbaee75efa96689a4f18154db5ade88b",
+          "url": "https://github.com/nuclia/nucliadb/commit/f930a08fa36c431c433960f82b5c91296a4e26be"
+        },
+        "date": 1706288387292,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12888.267496857517,
+            "unit": "iter/sec",
+            "range": "stddev: 5.867173056171454e-7",
+            "extra": "mean: 77.589947620487 usec\nrounds: 5"
           }
         ]
       }
