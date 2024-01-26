@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1706195265432,
+  "lastUpdate": 1706274241141,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -54640,6 +54640,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.2050150430114456e-7",
             "extra": "mean: 78.90505281832849 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d4afd829d8ba9143432ebd2ed239189e7a2eb8ef",
+          "message": "More validation for rag strategies (#1776)",
+          "timestamp": "2024-01-26T13:53:34+01:00",
+          "tree_id": "af786bacc2d67a6c8c241b81106721d2bb30257c",
+          "url": "https://github.com/nuclia/nucliadb/commit/d4afd829d8ba9143432ebd2ed239189e7a2eb8ef"
+        },
+        "date": 1706274238558,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13028.533525895236,
+            "unit": "iter/sec",
+            "range": "stddev: 4.192637045977425e-7",
+            "extra": "mean: 76.75460925916346 usec\nrounds: 5"
           }
         ]
       }
