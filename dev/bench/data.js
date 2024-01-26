@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1706286187280,
+  "lastUpdate": 1706286455935,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -54733,6 +54733,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.8094158860353707e-7",
             "extra": "mean: 77.74116646530283 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bdcd37eaca0c8935c741f266e17e563ceb95801b",
+          "message": "Reduce heavy search integration tests (#1777)",
+          "timestamp": "2024-01-26T17:10:58+01:00",
+          "tree_id": "9d88e072f9fa2a372c649598768e1d749a644c2c",
+          "url": "https://github.com/nuclia/nucliadb/commit/bdcd37eaca0c8935c741f266e17e563ceb95801b"
+        },
+        "date": 1706286453281,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13160.87550353656,
+            "unit": "iter/sec",
+            "range": "stddev: 8.769192860891064e-7",
+            "extra": "mean: 75.9827869909781 usec\nrounds: 5"
           }
         ]
       }
