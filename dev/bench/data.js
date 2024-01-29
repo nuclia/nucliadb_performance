@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1706520780070,
+  "lastUpdate": 1706549913891,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -54950,6 +54950,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 7.847533776183533e-7",
             "extra": "mean: 77.3031821732607 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1f3d8b1415529929ffaccceb97f80f04848c4f4e",
+          "message": "Prefer read replicas when choosing nodes to search (#1768)\n\n* choose_node prefer secondaries when read_only\r\n\r\n* Implement a more clear node ranking\r\n\r\n* Test multiple combinations of nodes and read replicas\r\n\r\n* Lints\r\n\r\n* Use a more clear naming between shard and node replicas\r\n\r\n* Fix docstring\r\n\r\n* Renaming fixes\r\n\r\n* Test choose_node with standalone mode off",
+          "timestamp": "2024-01-29T18:33:20+01:00",
+          "tree_id": "56b835f15a05e08b6148cbf23f3230f3805e78fa",
+          "url": "https://github.com/nuclia/nucliadb/commit/1f3d8b1415529929ffaccceb97f80f04848c4f4e"
+        },
+        "date": 1706549911081,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13005.874425350195,
+            "unit": "iter/sec",
+            "range": "stddev: 2.994243311300572e-7",
+            "extra": "mean: 76.88833270993804 usec\nrounds: 5"
           }
         ]
       }
