@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1706288810724,
+  "lastUpdate": 1706520014766,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -54857,6 +54857,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 8.766350580772966e-7",
             "extra": "mean: 76.0508888035922 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2ab23037d1eaff853b24474d928796299688ef05",
+          "message": "Fix helm chart publishing (#1780)",
+          "timestamp": "2024-01-29T10:14:25+01:00",
+          "tree_id": "678fee3ca687011cb2284b7994c13d78670de6a1",
+          "url": "https://github.com/nuclia/nucliadb/commit/2ab23037d1eaff853b24474d928796299688ef05"
+        },
+        "date": 1706520012078,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12831.77185423168,
+            "unit": "iter/sec",
+            "range": "stddev: 6.625547646571925e-7",
+            "extra": "mean: 77.93156014305372 usec\nrounds: 5"
           }
         ]
       }
