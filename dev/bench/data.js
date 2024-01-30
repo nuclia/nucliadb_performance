@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1706604689200,
+  "lastUpdate": 1706626586729,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -55229,6 +55229,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000013683507917258907",
             "extra": "mean: 79.85856035630479 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "dc5c6b06a94fa71e3fb0bbd6d5503680d690d0b9",
+          "message": "Fix nua key check for standalone (#1785)",
+          "timestamp": "2024-01-30T09:51:14-05:00",
+          "tree_id": "c3535b23271952fc42eaa684be98c414e6b3fb37",
+          "url": "https://github.com/nuclia/nucliadb/commit/dc5c6b06a94fa71e3fb0bbd6d5503680d690d0b9"
+        },
+        "date": 1706626583534,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13244.157775169328,
+            "unit": "iter/sec",
+            "range": "stddev: 9.60544942115988e-7",
+            "extra": "mean: 75.50498997186817 usec\nrounds: 5"
           }
         ]
       }
