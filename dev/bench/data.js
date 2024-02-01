@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1706784611371,
+  "lastUpdate": 1706784903083,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -55477,6 +55477,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000023643577685037867",
             "extra": "mean: 78.11862989742323 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a177521fab5bc63f969e5cac83785d9cf5ca41c2",
+          "message": "Better observability for kb creation (#1793)\n\n* better logging for kb creation\r\n\r\n* fix\r\n\r\n* better log",
+          "timestamp": "2024-02-01T11:37:16+01:00",
+          "tree_id": "d1de0626c33e0db401e81aee4d151e3fe2c0bb5b",
+          "url": "https://github.com/nuclia/nucliadb/commit/a177521fab5bc63f969e5cac83785d9cf5ca41c2"
+        },
+        "date": 1706784899923,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13031.96004758936,
+            "unit": "iter/sec",
+            "range": "stddev: 4.839187563249111e-7",
+            "extra": "mean: 76.73442800225428 usec\nrounds: 5"
           }
         ]
       }
