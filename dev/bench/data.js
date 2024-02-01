@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1706802400096,
+  "lastUpdate": 1706802847748,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -55632,6 +55632,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.493888450567394e-7",
             "extra": "mean: 75.44191260086862 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0a1f4319d88b118d5563e17300ebb694bc2b286d",
+          "message": "Retry query to primary if secondary (read replica) fails (#1789)\n\n* Unrelated doc fix\r\n\r\n* Use function to get queried nodes debug info\r\n\r\n* Do not return redundant node_id nor queried_shards\r\n\r\n* Fallback to primary if secondary fails\r\n\r\n* More unrelated docs\r\n\r\n* Fix mocks on ingest consumer unit tests\r\n\r\n* Fix find debug flag\r\n\r\n* Fix warning due to marking all tests as async\r\n\r\n* Fix test\r\n\r\n* Lint...\r\n\r\n* Add test and fix debug_nodes_info\r\n\r\n* Update models for new nodes debug info",
+          "timestamp": "2024-02-01T16:41:47+01:00",
+          "tree_id": "08a3f9b62601c1e7a3bf9c91e515c5722a77437a",
+          "url": "https://github.com/nuclia/nucliadb/commit/0a1f4319d88b118d5563e17300ebb694bc2b286d"
+        },
+        "date": 1706802844549,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13623.196121712066,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000011466736447082302",
+            "extra": "mean: 73.40421374439754 usec\nrounds: 5"
           }
         ]
       }
