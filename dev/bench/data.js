@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1706794262221,
+  "lastUpdate": 1706794530362,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -55570,6 +55570,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 9.392814873521937e-7",
             "extra": "mean: 76.31416493802925 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "87c61c1d7400c256e55bd15ffd933ad389a0620a",
+          "message": "Delete inflight processing callbacks (#1792)",
+          "timestamp": "2024-02-01T08:18:42-05:00",
+          "tree_id": "4b7683d73cf2ed6cee8f3999a04a582a8226b8a8",
+          "url": "https://github.com/nuclia/nucliadb/commit/87c61c1d7400c256e55bd15ffd933ad389a0620a"
+        },
+        "date": 1706794527519,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13054.186167924041,
+            "unit": "iter/sec",
+            "range": "stddev: 6.236202571783795e-7",
+            "extra": "mean: 76.60377959501909 usec\nrounds: 5"
           }
         ]
       }
