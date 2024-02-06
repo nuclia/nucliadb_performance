@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1706889044973,
+  "lastUpdate": 1707217149290,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -55818,6 +55818,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 6.711363418459146e-7",
             "extra": "mean: 76.69244755957106 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "acd325b657f7940811a726f2ec8d138c5f0f8204",
+          "message": "Remove insight and filters legacy features (#1804)",
+          "timestamp": "2024-02-06T11:54:17+01:00",
+          "tree_id": "c38c969a7962c6dd47cbc23b4c619581ded8e2e6",
+          "url": "https://github.com/nuclia/nucliadb/commit/acd325b657f7940811a726f2ec8d138c5f0f8204"
+        },
+        "date": 1707217146571,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12831.643169005327,
+            "unit": "iter/sec",
+            "range": "stddev: 7.876755409589587e-7",
+            "extra": "mean: 77.93234169848859 usec\nrounds: 5"
           }
         ]
       }
