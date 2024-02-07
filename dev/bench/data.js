@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1707223411913,
+  "lastUpdate": 1707311889634,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -56004,6 +56004,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 6.453853773586139e-7",
             "extra": "mean: 77.60065614209098 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c98ca0ca04c6207825e4ff2d98a44fbc88ad7262",
+          "message": "Add nuclia zone as context for feature flags (#1807)",
+          "timestamp": "2024-02-07T14:13:23+01:00",
+          "tree_id": "7e5c541a018d1ecea0fadef231bbe0f32df6ef31",
+          "url": "https://github.com/nuclia/nucliadb/commit/c98ca0ca04c6207825e4ff2d98a44fbc88ad7262"
+        },
+        "date": 1707311886870,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12892.014916409658,
+            "unit": "iter/sec",
+            "range": "stddev: 5.039492052089677e-7",
+            "extra": "mean: 77.56739396315355 usec\nrounds: 5"
           }
         ]
       }
