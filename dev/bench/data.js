@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1707318525198,
+  "lastUpdate": 1707318971140,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -56221,6 +56221,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.19570082276516e-7",
             "extra": "mean: 76.79033649060153 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b170d0fa6d50f01553bd7133e19aa4817a511b1b",
+          "message": "Remove all kb configuration logic (#1808)\n\n* remove all kbconfig logic\r\n\r\n* fix tests",
+          "timestamp": "2024-02-07T16:03:10+01:00",
+          "tree_id": "637c6a5099595b9c9e6c4fc71813429eea2d0787",
+          "url": "https://github.com/nuclia/nucliadb/commit/b170d0fa6d50f01553bd7133e19aa4817a511b1b"
+        },
+        "date": 1707318968328,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12905.102159690045,
+            "unit": "iter/sec",
+            "range": "stddev: 3.1533987852978687e-7",
+            "extra": "mean: 77.48873179195492 usec\nrounds: 5"
           }
         ]
       }
