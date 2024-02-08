@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1707410076026,
+  "lastUpdate": 1707410377465,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -56531,6 +56531,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 7.478583573075527e-7",
             "extra": "mean: 77.28455405153461 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0fbe856647980798619320bfcd31972756a8314f",
+          "message": "Fix missing await on GCS debug info (#1813)\n\n* Fix missing await on GCS debug info\r\n\r\n* Add unit test for gcs delete kb response status",
+          "timestamp": "2024-02-08T17:21:15+01:00",
+          "tree_id": "3c62503cb2cb03c601758381e01b6e8a62d17822",
+          "url": "https://github.com/nuclia/nucliadb/commit/0fbe856647980798619320bfcd31972756a8314f"
+        },
+        "date": 1707410374605,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12897.962581995265,
+            "unit": "iter/sec",
+            "range": "stddev: 1.6012793567499107e-7",
+            "extra": "mean: 77.53162514178295 usec\nrounds: 5"
           }
         ]
       }
