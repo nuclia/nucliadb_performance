@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1707389006126,
+  "lastUpdate": 1707389428684,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -56407,6 +56407,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.809806357584614e-7",
             "extra": "mean: 76.87750843635199 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d10343f2534ae397dfa72041fb5306a1724027f6",
+          "message": "Misc improvements (#1802)\n\n* Do not spread global state\r\n\r\n* Fix typo\r\n\r\n* Add more context to GCS bucket delete conflicts\r\n\r\n* Use more descriptive names for colored output\r\n\r\n* Use same default molotov flags for every target\r\n\r\n* Do not report relation results different than queried\r\n\r\nWith relations v2, fuzzy results are returned, so this situations can\r\noccur often\r\n\r\n* Lints\r\n\r\n* Generic make with superpowers\r\n\r\n* Use make to call pytest in all our workflows\r\n\r\n* Use variable to simplify pytest targets\r\n\r\n* Fix benchmark.json path\r\n\r\n* Simplify make and fix search\r\n\r\n* Add test-cov-nucliadb\r\n\r\n* Add exception for unset utilities\r\n\r\n* Tweak variable names\r\n\r\n* Add fallback for status response\r\n\r\n* Add extra information to relations warning",
+          "timestamp": "2024-02-08T11:38:28+01:00",
+          "tree_id": "cad502a10cfa4d5bb0de0c7e30977c4842ec1fd7",
+          "url": "https://github.com/nuclia/nucliadb/commit/d10343f2534ae397dfa72041fb5306a1724027f6"
+        },
+        "date": 1707389425639,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13803.29873170091,
+            "unit": "iter/sec",
+            "range": "stddev: 1.1716498811513248e-7",
+            "extra": "mean: 72.44645062295012 usec\nrounds: 5"
           }
         ]
       }
