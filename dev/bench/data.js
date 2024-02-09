@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1707491780931,
+  "lastUpdate": 1707492064562,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -56717,6 +56717,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 8.555800709490463e-8",
             "extra": "mean: 77.51231969789018 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "20d97ecd3b5938004b3bfe36f913fb3570428e44",
+          "message": "Proxy Learning Config (#1810)",
+          "timestamp": "2024-02-09T16:02:56+01:00",
+          "tree_id": "f3e74573243e7a1c91201cff02a64f11096cc50b",
+          "url": "https://github.com/nuclia/nucliadb/commit/20d97ecd3b5938004b3bfe36f913fb3570428e44"
+        },
+        "date": 1707492061536,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12986.318185882663,
+            "unit": "iter/sec",
+            "range": "stddev: 9.652795771369333e-7",
+            "extra": "mean: 77.00411969630414 usec\nrounds: 5"
           }
         ]
       }
