@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1707831072938,
+  "lastUpdate": 1707831532683,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -57244,6 +57244,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.6355940774850177e-7",
             "extra": "mean: 74.6960768442668 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8e7e27b443d403d5e9cb6da988118d6aebd0bf96",
+          "message": "Fix purge command errors (#1824)\n\n* Add integration test for purge\r\n\r\n* Reschedule bucket elements removal if bucket is not empty\r\n\r\n* Use transaction context manager in kb purge\r\n\r\n* Use more readable conditionals\r\n\r\n* Remove unneeded abort (implicit with context manager)",
+          "timestamp": "2024-02-13T14:25:55+01:00",
+          "tree_id": "b6225a746b27a2d18f03cb91799825825a91f4c0",
+          "url": "https://github.com/nuclia/nucliadb/commit/8e7e27b443d403d5e9cb6da988118d6aebd0bf96"
+        },
+        "date": 1707831529625,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13220.924572685757,
+            "unit": "iter/sec",
+            "range": "stddev: 2.567554731223836e-7",
+            "extra": "mean: 75.6376753004087 usec\nrounds: 5"
           }
         ]
       }
