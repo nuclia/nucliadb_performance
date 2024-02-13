@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1707832690666,
+  "lastUpdate": 1707833229606,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -57337,6 +57337,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.1740075265335513e-7",
             "extra": "mean: 75.66814991965222 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "javier@javiertorres.eu",
+            "name": "Javier Torres",
+            "username": "javitonino"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e8643f5dc7db49b3e430fce5ec995b7d28ab920d",
+          "message": "Update rust version (#1822)\n\nUpdate rust version",
+          "timestamp": "2024-02-13T14:32:36+01:00",
+          "tree_id": "4736f6a2ff695128abae19ae1328f4049faa15c0",
+          "url": "https://github.com/nuclia/nucliadb/commit/e8643f5dc7db49b3e430fce5ec995b7d28ab920d"
+        },
+        "date": 1707833226733,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13053.124555839076,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000010669019615737265",
+            "extra": "mean: 76.6100097890101 usec\nrounds: 5"
           }
         ]
       }
