@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1707892742001,
+  "lastUpdate": 1707898272101,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -57461,6 +57461,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 3.0213409493729695e-7",
             "extra": "mean: 75.05352577466643 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7d6bbc427b36231fe760a5165f3c44f2224207b4",
+          "message": "Fix some global state in our tests (#1831)\n\n* Fix some global state in our tests\r\n\r\n* Undo redis aclose change",
+          "timestamp": "2024-02-14T09:05:47+01:00",
+          "tree_id": "406b53fa2a4b4039606bb95b17552ca0d9d1d6a6",
+          "url": "https://github.com/nuclia/nucliadb/commit/7d6bbc427b36231fe760a5165f3c44f2224207b4"
+        },
+        "date": 1707898268742,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13259.76029296032,
+            "unit": "iter/sec",
+            "range": "stddev: 1.4166826156388512e-7",
+            "extra": "mean: 75.41614462901757 usec\nrounds: 5"
           }
         ]
       }
