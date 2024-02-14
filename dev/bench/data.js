@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1707899045318,
+  "lastUpdate": 1707905655340,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -57554,6 +57554,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 5.309414134267474e-8",
             "extra": "mean: 75.84610599681643 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2f84bee8198dda8cb288c483287ff1a9ec515182",
+          "message": "Remove unused nucliadb_node settings (#1828)\n\n* Remove unused nucliadb_node settings\r\n\r\n* Remove unnecessary data_path fixture\r\n\r\n---------\r\n\r\nCo-authored-by: Ferran Llamas <ferran@nuclia.com>",
+          "timestamp": "2024-02-14T11:07:39+01:00",
+          "tree_id": "39ef01a8b5987ab0f43d7c3405f32a873d56b334",
+          "url": "https://github.com/nuclia/nucliadb/commit/2f84bee8198dda8cb288c483287ff1a9ec515182"
+        },
+        "date": 1707905651821,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12031.259353390045,
+            "unit": "iter/sec",
+            "range": "stddev: 2.203962373016855e-7",
+            "extra": "mean: 83.11681849982149 usec\nrounds: 5"
           }
         ]
       }
