@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1708016699302,
+  "lastUpdate": 1708016970431,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -58019,6 +58019,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.1185933827402038e-7",
             "extra": "mean: 74.93804903066115 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "33a090a100ec3440e6e6b9894c41ba553f5930e3",
+          "message": "Run merging relations in executor  (#1844)\n\n* Run in executor merging relations\r\n\r\n* fix mypy",
+          "timestamp": "2024-02-15T17:43:02+01:00",
+          "tree_id": "77be9657fa15e6030dc65eaa6cc6ba17b9fe231c",
+          "url": "https://github.com/nuclia/nucliadb/commit/33a090a100ec3440e6e6b9894c41ba553f5930e3"
+        },
+        "date": 1708016967464,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13307.581174712059,
+            "unit": "iter/sec",
+            "range": "stddev: 3.414398960701586e-7",
+            "extra": "mean: 75.14513621004738 usec\nrounds: 5"
           }
         ]
       }
