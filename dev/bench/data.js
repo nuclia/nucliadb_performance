@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1707994268904,
+  "lastUpdate": 1707994714775,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -57802,6 +57802,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000016327617172451343",
             "extra": "mean: 75.90103293800786 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e590bb4c2a39e629700c5a9c00ac76ef5c807845",
+          "message": "Fix error code parsing for AWS S3 responses (#1837)\n\n* Upgrade fake S3 docker image\r\n\r\n* Fix error code parsing for AWS S3 responses\r\n\r\n* Add unit tests to s3 parse_status_code\r\n\r\n* Revert \"Upgrade fake S3 docker image\"\r\n\r\nThis reverts commit ef109f07b67f8bcc4e13d389e488c0e66030d659.\r\n\r\n* Mypy...\r\n\r\n* Add mypy to pre-commit",
+          "timestamp": "2024-02-15T11:46:24+01:00",
+          "tree_id": "f7ad50b9287d46f16051a51994645c056c88a838",
+          "url": "https://github.com/nuclia/nucliadb/commit/e590bb4c2a39e629700c5a9c00ac76ef5c807845"
+        },
+        "date": 1707994711902,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13243.513303630334,
+            "unit": "iter/sec",
+            "range": "stddev: 1.7574884799612366e-7",
+            "extra": "mean: 75.50866428516957 usec\nrounds: 5"
           }
         ]
       }
