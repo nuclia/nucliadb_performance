@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1707906468554,
+  "lastUpdate": 1707985521119,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -57647,6 +57647,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.904429033658692e-7",
             "extra": "mean: 76.60443462976596 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "644d81755a796e00ddc13109ebc38cacf10cbb47",
+          "message": "Remove too much context from unrelated entities log (#1840)",
+          "timestamp": "2024-02-15T09:20:20+01:00",
+          "tree_id": "e4accde2fca76158a3329059a2b4f18a382c4bee",
+          "url": "https://github.com/nuclia/nucliadb/commit/644d81755a796e00ddc13109ebc38cacf10cbb47"
+        },
+        "date": 1707985518095,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13009.448312312063,
+            "unit": "iter/sec",
+            "range": "stddev: 2.91545350640108e-7",
+            "extra": "mean: 76.86721035307902 usec\nrounds: 5"
           }
         ]
       }
