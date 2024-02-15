@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1707995013224,
+  "lastUpdate": 1708002571485,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -57864,6 +57864,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 5.912476093105163e-7",
             "extra": "mean: 75.1179627523523 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f7f63446ef46e9334700252799d59a122f5c424f",
+          "message": "Use new public Predict API (#1841)\n\n* Proxy headers too: except the host\r\n\r\n* use new public api for predict\r\n\r\n* fix warning",
+          "timestamp": "2024-02-15T14:04:17+01:00",
+          "tree_id": "9669aec32f951c56206112cad4dc71f1747bff41",
+          "url": "https://github.com/nuclia/nucliadb/commit/f7f63446ef46e9334700252799d59a122f5c424f"
+        },
+        "date": 1708002568169,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13166.324934326483,
+            "unit": "iter/sec",
+            "range": "stddev: 1.552534694424856e-7",
+            "extra": "mean: 75.95133835660228 usec\nrounds: 5"
           }
         ]
       }
