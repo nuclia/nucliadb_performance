@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1707988347874,
+  "lastUpdate": 1707988635204,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -57740,6 +57740,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.3680736748085025e-7",
             "extra": "mean: 75.21437589453642 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "44a970a8ba3ab963b3da734026a69b60d8432799",
+          "message": "Fix GCS delete bucket status code (#1835)\n\n* Delete bucket returns a 204 in gcs instead of 200\r\n\r\n* Cleaning test\r\n\r\n* Raise a sentry error for unexpected status codes\r\n\r\n* Cleaner capture exception\r\n\r\n* Fix unit test for GCS\r\n\r\n* Fix pytest warning",
+          "timestamp": "2024-02-15T09:59:19+01:00",
+          "tree_id": "b16374842bdad5c1685127d04e40a084f440e47a",
+          "url": "https://github.com/nuclia/nucliadb/commit/44a970a8ba3ab963b3da734026a69b60d8432799"
+        },
+        "date": 1707988632325,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13110.823907444019,
+            "unit": "iter/sec",
+            "range": "stddev: 3.2623079558868044e-7",
+            "extra": "mean: 76.2728572254123 usec\nrounds: 5"
           }
         ]
       }
