@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1708333896809,
+  "lastUpdate": 1708334177005,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -58298,6 +58298,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.001862240856763e-7",
             "extra": "mean: 76.9910549496801 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e5a98aa4d84c9783dbf158b2f1d3da0a928dad79",
+          "message": "Do not check proxy headers anymore (#1846)",
+          "timestamp": "2024-02-19T09:15:37+01:00",
+          "tree_id": "d77199227ea536c951f61f64d85747b07c0f833c",
+          "url": "https://github.com/nuclia/nucliadb/commit/e5a98aa4d84c9783dbf158b2f1d3da0a928dad79"
+        },
+        "date": 1708334173581,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13499.317994729487,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000001126470784450739",
+            "extra": "mean: 74.07781640453452 usec\nrounds: 5"
           }
         ]
       }
