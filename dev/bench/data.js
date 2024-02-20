@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1708419439526,
+  "lastUpdate": 1708431660942,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -58639,6 +58639,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 4.0497254971702227e-7",
             "extra": "mean: 76.59182315919458 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c6f1cac94f0abf37aff639cab16c5d35f3670fa5",
+          "message": "Open grpc-stubs test requirement (#1848)\n\n* Open grpc-stubs requirement\r\n\r\n* Remove unnecessary type ignores\r\n\r\n* Set grpc-stubs to same other grpc libs version",
+          "timestamp": "2024-02-20T12:54:12+01:00",
+          "tree_id": "f90afe03875026e267f4f7c3ddaba23664c9a01f",
+          "url": "https://github.com/nuclia/nucliadb/commit/c6f1cac94f0abf37aff639cab16c5d35f3670fa5"
+        },
+        "date": 1708431657758,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13090.14356293771,
+            "unit": "iter/sec",
+            "range": "stddev: 1.6810451851948862e-7",
+            "extra": "mean: 76.3933562066739 usec\nrounds: 5"
           }
         ]
       }
