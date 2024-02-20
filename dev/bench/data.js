@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1708466601269,
+  "lastUpdate": 1708467035448,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -58763,6 +58763,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.854702505760151e-7",
             "extra": "mean: 75.83886429914702 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f90d169b699d52eef576ce3396f94fefd5233798",
+          "message": "more logging for rollover migration (#1836)",
+          "timestamp": "2024-02-20T22:58:24+01:00",
+          "tree_id": "d3c103854943f487e8decf2499aed0b4d3bbaee4",
+          "url": "https://github.com/nuclia/nucliadb/commit/f90d169b699d52eef576ce3396f94fefd5233798"
+        },
+        "date": 1708467032514,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13262.844484877007,
+            "unit": "iter/sec",
+            "range": "stddev: 2.525974971664681e-7",
+            "extra": "mean: 75.39860707408977 usec\nrounds: 5"
           }
         ]
       }
