@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1708419151211,
+  "lastUpdate": 1708419439526,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -58608,6 +58608,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.947412618808722e-7",
             "extra": "mean: 75.91450931639137 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "40a01f8c4a29bba1f1ad802e4b663137b1ede23a",
+          "message": "Fix Filter model validation (#1853)\n\n* Fix Filter model validarion\r\n\r\n* Recover and deprecate similarity attribute on KbConfig model\r\n\r\n* Support delete by slug in sdk",
+          "timestamp": "2024-02-20T09:39:45+01:00",
+          "tree_id": "4c5f8bce712fce3a1f1f6a70ca8db4c1a122dfad",
+          "url": "https://github.com/nuclia/nucliadb/commit/40a01f8c4a29bba1f1ad802e4b663137b1ede23a"
+        },
+        "date": 1708419436036,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13056.224003462092,
+            "unit": "iter/sec",
+            "range": "stddev: 4.0497254971702227e-7",
+            "extra": "mean: 76.59182315919458 usec\nrounds: 5"
           }
         ]
       }
