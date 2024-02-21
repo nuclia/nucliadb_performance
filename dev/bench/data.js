@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1708494794476,
+  "lastUpdate": 1708495088507,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -58887,6 +58887,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.9297426756108218e-7",
             "extra": "mean: 77.30940336822181 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1eda3025b582fce0ec41cc54a938b65c3a8db47b",
+          "message": "reduce max max shard size (#1857)",
+          "timestamp": "2024-02-20T17:31:05-05:00",
+          "tree_id": "b452926cf58d344be8ba40df91ee7e4ca6accedd",
+          "url": "https://github.com/nuclia/nucliadb/commit/1eda3025b582fce0ec41cc54a938b65c3a8db47b"
+        },
+        "date": 1708495085351,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13200.681842206086,
+            "unit": "iter/sec",
+            "range": "stddev: 2.196880393857984e-7",
+            "extra": "mean: 75.7536627239007 usec\nrounds: 5"
           }
         ]
       }
