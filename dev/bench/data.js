@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1708509117300,
+  "lastUpdate": 1708509395317,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -58980,6 +58980,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.9776603581101167e-7",
             "extra": "mean: 75.63159945867987 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e1e1c23154dae1d49bd1cfc3b248b12a76f8bf25",
+          "message": "fix replicate relations (#1858)\n\n* fix replicate relations\r\n\r\n* fix\r\n\r\n---------\r\n\r\nCo-authored-by: Javier Torres <javier@javiertorres.eu>",
+          "timestamp": "2024-02-21T10:48:11+01:00",
+          "tree_id": "22355e1cc884e9c248616446b04efd3a189f9d65",
+          "url": "https://github.com/nuclia/nucliadb/commit/e1e1c23154dae1d49bd1cfc3b248b12a76f8bf25"
+        },
+        "date": 1708509391981,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13236.915528349748,
+            "unit": "iter/sec",
+            "range": "stddev: 4.244605089692547e-8",
+            "extra": "mean: 75.54630063614755 usec\nrounds: 5"
           }
         ]
       }
