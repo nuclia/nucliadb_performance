@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1708495088507,
+  "lastUpdate": 1708508527475,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -58918,6 +58918,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.196880393857984e-7",
             "extra": "mean: 75.7536627239007 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "29d22b9af7f70736b6bed1c6d5e091117b4af882",
+          "message": "Remove unused gRPC methods from ingest servicer (#1851)\n\n* Remove unused GetKnowledgeBox and ListKnowledgeBoxes calls\r\n\r\n* Remove unused clean and upgrade calls\r\n\r\n* Remove unused Export ingest gRPC call\r\n\r\n* Fix test reindex\r\n\r\n* NIT rename\r\n\r\n---------\r\n\r\nCo-authored-by: Javier Torres <javier@javiertorres.eu>",
+          "timestamp": "2024-02-21T10:23:28+01:00",
+          "tree_id": "04e5aaa2512a68a052fe0072890e5396f0388587",
+          "url": "https://github.com/nuclia/nucliadb/commit/29d22b9af7f70736b6bed1c6d5e091117b4af882"
+        },
+        "date": 1708508524318,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12993.482289898102,
+            "unit": "iter/sec",
+            "range": "stddev: 1.7482897414459614e-7",
+            "extra": "mean: 76.96166260044538 usec\nrounds: 5"
           }
         ]
       }
