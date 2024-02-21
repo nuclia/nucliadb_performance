@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1708518446183,
+  "lastUpdate": 1708525293259,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -59197,6 +59197,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.552312264435203e-7",
             "extra": "mean: 79.65494992704731 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "20126e22acd7fe8beea4909338bf49759c74b4b5",
+          "message": "Add Merge gRPC method to index node writer (#1860)\n\n* Add Merge gRPC method to index node writer\r\n\r\n* Add a response for Merge operation\r\n\r\n* force merge impl (#1862)\r\n\r\n* fix\r\n\r\n* Update nucliadb_vectors/src/service/writer.rs\r\n\r\nCo-authored-by: Javier Torres <javier@javiertorres.eu>\r\n\r\n* node threshold\r\n\r\n* just merged segments go to the front\r\n\r\n* Add test for merge gRPC call\r\n\r\n---------\r\n\r\nCo-authored-by: Herme <44120086+hermeGarcia@users.noreply.github.com>\r\nCo-authored-by: herme garcia <hermegarcianavarro@gmail.com>\r\nCo-authored-by: Javier Torres <javier@javiertorres.eu>",
+          "timestamp": "2024-02-21T15:10:38+01:00",
+          "tree_id": "c5750ccab258ca2f092ea3bf158c8aa50ab5108c",
+          "url": "https://github.com/nuclia/nucliadb/commit/20126e22acd7fe8beea4909338bf49759c74b4b5"
+        },
+        "date": 1708525290236,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13243.625524018804,
+            "unit": "iter/sec",
+            "range": "stddev: 1.589906891789183e-7",
+            "extra": "mean: 75.50802445949469 usec\nrounds: 5"
           }
         ]
       }
