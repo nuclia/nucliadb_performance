@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1708590227058,
+  "lastUpdate": 1708590559358,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -59445,6 +59445,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 5.550416678837152e-7",
             "extra": "mean: 76.40297819928425 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9fa81946b4210eeb2eb64d49ff4514995b37be2e",
+          "message": "Do not scan_keys on getting labelsets (#1863)",
+          "timestamp": "2024-02-22T09:11:25+01:00",
+          "tree_id": "73c9942ff18b9d1d8f403dd02bbe49bf9fa59265",
+          "url": "https://github.com/nuclia/nucliadb/commit/9fa81946b4210eeb2eb64d49ff4514995b37be2e"
+        },
+        "date": 1708590556252,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13128.751866869872,
+            "unit": "iter/sec",
+            "range": "stddev: 4.2857737123951755e-7",
+            "extra": "mean: 76.16870286988049 usec\nrounds: 5"
           }
         ]
       }
