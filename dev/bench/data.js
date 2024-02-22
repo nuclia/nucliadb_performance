@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1708618354758,
+  "lastUpdate": 1708618809638,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -59507,6 +59507,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.6310428948777291e-7",
             "extra": "mean: 76.07522925434012 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bce99c641efeea1eb7b72414e93a79f6c5bae43a",
+          "message": "Scan keys less often on ingest (#1868)",
+          "timestamp": "2024-02-22T17:07:25+01:00",
+          "tree_id": "78b1c49a0aa618f4a9ca063c815e81d724aec272",
+          "url": "https://github.com/nuclia/nucliadb/commit/bce99c641efeea1eb7b72414e93a79f6c5bae43a"
+        },
+        "date": 1708618806526,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13074.207897089702,
+            "unit": "iter/sec",
+            "range": "stddev: 3.647568306379297e-7",
+            "extra": "mean: 76.4864692279062 usec\nrounds: 5"
           }
         ]
       }
