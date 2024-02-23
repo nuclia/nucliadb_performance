@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1708619110859,
+  "lastUpdate": 1708672659680,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -59569,6 +59569,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.162259110615481e-7",
             "extra": "mean: 75.15693533009497 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9831636f397f40d68049bbd18df50a5b9e378da5",
+          "message": "fix node scheduling for rollover shards (#1873)\n\n* fix node scheduling for rollover shards\r\n\r\n* fix",
+          "timestamp": "2024-02-23T08:12:54+01:00",
+          "tree_id": "c722d200bd1de1dbb700899c47273957f482ff95",
+          "url": "https://github.com/nuclia/nucliadb/commit/9831636f397f40d68049bbd18df50a5b9e378da5"
+        },
+        "date": 1708672656708,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13211.433960265105,
+            "unit": "iter/sec",
+            "range": "stddev: 2.569743932193467e-7",
+            "extra": "mean: 75.69201064832284 usec\nrounds: 5"
           }
         ]
       }
