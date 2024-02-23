@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1708700730503,
+  "lastUpdate": 1708701167906,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -59693,6 +59693,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 8.576416084132988e-7",
             "extra": "mean: 74.91122494946728 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "479b710645b2b64fad411324ae40d41324ff46ec",
+          "message": "Proxy learning collector feedback (#1874)\n\n* refactor to ease feedback integration\r\n\r\n* Proxy learning collector feedback endpoints\r\n\r\n* Add virtual service\r\n\r\n* Fix tests",
+          "timestamp": "2024-02-23T16:00:51+01:00",
+          "tree_id": "4749d026dcc54a35b8f3950952c44d4cfdcb8784",
+          "url": "https://github.com/nuclia/nucliadb/commit/479b710645b2b64fad411324ae40d41324ff46ec"
+        },
+        "date": 1708701164771,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13340.545591018295,
+            "unit": "iter/sec",
+            "range": "stddev: 4.592118463113261e-7",
+            "extra": "mean: 74.9594529831871 usec\nrounds: 5"
           }
         ]
       }
