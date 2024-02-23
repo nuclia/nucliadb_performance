@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1708706668655,
+  "lastUpdate": 1708706950799,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -59910,6 +59910,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 8.620324768499231e-7",
             "extra": "mean: 75.93410085388322 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7239116cce6631345cfeac6b6c63427c996db03e",
+          "message": "Add BucketNotEmpty as S3 string error codes (#1878)",
+          "timestamp": "2024-02-23T17:31:34+01:00",
+          "tree_id": "601b3e7662d1fe23aa93d84db7bb31d279926ac4",
+          "url": "https://github.com/nuclia/nucliadb/commit/7239116cce6631345cfeac6b6c63427c996db03e"
+        },
+        "date": 1708706947323,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13174.186971025489,
+            "unit": "iter/sec",
+            "range": "stddev: 2.0249809638619302e-7",
+            "extra": "mean: 75.90601243168476 usec\nrounds: 5"
           }
         ]
       }
