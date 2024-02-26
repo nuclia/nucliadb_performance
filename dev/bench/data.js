@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1708937800887,
+  "lastUpdate": 1708938623700,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -60065,6 +60065,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.3588619297030918e-7",
             "extra": "mean: 76.38665149700387 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "59defe444e21609650b6a5b129e724261d97422d",
+          "message": "Add resources for jaeger agent (#1880)",
+          "timestamp": "2024-02-26T09:50:28+01:00",
+          "tree_id": "cc1bf50a32258e3968da15061323a850e74042ca",
+          "url": "https://github.com/nuclia/nucliadb/commit/59defe444e21609650b6a5b129e724261d97422d"
+        },
+        "date": 1708938620544,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12960.002982368182,
+            "unit": "iter/sec",
+            "range": "stddev: 1.799149216311881e-7",
+            "extra": "mean: 77.16047607091444 usec\nrounds: 5"
           }
         ]
       }
