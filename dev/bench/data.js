@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1708940709953,
+  "lastUpdate": 1708940975291,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -60189,6 +60189,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000012867181069043658",
             "extra": "mean: 75.42786352119074 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ramon@nuclia.com",
+            "name": "Ramon Navarro Bosch",
+            "username": "bloodbare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2d1cfe3fbe0cc36803c272f203c9a98222491b40",
+          "message": "Upgrade S3 dependencies (#1879)",
+          "timestamp": "2024-02-26T09:52:00+01:00",
+          "tree_id": "8bdfcacf12123034fc31ce83b0c0f293429e8135",
+          "url": "https://github.com/nuclia/nucliadb/commit/2d1cfe3fbe0cc36803c272f203c9a98222491b40"
+        },
+        "date": 1708940972039,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13207.79308677786,
+            "unit": "iter/sec",
+            "range": "stddev: 7.58683833706595e-7",
+            "extra": "mean: 75.71287598388305 usec\nrounds: 5"
           }
         ]
       }
