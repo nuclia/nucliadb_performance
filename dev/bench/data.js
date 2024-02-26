@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1708935740122,
+  "lastUpdate": 1708936041884,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -60003,6 +60003,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 5.496702578486108e-7",
             "extra": "mean: 75.91273019006469 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "53edc50ff18bc36eea6e2c0d638cb945a09be0cb",
+          "message": "Purge orphan shards (#1838)\n\n* Remove duplicated fixture\r\n\r\nnucliadb can access ingest's fixtures\r\n\r\n* Add list_shards call to abstract index node\r\n\r\n* Fix ListShards call for standalone\r\n\r\n* Add test to validate purge orphan shards\r\n\r\n* Implement orphan shard purge\r\n\r\n* Implement orphan shard detection and add a command\r\n\r\n* Revert \"Implement orphan shard purge\"\r\n\r\nThis reverts commit 206c45d0b07993bec029d666b5066b1675af4797.\r\n\r\n* Lints\r\n\r\n* Lint\r\n\r\n* mypy\r\n\r\n* Always report orphan shards\r\n\r\n* Only get shard details for orphan shards\r\n\r\n* Lints and small corrections\r\n\r\n* Move purge outside ingest\r\n\r\n* Rename script and add purge option\r\n\r\n* Do not log every time for unavailable nodes\r\n\r\n* Validate orphan shards don't come from a rollover\r\n\r\n* Move is_rollover_shard to rollover data manager\r\n\r\n* Test orphan shard detection\r\n\r\n* Simplify\r\n\r\n* Skip stored but not indexed error for shards from unavailable nodes",
+          "timestamp": "2024-02-26T09:08:57+01:00",
+          "tree_id": "f1cb602cb3c71dba2bf920bbdcf0a483b0290eab",
+          "url": "https://github.com/nuclia/nucliadb/commit/53edc50ff18bc36eea6e2c0d638cb945a09be0cb"
+        },
+        "date": 1708936038461,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12714.635625075784,
+            "unit": "iter/sec",
+            "range": "stddev: 1.3962489171749928e-7",
+            "extra": "mean: 78.64952087402344 usec\nrounds: 5"
           }
         ]
       }
