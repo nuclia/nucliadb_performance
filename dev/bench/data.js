@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1709067622398,
+  "lastUpdate": 1709067925832,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -60468,6 +60468,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 5.823248484580569e-7",
             "extra": "mean: 76.3328604422804 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e8798b54c49aa7572945af1d556b77963b03c728",
+          "message": "Remove Unimplemented facets feature from find endpoints (#1882)\n\n* remove unimplemented facets feature from find endpoints\r\n\r\n* fix test",
+          "timestamp": "2024-02-27T21:47:37+01:00",
+          "tree_id": "42c30c6a113e2ec98f0df4ba2aebf1a512205945",
+          "url": "https://github.com/nuclia/nucliadb/commit/e8798b54c49aa7572945af1d556b77963b03c728"
+        },
+        "date": 1709067922668,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13243.06189117377,
+            "unit": "iter/sec",
+            "range": "stddev: 2.9175033070130737e-7",
+            "extra": "mean: 75.51123812737593 usec\nrounds: 5"
           }
         ]
       }
