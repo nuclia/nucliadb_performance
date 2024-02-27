@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1708940975291,
+  "lastUpdate": 1709031509509,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -60220,6 +60220,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 7.58683833706595e-7",
             "extra": "mean: 75.71287598388305 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "12ba672d16d71e1ba4b715ba9d2a1fca046440b8",
+          "message": "Collect learning id on chat audit (#1890)\n\n* Collect learning id on chat audit too\r\n\r\n* Collect learning id on chat audit too\r\n\r\n* fix flake",
+          "timestamp": "2024-02-27T11:53:50+01:00",
+          "tree_id": "9a9fc6a6c58e35b74a9808c5781c8a05d83d4958",
+          "url": "https://github.com/nuclia/nucliadb/commit/12ba672d16d71e1ba4b715ba9d2a1fca046440b8"
+        },
+        "date": 1709031506320,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13156.111510096767,
+            "unit": "iter/sec",
+            "range": "stddev: 1.7355170815445772e-7",
+            "extra": "mean: 76.010301313769 usec\nrounds: 5"
           }
         ]
       }
