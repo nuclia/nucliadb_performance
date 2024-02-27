@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1709034862363,
+  "lastUpdate": 1709045519408,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -60313,6 +60313,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 7.244482434038217e-7",
             "extra": "mean: 81.63723078641026 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "funollet@fastmail.fm",
+            "name": "Jordi Funollet",
+            "username": "funollet"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0fe16fe07bc0757349a2310e767029949b48c65d",
+          "message": "tests pull images from artifact repository (#1888)",
+          "timestamp": "2024-02-27T15:46:12+01:00",
+          "tree_id": "e5fb3f3170b9ad94ab13e8afd8f1eda00446caf2",
+          "url": "https://github.com/nuclia/nucliadb/commit/0fe16fe07bc0757349a2310e767029949b48c65d"
+        },
+        "date": 1709045516277,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13039.666927443668,
+            "unit": "iter/sec",
+            "range": "stddev: 2.3031344384080926e-7",
+            "extra": "mean: 76.6890753854587 usec\nrounds: 5"
           }
         ]
       }
