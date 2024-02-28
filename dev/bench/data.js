@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1709131006569,
+  "lastUpdate": 1709131458643,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -60530,6 +60530,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 3.554573800546782e-7",
             "extra": "mean: 73.99334964981999 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c047ecb471d9a7920f7070fde4f5d5fdc95cbd32",
+          "message": "add shards and node info on catalog (#1895)",
+          "timestamp": "2024-02-28T15:30:51+01:00",
+          "tree_id": "03aab11ac21f6f990e33369009c48b7163a91b86",
+          "url": "https://github.com/nuclia/nucliadb/commit/c047ecb471d9a7920f7070fde4f5d5fdc95cbd32"
+        },
+        "date": 1709131455491,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12957.466507227064,
+            "unit": "iter/sec",
+            "range": "stddev: 4.5307541699794783e-7",
+            "extra": "mean: 77.17558053823618 usec\nrounds: 5"
           }
         ]
       }
