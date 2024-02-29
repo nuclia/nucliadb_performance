@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1709198401956,
+  "lastUpdate": 1709217410768,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -60654,6 +60654,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.8046689563428166e-7",
             "extra": "mean: 75.50469511670771 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "85821f2f8e947e45f55078b22b26eb6439a850c7",
+          "message": "Add generative_model in chat request (#1866)\n\n* Add generative_model in chat request\r\n\r\n* Add to summarize too\r\n\r\n* add test to summarize too",
+          "timestamp": "2024-02-29T15:31:19+01:00",
+          "tree_id": "82a3d236b390179455953414c2c22299245dd55e",
+          "url": "https://github.com/nuclia/nucliadb/commit/85821f2f8e947e45f55078b22b26eb6439a850c7"
+        },
+        "date": 1709217407485,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13296.346532287034,
+            "unit": "iter/sec",
+            "range": "stddev: 1.0592805743105846e-7",
+            "extra": "mean: 75.20862949621059 usec\nrounds: 5"
           }
         ]
       }
