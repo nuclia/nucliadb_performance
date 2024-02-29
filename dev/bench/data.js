@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1709218142866,
+  "lastUpdate": 1709224083893,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -60747,6 +60747,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.7072635999666645e-7",
             "extra": "mean: 76.00762643749113 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "44120086+hermeGarcia@users.noreply.github.com",
+            "name": "Herme",
+            "username": "hermeGarcia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6413ce6d5884bbda9bb75bc3b15db5c71af867e3",
+          "message": "remove async merge (#1898)",
+          "timestamp": "2024-02-29T17:08:00+01:00",
+          "tree_id": "307cf399634e31ad2541b7c8c6b3e222e9e1b473",
+          "url": "https://github.com/nuclia/nucliadb/commit/6413ce6d5884bbda9bb75bc3b15db5c71af867e3"
+        },
+        "date": 1709224080397,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13093.521321308715,
+            "unit": "iter/sec",
+            "range": "stddev: 6.717560352162234e-7",
+            "extra": "mean: 76.373648880273 usec\nrounds: 5"
           }
         ]
       }
