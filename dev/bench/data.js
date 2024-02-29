@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1709131735374,
+  "lastUpdate": 1709197958005,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -60592,6 +60592,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.5595506669872396e-7",
             "extra": "mean: 76.66246345595904 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6c91d35c7390dd9f299ea7684cbdcddd80d222ba",
+          "message": "Place new shards on nodes based on disk space available (#1891)\n\n* wip\r\n\r\n* done\r\n\r\n* Fix test\r\n\r\n* fix more tests\r\n\r\n* on another try/catch\r\n\r\n* better naming",
+          "timestamp": "2024-02-29T10:07:22+01:00",
+          "tree_id": "f21fda9a38c52a7dd6b4d60e8bf131db553a02ee",
+          "url": "https://github.com/nuclia/nucliadb/commit/6c91d35c7390dd9f299ea7684cbdcddd80d222ba"
+        },
+        "date": 1709197954832,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13109.74564240289,
+            "unit": "iter/sec",
+            "range": "stddev: 1.8183762013219253e-7",
+            "extra": "mean: 76.27913060079095 usec\nrounds: 5"
           }
         ]
       }
