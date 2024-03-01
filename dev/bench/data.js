@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1709226158291,
+  "lastUpdate": 1709284224282,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -60933,6 +60933,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.1272265835999675e-7",
             "extra": "mean: 75.44877028626728 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1b9b61691469bf0ad5af90421ce931da1dd43935",
+          "message": "Handle shard not found errors while indexing (#1900)\n\n* handle shard not found errors\r\n\r\n* Add delay before nack",
+          "timestamp": "2024-03-01T10:04:33+01:00",
+          "tree_id": "f32c965ae3c098d1b7564b2ca6ef7b880d08e349",
+          "url": "https://github.com/nuclia/nucliadb/commit/1b9b61691469bf0ad5af90421ce931da1dd43935"
+        },
+        "date": 1709284221077,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13183.160051944034,
+            "unit": "iter/sec",
+            "range": "stddev: 3.581426189363368e-7",
+            "extra": "mean: 75.8543472171937 usec\nrounds: 5"
           }
         ]
       }
