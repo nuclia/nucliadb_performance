@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1709571029476,
+  "lastUpdate": 1709571428366,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -61088,6 +61088,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.550949866951229e-7",
             "extra": "mean: 77.08462140032354 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "affee5d047c7ecfd9687349d4a2d25c55bab13b3",
+          "message": "Handle more shard not found node errors (#1902)\n\n* Handle more shard not found errors\r\n\r\n* Add test\r\n\r\n* fix flake",
+          "timestamp": "2024-03-04T17:35:42+01:00",
+          "tree_id": "4452690af5d2d980acc63d698ccc20947c54d039",
+          "url": "https://github.com/nuclia/nucliadb/commit/affee5d047c7ecfd9687349d4a2d25c55bab13b3"
+        },
+        "date": 1709571424995,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12977.524505327245,
+            "unit": "iter/sec",
+            "range": "stddev: 7.3364655906075e-8",
+            "extra": "mean: 77.05629834021907 usec\nrounds: 5"
           }
         ]
       }
