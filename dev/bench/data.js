@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1709571428366,
+  "lastUpdate": 1709584587488,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -61119,6 +61119,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 7.3364655906075e-8",
             "extra": "mean: 77.05629834021907 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ramon@nuclia.com",
+            "name": "Ramon Navarro Bosch",
+            "username": "bloodbare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5c0ae5ea848045e1731ef4c2b24df55cd4a9f58e",
+          "message": "Add table protobuf (#1904)\n\n* Add table protobuf\r\n\r\n* Proposal\r\n\r\n* Fix",
+          "timestamp": "2024-03-04T21:30:05+01:00",
+          "tree_id": "b15b8d0367614ed6ab341e719b7eddb27a20b5a7",
+          "url": "https://github.com/nuclia/nucliadb/commit/5c0ae5ea848045e1731ef4c2b24df55cd4a9f58e"
+        },
+        "date": 1709584583945,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13208.532491650316,
+            "unit": "iter/sec",
+            "range": "stddev: 3.701809909924997e-7",
+            "extra": "mean: 75.70863762739299 usec\nrounds: 5"
           }
         ]
       }
