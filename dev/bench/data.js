@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1709731968640,
+  "lastUpdate": 1709732420541,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -61243,6 +61243,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 9.90299262096188e-7",
             "extra": "mean: 76.07875541190697 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "c.iniesta@gmail.com",
+            "name": "Carmen Iniesta",
+            "username": "Ciniesta"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f7176f7b30360f62c88a642a8437894ddb120793",
+          "message": "add css selector to linkfield (#1911)\n\n* add css selector to linkfield\r\n\r\nadds css selector to linkfield to support new link parsing functionality\r\n\r\n* adds protos and update\r\n\r\n* linting fixes\r\n\r\n* Add integration test\r\n\r\n* remove extra css_selector\r\n\r\n* adds field info and fixes test\r\n\r\n---------\r\n\r\nCo-authored-by: Ferran Llamas <llamas.arroniz@gmail.com>",
+          "timestamp": "2024-03-06T14:27:15+01:00",
+          "tree_id": "89dfdd1e8a7940021eb03d804f552044d25b8053",
+          "url": "https://github.com/nuclia/nucliadb/commit/f7176f7b30360f62c88a642a8437894ddb120793"
+        },
+        "date": 1709732417372,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13301.223887555136,
+            "unit": "iter/sec",
+            "range": "stddev: 6.933458465739734e-7",
+            "extra": "mean: 75.18105164259494 usec\nrounds: 5"
           }
         ]
       }
