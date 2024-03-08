@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1709903691925,
+  "lastUpdate": 1709908530762,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -61677,6 +61677,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 3.1485314216486073e-7",
             "extra": "mean: 76.50766859323308 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "63900ab84570568eea4f8d065edba9347d5641da",
+          "message": "Revert can process logic on processed consumer (#1921)\n\n* Revert \"Fix can process (#1919)\"\r\n\r\nThis reverts commit 326190886b0c6f9bd06d564e41b56cc870eb28aa.\r\n\r\n* Revert \"Back off processed consumers when node indexing queues are behind (#1918)\"\r\n\r\nThis reverts commit f4c845546f2e2db882f824d477505eff22abda5d.",
+          "timestamp": "2024-03-08T15:30:22+01:00",
+          "tree_id": "15a01797692bd723d232b7d115c5e14c4aa39b4f",
+          "url": "https://github.com/nuclia/nucliadb/commit/63900ab84570568eea4f8d065edba9347d5641da"
+        },
+        "date": 1709908527165,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13179.44419042989,
+            "unit": "iter/sec",
+            "range": "stddev: 4.058887543506644e-7",
+            "extra": "mean: 75.87573387397771 usec\nrounds: 5"
           }
         ]
       }
