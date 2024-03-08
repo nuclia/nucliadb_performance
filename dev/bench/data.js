@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1709899079628,
+  "lastUpdate": 1709899544696,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -61522,6 +61522,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 3.406609433180554e-7",
             "extra": "mean: 76.71584174048434 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f4c845546f2e2db882f824d477505eff22abda5d",
+          "message": "Back off processed consumers when node indexing queues are behind (#1918)\n\n* done\r\n\r\n* handle consumer not found\r\n\r\n* Better",
+          "timestamp": "2024-03-08T12:53:22+01:00",
+          "tree_id": "682f801ef0dd9dd4e0dee7caec00eaff4b533c1c",
+          "url": "https://github.com/nuclia/nucliadb/commit/f4c845546f2e2db882f824d477505eff22abda5d"
+        },
+        "date": 1709899541290,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13429.5387061964,
+            "unit": "iter/sec",
+            "range": "stddev: 1.0251406684340073e-7",
+            "extra": "mean: 74.46272145882413 usec\nrounds: 5"
           }
         ]
       }
