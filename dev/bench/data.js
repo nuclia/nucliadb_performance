@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1709909283391,
+  "lastUpdate": 1710177044983,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -61770,6 +61770,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 5.107393552822351e-7",
             "extra": "mean: 76.09280606095572 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0d725a036719e4630aa0e71377e91178d9941429",
+          "message": "Improve NER performance (#1914)",
+          "timestamp": "2024-03-11T18:00:30+01:00",
+          "tree_id": "9c2b3cd8163bc38b6d511550279bf6c92c76491b",
+          "url": "https://github.com/nuclia/nucliadb/commit/0d725a036719e4630aa0e71377e91178d9941429"
+        },
+        "date": 1710177040822,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13334.24763378671,
+            "unit": "iter/sec",
+            "range": "stddev: 8.033476538054248e-7",
+            "extra": "mean: 74.99485741259001 usec\nrounds: 5"
           }
         ]
       }
