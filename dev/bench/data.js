@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1710260739808,
+  "lastUpdate": 1710261013693,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -62018,6 +62018,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.3850680130770703e-7",
             "extra": "mean: 76.99444970693683 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fee77972a2329d92614bbc3af0b6f6f6749aeb2d",
+          "message": "Deprecated unused ShardObject.timestamp (#1930)",
+          "timestamp": "2024-03-12T17:11:26+01:00",
+          "tree_id": "66d60393baf00feeec72e6ebae73d2ed5c6bc19c",
+          "url": "https://github.com/nuclia/nucliadb/commit/fee77972a2329d92614bbc3af0b6f6f6749aeb2d"
+        },
+        "date": 1710261010312,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13040.220124105886,
+            "unit": "iter/sec",
+            "range": "stddev: 1.8561748028058565e-7",
+            "extra": "mean: 76.68582205536701 usec\nrounds: 5"
           }
         ]
       }
