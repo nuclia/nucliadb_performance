@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1710261013693,
+  "lastUpdate": 1710262504370,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -62049,6 +62049,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.8561748028058565e-7",
             "extra": "mean: 76.68582205536701 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "edfae9966c48960fc37f8d79018e581edb7fa2e8",
+          "message": "update otel integration (#1931)",
+          "timestamp": "2024-03-12T12:45:40-04:00",
+          "tree_id": "f009106722c10b3eccb1711a6aa0106a786e3f32",
+          "url": "https://github.com/nuclia/nucliadb/commit/edfae9966c48960fc37f8d79018e581edb7fa2e8"
+        },
+        "date": 1710262501091,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13054.605100345343,
+            "unit": "iter/sec",
+            "range": "stddev: 1.8457925112528023e-7",
+            "extra": "mean: 76.60132132020954 usec\nrounds: 5"
           }
         ]
       }
