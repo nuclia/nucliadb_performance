@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1710319153569,
+  "lastUpdate": 1710319579715,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -62204,6 +62204,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.3348030921455475e-7",
             "extra": "mean: 76.46945497708518 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "39b0fb68773077d7a32f9e9dd7579d3b1b915847",
+          "message": "Global merge scheduler for the index node (#1894)\n\n* Global merge scheduler for the index node\r\n\r\n* Add merge scheduler to bin/writer\r\n\r\n* Split merge module\r\n\r\n* Implement own data structure for work queues\r\n\r\nReplace BinaryHeap for faster deduplication\r\n\r\n* Implement merge request deduplication\r\n\r\n* Refactor, merge scheduler in gRPC, impl delay before housekeeping\r\n\r\n* Add initialize merger to index node bindings\r\n\r\n* Use a slice to define merge priorities\r\n\r\n* Add a finalizer for the merge scheduler\r\n\r\n* Add test for async waiter\r\n\r\n* Refactor scheduler internals. Use AtomicBool instead of Mutex<bool>\r\n\r\n* Move free time work scheduling to a setting\r\n\r\n* Pinned segments (#1897)\r\n\r\n* Pin logic\r\n\r\n* reader and writer for pinned segments\r\n\r\n* happy clippy\r\n\r\n* garbage collector\r\n\r\n* garbage collector\r\n\r\n* garbage collection and data point\r\n\r\n* gc, test, reversable commits\r\n\r\n* ref\r\n\r\n* commits consume segments\r\n\r\n* garbage collector finished\r\n\r\n* garbage collector finished\r\n\r\n* merge operation\r\n\r\n* happy clippy\r\n\r\n* merge + tests\r\n\r\n* fix accidental pin drop\r\n\r\n* up to date\r\n\r\n* vectorset integration\r\n\r\n* pin integration\r\n\r\n* clean unused\r\n\r\n* fix test\r\n\r\n* updater for reader\r\n\r\n* gc\r\n\r\n* shards where being loaded on get\r\n\r\n* documenting + fixing\r\n\r\n* fixes\r\n\r\n* happy clippy\r\n\r\n* add gc to bindings\r\n\r\n* control intervals through env var\r\n\r\n* reload\r\n\r\n* Rewind buffer for loading 2 states\r\n\r\n* Reload write state on replication\r\n\r\n* Correct ordering of segments\r\n\r\n* dont merge if there is not enough work\r\n\r\n* fmt\r\n\r\n* merge on commit\r\n\r\n* dont hard fail if merger installed\r\n\r\n* Update shards in node_binding\r\n\r\n---------\r\n\r\nCo-authored-by: Herme <44120086+hermeGarcia@users.noreply.github.com>\r\nCo-authored-by: herme garcia <hermegarcianavarro@gmail.com>\r\nCo-authored-by: Javier Torres <javier@javiertorres.eu>",
+          "timestamp": "2024-03-13T09:16:31+01:00",
+          "tree_id": "6de8eefdb83608203b65aa45c839666258d2c281",
+          "url": "https://github.com/nuclia/nucliadb/commit/39b0fb68773077d7a32f9e9dd7579d3b1b915847"
+        },
+        "date": 1710319575891,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13310.945963614407,
+            "unit": "iter/sec",
+            "range": "stddev: 1.3636589604196411e-7",
+            "extra": "mean: 75.12614075164224 usec\nrounds: 5"
           }
         ]
       }
