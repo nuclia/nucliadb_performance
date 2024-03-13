@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1710351597182,
+  "lastUpdate": 1710352559873,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -62483,6 +62483,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 8.605948598879461e-7",
             "extra": "mean: 75.81148558463099 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fb65382a18c79bd798ef4b8bd0b4972eafbae00b",
+          "message": "Fix prefiltering for paragaphs (#1936)\n\n* fix paragraphs\r\n\r\n* fix paragraphs\r\n\r\n* fix paragraphs\r\n\r\n* Add paragaphs 2 to make it work with security searches\r\n\r\n* handle versions properly in planner (#1941)\r\n\r\n* stop_words added\r\n\r\n* lock file\r\n\r\n* add to dockerfiles\r\n\r\n* remove breakpoint\r\n\r\n---------\r\n\r\nCo-authored-by: Herme <44120086+hermeGarcia@users.noreply.github.com>\r\nCo-authored-by: herme garcia <hermegarcianavarro@gmail.com>",
+          "timestamp": "2024-03-13T17:58:40+01:00",
+          "tree_id": "97326db71881fd5cf27d2fa898f1e343ad949b3b",
+          "url": "https://github.com/nuclia/nucliadb/commit/fb65382a18c79bd798ef4b8bd0b4972eafbae00b"
+        },
+        "date": 1710352556554,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13278.59158642566,
+            "unit": "iter/sec",
+            "range": "stddev: 1.081297006463422e-7",
+            "extra": "mean: 75.30919175360981 usec\nrounds: 5"
           }
         ]
       }
