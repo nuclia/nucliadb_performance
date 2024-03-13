@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1710344957226,
+  "lastUpdate": 1710345243561,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -62297,6 +62297,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 5.189836310459799e-7",
             "extra": "mean: 76.40888931554392 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "83355241+drf7@users.noreply.github.com",
+            "name": "drf7",
+            "username": "drf7"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7d506e4b164848a5d01b21c83fd48900861a4c1c",
+          "message": "Sc 9261/add a custom cors middleware to nucliadb (#1929)",
+          "timestamp": "2024-03-13T16:34:01+01:00",
+          "tree_id": "1e1237f2fbfaec2f46cc998df9f099a18c195c1b",
+          "url": "https://github.com/nuclia/nucliadb/commit/7d506e4b164848a5d01b21c83fd48900861a4c1c"
+        },
+        "date": 1710345240255,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13247.246959901066,
+            "unit": "iter/sec",
+            "range": "stddev: 1.901730526535496e-7",
+            "extra": "mean: 75.48738262576094 usec\nrounds: 5"
           }
         ]
       }
