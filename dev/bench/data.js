@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1710775156315,
+  "lastUpdate": 1710775459470,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -62948,6 +62948,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000014432128008564247",
             "extra": "mean: 76.93530949017473 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5a4933524f2eafaae412951122352989b79aa1f9",
+          "message": "Learning config should only be deleted for onprem (#1958)",
+          "timestamp": "2024-03-18T16:01:15+01:00",
+          "tree_id": "c9c704360b82d47d00c1d33c3ef4647bbaf8c084",
+          "url": "https://github.com/nuclia/nucliadb/commit/5a4933524f2eafaae412951122352989b79aa1f9"
+        },
+        "date": 1710775456010,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12907.824654770615,
+            "unit": "iter/sec",
+            "range": "stddev: 1.984193740256982e-7",
+            "extra": "mean: 77.47238800849443 usec\nrounds: 5"
           }
         ]
       }
