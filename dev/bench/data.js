@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1710777817666,
+  "lastUpdate": 1710777966607,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -63010,6 +63010,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.6088161653157899e-7",
             "extra": "mean: 76.19865163757372 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "carlesba@gmail.com",
+            "name": "Carles Bruguera Artero",
+            "username": "sunbit"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1c656da4ab42ababba562ae62321059a0474e43f",
+          "message": "Debug if requests are getting the expected headers (#1960)\n\n* Debug if requests are getting the expected headers\r\n\r\n* Update cors.py\r\n\r\n* format",
+          "timestamp": "2024-03-18T17:00:15+01:00",
+          "tree_id": "2450f00ebc999cae73cd1855b1270f6fb03c9261",
+          "url": "https://github.com/nuclia/nucliadb/commit/1c656da4ab42ababba562ae62321059a0474e43f"
+        },
+        "date": 1710777963142,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12961.102276502326,
+            "unit": "iter/sec",
+            "range": "stddev: 7.531908242541598e-7",
+            "extra": "mean: 77.15393171558702 usec\nrounds: 5"
           }
         ]
       }
