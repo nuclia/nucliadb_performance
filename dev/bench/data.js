@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1710755233419,
+  "lastUpdate": 1710762090632,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -62669,6 +62669,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.8885393927223893e-7",
             "extra": "mean: 76.6285762581142 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "carlesba@gmail.com",
+            "name": "Carles Bruguera Artero",
+            "username": "sunbit"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "49c52e406a9772eb607d45197b51fc235e0265cf",
+          "message": "Accept all methods and all origins by default (#1957)\n\n* Rollback to accept all methods\r\n* Allow all origins by default, by removing wrong dev default origins",
+          "timestamp": "2024-03-18T12:36:30+01:00",
+          "tree_id": "4f4a24a41c6e157072521d4e4a98eb152957a082",
+          "url": "https://github.com/nuclia/nucliadb/commit/49c52e406a9772eb607d45197b51fc235e0265cf"
+        },
+        "date": 1710762087252,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13198.592726919436,
+            "unit": "iter/sec",
+            "range": "stddev: 1.0278529705101924e-7",
+            "extra": "mean: 75.76565325486796 usec\nrounds: 5"
           }
         ]
       }
