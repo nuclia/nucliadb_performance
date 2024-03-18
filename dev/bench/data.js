@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1710764529821,
+  "lastUpdate": 1710772857289,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -62762,6 +62762,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.2572180815288168e-7",
             "extra": "mean: 75.8877048244724 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "44120086+hermeGarcia@users.noreply.github.com",
+            "name": "Herme",
+            "username": "hermeGarcia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "671265d524e10a47e10433b233af8a7b2cf1a425",
+          "message": "Revert \"Revert global merge scheduler (#1937)\" (#1938)\n\n* rebase\r\n\r\n* as version 2\r\n\r\n* version 1 should not collect gc that often",
+          "timestamp": "2024-03-18T15:24:20+01:00",
+          "tree_id": "2c198eccbb227cbcb28ad203574f91002935b604",
+          "url": "https://github.com/nuclia/nucliadb/commit/671265d524e10a47e10433b233af8a7b2cf1a425"
+        },
+        "date": 1710772853739,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13182.634799932415,
+            "unit": "iter/sec",
+            "range": "stddev: 1.148962044368935e-7",
+            "extra": "mean: 75.85736957570325 usec\nrounds: 5"
           }
         ]
       }
