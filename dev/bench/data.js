@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1710754698751,
+  "lastUpdate": 1710755233419,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -62638,6 +62638,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.8287226889795134e-7",
             "extra": "mean: 76.63463291368987 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "83355241+drf7@users.noreply.github.com",
+            "name": "drf7",
+            "username": "drf7"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1d15bc89c5d12643c791851ef5b81b8e2fadb05e",
+          "message": "remove istio cors policy (#1953)\n\n* replace istio cors policy\r\n* rename allowed_domains to allow_origins",
+          "timestamp": "2024-03-18T10:33:21+01:00",
+          "tree_id": "e8295a04743721b69f7f0e42c62b9c7b06a1f856",
+          "url": "https://github.com/nuclia/nucliadb/commit/1d15bc89c5d12643c791851ef5b81b8e2fadb05e"
+        },
+        "date": 1710755230049,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13049.96189191379,
+            "unit": "iter/sec",
+            "range": "stddev: 1.8885393927223893e-7",
+            "extra": "mean: 76.6285762581142 usec\nrounds: 5"
           }
         ]
       }
