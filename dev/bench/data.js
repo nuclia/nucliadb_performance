@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1710853880596,
+  "lastUpdate": 1710855051916,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -63413,6 +63413,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.392164099130228e-7",
             "extra": "mean: 74.77735916952875 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "491576505bda8a132dff6fede9ecee8c591639e1",
+          "message": "Update shards protobuf to represent multiple writable shards (#1927)\n\n* Deprecate Shards.actual in favor of active to support multiple active shards\r\n\r\n* Expose shards data manager functions with txn\r\n\r\n* Remove unused function\r\n\r\n* Prefer data managers instead of spreading logic\r\n\r\n* Add read_only member to ShardObject\r\n\r\n* Utilize new read_only field to represent active shards\r\n\r\n* Add migration\r\n\r\n* Add commit to migration\r\n\r\n* Write migrated data...\r\n\r\n* Format migration\r\n\r\n* Fixing tests\r\n\r\n* Fixing tests\r\n\r\n* Reorganize common cluster unit tests\r\n\r\n* Dummy index nodes log calls per instance instead of class\r\n\r\n* Unit test shard creation logic\r\n\r\n* Don't raise exception if shards or current shard not found\r\n\r\n* Rename migration to be up to date\r\n\r\n* Rename migration after rebase\r\n\r\n* Add test for migration\r\n\r\n* Fix migration 16",
+          "timestamp": "2024-03-19T14:25:33+01:00",
+          "tree_id": "9e2a6fed798a0bd2c5fc03001c213dffe6b4eed4",
+          "url": "https://github.com/nuclia/nucliadb/commit/491576505bda8a132dff6fede9ecee8c591639e1"
+        },
+        "date": 1710855048115,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13124.635782592759,
+            "unit": "iter/sec",
+            "range": "stddev: 2.6650424055658057e-7",
+            "extra": "mean: 76.1925905270684 usec\nrounds: 5"
           }
         ]
       }
