@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1710856617969,
+  "lastUpdate": 1710856911602,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -63568,6 +63568,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 7.935592438639631e-7",
             "extra": "mean: 76.99982669700411 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f7aa9bb32f6461119378c6e9211bf47046fed663",
+          "message": "Upgrade nats version in fixtures (#1964)",
+          "timestamp": "2024-03-19T14:42:30+01:00",
+          "tree_id": "27a36809f7c40839578542046dea45a6d885c035",
+          "url": "https://github.com/nuclia/nucliadb/commit/f7aa9bb32f6461119378c6e9211bf47046fed663"
+        },
+        "date": 1710856908061,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12925.61192274108,
+            "unit": "iter/sec",
+            "range": "stddev: 3.4335106362898084e-7",
+            "extra": "mean: 77.3657762570311 usec\nrounds: 5"
           }
         ]
       }
