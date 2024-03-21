@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1711023111272,
+  "lastUpdate": 1711030622496,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -64002,6 +64002,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.9845817470168896e-7",
             "extra": "mean: 75.60260401105954 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2903229919c453049be2d2e538d59277487cea06",
+          "message": "Improve typing for traced jetstream (#1978)\n\n* Improve typing for traced jetstream\r\n\r\n* Fix test",
+          "timestamp": "2024-03-21T15:04:51+01:00",
+          "tree_id": "081c94167a04a0ad10e3ed164d8dfea14b4cf378",
+          "url": "https://github.com/nuclia/nucliadb/commit/2903229919c453049be2d2e538d59277487cea06"
+        },
+        "date": 1711030618933,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13085.619005305385,
+            "unit": "iter/sec",
+            "range": "stddev: 6.619281052586105e-7",
+            "extra": "mean: 76.41977040555464 usec\nrounds: 5"
           }
         ]
       }
