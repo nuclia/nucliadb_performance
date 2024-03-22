@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1711098135324,
+  "lastUpdate": 1711098602453,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -64095,6 +64095,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.252680555315891e-7",
             "extra": "mean: 76.85689948172272 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c942cec5668d94d6fdf9b7da6de23b34cf3af959",
+          "message": "Better docs for chat x sync (#1982)\n\n* Better docs for chat endpoint x-synchronous\r\n\r\n* Change message\r\n\r\n* Again",
+          "timestamp": "2024-03-22T09:57:00+01:00",
+          "tree_id": "2dd64b5360234b1da8372e4cceaab35a78f16e15",
+          "url": "https://github.com/nuclia/nucliadb/commit/c942cec5668d94d6fdf9b7da6de23b34cf3af959"
+        },
+        "date": 1711098598779,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13259.951416008118,
+            "unit": "iter/sec",
+            "range": "stddev: 2.0995084969889872e-7",
+            "extra": "mean: 75.41505761421924 usec\nrounds: 5"
           }
         ]
       }
