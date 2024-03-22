@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1711099710388,
+  "lastUpdate": 1711104942960,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -64219,6 +64219,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.776742302927682e-7",
             "extra": "mean: 75.9410418673045 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3041d9c1cff555f99a7f9ed13dc97dc1091b266e",
+          "message": "Add back pressure feature flag for non-disturbing testing (#1983)",
+          "timestamp": "2024-03-22T10:14:31+01:00",
+          "tree_id": "ea9b617e1b9e47b408c1d9357d0f57b373b71a64",
+          "url": "https://github.com/nuclia/nucliadb/commit/3041d9c1cff555f99a7f9ed13dc97dc1091b266e"
+        },
+        "date": 1711104939383,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13265.32102231436,
+            "unit": "iter/sec",
+            "range": "stddev: 9.611996437898954e-8",
+            "extra": "mean: 75.38453071115599 usec\nrounds: 5"
           }
         ]
       }
