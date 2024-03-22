@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1711130716918,
+  "lastUpdate": 1711133311208,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -64312,6 +64312,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.6029204742846638e-7",
             "extra": "mean: 74.90820474754092 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d8ea9a7536cc55f08606fd856e006adf8c3de2cb",
+          "message": "implement shard rebalancing (#1975)",
+          "timestamp": "2024-03-22T11:23:06-04:00",
+          "tree_id": "a594895324700a0960cf624046428568a2a9f648",
+          "url": "https://github.com/nuclia/nucliadb/commit/d8ea9a7536cc55f08606fd856e006adf8c3de2cb"
+        },
+        "date": 1711133307406,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13184.250488276572,
+            "unit": "iter/sec",
+            "range": "stddev: 1.0725067077682827e-7",
+            "extra": "mean: 75.8480734941436 usec\nrounds: 5"
           }
         ]
       }
