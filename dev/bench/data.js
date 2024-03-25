@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1711386554416,
+  "lastUpdate": 1711386855073,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -64560,6 +64560,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 7.732024245569718e-7",
             "extra": "mean: 75.33799186404558 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2ad37d88e58e9a267ce23229d852d1604bd55de4",
+          "message": "Revert \"Done (#1991)\" (#1994)\n\nThis reverts commit 54bb87752fe8cfc7216a019e260a763dc7d09477.",
+          "timestamp": "2024-03-25T17:55:53+01:00",
+          "tree_id": "26afbdccea55cdb86a6b03eb7e073c16f8625a75",
+          "url": "https://github.com/nuclia/nucliadb/commit/2ad37d88e58e9a267ce23229d852d1604bd55de4"
+        },
+        "date": 1711386851294,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13422.394637506786,
+            "unit": "iter/sec",
+            "range": "stddev: 9.817937095065245e-8",
+            "extra": "mean: 74.50235423757069 usec\nrounds: 5"
           }
         ]
       }
