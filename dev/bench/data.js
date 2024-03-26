@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1711473831997,
+  "lastUpdate": 1711487721504,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -65056,6 +65056,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000001777360846790673",
             "extra": "mean: 76.58200870464526 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "88eb82c11b6edf850970aa2a8b027c8db28d613f",
+          "message": "Standalone node roles, support standalone pull worker (#1990)",
+          "timestamp": "2024-03-26T17:10:25-04:00",
+          "tree_id": "1d1bab07709d9ef73f8d8f658992f12174988d94",
+          "url": "https://github.com/nuclia/nucliadb/commit/88eb82c11b6edf850970aa2a8b027c8db28d613f"
+        },
+        "date": 1711487717824,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13063.930097837709,
+            "unit": "iter/sec",
+            "range": "stddev: 7.569693229667315e-7",
+            "extra": "mean: 76.54664350703439 usec\nrounds: 5"
           }
         ]
       }
