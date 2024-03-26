@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1711473048738,
+  "lastUpdate": 1711473227898,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -64963,6 +64963,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.4201962152842775e-7",
             "extra": "mean: 74.9800217713361 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f75f30ef2cce4ea51339525d0aa3d05bce560246",
+          "message": "Fix /chat rag strategies custom validation (#2002)",
+          "timestamp": "2024-03-26T18:06:03+01:00",
+          "tree_id": "ca09a5b75adccb71b341a8208440252528286020",
+          "url": "https://github.com/nuclia/nucliadb/commit/f75f30ef2cce4ea51339525d0aa3d05bce560246"
+        },
+        "date": 1711473224098,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13016.57211663791,
+            "unit": "iter/sec",
+            "range": "stddev: 6.73456426677487e-7",
+            "extra": "mean: 76.82514190673828 usec\nrounds: 5"
           }
         ]
       }
