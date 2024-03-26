@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1711468574980,
+  "lastUpdate": 1711473048738,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -64932,6 +64932,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.721519905193682e-7",
             "extra": "mean: 77.8114270864043 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9758ca94b60ef4b06e8424085da5d0c520436e3a",
+          "message": "Use deprecated pointer to current shard in case of error (#2001)\n\n* Use deprecated pointer to current shard in case of error\r\n\r\n* Fix migration check condition\r\n\r\n* More fixes",
+          "timestamp": "2024-03-26T18:04:50+01:00",
+          "tree_id": "3ea50ba8817716dd1a3d2ecda47b0c20e0d46add",
+          "url": "https://github.com/nuclia/nucliadb/commit/9758ca94b60ef4b06e8424085da5d0c520436e3a"
+        },
+        "date": 1711473044900,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13336.885964766248,
+            "unit": "iter/sec",
+            "range": "stddev: 2.4201962152842775e-7",
+            "extra": "mean: 74.9800217713361 usec\nrounds: 5"
           }
         ]
       }
