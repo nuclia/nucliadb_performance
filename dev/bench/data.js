@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1711386855073,
+  "lastUpdate": 1711435812186,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -64591,6 +64591,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 9.817937095065245e-8",
             "extra": "mean: 74.50235423757069 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "carlesba@gmail.com",
+            "name": "Carles Bruguera Artero",
+            "username": "sunbit"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6e0ddd4de509bcac233bbf7283d7a0987452ce2a",
+          "message": "Conditionally enable CORS middleware (#1993)\n\n* Conditionally enable CORS middleware",
+          "timestamp": "2024-03-26T07:45:00+01:00",
+          "tree_id": "8e306d232e9827bc5351c3bce9ff3314090b6347",
+          "url": "https://github.com/nuclia/nucliadb/commit/6e0ddd4de509bcac233bbf7283d7a0987452ce2a"
+        },
+        "date": 1711435808449,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13206.404717288324,
+            "unit": "iter/sec",
+            "range": "stddev: 1.3721604363765831e-7",
+            "extra": "mean: 75.7208355648009 usec\nrounds: 5"
           }
         ]
       }
