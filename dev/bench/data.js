@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1711552006529,
+  "lastUpdate": 1711555672597,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -65614,6 +65614,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 7.535130507779218e-7",
             "extra": "mean: 74.93609473818825 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "19ae7982d9f616b9ca7104963ee3312061c3d390",
+          "message": "Parametrize sidecar indexer delay after error (#1996)",
+          "timestamp": "2024-03-27T17:01:44+01:00",
+          "tree_id": "0a3a1ccaffb7734be0d922c7a6450f671fc66f06",
+          "url": "https://github.com/nuclia/nucliadb/commit/19ae7982d9f616b9ca7104963ee3312061c3d390"
+        },
+        "date": 1711555668950,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13158.221423091225,
+            "unit": "iter/sec",
+            "range": "stddev: 1.9625228074409852e-7",
+            "extra": "mean: 75.99811310707317 usec\nrounds: 5"
           }
         ]
       }
