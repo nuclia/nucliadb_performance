@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1711542658835,
+  "lastUpdate": 1711542966160,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -65490,6 +65490,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.6648885073844797e-7",
             "extra": "mean: 75.23382264098663 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "222974c6dedf981f55395a5f84cbbead9dde4d5a",
+          "message": "Add more context to errors on get active shards (#2009)",
+          "timestamp": "2024-03-27T13:17:33+01:00",
+          "tree_id": "f8d385129ef1929364346f433cf8f82c5438462d",
+          "url": "https://github.com/nuclia/nucliadb/commit/222974c6dedf981f55395a5f84cbbead9dde4d5a"
+        },
+        "date": 1711542962187,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13402.609987895292,
+            "unit": "iter/sec",
+            "range": "stddev: 3.0605571155860265e-7",
+            "extra": "mean: 74.61233303835301 usec\nrounds: 5"
           }
         ]
       }
