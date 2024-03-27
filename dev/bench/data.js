@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1711551219538,
+  "lastUpdate": 1711551716519,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -65552,6 +65552,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.358686815274341e-7",
             "extra": "mean: 75.03457606327703 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5303d9fbb407a486cb42bc5d298fd3a623744001",
+          "message": "Correct B/c for multi shard KBs (#2010)",
+          "timestamp": "2024-03-27T15:47:59+01:00",
+          "tree_id": "ad86a2cfef48cad0d01becf9d5e23d8e1765bf1f",
+          "url": "https://github.com/nuclia/nucliadb/commit/5303d9fbb407a486cb42bc5d298fd3a623744001"
+        },
+        "date": 1711551712875,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12906.62291932349,
+            "unit": "iter/sec",
+            "range": "stddev: 2.6261122763461307e-7",
+            "extra": "mean: 77.47960146126404 usec\nrounds: 5"
           }
         ]
       }
