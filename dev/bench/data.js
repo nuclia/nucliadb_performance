@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1711556620329,
+  "lastUpdate": 1711578845714,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -65707,6 +65707,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.853339241337064e-7",
             "extra": "mean: 75.22394133079169 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ramon@nuclia.com",
+            "name": "Ramon Navarro Bosch",
+            "username": "bloodbare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c5aaa818697c5d7d79f1236d7ac2224b3f110ff1",
+          "message": "Table processing (#1949)\n\n* Table processing init\r\n\r\n* Lets see how to integrate query endpoint on nucliadb\r\n\r\n* POC: Table processing with query parsing (#1956)\r\n\r\n* query parsing info available in chat\r\n\r\n* notes\r\n\r\n* Image send to predict\r\n\r\n* Update nucliadb/nucliadb/search/search/chat/images.py\r\n\r\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>\r\n\r\n* Fix lint\r\n\r\n* Fix lint\r\n\r\n* Add Rag Image Strategies\r\n\r\n* Better naming\r\n\r\n* Fix comment\r\n\r\n* Fix\r\n\r\n* Add field info\r\n\r\n* Rag Images\r\n\r\n* WIP\r\n\r\n* Fix\r\n\r\n* lint\r\n\r\n* Fix lint\r\n\r\n* Lint\r\n\r\n* Add some tests\r\n\r\n* Fix concurrent\r\n\r\n* Fix test\r\n\r\n* fix\r\n\r\n* another\r\n\r\n* fix\r\n\r\n* fix\r\n\r\n* blah\r\n\r\n* .\r\n\r\n* fix again\r\n\r\n* fixes\r\n\r\n* Fix test\r\n\r\n* Fix\r\n\r\n* fix\r\n\r\n* .\r\n\r\n* Add paragraph label for type of paragraph\r\n\r\n---------\r\n\r\nCo-authored-by: Nathan Van Gheem <vangheem@gmail.com>\r\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>\r\nCo-authored-by: Joan Antoni RE <joanantoni.re16@gmail.com>",
+          "timestamp": "2024-03-27T23:28:59+01:00",
+          "tree_id": "4b8ef41265f2c32bca5e6b905c63894774c47846",
+          "url": "https://github.com/nuclia/nucliadb/commit/c5aaa818697c5d7d79f1236d7ac2224b3f110ff1"
+        },
+        "date": 1711578842044,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13301.207143418334,
+            "unit": "iter/sec",
+            "range": "stddev: 3.5058027845371315e-7",
+            "extra": "mean: 75.18114628376546 usec\nrounds: 5"
           }
         ]
       }
