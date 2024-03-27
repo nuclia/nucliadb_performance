@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1711498895213,
+  "lastUpdate": 1711499398642,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -65118,6 +65118,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 4.719823721255492e-7",
             "extra": "mean: 76.1671008660354 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "90b4a841a7c6a73f26caf9f5989488fa498fb649",
+          "message": "fix txn id for delete in rebalance (#2005)",
+          "timestamp": "2024-03-26T20:16:19-04:00",
+          "tree_id": "6b7319a5207388e7314b6adbec99f8638d3de6a0",
+          "url": "https://github.com/nuclia/nucliadb/commit/90b4a841a7c6a73f26caf9f5989488fa498fb649"
+        },
+        "date": 1711499394802,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13205.781005252114,
+            "unit": "iter/sec",
+            "range": "stddev: 3.336122519451471e-7",
+            "extra": "mean: 75.72441187706254 usec\nrounds: 5"
           }
         ]
       }
