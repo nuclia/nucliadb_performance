@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1711982177192,
+  "lastUpdate": 1711983694539,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -65831,6 +65831,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.646205496924884e-7",
             "extra": "mean: 74.70522026073348 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "44120086+hermeGarcia@users.noreply.github.com",
+            "name": "Herme",
+            "username": "hermeGarcia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "82e559c356c33b54109549e99d2a4fd47d35a0ba",
+          "message": "Clean shards module (#2015)\n\n* Removing providers module\r\n\r\n* forgot to add the actual folder...",
+          "timestamp": "2024-04-01T16:32:00+02:00",
+          "tree_id": "47ac0072f429f22a47550cc8837675133a2d8a19",
+          "url": "https://github.com/nuclia/nucliadb/commit/82e559c356c33b54109549e99d2a4fd47d35a0ba"
+        },
+        "date": 1711983690929,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13444.216698032917,
+            "unit": "iter/sec",
+            "range": "stddev: 6.790621688681152e-7",
+            "extra": "mean: 74.38142529689472 usec\nrounds: 5"
           }
         ]
       }
