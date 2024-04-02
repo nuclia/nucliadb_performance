@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1712044625627,
+  "lastUpdate": 1712056240301,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -66048,6 +66048,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 4.654701626923766e-7",
             "extra": "mean: 76.58132746175754 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vangheem@gmail.com",
+            "name": "Nathan Van Gheem",
+            "username": "vangheem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "23e29dc836d8530c46289e77f12323d9b8ee9f54",
+          "message": "increase pull timeout (#2017)\n\n* increase pull timeout\r\n\r\n* configurable\r\n\r\n* moar",
+          "timestamp": "2024-04-02T09:43:46+02:00",
+          "tree_id": "6f781bf9dd944b830824c03dfdd348ca73fc54d2",
+          "url": "https://github.com/nuclia/nucliadb/commit/23e29dc836d8530c46289e77f12323d9b8ee9f54"
+        },
+        "date": 1712056236414,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13084.880609687712,
+            "unit": "iter/sec",
+            "range": "stddev: 2.484443079753532e-7",
+            "extra": "mean: 76.42408286550398 usec\nrounds: 5"
           }
         ]
       }
