@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1712063864158,
+  "lastUpdate": 1712064164529,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -66234,6 +66234,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 3.4593027111513095e-7",
             "extra": "mean: 74.66467441510333 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1da58ce43b5ed16cec379918cf08eda169c7dcf2",
+          "message": "Add running environment to nucliadb chart (#2019)\n\n* Add prod enviroment value to nucliadb chart\r\n\r\n* Add prod enviroment value to nucliadb chart",
+          "timestamp": "2024-04-02T15:03:53+02:00",
+          "tree_id": "c01fa2945e82e772318aaec942b59932bd746397",
+          "url": "https://github.com/nuclia/nucliadb/commit/1da58ce43b5ed16cec379918cf08eda169c7dcf2"
+        },
+        "date": 1712064160703,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13407.988383597962,
+            "unit": "iter/sec",
+            "range": "stddev: 9.015928252049662e-7",
+            "extra": "mean: 74.5824035187339 usec\nrounds: 5"
           }
         ]
       }
