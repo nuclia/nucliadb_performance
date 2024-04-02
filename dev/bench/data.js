@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1712056240301,
+  "lastUpdate": 1712057679007,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -66079,6 +66079,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.484443079753532e-7",
             "extra": "mean: 76.42408286550398 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ramon@nuclia.com",
+            "name": "Ramon Navarro Bosch",
+            "username": "bloodbare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "46e1e4b26b897841909ac91d4ba53e93d9bb05d7",
+          "message": "Fixes SEARCH-K1 (#2021)",
+          "timestamp": "2024-04-02T13:29:23+02:00",
+          "tree_id": "4a3dabe6e546f7ed5e3ffb7651c89ac237b2bdfa",
+          "url": "https://github.com/nuclia/nucliadb/commit/46e1e4b26b897841909ac91d4ba53e93d9bb05d7"
+        },
+        "date": 1712057674608,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13049.42078736881,
+            "unit": "iter/sec",
+            "range": "stddev: 1.266604953263364e-7",
+            "extra": "mean: 76.63175372258286 usec\nrounds: 5"
           }
         ]
       }
