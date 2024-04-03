@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1712064164529,
+  "lastUpdate": 1712129452961,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -66265,6 +66265,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 9.015928252049662e-7",
             "extra": "mean: 74.5824035187339 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "javier@javiertorres.eu",
+            "name": "Javier Torres",
+            "username": "javitonino"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ef5c43ac4ab67e2ec740d587d6889e2835a4668e",
+          "message": "Switch to nucliadb_vectors v2 by default (#2014)\n\n* Switch to nucliadb_vectors v2 by default\r\n\r\n* Update nucliadb_node/src/bin/testlock.rs\r\n\r\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>\r\n\r\n* Remove extraneous test\r\n\r\n* Backport reader dimension fix\r\n\r\n* Pipeline permissions\r\n\r\n---------\r\n\r\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+          "timestamp": "2024-04-03T09:19:55+02:00",
+          "tree_id": "68d45d906f2b287a0edba6056ac0f6d742c673f2",
+          "url": "https://github.com/nuclia/nucliadb/commit/ef5c43ac4ab67e2ec740d587d6889e2835a4668e"
+        },
+        "date": 1712129449059,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13327.435625246431,
+            "unit": "iter/sec",
+            "range": "stddev: 8.00459832789054e-7",
+            "extra": "mean: 75.033189288544 usec\nrounds: 5"
           }
         ]
       }
