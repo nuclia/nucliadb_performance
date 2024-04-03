@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1712143395169,
+  "lastUpdate": 1712178362897,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -66451,6 +66451,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.628938455003137e-7",
             "extra": "mean: 76.06273389044608 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "javier@javiertorres.eu",
+            "name": "Javier Torres",
+            "username": "javitonino"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7eaa9714a11c93a0e3ca6d3d0a5bedc75baf9a3c",
+          "message": "Merge on background (#1972)\n\n* Merge on background\r\n\r\n* Do not panic if waken up by condvar",
+          "timestamp": "2024-04-03T22:41:17+02:00",
+          "tree_id": "3eaba14157e6657535eca80ac1801d8632e7f971",
+          "url": "https://github.com/nuclia/nucliadb/commit/7eaa9714a11c93a0e3ca6d3d0a5bedc75baf9a3c"
+        },
+        "date": 1712178359149,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13138.922142170464,
+            "unit": "iter/sec",
+            "range": "stddev: 3.5621461642247907e-7",
+            "extra": "mean: 76.1097439485098 usec\nrounds: 5"
           }
         ]
       }
