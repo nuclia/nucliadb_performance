@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1712142534616,
+  "lastUpdate": 1712143063952,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -66389,6 +66389,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000012761002902529153",
             "extra": "mean: 78.12814446794728 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7d2d34f4e354df91d1c3fa106a86b60f8b8dddff",
+          "message": "Handle metadata not found error (#2025)",
+          "timestamp": "2024-04-03T13:03:06+02:00",
+          "tree_id": "1ce27c6cebcab8447edcc7943b0e2a5fc20672ce",
+          "url": "https://github.com/nuclia/nucliadb/commit/7d2d34f4e354df91d1c3fa106a86b60f8b8dddff"
+        },
+        "date": 1712143059655,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13472.15242132009,
+            "unit": "iter/sec",
+            "range": "stddev: 9.654008696353032e-8",
+            "extra": "mean: 74.22718870204211 usec\nrounds: 5"
           }
         ]
       }
