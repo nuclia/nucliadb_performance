@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1712247606512,
+  "lastUpdate": 1712250871038,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -66823,6 +66823,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.0745066162884565e-7",
             "extra": "mean: 75.4797102936188 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "funollet@fastmail.fm",
+            "name": "Jordi Funollet",
+            "username": "funollet"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "db14d5faa51f1d5f011eafb37d99b99f4bf14718",
+          "message": "update service account for building images (#2032)",
+          "timestamp": "2024-04-04T19:09:09+02:00",
+          "tree_id": "34bf858ab9f4aede31bd42d01199f86c9d1b853c",
+          "url": "https://github.com/nuclia/nucliadb/commit/db14d5faa51f1d5f011eafb37d99b99f4bf14718"
+        },
+        "date": 1712250866721,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13280.989525091854,
+            "unit": "iter/sec",
+            "range": "stddev: 3.4693554559407073e-7",
+            "extra": "mean: 75.2955943614513 usec\nrounds: 5"
           }
         ]
       }
