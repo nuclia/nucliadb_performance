@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1712219191162,
+  "lastUpdate": 1712219523717,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -66544,6 +66544,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.514680867262085e-7",
             "extra": "mean: 76.30803777877796 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7746c71d4cde1ab83f3a99f9de70aaf03d2102ff",
+          "message": "Retry TiKV connect while initializing (#2029)",
+          "timestamp": "2024-04-04T10:10:28+02:00",
+          "tree_id": "40d78694bf92b35adcff23e058757a7319790441",
+          "url": "https://github.com/nuclia/nucliadb/commit/7746c71d4cde1ab83f3a99f9de70aaf03d2102ff"
+        },
+        "date": 1712219519213,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13404.650033913425,
+            "unit": "iter/sec",
+            "range": "stddev: 1.9711914719582924e-7",
+            "extra": "mean: 74.60097783008324 usec\nrounds: 5"
           }
         ]
       }
