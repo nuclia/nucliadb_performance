@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1712247217321,
+  "lastUpdate": 1712247606512,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -66792,6 +66792,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 8.819096110698953e-8",
             "extra": "mean: 74.49079442907262 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "179ee24e4895ce7c09eaa8be727903b5dd2e8da5",
+          "message": "Fix typos and make some transactions read only (#2030)",
+          "timestamp": "2024-04-04T17:57:49+02:00",
+          "tree_id": "bbcf3f988fe3309377518f1e0fd70eacd77f6b0d",
+          "url": "https://github.com/nuclia/nucliadb/commit/179ee24e4895ce7c09eaa8be727903b5dd2e8da5"
+        },
+        "date": 1712247602540,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13248.59351089139,
+            "unit": "iter/sec",
+            "range": "stddev: 1.0745066162884565e-7",
+            "extra": "mean: 75.4797102936188 usec\nrounds: 5"
           }
         ]
       }
