@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1712300627923,
+  "lastUpdate": 1712300845118,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -67040,6 +67040,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.9555522004394863e-7",
             "extra": "mean: 75.4961170937559 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "17867db18f249b14c93e84030204017ddbadb13b",
+          "message": "Proxy predict API errors to nucliadb response (#1984)\n\n* Proxy predict errors to client\r\n\r\n* Fix test",
+          "timestamp": "2024-04-05T08:49:41+02:00",
+          "tree_id": "4e5380ec462a952ad89dd625eae6db2d0644ca3c",
+          "url": "https://github.com/nuclia/nucliadb/commit/17867db18f249b14c93e84030204017ddbadb13b"
+        },
+        "date": 1712300841260,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13188.799545696673,
+            "unit": "iter/sec",
+            "range": "stddev: 2.867520927773275e-7",
+            "extra": "mean: 75.82191211074147 usec\nrounds: 5"
           }
         ]
       }
