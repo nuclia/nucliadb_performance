@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1712315130136,
+  "lastUpdate": 1712315615032,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -67381,6 +67381,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 4.441443897951988e-7",
             "extra": "mean: 75.18943329428912 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "javier@javiertorres.eu",
+            "name": "Javier Torres",
+            "username": "javitonino"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "71f8abc51e0a34b1093cc54621d5b82f0025fa43",
+          "message": "Throttle OpenTelemetry logs (#2026)\n\n* Throttle OpenTelemetry logs\r\n\r\n* Make throttling resistant to poison",
+          "timestamp": "2024-04-05T12:57:27+02:00",
+          "tree_id": "cc001a0d39d3dae0fe0a9ae5cc018556330e8b8e",
+          "url": "https://github.com/nuclia/nucliadb/commit/71f8abc51e0a34b1093cc54621d5b82f0025fa43"
+        },
+        "date": 1712315610991,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13273.645315219652,
+            "unit": "iter/sec",
+            "range": "stddev: 1.7193892579512161e-7",
+            "extra": "mean: 75.33725485744247 usec\nrounds: 5"
           }
         ]
       }
