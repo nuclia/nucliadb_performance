@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1712304515460,
+  "lastUpdate": 1712305334468,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -67195,6 +67195,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 3.5630899469803773e-7",
             "extra": "mean: 76.14663931039662 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "javier@javiertorres.eu",
+            "name": "Javier Torres",
+            "username": "javitonino"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "61bce6fa2e910d8cc2536e55242f732ce5c1d03e",
+          "message": "Settings refactor (#2031)\n\n* Config refactor WIP\r\n\r\n* More\r\n\r\n* Settings tests\r\n\r\n* Clippy\r\n\r\n* Remove invalid DEBUG=1\r\n\r\n* Proper DEBUG setting\r\n\r\n* Apply suggestions from code review\r\n\r\nCo-authored-by: Joan Antoni RE <joanantoni.re16@gmail.com>\r\n\r\n* Rollback global settings idea\r\n\r\n* Ignore long lines\r\n\r\n---------\r\n\r\nCo-authored-by: Joan Antoni RE <joanantoni.re16@gmail.com>",
+          "timestamp": "2024-04-05T09:50:38+02:00",
+          "tree_id": "e85e6bd65821e052d14ca6202977db88d322e2a2",
+          "url": "https://github.com/nuclia/nucliadb/commit/61bce6fa2e910d8cc2536e55242f732ce5c1d03e"
+        },
+        "date": 1712305330057,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13126.67015089092,
+            "unit": "iter/sec",
+            "range": "stddev: 4.2373673624134126e-7",
+            "extra": "mean: 76.18078221704452 usec\nrounds: 5"
           }
         ]
       }
