@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1712300108389,
+  "lastUpdate": 1712300166666,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -66947,6 +66947,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 5.620799385053848e-7",
             "extra": "mean: 75.09958682099182 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "c.iniesta@gmail.com",
+            "name": "Carmen Iniesta",
+            "username": "Ciniesta"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8370b9fc675d9642dc01e121a26476fedada88ef",
+          "message": "adds new xpath selector for links (#2034)\n\n* adds new xpath selector for links\r\n\r\n* update writer\r\n\r\n* fix lint",
+          "timestamp": "2024-04-04T23:11:26+02:00",
+          "tree_id": "9b781298ba793f456599e501e72fc402991b6ac5",
+          "url": "https://github.com/nuclia/nucliadb/commit/8370b9fc675d9642dc01e121a26476fedada88ef"
+        },
+        "date": 1712300162760,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13209.665922376227,
+            "unit": "iter/sec",
+            "range": "stddev: 1.8554999210981336e-7",
+            "extra": "mean: 75.70214158906712 usec\nrounds: 5"
           }
         ]
       }
