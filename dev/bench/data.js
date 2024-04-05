@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1712304201050,
+  "lastUpdate": 1712304515460,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -67164,6 +67164,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.041686682345435e-7",
             "extra": "mean: 76.27972198190483 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c43fe7cf8d3089ad135155942154bf3d55e33f14",
+          "message": "Fallback to generic json error response for unexpected errors (#2035)",
+          "timestamp": "2024-04-05T09:47:38+02:00",
+          "tree_id": "3442f7f87de69a0df05cdda6ba0513480ec62a9f",
+          "url": "https://github.com/nuclia/nucliadb/commit/c43fe7cf8d3089ad135155942154bf3d55e33f14"
+        },
+        "date": 1712304510807,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13132.5559349205,
+            "unit": "iter/sec",
+            "range": "stddev: 3.5630899469803773e-7",
+            "extra": "mean: 76.14663931039662 usec\nrounds: 5"
           }
         ]
       }
