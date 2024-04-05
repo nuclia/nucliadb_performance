@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1712340751488,
+  "lastUpdate": 1712341284282,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -67660,6 +67660,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 5.771499651715598e-7",
             "extra": "mean: 75.10577847143847 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "javier@javiertorres.eu",
+            "name": "Javier Torres",
+            "username": "javitonino"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f6aa1044f66bd49b0690ac97a5484f6abc96b390",
+          "message": "Use only IPv4 for docker containers (#2044)",
+          "timestamp": "2024-04-05T20:06:34+02:00",
+          "tree_id": "3893930606bbfbd947c38d11e7dd7bfb8df43d23",
+          "url": "https://github.com/nuclia/nucliadb/commit/f6aa1044f66bd49b0690ac97a5484f6abc96b390"
+        },
+        "date": 1712341279805,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13510.176380098497,
+            "unit": "iter/sec",
+            "range": "stddev: 1.874850300747899e-7",
+            "extra": "mean: 74.01827865645598 usec\nrounds: 5"
           }
         ]
       }
