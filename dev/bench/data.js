@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1712584768557,
+  "lastUpdate": 1712592440753,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -68094,6 +68094,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 3.549894873079436e-7",
             "extra": "mean: 74.85665295967132 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f651ab49b9fee1940867acc4722b84a439595803",
+          "message": "Only use paragraphs as full shard indicator (#2024)\n\n* Only use paragraphs as full shard indicator\r\n\r\n* Remove code checking number of fields\r\n\r\n* Fix unit test",
+          "timestamp": "2024-04-08T18:01:49+02:00",
+          "tree_id": "df51aeb3c025c49c60bc23fe1882c4309ba9f6d7",
+          "url": "https://github.com/nuclia/nucliadb/commit/f651ab49b9fee1940867acc4722b84a439595803"
+        },
+        "date": 1712592436230,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13008.99799049448,
+            "unit": "iter/sec",
+            "range": "stddev: 8.037888783044355e-7",
+            "extra": "mean: 76.86987120227771 usec\nrounds: 5"
           }
         ]
       }
