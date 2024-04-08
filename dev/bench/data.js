@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1712571202326,
+  "lastUpdate": 1712571627916,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -67877,6 +67877,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.503309388955346e-7",
             "extra": "mean: 75.0395276827615 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "javier@javiertorres.eu",
+            "name": "Javier Torres",
+            "username": "javitonino"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "57792ec67c2c7379c2c657a2a7c1ccba2118e60b",
+          "message": "Allow limiting shard cache size (#2040)",
+          "timestamp": "2024-04-08T11:52:53+02:00",
+          "tree_id": "2288e2b45cc8d6bb3f18cc5a9f6722a8de3efd91",
+          "url": "https://github.com/nuclia/nucliadb/commit/57792ec67c2c7379c2c657a2a7c1ccba2118e60b"
+        },
+        "date": 1712571623759,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12807.233043923781,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000029831248834169727",
+            "extra": "mean: 78.0808779359595 usec\nrounds: 5"
           }
         ]
       }
