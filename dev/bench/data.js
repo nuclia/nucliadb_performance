@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1712575715687,
+  "lastUpdate": 1712576064122,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -67970,6 +67970,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.963397147402461e-7",
             "extra": "mean: 74.41949308588264 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "javier@javiertorres.eu",
+            "name": "Javier Torres",
+            "username": "javitonino"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0c8a4a26435b4014eacdcd88f609be3a4e0b5f06",
+          "message": "Remove sidecar-initiated GC (#2037)\n\n* Remove sidecar-initiated GC\r\n\r\n* lint",
+          "timestamp": "2024-04-08T13:12:57+02:00",
+          "tree_id": "76e2f65d2e227a90bbbc4c75cedb40eb9ba5e364",
+          "url": "https://github.com/nuclia/nucliadb/commit/0c8a4a26435b4014eacdcd88f609be3a4e0b5f06"
+        },
+        "date": 1712576060134,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13331.450475460344,
+            "unit": "iter/sec",
+            "range": "stddev: 8.277825751628449e-7",
+            "extra": "mean: 75.01059257135856 usec\nrounds: 5"
           }
         ]
       }
