@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1712584339496,
+  "lastUpdate": 1712584768557,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -68063,6 +68063,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.0646853606824117e-7",
             "extra": "mean: 74.39867750187744 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5bb80869827bcdd9e32290c8e7d5c510c7bf37f2",
+          "message": "Bump black to fix vulnerability (#2046)",
+          "timestamp": "2024-04-08T15:30:20+02:00",
+          "tree_id": "d82fd09c35cdda0710ecf0cde5d2f6e05587dbf6",
+          "url": "https://github.com/nuclia/nucliadb/commit/5bb80869827bcdd9e32290c8e7d5c510c7bf37f2"
+        },
+        "date": 1712584763968,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13358.866052142961,
+            "unit": "iter/sec",
+            "range": "stddev: 3.549894873079436e-7",
+            "extra": "mean: 74.85665295967132 usec\nrounds: 5"
           }
         ]
       }
