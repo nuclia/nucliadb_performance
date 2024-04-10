@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1712593167754,
+  "lastUpdate": 1712758087032,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -68187,6 +68187,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.927336637128921e-7",
             "extra": "mean: 74.77709633147646 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "44120086+hermeGarcia@users.noreply.github.com",
+            "name": "Herme",
+            "username": "hermeGarcia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c3d5459055fb852061f93054f5b8fe6ce4d45320",
+          "message": "Remove previous Vectorsets implementation (#2047)",
+          "timestamp": "2024-04-10T15:42:22+02:00",
+          "tree_id": "4eac6a6a9012240788e321abe2aecff12ea8e0a9",
+          "url": "https://github.com/nuclia/nucliadb/commit/c3d5459055fb852061f93054f5b8fe6ce4d45320"
+        },
+        "date": 1712758082859,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13596.722258054606,
+            "unit": "iter/sec",
+            "range": "stddev: 2.0549783779823503e-7",
+            "extra": "mean: 73.54713739244079 usec\nrounds: 5"
           }
         ]
       }
