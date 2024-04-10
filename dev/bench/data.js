@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1712779248935,
+  "lastUpdate": 1712779499583,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -68528,6 +68528,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 3.541543633942191e-7",
             "extra": "mean: 75.57761722776307 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tarek@ziade.org",
+            "name": "Tarek Ziade",
+            "username": "tarekziade"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "491c87edd86a987905271c60da10b61b3040d07c",
+          "message": "try out ruff (#1245)\n\n* try out ruff\r\n\r\n* forgot to add the toml file\r\n\r\n* Use global ruff.toml instead of per package config\r\n\r\n* Keep using flake8 for now\r\n\r\n* Use ruff check --fix in nucliadb format target\r\n\r\n* Revert \"Keep using flake8 for now\"\r\n\r\nThis reverts commit 316b550b2313d9c2fb35061b2ed286c7e9abc819.\r\n\r\n* Fix noqa annotation\r\n\r\n* Keep needing flake8 for the other libs :)\r\n\r\n---------\r\n\r\nCo-authored-by: Joan Antoni RE <joanantoni.re16@gmail.com>",
+          "timestamp": "2024-04-10T21:59:20+02:00",
+          "tree_id": "5181af118886dd372293e14ec9f5b71fd340ba78",
+          "url": "https://github.com/nuclia/nucliadb/commit/491c87edd86a987905271c60da10b61b3040d07c"
+        },
+        "date": 1712779495621,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13526.175278692119,
+            "unit": "iter/sec",
+            "range": "stddev: 8.517373140815182e-8",
+            "extra": "mean: 73.93072907870027 usec\nrounds: 5"
           }
         ]
       }
