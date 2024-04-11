@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1712780273350,
+  "lastUpdate": 1712839360827,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -68652,6 +68652,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 8.192738842104168e-7",
             "extra": "mean: 74.99887399878781 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7722026dcdee678a2a60155b58a27600ca28ef5b",
+          "message": "Dont send to summarize if no resources/extracted text found (#2057)\n\n* Do not summarize if no resources are found\r\n\r\n* better error message\r\n\r\n* better error message\r\n\r\n* Fix test",
+          "timestamp": "2024-04-11T14:37:08+02:00",
+          "tree_id": "83c0547505bb483901b3c707e2c1adc056d6791a",
+          "url": "https://github.com/nuclia/nucliadb/commit/7722026dcdee678a2a60155b58a27600ca28ef5b"
+        },
+        "date": 1712839356625,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13466.719579778413,
+            "unit": "iter/sec",
+            "range": "stddev: 1.8074723183270998e-7",
+            "extra": "mean: 74.25713397207714 usec\nrounds: 5"
           }
         ]
       }
