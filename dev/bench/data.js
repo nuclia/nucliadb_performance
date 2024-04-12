@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1712932659385,
+  "lastUpdate": 1712933028652,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -68900,6 +68900,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 7.925347747230742e-7",
             "extra": "mean: 75.90640740222241 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "44120086+hermeGarcia@users.noreply.github.com",
+            "name": "Herme",
+            "username": "hermeGarcia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c0d40873fa8061afea67de51b4b22c33a992f419",
+          "message": "reader should have a shards dir (#2060)\n\n* reader should have a shards dir\r\n\r\n* shards error\r\n\r\n* Update nucliadb_node/src/grpc/collect_garbage.rs\r\n\r\nCo-authored-by: Joan Antoni RE <joanantoni.re16@gmail.com>\r\n\r\n---------\r\n\r\nCo-authored-by: Joan Antoni RE <joanantoni.re16@gmail.com>",
+          "timestamp": "2024-04-12T16:13:17+02:00",
+          "tree_id": "a218e44c11761488dcdf1bc6ef59a4aa5e5f3832",
+          "url": "https://github.com/nuclia/nucliadb/commit/c0d40873fa8061afea67de51b4b22c33a992f419"
+        },
+        "date": 1712933024601,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13380.661018587429,
+            "unit": "iter/sec",
+            "range": "stddev: 4.2047423912912507e-7",
+            "extra": "mean: 74.73472339003834 usec\nrounds: 5"
           }
         ]
       }
