@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1712933028652,
+  "lastUpdate": 1712934676563,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -68931,6 +68931,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 4.2047423912912507e-7",
             "extra": "mean: 74.73472339003834 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ea0be71cd43be786554244af42a3c1bda34ef7bc",
+          "message": "Simplify kb and shard creation (#2052)\n\n* Deprecate relese_channel from KnowledgeBoxConfig\r\n\r\n* Create shards object in KnowledgeBox.create\r\n\r\n* No need to pass semantic model and release channel on shard creation\r\n\r\n* Fix tests",
+          "timestamp": "2024-04-12T17:05:30+02:00",
+          "tree_id": "0e04185e8714cdb65fb614f89dd9b0b75cc4e5b8",
+          "url": "https://github.com/nuclia/nucliadb/commit/ea0be71cd43be786554244af42a3c1bda34ef7bc"
+        },
+        "date": 1712934672173,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13389.161685475663,
+            "unit": "iter/sec",
+            "range": "stddev: 1.926514781099607e-7",
+            "extra": "mean: 74.68727493856342 usec\nrounds: 5"
           }
         ]
       }
