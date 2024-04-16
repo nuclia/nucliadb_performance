@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1713282972745,
+  "lastUpdate": 1713283144935,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -69086,6 +69086,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 4.895815906507924e-7",
             "extra": "mean: 75.41068847747756 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "db03a5f790ad9cb32e59d165b720ff1e1bf5e913",
+          "message": "Allow chat on resource by slug (#2067)\n\n* Add tests\r\n\r\n* Add tests\r\n\r\n* parallelize workflow runs more\r\n\r\n* fix test\r\n\r\n* fix test\r\n\r\n* fix endpoint name",
+          "timestamp": "2024-04-16T17:50:50+02:00",
+          "tree_id": "21dd1063b1707529c82783296820f761cf85fa1c",
+          "url": "https://github.com/nuclia/nucliadb/commit/db03a5f790ad9cb32e59d165b720ff1e1bf5e913"
+        },
+        "date": 1713283140621,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12818.200950585913,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000001204651990772851",
+            "extra": "mean: 78.01406795345103 usec\nrounds: 5"
           }
         ]
       }
