@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1713361770745,
+  "lastUpdate": 1713361776432,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -69148,6 +69148,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.7388353642623562e-7",
             "extra": "mean: 76.1647472323263 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f9e18a917d24cbde4033d49440e456b0fa64028a",
+          "message": "Max tokens for LLM (#2065)",
+          "timestamp": "2024-04-17T15:44:17+02:00",
+          "tree_id": "6f2ccda1387e004936b76ad32d22c2087973668e",
+          "url": "https://github.com/nuclia/nucliadb/commit/f9e18a917d24cbde4033d49440e456b0fa64028a"
+        },
+        "date": 1713361767520,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13210.496818946724,
+            "unit": "iter/sec",
+            "range": "stddev: 2.114059143975308e-7",
+            "extra": "mean: 75.69738017466402 usec\nrounds: 5"
           }
         ]
       }
