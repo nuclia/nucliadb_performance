@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1713451202929,
+  "lastUpdate": 1713451353289,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -69551,6 +69551,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 6.308772584178225e-8",
             "extra": "mean: 74.57003119812696 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ramon@nuclia.com",
+            "name": "Ramon Navarro Bosch",
+            "username": "bloodbare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4de7df6d522abc960e18cf4748ba570be96115ee",
+          "message": "Adding AI tables storage (#2018)\n\n* Adding AI tables storage\r\n\r\n* Paragraphs",
+          "timestamp": "2024-04-18T16:34:36+02:00",
+          "tree_id": "382b8e07f5871befb323ac59e4d05abad42d27b9",
+          "url": "https://github.com/nuclia/nucliadb/commit/4de7df6d522abc960e18cf4748ba570be96115ee"
+        },
+        "date": 1713451348703,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13473.079241713724,
+            "unit": "iter/sec",
+            "range": "stddev: 3.3861169282906927e-7",
+            "extra": "mean: 74.22208257366442 usec\nrounds: 5"
           }
         ]
       }
