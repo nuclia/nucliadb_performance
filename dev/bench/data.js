@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1713427323787,
+  "lastUpdate": 1713427495485,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -69272,6 +69272,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.6770825978727546e-7",
             "extra": "mean: 74.86429235940577 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ad87379c96b6d6d827f9360d08cd845ac127b522",
+          "message": "Query shard replicas as primary-secondary (#2071)",
+          "timestamp": "2024-04-18T09:57:07+02:00",
+          "tree_id": "631b14eee07730f93b55b29492f893e856f4845d",
+          "url": "https://github.com/nuclia/nucliadb/commit/ad87379c96b6d6d827f9360d08cd845ac127b522"
+        },
+        "date": 1713427491301,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13457.515003579008,
+            "unit": "iter/sec",
+            "range": "stddev: 1.8416698845777538e-7",
+            "extra": "mean: 74.30792384285294 usec\nrounds: 5"
           }
         ]
       }
