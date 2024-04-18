@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1713427619132,
+  "lastUpdate": 1713427638774,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -69334,6 +69334,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.319117279517656e-7",
             "extra": "mean: 75.1114759893808 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "83ea45caecd09e12612211e39ca8f40d37d320cb",
+          "message": "Add global migration to purge orphan kbslugs keys from maindb (#1963)\n\n* Revert \"Add logs (#1959)\"\r\n\r\nThis reverts commit 247f86ae067e740d130bb4c0ea09ad96629bde25.\r\n\r\n* Add migration to purge orphan kbslugs keys\r\n\r\n* Fix lints\r\n\r\n* Add test for migration 18\r\n\r\n* Common get_migration function for tests\r\n\r\n* Fix migration test for tikv\r\n\r\n* Changes after rebase\r\n\r\n* Lints after rebase and black upgrade\r\n\r\n* More lints again?\r\n\r\n* Fix migration test\r\n\r\n* Fix test again\r\n\r\n* Fix test",
+          "timestamp": "2024-04-18T10:01:46+02:00",
+          "tree_id": "cf348d18b77d4c8e0becf70b7c0d2bb7f0543307",
+          "url": "https://github.com/nuclia/nucliadb/commit/83ea45caecd09e12612211e39ca8f40d37d320cb"
+        },
+        "date": 1713427634226,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13186.190739228017,
+            "unit": "iter/sec",
+            "range": "stddev: 2.8039816940275546e-7",
+            "extra": "mean: 75.83691300817213 usec\nrounds: 5"
           }
         ]
       }
