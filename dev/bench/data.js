@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1713427776611,
+  "lastUpdate": 1713433596485,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -69396,6 +69396,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.607547687627527e-7",
             "extra": "mean: 74.96093476912053 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "dc8fe7e81969bdc08a2564f3fe5188d39af42229",
+          "message": "Support matryoshka embeddings (#2063)\n\n* Move vectorsets to a datamanager\r\n\r\n* Separate function to apply single vector\r\n\r\n* Add matryoshka fields to SemanticModelMetadata pb\r\n\r\n* Add flag to indicate node to normalize vectors\r\n\r\n* Normalize vectors before indexing when needed\r\n\r\n* Implement vector normalization function\r\n\r\n* Pass normalize_vectors flag on shard creation\r\n\r\n* Fix grpc node binding NewShard parameter\r\n\r\n* Add matryoshka_dimensions as a field on kb creation\r\n\r\n* Expect semantic matryoshka dims from learning config\r\n\r\n* Pass normalize_vectors in shard creation\r\n\r\n* Test KB creation with matryoshka dimensions\r\n\r\n* Add comments to KnowledgeBoxNew\r\n\r\n* Add set_config to kb datamanager\r\n\r\n* Choose matryoshka embedding on KB creation\r\n\r\n* Cut vectors on indexing\r\n\r\n* Retrieve vector dimension and use it for indexing\r\n\r\n* Test matryoshka config retrieval on indexing\r\n\r\n* Implement better heuristics for choose matryoshka dim\r\n\r\n* Be more explicit about matryoshka vector dimension\r\n\r\n* Don't fail to delete a vectorset if it's not there\r\n\r\n* Remove print\r\n\r\n* Cut query vector if it's a matryoshka embedding\r\n\r\n* Normalize vectors in search time\r\n\r\n* Add extracted vectors to broker message builder\r\n\r\n* Add feature integration tests\r\n\r\n* Add faker as test dependency for nucliadb\r\n\r\n* Forward nomalize vectors to read replicas",
+          "timestamp": "2024-04-18T11:18:16+02:00",
+          "tree_id": "638ca146ffee23f429c7c717003215a364e25b3d",
+          "url": "https://github.com/nuclia/nucliadb/commit/dc8fe7e81969bdc08a2564f3fe5188d39af42229"
+        },
+        "date": 1713433591853,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 7638.2228742549,
+            "unit": "iter/sec",
+            "range": "stddev: 1.9051752522862974e-7",
+            "extra": "mean: 130.92050552368164 usec\nrounds: 5"
           }
         ]
       }
