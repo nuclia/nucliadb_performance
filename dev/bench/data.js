@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1713537752263,
+  "lastUpdate": 1713537903659,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -69644,6 +69644,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.2688456252862438e-7",
             "extra": "mean: 74.83540354548273 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "276e0c47a3617ca8f4abd38c70f5a16539656a0b",
+          "message": "Bump aiohttp and idna to fix vulnerabilities (#2078)\n\n* Bump aiohttp and idna to fix vulnerabilities\r\n\r\n* fix idna",
+          "timestamp": "2024-04-19T16:37:19+02:00",
+          "tree_id": "9e2e61cb79daf0578d719a4d2625f5675af2bfe7",
+          "url": "https://github.com/nuclia/nucliadb/commit/276e0c47a3617ca8f4abd38c70f5a16539656a0b"
+        },
+        "date": 1713537899479,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13382.020023736344,
+            "unit": "iter/sec",
+            "range": "stddev: 1.4566817454535893e-7",
+            "extra": "mean: 74.72713373812407 usec\nrounds: 5"
           }
         ]
       }
