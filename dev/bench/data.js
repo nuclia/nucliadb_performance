@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1713813315476,
+  "lastUpdate": 1713813456561,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -69830,6 +69830,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 5.62646046891272e-7",
             "extra": "mean: 76.22971973447957 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c66eb34b7831dcd5e4f1337a502c82367c0d6125",
+          "message": "Fix pagination bug on catalog (#2084)",
+          "timestamp": "2024-04-22T21:09:48+02:00",
+          "tree_id": "fbbdbe75fbc718b9110e47f6de58b857830a1d71",
+          "url": "https://github.com/nuclia/nucliadb/commit/c66eb34b7831dcd5e4f1337a502c82367c0d6125"
+        },
+        "date": 1713813452378,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13110.205044151637,
+            "unit": "iter/sec",
+            "range": "stddev: 4.0263376158006906e-7",
+            "extra": "mean: 76.27645766273446 usec\nrounds: 5"
           }
         ]
       }
