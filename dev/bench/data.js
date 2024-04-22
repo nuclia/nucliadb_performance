@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1713816605034,
+  "lastUpdate": 1713816782665,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -69923,6 +69923,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 9.472519728321889e-7",
             "extra": "mean: 75.75549275042063 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "170e6bd73e696b637d6bab8aa6e81ccf805e42f6",
+          "message": "Add origin source-id label alias (#2085)",
+          "timestamp": "2024-04-22T22:04:58+02:00",
+          "tree_id": "25ce63113885d0b790c9dffcfcd0d839ca0f0d8c",
+          "url": "https://github.com/nuclia/nucliadb/commit/170e6bd73e696b637d6bab8aa6e81ccf805e42f6"
+        },
+        "date": 1713816778425,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13231.34992598824,
+            "unit": "iter/sec",
+            "range": "stddev: 7.025975140542063e-7",
+            "extra": "mean: 75.57807824550532 usec\nrounds: 5"
           }
         ]
       }
