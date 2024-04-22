@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1713781370891,
+  "lastUpdate": 1713781405990,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -69706,6 +69706,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 3.746479009902169e-7",
             "extra": "mean: 130.06229400634766 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "javier@javiertorres.eu",
+            "name": "Javier Torres",
+            "username": "javitonino"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ea225f385dbc39f97a266056b071edfdbdfff102",
+          "message": "Term query set (#2073)\n\n- Do not propagate field labels to paragraph index\r\n- Prefiltering speed improvements",
+          "timestamp": "2024-04-22T12:04:54+02:00",
+          "tree_id": "e72e7524c9e9ed50e02cb2c7f39812a7db3fd1b5",
+          "url": "https://github.com/nuclia/nucliadb/commit/ea225f385dbc39f97a266056b071edfdbdfff102"
+        },
+        "date": 1713781401438,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13191.042003346403,
+            "unit": "iter/sec",
+            "range": "stddev: 3.786500862509787e-7",
+            "extra": "mean: 75.80902249771569 usec\nrounds: 5"
           }
         ]
       }
