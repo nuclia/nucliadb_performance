@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1713862018025,
+  "lastUpdate": 1713862027085,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -69985,6 +69985,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.667347472780091e-7",
             "extra": "mean: 79.1663748129672 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "javier@javiertorres.eu",
+            "name": "Javier Torres",
+            "username": "javitonino"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "47f4e87bd2c893237174bf99dcbeb27eb1b1c8ef",
+          "message": "Support keep_markdown in models (#2087)",
+          "timestamp": "2024-04-23T10:42:22+02:00",
+          "tree_id": "aed715bc443d08b591c37994b66ffc88e4936e70",
+          "url": "https://github.com/nuclia/nucliadb/commit/47f4e87bd2c893237174bf99dcbeb27eb1b1c8ef"
+        },
+        "date": 1713862022995,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13424.900932256061,
+            "unit": "iter/sec",
+            "range": "stddev: 1.7377752452918627e-7",
+            "extra": "mean: 74.4884453930901 usec\nrounds: 5"
           }
         ]
       }
