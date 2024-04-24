@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1713954959283,
+  "lastUpdate": 1713955114234,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -70202,6 +70202,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 6.37856550715e-7",
             "extra": "mean: 76.50501852028336 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "javier@javiertorres.eu",
+            "name": "Javier Torres",
+            "username": "javitonino"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f701c8d0f2c48cfee24c73cf58ca5f36554fc928",
+          "message": "Do not fail if apt-get update fails in CI (#2093)",
+          "timestamp": "2024-04-24T12:29:43+02:00",
+          "tree_id": "203361821fe9a17c236841fefc04f4ea371fcd47",
+          "url": "https://github.com/nuclia/nucliadb/commit/f701c8d0f2c48cfee24c73cf58ca5f36554fc928"
+        },
+        "date": 1713955110055,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13171.348193442118,
+            "unit": "iter/sec",
+            "range": "stddev: 7.425355648354224e-7",
+            "extra": "mean: 75.9223722062021 usec\nrounds: 5"
           }
         ]
       }
