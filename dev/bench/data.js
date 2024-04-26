@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1713955114234,
+  "lastUpdate": 1714120305125,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -70233,6 +70233,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 7.425355648354224e-7",
             "extra": "mean: 75.9223722062021 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "44120086+hermeGarcia@users.noreply.github.com",
+            "name": "Herme",
+            "username": "hermeGarcia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2a857ad62aac788d448dd4630ed98119908cd83a",
+          "message": "No vector metadata when opening (#2091)\n\n* shard2 + metadata start\r\n\r\n* adding\r\n\r\n* avoid versioning..\r\n\r\n* no start on the node",
+          "timestamp": "2024-04-26T10:15:26+02:00",
+          "tree_id": "6efb71d0336cf388235537a568a7eeb8965cfff3",
+          "url": "https://github.com/nuclia/nucliadb/commit/2a857ad62aac788d448dd4630ed98119908cd83a"
+        },
+        "date": 1714120300403,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 7751.623028598717,
+            "unit": "iter/sec",
+            "range": "stddev: 1.1436755590612011e-7",
+            "extra": "mean: 129.00524139404297 usec\nrounds: 5"
           }
         ]
       }
