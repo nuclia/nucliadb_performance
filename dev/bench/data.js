@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1714383631419,
+  "lastUpdate": 1714383792824,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -70574,6 +70574,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 8.223336383086275e-7",
             "extra": "mean: 74.3168345569859 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "50867b90cff06218851974230ac6dabb75f2800e",
+          "message": "Cleanup ingest gRPC and id/slugs (#2080)\n\n* Remove GetResourceId and simplify writer fields API\r\n\r\n* Move all fields to resources datamanager\r\n\r\n* Don't use ResourceFieldExists in field endpoints\r\n\r\n* Fix get_kv_pb condition\r\n\r\n* Use ruff check after black to avoid failing on too long lines\r\n\r\n* Rewrite in a more clear way start_field_upload\r\n\r\n* Remove ResourceFieldExists call from ingest gRPC\r\n\r\n* Remove more slug/rid conditionals from upload and resource api\r\n\r\n* Remove no longer used function\r\n\r\n* Delete KB only by id\r\n\r\n* Add small test for datamanager",
+          "timestamp": "2024-04-29T11:35:08+02:00",
+          "tree_id": "87082ac153f9f6dd6cbe9fc59cab960b08d4d49e",
+          "url": "https://github.com/nuclia/nucliadb/commit/50867b90cff06218851974230ac6dabb75f2800e"
+        },
+        "date": 1714383788083,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13063.434273925795,
+            "unit": "iter/sec",
+            "range": "stddev: 5.349046150574503e-7",
+            "extra": "mean: 76.54954884229554 usec\nrounds: 5"
           }
         ]
       }
