@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1714385509046,
+  "lastUpdate": 1714385639809,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -70760,6 +70760,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.3784893398037759e-7",
             "extra": "mean: 128.5691261291504 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9ccac17484b17379e382c79691487581370cb74b",
+          "message": "Cleanup optionals from metadata file (#2100)\n\n* Add release channel to PrimaryShardReplicationState\r\n\r\n* Remove optionals from shard metadata file\r\n\r\n* Use protos values instead of hardcoded ones",
+          "timestamp": "2024-04-29T11:38:27+02:00",
+          "tree_id": "6271b74e5c894d92a7a8e312f0e01084774c6ebf",
+          "url": "https://github.com/nuclia/nucliadb/commit/9ccac17484b17379e382c79691487581370cb74b"
+        },
+        "date": 1714385635648,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 7718.366651417527,
+            "unit": "iter/sec",
+            "range": "stddev: 4.457496160765879e-7",
+            "extra": "mean: 129.56109046936035 usec\nrounds: 5"
           }
         ]
       }
