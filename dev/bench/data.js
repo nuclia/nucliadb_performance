@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1714658122416,
+  "lastUpdate": 1714658274131,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -70946,6 +70946,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.4957128615000322e-7",
             "extra": "mean: 74.4128085739181 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e429f601397d2ec4a521aafad394beaf2ada6af3",
+          "message": "Added limits to pagination (#2108)",
+          "timestamp": "2024-05-02T15:49:24+02:00",
+          "tree_id": "3b33aaeb4f11ccc5f3d49c8326279acb77479a6c",
+          "url": "https://github.com/nuclia/nucliadb/commit/e429f601397d2ec4a521aafad394beaf2ada6af3"
+        },
+        "date": 1714658269800,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13190.647232728887,
+            "unit": "iter/sec",
+            "range": "stddev: 1.1876928639863271e-7",
+            "extra": "mean: 75.8112913154694 usec\nrounds: 5"
           }
         ]
       }
