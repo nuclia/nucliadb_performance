@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1714658274131,
+  "lastUpdate": 1714659755880,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -70977,6 +70977,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.1876928639863271e-7",
             "extra": "mean: 75.8112913154694 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f5301656325db5e2e67204e0f84e796a59bb6c25",
+          "message": "Be able to index a resource by storage referece (#2094)",
+          "timestamp": "2024-05-02T16:00:25+02:00",
+          "tree_id": "437e26bdd7bf2bd76a9fcd150c06521e5ca78981",
+          "url": "https://github.com/nuclia/nucliadb/commit/f5301656325db5e2e67204e0f84e796a59bb6c25"
+        },
+        "date": 1714659751416,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 7884.056750567953,
+            "unit": "iter/sec",
+            "range": "stddev: 2.0699342585574644e-7",
+            "extra": "mean: 126.83825492858887 usec\nrounds: 5"
           }
         ]
       }
