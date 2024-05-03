@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1714722175082,
+  "lastUpdate": 1714722349571,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -71132,6 +71132,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 3.6007837922465387e-7",
             "extra": "mean: 128.62043380737305 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f651f2dec1b391d9fc06a6685d90f2c92080a913",
+          "message": "Set resource from storage tweaks (#2111)\n\n* more resilient env var serialization\r\n\r\n* Set shard id\r\n\r\n* Set shard id\r\n\r\n* Simulate the same resource payload as when coming from storage\r\n\r\n* Fix fedora install too",
+          "timestamp": "2024-05-03T09:27:12+02:00",
+          "tree_id": "340fd0973f36a6173c2c00d0e51494328a07e5ad",
+          "url": "https://github.com/nuclia/nucliadb/commit/f651f2dec1b391d9fc06a6685d90f2c92080a913"
+        },
+        "date": 1714722344584,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 7799.450024285511,
+            "unit": "iter/sec",
+            "range": "stddev: 1.0501944646046123e-7",
+            "extra": "mean: 128.21416854858398 usec\nrounds: 5"
           }
         ]
       }
