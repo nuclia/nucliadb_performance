@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715002852445,
+  "lastUpdate": 1715005200014,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -71349,6 +71349,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 3.7862791803619537e-7",
             "extra": "mean: 75.74861964408358 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d8cefdd65b2ff75b2858fec12297fb25665b4ec5",
+          "message": "Deprecated unused OpStatus fields and don't compute counters anymore (#2114)",
+          "timestamp": "2024-05-06T16:12:02+02:00",
+          "tree_id": "2033188322097926895e8891ef5bf824d9309ad4",
+          "url": "https://github.com/nuclia/nucliadb/commit/d8cefdd65b2ff75b2858fec12297fb25665b4ec5"
+        },
+        "date": 1715005195670,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13335.187083256114,
+            "unit": "iter/sec",
+            "range": "stddev: 1.996773979125049e-7",
+            "extra": "mean: 74.98957410620933 usec\nrounds: 5"
           }
         ]
       }
