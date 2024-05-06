@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1714997379944,
+  "lastUpdate": 1715002501884,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -71256,6 +71256,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 3.512423097504668e-7",
             "extra": "mean: 75.99359229490331 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "20b967aa488648b7289d02612aea084211fbcc99",
+          "message": "Add shard indexes metadata file (#2103)\n\n* Remove option from vector similarity as it was always required\r\n\r\n* Remove dead code\r\n\r\n* Add shard indexes metadata file module\r\n\r\n* Use Versions instead of hardcoding version numbers\r\n\r\n* Same for reader\r\n\r\n* Use shard indexes file and automatically create it\r\n\r\n* Create hashmap with default directly\r\n\r\n* Validate against adding same vectorset name twice",
+          "timestamp": "2024-05-06T15:27:20+02:00",
+          "tree_id": "9a6f3829e4ee56b21c8f1972a19ecdcbe5a25148",
+          "url": "https://github.com/nuclia/nucliadb/commit/20b967aa488648b7289d02612aea084211fbcc99"
+        },
+        "date": 1715002497398,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12990.126610678932,
+            "unit": "iter/sec",
+            "range": "stddev: 4.624650462553549e-7",
+            "extra": "mean: 76.98154375015247 usec\nrounds: 5"
           }
         ]
       }
