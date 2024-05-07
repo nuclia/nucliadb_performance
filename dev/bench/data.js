@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715085093712,
+  "lastUpdate": 1715092406577,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -72093,6 +72093,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.2799858107548344e-7",
             "extra": "mean: 75.99721059417148 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "16ffed91cf2e91afc8e035bf7725e24304540683",
+          "message": "Fix S3 storage delete_object param name (#2112)",
+          "timestamp": "2024-05-07T16:28:33+02:00",
+          "tree_id": "c1b89d4d58fa9e3ca98b1b9d72e043fc80d3bbd9",
+          "url": "https://github.com/nuclia/nucliadb/commit/16ffed91cf2e91afc8e035bf7725e24304540683"
+        },
+        "date": 1715092402109,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12497.534421421911,
+            "unit": "iter/sec",
+            "range": "stddev: 6.577585575095211e-7",
+            "extra": "mean: 80.01578281600162 usec\nrounds: 5"
           }
         ]
       }
