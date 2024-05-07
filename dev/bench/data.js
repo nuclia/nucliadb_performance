@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715082125388,
+  "lastUpdate": 1715083136860,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -71907,6 +71907,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 3.200561787974278e-7",
             "extra": "mean: 74.11369032706445 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "67fe364c6e2547781c4c40866a4a6ec1fbe5d998",
+          "message": "Stricter grpcio dependency requirements to ease installs (#2123)",
+          "timestamp": "2024-05-07T13:34:53+02:00",
+          "tree_id": "731dcc1bc071a18b5dfff2726fa1a528ed9b4d11",
+          "url": "https://github.com/nuclia/nucliadb/commit/67fe364c6e2547781c4c40866a4a6ec1fbe5d998"
+        },
+        "date": 1715083132469,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13196.163887713006,
+            "unit": "iter/sec",
+            "range": "stddev: 3.663704975690796e-7",
+            "extra": "mean: 75.7795984127708 usec\nrounds: 5"
           }
         ]
       }
