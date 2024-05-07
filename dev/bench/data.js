@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715069512341,
+  "lastUpdate": 1715069658527,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -71597,6 +71597,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.3742208157325094e-7",
             "extra": "mean: 75.04249328333944 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e6263ba68afa10441b970eaab0969e89266c9b30",
+          "message": "Less locking in ShardWriter (#2117)",
+          "timestamp": "2024-05-07T09:50:30+02:00",
+          "tree_id": "35b7c4a5cddea09c840203140062f780ca1ccaf4",
+          "url": "https://github.com/nuclia/nucliadb/commit/e6263ba68afa10441b970eaab0969e89266c9b30"
+        },
+        "date": 1715069654178,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13053.865456795056,
+            "unit": "iter/sec",
+            "range": "stddev: 1.4163049567024351e-7",
+            "extra": "mean: 76.60566161875524 usec\nrounds: 5"
           }
         ]
       }
