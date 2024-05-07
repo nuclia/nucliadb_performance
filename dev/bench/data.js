@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715097892555,
+  "lastUpdate": 1715098097420,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -72341,6 +72341,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.8406679281466203e-7",
             "extra": "mean: 76.46142160491478 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "28c6b10067458aac2240a0d7d0c700ec5c809fe4",
+          "message": "Limit the amount of vectorsets allowed (#2128)",
+          "timestamp": "2024-05-07T17:36:24+02:00",
+          "tree_id": "8ea4897c2046243afae80996d0892cc9a55b9969",
+          "url": "https://github.com/nuclia/nucliadb/commit/28c6b10067458aac2240a0d7d0c700ec5c809fe4"
+        },
+        "date": 1715098092856,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13198.764586602983,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000001722153039224818",
+            "extra": "mean: 75.7646667185064 usec\nrounds: 5"
           }
         ]
       }
