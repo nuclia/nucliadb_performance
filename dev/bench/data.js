@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715072811756,
+  "lastUpdate": 1715075823986,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -71721,6 +71721,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.6620330035759105e-7",
             "extra": "mean: 74.63202444641522 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "44120086+hermeGarcia@users.noreply.github.com",
+            "name": "Herme",
+            "username": "hermeGarcia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e9a546a99d51617a051d10ea4fd0c840c76e78c6",
+          "message": "box readers + swap update (#2122)",
+          "timestamp": "2024-05-07T11:42:22+02:00",
+          "tree_id": "8331a0b410daa37d0c51d0bd9b39701ea42a1db4",
+          "url": "https://github.com/nuclia/nucliadb/commit/e9a546a99d51617a051d10ea4fd0c840c76e78c6"
+        },
+        "date": 1715075819456,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13206.073080733175,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000014819789844176721",
+            "extra": "mean: 75.72273709880773 usec\nrounds: 5"
           }
         ]
       }
