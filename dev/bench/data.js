@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715072630641,
+  "lastUpdate": 1715072811756,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -71690,6 +71690,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.7229923776273756e-7",
             "extra": "mean: 74.96164169936418 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7e44af2612fed7f594fb2554a87bee3851cd5a01",
+          "message": "Store indexes file by write and rename (#2120)\n\n* Store indexes file using write-and-rename\r\n\r\n* Use tracing::info instead of println\r\n\r\n* Flush contents before renaming",
+          "timestamp": "2024-05-07T10:56:14+02:00",
+          "tree_id": "4a1aca95d5956de19ae2b9a762359ebf78770ef4",
+          "url": "https://github.com/nuclia/nucliadb/commit/7e44af2612fed7f594fb2554a87bee3851cd5a01"
+        },
+        "date": 1715072807115,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13399.073754430803,
+            "unit": "iter/sec",
+            "range": "stddev: 1.6620330035759105e-7",
+            "extra": "mean: 74.63202444641522 usec\nrounds: 5"
           }
         ]
       }
