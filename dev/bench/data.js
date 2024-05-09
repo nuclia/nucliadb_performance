@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715248700552,
+  "lastUpdate": 1715248857037,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -72434,6 +72434,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 8.770887522572189e-7",
             "extra": "mean: 75.83804130554199 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "javier@javiertorres.eu",
+            "name": "Javier Torres",
+            "username": "javitonino"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e27193b70c475df478021e3b1629a4ee576cc0d3",
+          "message": "Update rust deps (#2130)\n\n* Update rust deps\r\n\r\n* Reduce logging level in replication\r\n\r\n* Bundle protoc",
+          "timestamp": "2024-05-09T11:23:12+02:00",
+          "tree_id": "ea22c9ccc7ae23e1df545925f2b905b15e574864",
+          "url": "https://github.com/nuclia/nucliadb/commit/e27193b70c475df478021e3b1629a4ee576cc0d3"
+        },
+        "date": 1715248852518,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13215.387654215743,
+            "unit": "iter/sec",
+            "range": "stddev: 3.533252849310065e-7",
+            "extra": "mean: 75.66936560358843 usec\nrounds: 5"
           }
         ]
       }
