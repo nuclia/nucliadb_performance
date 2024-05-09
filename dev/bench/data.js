@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715258047883,
+  "lastUpdate": 1715258291462,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -72899,6 +72899,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.461672235699976e-7",
             "extra": "mean: 74.68688586526666 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9f5e1e5036d0c4da2306446f45eafbc48d45c80c",
+          "message": "Fix wrong usage of fastapi endpoint docs (#2113)\n\n* Fix wrong usage of fastapi endpoint docs\r\n\r\n* Fix tests",
+          "timestamp": "2024-05-09T14:28:18+02:00",
+          "tree_id": "2e81665f9074689bad39cf43b52099b7e67e3fda",
+          "url": "https://github.com/nuclia/nucliadb/commit/9f5e1e5036d0c4da2306446f45eafbc48d45c80c"
+        },
+        "date": 1715258286992,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13114.23705971503,
+            "unit": "iter/sec",
+            "range": "stddev: 2.2892961646450247e-7",
+            "extra": "mean: 76.25300621351815 usec\nrounds: 5"
           }
         ]
       }
