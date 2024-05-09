@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715249402739,
+  "lastUpdate": 1715249549604,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -72527,6 +72527,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 6.558593624886188e-7",
             "extra": "mean: 75.19639524302087 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1d4039d500cada6639f19fa5aad204f252cd47f3",
+          "message": "Onprem migrations on startup (#2132)",
+          "timestamp": "2024-05-09T11:42:26+02:00",
+          "tree_id": "f2247f13d474fc28ecae2821c700dee207ca09d6",
+          "url": "https://github.com/nuclia/nucliadb/commit/1d4039d500cada6639f19fa5aad204f252cd47f3"
+        },
+        "date": 1715249544944,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13379.3704252479,
+            "unit": "iter/sec",
+            "range": "stddev: 3.354971558458379e-7",
+            "extra": "mean: 74.7419324090858 usec\nrounds: 5"
           }
         ]
       }
