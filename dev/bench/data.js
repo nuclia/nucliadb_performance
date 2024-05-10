@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715346867128,
+  "lastUpdate": 1715346890340,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -73147,6 +73147,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000002316590185582974",
             "extra": "mean: 76.8850427685362 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "javier@javiertorres.eu",
+            "name": "Javier Torres",
+            "username": "javitonino"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d9252f7c4c26cd9fa9a1553f36ba5f93469602f7",
+          "message": "Pdm (#2136)\n\n# mypy fixes\r\n\r\nThis PR intends to make mypy more consistent. It turns out mypy was not checking packages installed as editable, depending on how exactly they were installed (PEP-517 or old style). I added the corresponding paths to mypy.ini to ensure it always loads all packages.\r\n\r\nIt turns out that nucliadb_protos had some type errors. I fixed one of them by removing deprecated fields and the others are decided to ignore since they have no practical impact an they are due to a mypy-protobuf limitation (see comment for more details).\r\n\r\nFinally, I updated to the latest version of mypy and fixed a couple of issues that the new version detects that the older one didn't.\r\n\r\n# PDM: Dependency management\r\n\r\nThis is a bit unrelated but the PRs got a bit mixed up and I am too lazy to separate.\r\n\r\nPDM is a dependency management tool, similar to Poetry. In our case, it's more convenient because it has better support for workspaces/monorepos and I found it easier to integrate into an existing project. In this case, I'm not changing anything in our published packages so everything should continue to work exactly the same.\r\n\r\nThe changes will be useful to have a consistent environment between our local machines, CI and the docker images. PDM locks the dependencies (in `pdm.lock`) and can restore an exact copy of an environment simply by running `pdm sync -d` (`-d` for develop, so it install testing and linting tools as well) which will install everything under a virtualenv `nucliadb/.venv`).\r\n\r\nI deployed this in the new CI pipelines to give it a try, but it could be extended to all other CI pipelines and building docker images if it works for us.\r\n\r\n# Dropping Python 3.8 support\r\n\r\nWe were already depending on packages that have dropped 3.8 support, so nucliadb doesn't really work in 3.8 anyway. MyPy was configured for 3.9, so we also wrote some syntax of our own which is not 3.9 compatible. It's also unsupported (not updated) and will even lose any security support in a couple of months. I think it's ok to drop it now.\r\n\r\nThis triggered a bunch of linting as black saw the minimum version changed and it could afford to do some syntax changes that were unsupported in 3.8. That's why you see random indentation changes here and there.\r\n\r\n# Significant stuff\r\n\r\nSince there's a bit too much noise in the PR, here's what's actually interesting to review:\r\n- `.github/workflows/ci.yml` -> Using PDM in the new CI pipeline\r\n- `.github/workflows` -> Dropping 3.8\r\n- `mypy.ini` -> mypy fixes as described above\r\n- `*/setup.py` -> Dropping 3.8\r\n- `pyproject.toml` -> Configuration for PDM\r\n- `nucliadb/nucliadb/search/requesters/utils.py` -> mypy fixes\r\n- `nucliadb_protos/resources.proto` -> Removing deprecated fields\r\n- `nucliadb_telemetry/nucliadb_telemetry/errors.py` and its test -> mypy fixes for sentry",
+          "timestamp": "2024-05-10T14:44:47+02:00",
+          "tree_id": "96410ec89f69f41085952102a05779e158cbada8",
+          "url": "https://github.com/nuclia/nucliadb/commit/d9252f7c4c26cd9fa9a1553f36ba5f93469602f7"
+        },
+        "date": 1715346885436,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12841.751006564386,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000002335665818171046",
+            "extra": "mean: 77.87100057373988 usec\nrounds: 5"
           }
         ]
       }
