@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715601441063,
+  "lastUpdate": 1715607484979,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -73395,6 +73395,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000002766082423827517",
             "extra": "mean: 80.2588990972012 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "javier@javiertorres.eu",
+            "name": "Javier Torres",
+            "username": "javitonino"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "169a3e9f1d823efb51563b43c6896e89745225a8",
+          "message": "Increase maximum message size for index writer grpc service (#2140)",
+          "timestamp": "2024-05-13T15:30:47+02:00",
+          "tree_id": "0ff30b0adb25e4768890e89a512f249d78d79c25",
+          "url": "https://github.com/nuclia/nucliadb/commit/169a3e9f1d823efb51563b43c6896e89745225a8"
+        },
+        "date": 1715607480422,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13318.828500940426,
+            "unit": "iter/sec",
+            "range": "stddev: 3.937682497127561e-7",
+            "extra": "mean: 75.08167853722205 usec\nrounds: 5"
           }
         ]
       }
