@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715586687926,
+  "lastUpdate": 1715601404418,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -73302,6 +73302,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.9712154083236867e-7",
             "extra": "mean: 75.38523809841905 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "937a65adbad17bcbe83cb7dd59b0831d45202cca",
+          "message": "Fix object store s3 building (#2139)",
+          "timestamp": "2024-05-13T13:46:32+02:00",
+          "tree_id": "8aa3426aeff295bdbd7c8577ed959e9ed8705a81",
+          "url": "https://github.com/nuclia/nucliadb/commit/937a65adbad17bcbe83cb7dd59b0831d45202cca"
+        },
+        "date": 1715601399598,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13402.537349987755,
+            "unit": "iter/sec",
+            "range": "stddev: 8.382014350238131e-8",
+            "extra": "mean: 74.6127374157934 usec\nrounds: 5"
           }
         ]
       }
