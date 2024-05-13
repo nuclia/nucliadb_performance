@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715586576289,
+  "lastUpdate": 1715586687926,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -73271,6 +73271,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.5291947983156685e-7",
             "extra": "mean: 75.13215441903668 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "12b599a169536e9b0f96b3f16c46241acc117fe0",
+          "message": "Cleanup index nodes from global state on teardown (#2137)",
+          "timestamp": "2024-05-13T09:43:56+02:00",
+          "tree_id": "83e55e609e61c0c179d25ef1363744a8a3202fb5",
+          "url": "https://github.com/nuclia/nucliadb/commit/12b599a169536e9b0f96b3f16c46241acc117fe0"
+        },
+        "date": 1715586683516,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13265.196545435749,
+            "unit": "iter/sec",
+            "range": "stddev: 2.9712154083236867e-7",
+            "extra": "mean: 75.38523809841905 usec\nrounds: 5"
           }
         ]
       }
