@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715682874440,
+  "lastUpdate": 1715685382893,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -73674,6 +73674,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 5.941767318214108e-8",
             "extra": "mean: 76.06652229343919 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "55fd11d522214034c9e68d13f24e4754d2137ed3",
+          "message": "Support vectorsets at shard level (#2129)\n\n* Basic vectorset support in shard writer\r\n\r\nNew, open, set and remove resource, GC and reload\r\n\r\n* Skip implementation of vectorsets merge and replication (for now)\r\n\r\n* Add create vectors index function and some renames\r\n\r\n* Add normalize_vector parameter to new vectorset call\r\n\r\n* Add normalize_vector parameter to new vectorset call\r\n\r\n* Implement add_vector_set gRPC call\r\n\r\n* Add basic test creating 2 vectors indexes and setting a resource\r\n\r\n* Implement remove vectorset gRPC call\r\n\r\n* Implement list vectorsets gRPC call\r\n\r\n* Add more operations on the vectorset test\r\n\r\n* Fix rebase\r\n\r\n* Fix python lints after protos changes\r\n\r\n* Better way to pass parameters to open_vectors_writer\r\n\r\nCo-authored-by: Javier Torres <javier@javiertorres.eu>\r\n\r\n* Fix\r\n\r\n* No need to store ShardIndexes in the reader\r\n\r\n* Remove print from test\r\n\r\n* Start vectorsets support in shard reader\r\n\r\n* Use proto vectorset on search\r\n\r\n* More\r\n\r\n* Merge all vectors indexes and return any error\r\n\r\n* Add vectorset sentences to index paragraph proto\r\n\r\n* Use it on the tests\r\n\r\n* Fix merge so it doesn't block indexes lock\r\n\r\n---------\r\n\r\nCo-authored-by: Javier Torres <javier@javiertorres.eu>",
+          "timestamp": "2024-05-14T13:08:22+02:00",
+          "tree_id": "0da70b5da140aed6b0d67710b0cc7ce7372a62d6",
+          "url": "https://github.com/nuclia/nucliadb/commit/55fd11d522214034c9e68d13f24e4754d2137ed3"
+        },
+        "date": 1715685378369,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13140.148578835571,
+            "unit": "iter/sec",
+            "range": "stddev: 8.343017325820474e-7",
+            "extra": "mean: 76.10264024035992 usec\nrounds: 5"
           }
         ]
       }
