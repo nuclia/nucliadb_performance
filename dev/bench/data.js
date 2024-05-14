@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715612201781,
+  "lastUpdate": 1715682529703,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -73581,6 +73581,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 7.015194658734294e-7",
             "extra": "mean: 76.02774452273391 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6c53c378256a9e5d56b283e8db3d7159a1e8b208",
+          "message": "Add retries to object store downloads (#2143)\n\n* Add retries to object store downloads\r\n\r\n* Tweak rollover logging\r\n\r\n* more info less warn\r\n\r\n* Increase max shard size\r\n\r\n* Bring down nats ack wait",
+          "timestamp": "2024-05-14T12:07:35+02:00",
+          "tree_id": "f514c3b65333a9ac57ce6e9ac9554e41a804a9f3",
+          "url": "https://github.com/nuclia/nucliadb/commit/6c53c378256a9e5d56b283e8db3d7159a1e8b208"
+        },
+        "date": 1715682524565,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13198.084460244272,
+            "unit": "iter/sec",
+            "range": "stddev: 3.4157717375989134e-7",
+            "extra": "mean: 75.76857103864084 usec\nrounds: 5"
           }
         ]
       }
