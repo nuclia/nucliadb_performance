@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715857717439,
+  "lastUpdate": 1715870344618,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -74325,6 +74325,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 3.9766951851303175e-7",
             "extra": "mean: 76.6750106282113 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "994c4376ded68728c1d57dfa13f8ee6d5e53ac92",
+          "message": "Add a vectors index resource wrapper to set resources in the proper vectorset (#2152)\n\n* Add a vectors index resource wrapper\r\n\r\n* Fix telemetry in vectors writer open\r\n\r\n* Open all vector indexes in shard reader\r\n\r\n* Add test for vectorsets\r\n\r\n* Improve readability of vectors resource wrapper fields()\r\n\r\n* More standard usage of From",
+          "timestamp": "2024-05-16T16:31:00+02:00",
+          "tree_id": "8459231a5b05c0897f3283704d2c268960426792",
+          "url": "https://github.com/nuclia/nucliadb/commit/994c4376ded68728c1d57dfa13f8ee6d5e53ac92"
+        },
+        "date": 1715870339548,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13081.656937101263,
+            "unit": "iter/sec",
+            "range": "stddev: 1.031524978321642e-7",
+            "extra": "mean: 76.44291581778691 usec\nrounds: 5"
           }
         ]
       }
