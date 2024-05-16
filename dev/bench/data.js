@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715857586314,
+  "lastUpdate": 1715857717439,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -74294,6 +74294,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 7.835564274697888e-8",
             "extra": "mean: 78.34292393104703 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "31882346+carlesonielfa@users.noreply.github.com",
+            "name": "Carles Onielfa",
+            "username": "carlesonielfa"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "58a4b4cffcf3adab027cb90f334d00932c2e575d",
+          "message": "Fix local storage file movement (#2153)",
+          "timestamp": "2024-05-16T13:01:14+02:00",
+          "tree_id": "d44cc5dd97d06a0b80d3ce4810f352f7a5884230",
+          "url": "https://github.com/nuclia/nucliadb/commit/58a4b4cffcf3adab027cb90f334d00932c2e575d"
+        },
+        "date": 1715857712661,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13042.05883777298,
+            "unit": "iter/sec",
+            "range": "stddev: 3.9766951851303175e-7",
+            "extra": "mean: 76.6750106282113 usec\nrounds: 5"
           }
         ]
       }
