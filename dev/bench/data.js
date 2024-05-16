@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715852210960,
+  "lastUpdate": 1715852220804,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -74170,6 +74170,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000021850276241193144",
             "extra": "mean: 77.00175046920776 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "javier@javiertorres.eu",
+            "name": "Javier Torres",
+            "username": "javitonino"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e961fd4dcc1075d09cced6363d8ba39a0f905ee6",
+          "message": "Merge to prune delete tree when too many deletions (#2151)",
+          "timestamp": "2024-05-16T11:08:07+02:00",
+          "tree_id": "4294bd17fddc88581e30c4e45519bf45551c1c92",
+          "url": "https://github.com/nuclia/nucliadb/commit/e961fd4dcc1075d09cced6363d8ba39a0f905ee6"
+        },
+        "date": 1715852215717,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13045.52818875572,
+            "unit": "iter/sec",
+            "range": "stddev: 1.9245409273179022e-7",
+            "extra": "mean: 76.65461953943161 usec\nrounds: 5"
           }
         ]
       }
