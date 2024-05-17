@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715935891010,
+  "lastUpdate": 1715936052444,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -74573,6 +74573,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.6564934100540772e-7",
             "extra": "mean: 79.05822996956115 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7a0c806e045621c8eb4007772bee1f5773c88fe2",
+          "message": "Tweak ask response parsing (#2150)\n\n* Tweak\r\n\r\n* add test\r\n\r\n* better content type parsing\r\n\r\n* add test",
+          "timestamp": "2024-05-17T10:45:48+02:00",
+          "tree_id": "6ce2983f4372edeabcf6de875b4eea6e31155a64",
+          "url": "https://github.com/nuclia/nucliadb/commit/7a0c806e045621c8eb4007772bee1f5773c88fe2"
+        },
+        "date": 1715936047579,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12734.32947965574,
+            "unit": "iter/sec",
+            "range": "stddev: 3.207842546561202e-7",
+            "extra": "mean: 78.52788806804409 usec\nrounds: 5"
           }
         ]
       }
