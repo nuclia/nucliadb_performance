@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715944059368,
+  "lastUpdate": 1715944180412,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -74666,6 +74666,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 4.424463833698233e-7",
             "extra": "mean: 76.57846916263337 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "javier@javiertorres.eu",
+            "name": "Javier Torres",
+            "username": "javitonino"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3e504c95a59747e7cc54d76a27b036b62620a683",
+          "message": "Update to Pydantic 2 (#2142)",
+          "timestamp": "2024-05-17T12:38:07+02:00",
+          "tree_id": "07b0fc352c75501153defcd6b1be072355f2901a",
+          "url": "https://github.com/nuclia/nucliadb/commit/3e504c95a59747e7cc54d76a27b036b62620a683"
+        },
+        "date": 1715944175930,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12725.16436683966,
+            "unit": "iter/sec",
+            "range": "stddev: 2.7082258624864615e-7",
+            "extra": "mean: 78.58444662655101 usec\nrounds: 5"
           }
         ]
       }
