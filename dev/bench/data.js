@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1716193988080,
+  "lastUpdate": 1716194157432,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -74852,6 +74852,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.578110209851469e-7",
             "extra": "mean: 76.92293189037805 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "90adb26df8ba2f664df97e0b5722589cedb441a1",
+          "message": "Add date range filtering for catalog (#2161)\n\n* Add date range filtering for catalog\r\n\r\n* Add test\r\n\r\n* try two methods",
+          "timestamp": "2024-05-20T10:25:48+02:00",
+          "tree_id": "4624cfc8272692c39751d39d90869ab4264127bc",
+          "url": "https://github.com/nuclia/nucliadb/commit/90adb26df8ba2f664df97e0b5722589cedb441a1"
+        },
+        "date": 1716194152622,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12753.36742075481,
+            "unit": "iter/sec",
+            "range": "stddev: 5.907148658945663e-7",
+            "extra": "mean: 78.41066339644553 usec\nrounds: 5"
           }
         ]
       }
