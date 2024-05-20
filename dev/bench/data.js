@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1716203539493,
+  "lastUpdate": 1716204646708,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -75069,6 +75069,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 9.570201315240514e-8",
             "extra": "mean: 76.41662812978598 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "javier@javiertorres.eu",
+            "name": "Javier Torres",
+            "username": "javitonino"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fe445c74d4d22edd460e816afd866178bd3f39b8",
+          "message": "Split shard & vector configuration (#2155)\n\n* Split shard & vector configuration\r\n\r\n* License\r\n\r\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>\r\n\r\n* Remove unneeded param\r\n\r\n---------\r\n\r\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+          "timestamp": "2024-05-20T13:05:00+02:00",
+          "tree_id": "8e4624a50176ce58bce9cef91ca2f830cabe3b13",
+          "url": "https://github.com/nuclia/nucliadb/commit/fe445c74d4d22edd460e816afd866178bd3f39b8"
+        },
+        "date": 1716204642085,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12989.140130310221,
+            "unit": "iter/sec",
+            "range": "stddev: 3.716737651514162e-7",
+            "extra": "mean: 76.9873902327449 usec\nrounds: 5"
           }
         ]
       }
