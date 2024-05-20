@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1716219134155,
+  "lastUpdate": 1716219243712,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -75317,6 +75317,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 2.09564095327045e-7",
             "extra": "mean: 76.33143681413817 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "850577ec5c47e006cc296146f5879335920c9661",
+          "message": "Add vectorsets support to bindings (#2162)\n\n* Rename vectorsets binding functions\r\n\r\n* Implement vectorsets in node bindings\r\n\r\n* Improve functions in base node\r\n\r\n* Delete unused code\r\n\r\n* Fix typing",
+          "timestamp": "2024-05-20T17:19:03+02:00",
+          "tree_id": "5e289e3541a597e882465712db0e8f05be07d87a",
+          "url": "https://github.com/nuclia/nucliadb/commit/850577ec5c47e006cc296146f5879335920c9661"
+        },
+        "date": 1716219238869,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13100.859870721759,
+            "unit": "iter/sec",
+            "range": "stddev: 3.322138164454199e-7",
+            "extra": "mean: 76.33086758181679 usec\nrounds: 5"
           }
         ]
       }
