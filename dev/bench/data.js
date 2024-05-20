@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1716213948434,
+  "lastUpdate": 1716213981685,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -75193,6 +75193,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000002706963783283039",
             "extra": "mean: 77.66855174097522 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8f33133322b3a74a25a1ed5e8b85b415adc82bba",
+          "message": "Handle rebalance job being locked (#2168)\n\n* Handle rebalance job being locked\r\n\r\n* as constant\r\n\r\n* better test\r\n\r\n* done\r\n\r\n* done",
+          "timestamp": "2024-05-20T16:00:47+02:00",
+          "tree_id": "537feefebb3721b64a01086e7a94e1545bce3568",
+          "url": "https://github.com/nuclia/nucliadb/commit/8f33133322b3a74a25a1ed5e8b85b415adc82bba"
+        },
+        "date": 1716213976534,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12969.818071699341,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000001130266479601673",
+            "extra": "mean: 77.10208381272824 usec\nrounds: 5"
           }
         ]
       }
