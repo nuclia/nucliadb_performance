@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1716195810358,
+  "lastUpdate": 1716195982751,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -74945,6 +74945,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000010183662135759077",
             "extra": "mean: 77.82636474375525 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "javier@javiertorres.eu",
+            "name": "Javier Torres",
+            "username": "javitonino"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4f18819e29a4a3e56b7c8ce79b7beb301727f5cc",
+          "message": "Add PyNacl dependency (from nkeys which forgot it) (#2166)",
+          "timestamp": "2024-05-20T10:47:45+02:00",
+          "tree_id": "06c5316f1b8440a38cdaa78475ec0ab5ed8d9c19",
+          "url": "https://github.com/nuclia/nucliadb/commit/4f18819e29a4a3e56b7c8ce79b7beb301727f5cc"
+        },
+        "date": 1716195978104,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13224.521184042565,
+            "unit": "iter/sec",
+            "range": "stddev: 8.017042184279984e-7",
+            "extra": "mean: 75.61710447457675 usec\nrounds: 5"
           }
         ]
       }
