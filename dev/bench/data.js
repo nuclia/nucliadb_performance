@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1716195982751,
+  "lastUpdate": 1716203333851,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -74976,6 +74976,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 8.017042184279984e-7",
             "extra": "mean: 75.61710447457675 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0badcb91e55338127a2da441e272875a3efed6f7",
+          "message": "Remove broker message from pubsub notifications (#2165)",
+          "timestamp": "2024-05-20T13:03:12+02:00",
+          "tree_id": "b4499960b5ed9fd2eef2a415dc12bae39849ad58",
+          "url": "https://github.com/nuclia/nucliadb/commit/0badcb91e55338127a2da441e272875a3efed6f7"
+        },
+        "date": 1716203329237,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12953.90998125941,
+            "unit": "iter/sec",
+            "range": "stddev: 2.2169184386636564e-7",
+            "extra": "mean: 77.19676927249864 usec\nrounds: 5"
           }
         ]
       }
