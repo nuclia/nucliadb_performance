@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1716301467963,
+  "lastUpdate": 1716301649555,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -75689,6 +75689,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 6.270811015338759e-7",
             "extra": "mean: 78.06873096786703 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "javier@javiertorres.eu",
+            "name": "Javier Torres",
+            "username": "javitonino"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "74b862b4727e7a244e0a73bc4fb980969a0ddb70",
+          "message": "Replicate vectorsets (#2172)\n\n* Vectorset replication test\r\n\r\n* Replicate vectorsets",
+          "timestamp": "2024-05-21T15:55:41+02:00",
+          "tree_id": "78475229a3612e63a3cf876aedb02c4f69b8021f",
+          "url": "https://github.com/nuclia/nucliadb/commit/74b862b4727e7a244e0a73bc4fb980969a0ddb70"
+        },
+        "date": 1716301644684,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12923.396813099627,
+            "unit": "iter/sec",
+            "range": "stddev: 3.017243702424335e-7",
+            "extra": "mean: 77.37903698711499 usec\nrounds: 5"
           }
         ]
       }
