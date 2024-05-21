@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1716280096672,
+  "lastUpdate": 1716280234828,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -75410,6 +75410,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000010334167798209892",
             "extra": "mean: 81.53941041679792 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3f2750281e577f161f6227d6c4d15a4b456b3bfd",
+          "message": "Fix processing storage driver enum usage (#2174)",
+          "timestamp": "2024-05-21T10:22:28+02:00",
+          "tree_id": "9a1b8559851fe0c5b5e04f480043d291a6e75aab",
+          "url": "https://github.com/nuclia/nucliadb/commit/3f2750281e577f161f6227d6c4d15a4b456b3bfd"
+        },
+        "date": 1716280229961,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13032.477374393073,
+            "unit": "iter/sec",
+            "range": "stddev: 1.1854876634822886e-7",
+            "extra": "mean: 76.73138201374168 usec\nrounds: 5"
           }
         ]
       }
