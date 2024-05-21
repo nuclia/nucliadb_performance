@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1716286114655,
+  "lastUpdate": 1716286308795,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -75503,6 +75503,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000013057123545205168",
             "extra": "mean: 77.60340215251911 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3e3be884923038b316ebe009b61e4131f9fb3f35",
+          "message": "Synonyms datamanager (#2169)\n\n* Change Synonyms ORM object to a datamanager\r\n\r\n* Use datamanagers from reader and writer APIs\r\n\r\n* Cleanup ingest gRPC synonyms methods\r\n\r\n* Rename to cleaner get/set/delete API\r\n\r\n* Rely on global exception handling\r\n\r\n* Fix lints\r\n\r\n* Fix test",
+          "timestamp": "2024-05-21T12:03:21+02:00",
+          "tree_id": "965ddc4b15f793b47c3279c3917a13a7a04ca3fe",
+          "url": "https://github.com/nuclia/nucliadb/commit/3e3be884923038b316ebe009b61e4131f9fb3f35"
+        },
+        "date": 1716286303972,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12843.551932926592,
+            "unit": "iter/sec",
+            "range": "stddev: 2.9977067843979636e-7",
+            "extra": "mean: 77.86008148075712 usec\nrounds: 5"
           }
         ]
       }
