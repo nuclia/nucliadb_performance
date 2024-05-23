@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1716450808110,
+  "lastUpdate": 1716450825080,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -75844,6 +75844,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 9.85380485255137e-7",
             "extra": "mean: 76.34170138600746 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9f297c9c5f1a3f3170f939e4a4a6f76ad815fe32",
+          "message": "Extend BrokerMessage with vectorsets (#2158)",
+          "timestamp": "2024-05-23T09:48:21+02:00",
+          "tree_id": "fa63edaa338e19e8a435658cfd8dbb5a1e638317",
+          "url": "https://github.com/nuclia/nucliadb/commit/9f297c9c5f1a3f3170f939e4a4a6f76ad815fe32"
+        },
+        "date": 1716450820229,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12643.829575776417,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000010017693858147867",
+            "extra": "mean: 79.08996194601059 usec\nrounds: 5"
           }
         ]
       }
