@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1716457171085,
+  "lastUpdate": 1716462057017,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -76185,6 +76185,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.510166085775369e-7",
             "extra": "mean: 77.91647742084803 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3ad39703a44a2e09db4c0fd83b635a0c5afacbff",
+          "message": "Resources orm datamanager cleanup (#2182)\n\n* Move get_basic and set_basic from orm utils to resources datamanager\r\n\r\n* Remove ORM utils get_basic and set_basic\r\n\r\n* Remove Resource.parse_basic (not used anymore)\r\n\r\n* Remove unused Resource exists method\r\n\r\n* Move origin, extra, security and relations management to datamanager\r\n\r\n* Remove old get_resource_basic from datamanager\r\n\r\n* Reorder methods on resources datamanager\r\n\r\n* More in resources datamanager\r\n\r\n* Fix datamanager format\r\n\r\n* Fix unit test",
+          "timestamp": "2024-05-23T12:55:45+02:00",
+          "tree_id": "32eceebd27c6a4e29e3c10eac1f02d16c0190893",
+          "url": "https://github.com/nuclia/nucliadb/commit/3ad39703a44a2e09db4c0fd83b635a0c5afacbff"
+        },
+        "date": 1716462052014,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12989.485885169728,
+            "unit": "iter/sec",
+            "range": "stddev: 1.5080912434310667e-7",
+            "extra": "mean: 76.98534097809933 usec\nrounds: 5"
           }
         ]
       }
