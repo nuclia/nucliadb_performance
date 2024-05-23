@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1716454268684,
+  "lastUpdate": 1716454395776,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -75968,6 +75968,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000010836820590895531",
             "extra": "mean: 78.69851897261343 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "83355241+drf7@users.noreply.github.com",
+            "name": "drf7",
+            "username": "drf7"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8adfb25f00bc70b649d4a76ee1a0442419dc5071",
+          "message": "Sc 9354/idp regional merge nucliadb predict and processing (#2145)",
+          "timestamp": "2024-05-23T10:45:02+02:00",
+          "tree_id": "9eaeb5cf2b0edd57115cc93baf4fbae96aae02d3",
+          "url": "https://github.com/nuclia/nucliadb/commit/8adfb25f00bc70b649d4a76ee1a0442419dc5071"
+        },
+        "date": 1716454390858,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13018.044379484709,
+            "unit": "iter/sec",
+            "range": "stddev: 1.7645499436451576e-7",
+            "extra": "mean: 76.81645344333839 usec\nrounds: 5"
           }
         ]
       }
