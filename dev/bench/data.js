@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1716462252748,
+  "lastUpdate": 1716468238763,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -76278,6 +76278,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 4.1185690831997246e-7",
             "extra": "mean: 76.14806362483054 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "baa25d1388bfb8680b44b8dd4305e9054479865e",
+          "message": "Atomic datamanagers (#2187)\n\n* Add atomic datamanagers\r\n\r\n* Use atomic datamanagers\r\n\r\n* Fix import issues",
+          "timestamp": "2024-05-23T14:38:20+02:00",
+          "tree_id": "37ed0deccadb5dab95f3804c5389a22a3df9f2ff",
+          "url": "https://github.com/nuclia/nucliadb/commit/baa25d1388bfb8680b44b8dd4305e9054479865e"
+        },
+        "date": 1716468234021,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13180.629586988876,
+            "unit": "iter/sec",
+            "range": "stddev: 1.4342435274846474e-7",
+            "extra": "mean: 75.86891000921077 usec\nrounds: 5"
           }
         ]
       }
