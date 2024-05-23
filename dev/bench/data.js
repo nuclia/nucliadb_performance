@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1716454395776,
+  "lastUpdate": 1716455861361,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -75999,6 +75999,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 1.7645499436451576e-7",
             "extra": "mean: 76.81645344333839 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "javier@javiertorres.eu",
+            "name": "Javier Torres",
+            "username": "javitonino"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "63c24b644695e0b41f756e65488993a82f853ffb",
+          "message": "Replicate shards using descriptor (#2185)",
+          "timestamp": "2024-05-23T10:58:29+02:00",
+          "tree_id": "9a90512ffe29e99ced230c943ca102deabaf7ae9",
+          "url": "https://github.com/nuclia/nucliadb/commit/63c24b644695e0b41f756e65488993a82f853ffb"
+        },
+        "date": 1716455856461,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 13001.760568716132,
+            "unit": "iter/sec",
+            "range": "stddev: 4.016257644247672e-7",
+            "extra": "mean: 76.91266076735218 usec\nrounds: 5"
           }
         ]
       }
