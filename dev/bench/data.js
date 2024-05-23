@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1716301649555,
+  "lastUpdate": 1716447118548,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -75720,6 +75720,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 3.017243702424335e-7",
             "extra": "mean: 77.37903698711499 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "90882ae4173f5e8559971f17c7aa3e5687949c17",
+          "message": "Clean some dead code (#2181)\n\n* Clean some ingest dead code\r\n\r\n* Remove dead StorageField build_cf",
+          "timestamp": "2024-05-23T08:46:36+02:00",
+          "tree_id": "75a3c91a691664a6f1fe054cb4bd6b587874143e",
+          "url": "https://github.com/nuclia/nucliadb/commit/90882ae4173f5e8559971f17c7aa3e5687949c17"
+        },
+        "date": 1716447113810,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12815.674218439675,
+            "unit": "iter/sec",
+            "range": "stddev: 1.67167324058066e-7",
+            "extra": "mean: 78.02944916945238 usec\nrounds: 5"
           }
         ]
       }
