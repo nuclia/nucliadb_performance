@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1716538920689,
+  "lastUpdate": 1716805911302,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -76557,6 +76557,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 3.7212411489990503e-7",
             "extra": "mean: 82.6086483749689 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "60834ae0db3031fa2360ac92495a550a7217520e",
+          "message": "Fix s3 storage driver: missing move method (#2194)",
+          "timestamp": "2024-05-27T12:26:23+02:00",
+          "tree_id": "f368c29f605419f36c2ae9ef4531298960e38a27",
+          "url": "https://github.com/nuclia/nucliadb/commit/60834ae0db3031fa2360ac92495a550a7217520e"
+        },
+        "date": 1716805906409,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 12993.741780440567,
+            "unit": "iter/sec",
+            "range": "stddev: 3.662899483505383e-7",
+            "extra": "mean: 76.96012564335368 usec\nrounds: 5"
           }
         ]
       }
