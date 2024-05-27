@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1716842759857,
+  "lastUpdate": 1716843110301,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -76712,6 +76712,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000036147276974221005",
             "extra": "mean: 334.87777709960943 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "javier@javiertorres.eu",
+            "name": "Javier Torres",
+            "username": "javitonino"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "08db1e87b954b426ccda98ae2638a0c9407dce5f",
+          "message": "Supports Python 3.12 (#2176)",
+          "timestamp": "2024-05-27T22:21:52+02:00",
+          "tree_id": "057424a630899922b90a56a097db0991e525043c",
+          "url": "https://github.com/nuclia/nucliadb/commit/08db1e87b954b426ccda98ae2638a0c9407dce5f"
+        },
+        "date": 1716843105287,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 3052.0583455375286,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000003903878465341676",
+            "extra": "mean: 327.6477336883545 usec\nrounds: 5"
           }
         ]
       }
