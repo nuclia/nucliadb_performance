@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1716890771386,
+  "lastUpdate": 1716890777675,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -76867,6 +76867,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000002516784062156154",
             "extra": "mean: 333.24971199035645 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "842c5dd68d405acf704f9a5cb1c40d1d03543a45",
+          "message": "Add vectorset datamanager (#2196)\n\n* Create new pb for maindb vectorset configuration\r\n\r\n* Add vectorsets datamanager\r\n\r\n* Rename proto field",
+          "timestamp": "2024-05-28T12:00:08+02:00",
+          "tree_id": "153b278f20c53f6d8754cacbac088fe2b3d182d6",
+          "url": "https://github.com/nuclia/nucliadb/commit/842c5dd68d405acf704f9a5cb1c40d1d03543a45"
+        },
+        "date": 1716890772741,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 2893.920723082761,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000004743231450182116",
+            "extra": "mean: 345.5519676208496 usec\nrounds: 5"
           }
         ]
       }
