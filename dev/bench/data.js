@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1716907981772,
+  "lastUpdate": 1716908150706,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -76991,6 +76991,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000037917984105961242",
             "extra": "mean: 333.0329895019531 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "javier@javiertorres.eu",
+            "name": "Javier Torres",
+            "username": "javitonino"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5a34654d0268e6fade8871c16eace8315f3d25a8",
+          "message": "SimSimd with aligned vectors (#2179)",
+          "timestamp": "2024-05-28T16:22:58+02:00",
+          "tree_id": "6a30b9d447c2ca81e1a4b8b27b52c1637d5b8982",
+          "url": "https://github.com/nuclia/nucliadb/commit/5a34654d0268e6fade8871c16eace8315f3d25a8"
+        },
+        "date": 1716908145548,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 2995.481250532063,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000007268934133224698",
+            "extra": "mean: 333.83617401123047 usec\nrounds: 5"
           }
         ]
       }
