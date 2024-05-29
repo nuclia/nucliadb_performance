@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1716985395516,
+  "lastUpdate": 1716991994741,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -77115,6 +77115,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000011413585514143322",
             "extra": "mean: 338.88487815856934 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "205d127c7f38d463a3fd928f8fb76b7c951fe34b",
+          "message": "Overwrite vectorsets key, create vectorsets on shard creation and make new kbs have this key (#2201)\n\n* Add migration to purge vectorsets key\r\n\r\n* More scalable migration\r\n\r\n* Add test for kb without vectorset key\r\n\r\n* Create vectorsets when creating a shard\r\n\r\n* Create vectorsets keys on KB creation\r\n\r\n* Change migration to overwrite key instead of deleting its value",
+          "timestamp": "2024-05-29T16:06:41+02:00",
+          "tree_id": "61f7a0c94147b2b7163dd0459bc2e5c578e906d5",
+          "url": "https://github.com/nuclia/nucliadb/commit/205d127c7f38d463a3fd928f8fb76b7c951fe34b"
+        },
+        "date": 1716991989466,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 2906.1424219756623,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00000246740128983889",
+            "extra": "mean: 344.09875869750977 usec\nrounds: 5"
           }
         ]
       }
