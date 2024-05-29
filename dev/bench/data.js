@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1716985299629,
+  "lastUpdate": 1716985395516,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -77084,6 +77084,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000026837315550809417",
             "extra": "mean: 339.73426818847656 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bcc3bd55316d19a221eb8665291fb2b764d13302",
+          "message": "Improve storage interface (#2198)",
+          "timestamp": "2024-05-29T14:14:32+02:00",
+          "tree_id": "2c0317e67dd5f873162a76f7e5ec0d8d3d85677d",
+          "url": "https://github.com/nuclia/nucliadb/commit/bcc3bd55316d19a221eb8665291fb2b764d13302"
+        },
+        "date": 1716985390642,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 2950.8545953239172,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000011413585514143322",
+            "extra": "mean: 338.88487815856934 usec\nrounds: 5"
           }
         ]
       }
