@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1717000386611,
+  "lastUpdate": 1717000556272,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -77332,6 +77332,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000002991146800841809",
             "extra": "mean: 338.82737159729004 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4ee2324450add666d03715e7397c9913c3bde639",
+          "message": "Ingest consumer retry maindb server errors (#2203)",
+          "timestamp": "2024-05-29T18:26:33+02:00",
+          "tree_id": "f47246c4245adc57780c646cd273d1ad368bcd29",
+          "url": "https://github.com/nuclia/nucliadb/commit/4ee2324450add666d03715e7397c9913c3bde639"
+        },
+        "date": 1717000551094,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 2995.2018829699336,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000004328229533794532",
+            "extra": "mean: 333.8673114776612 usec\nrounds: 5"
           }
         ]
       }
