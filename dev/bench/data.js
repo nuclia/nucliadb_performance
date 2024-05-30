@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1717055332164,
+  "lastUpdate": 1717059094244,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -77487,6 +77487,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000008960818315498477",
             "extra": "mean: 341.0511016845703 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fbf4d61c9661219b75596ee550ff84380d5ea754",
+          "message": "Remove sdk documentation logic (#2205)",
+          "timestamp": "2024-05-30T10:45:24+02:00",
+          "tree_id": "b5c1b5dbeb4202d584be55d33d76c5a4cf0fd302",
+          "url": "https://github.com/nuclia/nucliadb/commit/fbf4d61c9661219b75596ee550ff84380d5ea754"
+        },
+        "date": 1717059089410,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 2822.2566107948805,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000018938402254798875",
+            "extra": "mean: 354.32639122009283 usec\nrounds: 5"
           }
         ]
       }
