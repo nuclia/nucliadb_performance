@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1717053020207,
+  "lastUpdate": 1717053056919,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -77394,6 +77394,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000022914301070040453",
             "extra": "mean: 345.1359748840332 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5122373a87a0d7713893f1733ccaf88c04a9570b",
+          "message": "Add ingest gRPC methods to create and delete vectorsets (#2202)\n\n* Add new ingest gRPC methods to create and delete vectorsets\r\n\r\n* Ingest gRPC uses ORM KnowledgeBox methods\r\n\r\n* Add methods in cluster manager\r\n\r\n* Partial implementation on KnowledgeBox\r\n\r\n* Mark vectorset to delete\r\n\r\n* Implement indexes create/delete vectorset",
+          "timestamp": "2024-05-30T09:04:07+02:00",
+          "tree_id": "f65f841908d85070b09ea63f0f2b5dce75e2cacf",
+          "url": "https://github.com/nuclia/nucliadb/commit/5122373a87a0d7713893f1733ccaf88c04a9570b"
+        },
+        "date": 1717053051936,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 2992.616037518435,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00000672192621351497",
+            "extra": "mean: 334.155797958374 usec\nrounds: 5"
           }
         ]
       }
