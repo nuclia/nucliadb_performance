@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1717059235911,
+  "lastUpdate": 1717082369383,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -77580,6 +77580,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000003174772256113213",
             "extra": "mean: 323.9617347717285 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bc831f52502490833a704b736ce2be9f8a427f3c",
+          "message": "Add vectorset_id to vectorset to delete key (#2206)",
+          "timestamp": "2024-05-30T17:11:17+02:00",
+          "tree_id": "83f22c1326d906b83b5a9795c127572c0bc21ac3",
+          "url": "https://github.com/nuclia/nucliadb/commit/bc831f52502490833a704b736ce2be9f8a427f3c"
+        },
+        "date": 1717082364261,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 2921.258225803441,
+            "unit": "iter/sec",
+            "range": "stddev: 8.466463024379398e-7",
+            "extra": "mean: 342.3182487487793 usec\nrounds: 5"
           }
         ]
       }
