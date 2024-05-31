@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1717082538747,
+  "lastUpdate": 1717149257803,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -77673,6 +77673,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000003782006233692097",
             "extra": "mean: 325.49943923950195 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4a8a9ae9fc69dd6ebd47e6d27b6bdb5d0c97ca14",
+          "message": "Ingest multiple vectorsets (#2199)\n\n* Add fields datamanager\r\n\r\n* Use fields datamanager in base field\r\n\r\n* Move Broker Message generation to separate module (outside orm resource)\r\n\r\n* Move keys to datamanager and fix potential circular import issues\r\n\r\n* Pass vectorset to field get/set/delete vectors\r\n\r\n* Move get_full_conversation to its field\r\n\r\n* Fix test\r\n\r\n* Add an ids module encapsulating some id building\r\n\r\n* Index vectorsets\r\n\r\n* Add test to validate vectorset ingestion\r\n\r\n* Validate resource persistence using reindex trick\r\n\r\n* ParagraphId and VectorId use FieldId\r\n\r\n* Create FieldId outside the loop\r\n\r\n* Complete test and ingestion ignores undefined vectorsets\r\n\r\n* Fix typing\r\n\r\n* Add integration test for vectorsets feature\r\n\r\n* Fix PR comments\r\n\r\n* Fix test\r\n\r\n* Fix getting vectors storage field",
+          "timestamp": "2024-05-31T11:47:47+02:00",
+          "tree_id": "b5de1043e07eb32c2abc4d2c8c65f1086aa3c415",
+          "url": "https://github.com/nuclia/nucliadb/commit/4a8a9ae9fc69dd6ebd47e6d27b6bdb5d0c97ca14"
+        },
+        "date": 1717149252233,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 3000.044918732857,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000013347377818917275",
+            "extra": "mean: 333.32834243774414 usec\nrounds: 5"
           }
         ]
       }
