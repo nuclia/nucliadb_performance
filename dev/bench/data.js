@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1717410564942,
+  "lastUpdate": 1717410705978,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -77828,6 +77828,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000002371600938747477",
             "extra": "mean: 333.198881149292 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1e7503cdc8cfd9b17569c448e1347469aac185dd",
+          "message": "Move labelset logic to writer/reader and handle conflict errors properly (#2207)",
+          "timestamp": "2024-06-03T12:22:49+02:00",
+          "tree_id": "829e4eb79cfa9801d6d044befad0f42c8c172be7",
+          "url": "https://github.com/nuclia/nucliadb/commit/1e7503cdc8cfd9b17569c448e1347469aac185dd"
+        },
+        "date": 1717410700717,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 2965.8584710629843,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000005184430550278711",
+            "extra": "mean: 337.17050552368164 usec\nrounds: 5"
           }
         ]
       }
