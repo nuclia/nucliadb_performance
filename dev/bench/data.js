@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1717420631352,
+  "lastUpdate": 1717420774458,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -77921,6 +77921,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000044944009206590285",
             "extra": "mean: 334.7630500793457 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "javier@javiertorres.eu",
+            "name": "Javier Torres",
+            "username": "javitonino"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "45a8a7b08215fb6c6517a19916302d194e7a1356",
+          "message": "Replicate TiKV transactions to a journal on psql (#2208)\n\n* Replicate TiKV transactions to a journal on psql\r\n\r\n* review",
+          "timestamp": "2024-06-03T15:10:05+02:00",
+          "tree_id": "d92b63aaada4f0ffa79ad2c3ea8513247096caea",
+          "url": "https://github.com/nuclia/nucliadb/commit/45a8a7b08215fb6c6517a19916302d194e7a1356"
+        },
+        "date": 1717420769521,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 2907.053258706354,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000014847483938893176",
+            "extra": "mean: 343.99094581604004 usec\nrounds: 5"
           }
         ]
       }
