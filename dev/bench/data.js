@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1717421681208,
+  "lastUpdate": 1717421720921,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -77983,6 +77983,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000020060762389873064",
             "extra": "mean: 330.59072494506836 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "javier@javiertorres.eu",
+            "name": "Javier Torres",
+            "username": "javitonino"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "283c7618aecb9b23f498db1193598f3f3399dc34",
+          "message": "Delete vectors on label change (#2211)\n\n* Index paragraphs after deleting old ones\r\n\r\n* Vectors should delete based on sentences_to_delete\r\n\r\n* Remove some prints\r\n\r\n* Better naming\r\n\r\n* Reindex vectors and paragraphs when changing metadata\r\n\r\n* Properly delete fields\r\n\r\n* Lint\r\n\r\n* Rename replace_field\r\n\r\n* Missing field rename\r\n\r\n* Add tests for changed behaviour\r\n\r\n* linting",
+          "timestamp": "2024-06-03T15:20:50+02:00",
+          "tree_id": "7d53f9ca4271d3d7a9029be850ae7c3dc31dbe9a",
+          "url": "https://github.com/nuclia/nucliadb/commit/283c7618aecb9b23f498db1193598f3f3399dc34"
+        },
+        "date": 1717421715602,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 2981.506898197947,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000002721691213462279",
+            "extra": "mean: 335.4008674621582 usec\nrounds: 5"
           }
         ]
       }
