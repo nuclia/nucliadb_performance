@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1717507398829,
+  "lastUpdate": 1717507557596,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -78200,6 +78200,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000020248861106794433",
             "extra": "mean: 351.47695541381836 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5135ed530b8c1015f889d4e240aaaa7b9b140c56",
+          "message": "Add vectorsets to search API (#2210)\n\n* Add vectorsets to search API\r\n\r\n* Reuse maindb txn on query\r\n\r\n* Get matryoshka dimension from vectorset if applies\r\n\r\n* Unit test query parsing with vectorset and matryoshka\r\n\r\n* Sync test requirements (pip and pdm)\r\n\r\n* Fix test after validating existing vectorset",
+          "timestamp": "2024-06-04T15:16:49+02:00",
+          "tree_id": "b5ca0849f41fdfbe801e76ffa2bed29fce7ca4fb",
+          "url": "https://github.com/nuclia/nucliadb/commit/5135ed530b8c1015f889d4e240aaaa7b9b140c56"
+        },
+        "date": 1717507552248,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 3003.382821351201,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000005969821198631569",
+            "extra": "mean: 332.95788764953613 usec\nrounds: 5"
           }
         ]
       }
