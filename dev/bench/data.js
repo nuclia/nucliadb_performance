@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1717512293783,
+  "lastUpdate": 1717512344334,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -78355,6 +78355,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000031254688108085913",
             "extra": "mean: 348.91653060913086 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "00b31e303f84fc77ab78ac0fbb4c269141f7dd82",
+          "message": "Remove unused ingest gRPC methods (#2214)\n\n* Remove unused GCKnowledgeBox ingest gRPC method\r\n\r\n* Remove unused SetVectors ingest gRPC method\r\n\r\n* Remove DownloadFile and UploadFile (replaced by REST API)",
+          "timestamp": "2024-06-04T16:38:42+02:00",
+          "tree_id": "967c107dc4aeea29803c245f78f19eee3376d46c",
+          "url": "https://github.com/nuclia/nucliadb/commit/00b31e303f84fc77ab78ac0fbb4c269141f7dd82"
+        },
+        "date": 1717512337864,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "nucliadb/search/tests/unit/search/test_fetch.py::test_highligh_error",
+            "value": 2989.3177765135906,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000002920741904221041",
+            "extra": "mean: 334.5244884490967 usec\nrounds: 5"
           }
         ]
       }
