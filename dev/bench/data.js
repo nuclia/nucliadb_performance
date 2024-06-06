@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1717690773432,
+  "lastUpdate": 1717690900578,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -79037,6 +79037,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000002386184132670187",
             "extra": "mean: 339.63332176208496 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b5d644c7a860ae87b5d0f286962dd43af34a47ea",
+          "message": "Fix warnings and bugs (#2227)\n\n* Fix usage of deprecated pydantic v1 methods\r\n\r\n* Fix usage of deprecated pkg_resources\r\n\r\n* Remove comment\r\n\r\n* Fix delete custom synonyms API\r\n\r\n* Lints\r\n\r\n* Fix nucliadb_telemetry workflow",
+          "timestamp": "2024-06-06T18:02:37+02:00",
+          "tree_id": "bdf15c18a4c02d924c3038dc936f67d9a089470f",
+          "url": "https://github.com/nuclia/nucliadb/commit/b5d644c7a860ae87b5d0f286962dd43af34a47ea"
+        },
+        "date": 1717690895345,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/search/unit/search/test_fetch.py::test_highligh_error",
+            "value": 2908.1388705535187,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000003102581748813118",
+            "extra": "mean: 343.862533569336 usec\nrounds: 5"
           }
         ]
       }
