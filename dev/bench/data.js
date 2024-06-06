@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1717663340611,
+  "lastUpdate": 1717665451760,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -78603,6 +78603,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000005332204462921262",
             "extra": "mean: 345.81780433654785 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5cf2cc92ac76779cdfae2d7fc2cecb418c5c77b8",
+          "message": "Storage cleanup and improvements (#2218)",
+          "timestamp": "2024-06-06T11:11:28+02:00",
+          "tree_id": "1f0f2c93bc2c487f09cc87c0c92793a760e0ab03",
+          "url": "https://github.com/nuclia/nucliadb/commit/5cf2cc92ac76779cdfae2d7fc2cecb418c5c77b8"
+        },
+        "date": 1717665446763,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/search/unit/search/test_fetch.py::test_highligh_error",
+            "value": 2805.055796768708,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000007879930916850076",
+            "extra": "mean: 356.4991474151612 usec\nrounds: 5"
           }
         ]
       }
