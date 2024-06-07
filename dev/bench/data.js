@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1717751344722,
+  "lastUpdate": 1717751526801,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -79223,6 +79223,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000031315745166522227",
             "extra": "mean: 337.80407905578613 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "29b1cefe64a09d69706704742eb8818b24ec8f55",
+          "message": "Mypy typing party (#2232)\n\n* Remove unused \"type: ignore\" annotations\r\n\r\n* Properly type metrics observer decorator factory\r\n\r\n* Fix more mypy issues\r\n\r\n* Add `ruff check --fix` in format target where missing",
+          "timestamp": "2024-06-07T10:58:34+02:00",
+          "tree_id": "200c1c2161a7b514330c87c604f9d7b516e3d683",
+          "url": "https://github.com/nuclia/nucliadb/commit/29b1cefe64a09d69706704742eb8818b24ec8f55"
+        },
+        "date": 1717751520941,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/search/unit/search/test_fetch.py::test_highligh_error",
+            "value": 2903.658552288442,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000006820743556515786",
+            "extra": "mean: 344.39311027526855 usec\nrounds: 5"
           }
         ]
       }
