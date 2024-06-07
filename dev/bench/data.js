@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1717765244807,
+  "lastUpdate": 1717765432915,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -79316,6 +79316,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000006766225393785183",
             "extra": "mean: 335.44230461120605 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7ed3be57518b0dda3af0ecbff25a98e94bcaa865",
+          "message": "Fix Relation model validator (#2234)\n\n* Fix Relation model validator\r\n\r\n* Add test for Relation model validator",
+          "timestamp": "2024-06-07T14:54:24+02:00",
+          "tree_id": "a9ef13a1a5db3c45495878d88c48221f7c03e734",
+          "url": "https://github.com/nuclia/nucliadb/commit/7ed3be57518b0dda3af0ecbff25a98e94bcaa865"
+        },
+        "date": 1717765427187,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/search/unit/search/test_fetch.py::test_highligh_error",
+            "value": 2957.82158759898,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000004027453656778582",
+            "extra": "mean: 338.0866527557373 usec\nrounds: 5"
           }
         ]
       }
