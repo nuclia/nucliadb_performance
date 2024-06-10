@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718051146030,
+  "lastUpdate": 1718051170941,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -79564,6 +79564,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000058795438454139695",
             "extra": "mean: 334.56201553344727 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fcfd56787dbdec89d8878a6e74f75be44ddb84ba",
+          "message": "Limit text uploads and handle max payload errors on transaction commit (#2241)",
+          "timestamp": "2024-06-10T22:19:05+02:00",
+          "tree_id": "ef4eae95d7874569b23b69276d5582f9b6d43157",
+          "url": "https://github.com/nuclia/nucliadb/commit/fcfd56787dbdec89d8878a6e74f75be44ddb84ba"
+        },
+        "date": 1718051165506,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/search/unit/search/test_fetch.py::test_highligh_error",
+            "value": 2886.119925348907,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000016198860415169355",
+            "extra": "mean: 346.48594856262207 usec\nrounds: 5"
           }
         ]
       }
