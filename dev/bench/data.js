@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718003710924,
+  "lastUpdate": 1718003819762,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -79409,6 +79409,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000004813066143287445",
             "extra": "mean: 367.26269721984863 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b8124344de7721709ad4c027c595fceb18ce726a",
+          "message": "Replace isort and black with ruff (#2236)\n\n* Remove leftovers from lint nucliadb in a single command\r\n\r\n* Configure ruff to replace isort\r\n\r\n* Update ruff and remove black and isort from deps\r\n\r\n* Use ruff as formater in all makefiles\r\n\r\n* ruff nucliadb_utils\r\n\r\n* ruff nucliadb_telemetry\r\n\r\n* ruff nucliadb_sdk\r\n\r\n* ruff nucliadb_dataset\r\n\r\n* ruff nucliadb_models\r\n\r\n* ruff nucliadb_sidecar\r\n\r\n* ruff nucliadb_node_binding\r\n\r\n* ruff nucliadb_performance\r\n\r\n* ruff nucliadb",
+          "timestamp": "2024-06-10T08:59:24+02:00",
+          "tree_id": "6a141664cf5f55536274aca504e37c00e69adbcc",
+          "url": "https://github.com/nuclia/nucliadb/commit/b8124344de7721709ad4c027c595fceb18ce726a"
+        },
+        "date": 1718003814523,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/search/unit/search/test_fetch.py::test_highligh_error",
+            "value": 3022.6786804030753,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000004314557630119296",
+            "extra": "mean: 330.8323860168457 usec\nrounds: 5"
           }
         ]
       }
