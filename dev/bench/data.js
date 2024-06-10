@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718021284987,
+  "lastUpdate": 1718021303851,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -79471,6 +79471,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000024952443414765006",
             "extra": "mean: 337.36348152160645 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "105f5f8b7ef332c868092ad58f96fdfd9af7f3ba",
+          "message": "Be able to define system prompts too on chat/ask (#2239)",
+          "timestamp": "2024-06-10T14:02:04+02:00",
+          "tree_id": "05e44b814496180eea3391b916dee5163a58366a",
+          "url": "https://github.com/nuclia/nucliadb/commit/105f5f8b7ef332c868092ad58f96fdfd9af7f3ba"
+        },
+        "date": 1718021296209,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/search/unit/search/test_fetch.py::test_highligh_error",
+            "value": 3073.819376879225,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000003189789412179488",
+            "extra": "mean: 325.3281593322754 usec\nrounds: 5"
           }
         ]
       }
