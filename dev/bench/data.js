@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718092636578,
+  "lastUpdate": 1718092652585,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -79657,6 +79657,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000006822984662528208",
             "extra": "mean: 329.0627956390381 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "828939e75a967a78c424bf0e3f57208f5e19ee8c",
+          "message": "Azure blob storage support (#2229)",
+          "timestamp": "2024-06-11T09:26:50+02:00",
+          "tree_id": "6722c239f3649578fd3f889abf699165c585237b",
+          "url": "https://github.com/nuclia/nucliadb/commit/828939e75a967a78c424bf0e3f57208f5e19ee8c"
+        },
+        "date": 1718092646936,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/search/unit/search/test_fetch.py::test_highligh_error",
+            "value": 3143.318018075541,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000004774135904057321",
+            "extra": "mean: 318.1351661682129 usec\nrounds: 5"
           }
         ]
       }
