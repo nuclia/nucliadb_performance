@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718099564190,
+  "lastUpdate": 1718099573441,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -79750,6 +79750,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000012795323602430243",
             "extra": "mean: 346.3361263275147 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d6d6ea103d5c33a10b75ae1fa57e60496746dd09",
+          "message": "Add nucliadb_models tests and test validators (#2235)\n\n* Add nucliadb_models tests and test validators\r\n\r\n* Fix make target\r\n\r\nCo-authored-by: Javier Torres <javier@javiertorres.eu>\r\n\r\n* Fix models CI tests\r\n\r\n---------\r\n\r\nCo-authored-by: Javier Torres <javier@javiertorres.eu>",
+          "timestamp": "2024-06-11T11:46:25+02:00",
+          "tree_id": "e305fd1a105b0ea3071cd69c17198bf7b832056a",
+          "url": "https://github.com/nuclia/nucliadb/commit/d6d6ea103d5c33a10b75ae1fa57e60496746dd09"
+        },
+        "date": 1718099567745,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/search/unit/search/test_fetch.py::test_highligh_error",
+            "value": 3098.5285789363493,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000005767056281772563",
+            "extra": "mean: 322.73383140563965 usec\nrounds: 5"
           }
         ]
       }
