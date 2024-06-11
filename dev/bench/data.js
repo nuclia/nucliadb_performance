@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718106513708,
+  "lastUpdate": 1718106532124,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -79843,6 +79843,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000004331933060457669",
             "extra": "mean: 335.6527805328369 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "javier@javiertorres.eu",
+            "name": "Javier Torres",
+            "username": "javitonino"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1ff6a733bde33dfeca278d0746e7443faa4d8b55",
+          "message": "Chat fallbacks to original query if rephrase fails (#2243)",
+          "timestamp": "2024-06-11T13:42:24+02:00",
+          "tree_id": "64630442465cc718ada3b31bb1f2ba3f40041e8b",
+          "url": "https://github.com/nuclia/nucliadb/commit/1ff6a733bde33dfeca278d0746e7443faa4d8b55"
+        },
+        "date": 1718106526440,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/search/unit/search/test_fetch.py::test_highligh_error",
+            "value": 2943.6959642144384,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000032054658857233253",
+            "extra": "mean: 339.70899581909185 usec\nrounds: 5"
           }
         ]
       }
