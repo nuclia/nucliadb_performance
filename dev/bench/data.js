@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718260174239,
+  "lastUpdate": 1718288044423,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -80277,6 +80277,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000032589343202926006",
             "extra": "mean: 327.62012481689453 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a10da60ae802da64eb6d7954a8aac3248c9bdf27",
+          "message": "Add json schema answer support to ask (#2240)\n\n* Add json schema answer support to ask\r\n\r\n* Add example",
+          "timestamp": "2024-06-13T16:08:07+02:00",
+          "tree_id": "ca0a90505d516c20546c335dc3bbe1816f13451c",
+          "url": "https://github.com/nuclia/nucliadb/commit/a10da60ae802da64eb6d7954a8aac3248c9bdf27"
+        },
+        "date": 1718288038791,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/search/unit/search/test_fetch.py::test_highligh_error",
+            "value": 2947.5677371404286,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000003432122081532312",
+            "extra": "mean: 339.2627716064453 usec\nrounds: 5"
           }
         ]
       }
