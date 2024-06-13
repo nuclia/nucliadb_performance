@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718260009871,
+  "lastUpdate": 1718260174239,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -80246,6 +80246,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000005807885413582035",
             "extra": "mean: 338.18535804748535 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2ec100ee45cc74df6d7ca2356f14cbc96152fdcb",
+          "message": "Split kb ops by onprem hosted (#2233)\n\n* Remove unused KnowledgeBox.get_config method\r\n\r\n* Move method\r\n\r\n* Rename KnowledgeBox delete_kb to delete\r\n\r\n* Initialize storage at startup, not lazily (reader)\r\n\r\n* Stop patching onprem nucliadb everywhere\r\n\r\n* Reorder proto fields (group deprecated ones)\r\n\r\n* Split KB ops by onprem/hosted (REST/gRPC) and make KnowledgeBox the central piece\r\n\r\n* Deprecate learning_config from NewKnowledgeBoxRequest (only used in onprem)\r\n\r\n* Move KB creation test from processor to knowledgebox\r\n\r\n* Move unit tests around (processor -> kb)\r\n\r\n* Fix more tests by running hosted instead of onprem\r\n\r\n* Raise exceptio if KB create fails\r\n\r\n* Don't raise learning proxy rollback errors\r\n\r\n* Extract create KB logic from HTTP endpoint\r\n\r\n* Fix tests",
+          "timestamp": "2024-06-13T08:20:26+02:00",
+          "tree_id": "0a20919bc72212477e71fd88c4fca3e85280996c",
+          "url": "https://github.com/nuclia/nucliadb/commit/2ec100ee45cc74df6d7ca2356f14cbc96152fdcb"
+        },
+        "date": 1718260168776,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/search/unit/search/test_fetch.py::test_highligh_error",
+            "value": 3052.315545508371,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000032589343202926006",
+            "extra": "mean: 327.62012481689453 usec\nrounds: 5"
           }
         ]
       }
