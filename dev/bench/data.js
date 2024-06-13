@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718254567750,
+  "lastUpdate": 1718254714999,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -80153,6 +80153,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000006522759881719023",
             "extra": "mean: 342.9358959197998 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "javier@javiertorres.eu",
+            "name": "Javier Torres",
+            "username": "javitonino"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5d221fce3de9d67701e277399ef4ffac2e561bf4",
+          "message": "More generous acquire timeouts (#2249)",
+          "timestamp": "2024-06-13T06:49:33+02:00",
+          "tree_id": "e774ab81cbaa316500c10f6a72be569d6f5797b0",
+          "url": "https://github.com/nuclia/nucliadb/commit/5d221fce3de9d67701e277399ef4ffac2e561bf4"
+        },
+        "date": 1718254709313,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/search/unit/search/test_fetch.py::test_highligh_error",
+            "value": 2985.792955320712,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000002871681725584465",
+            "extra": "mean: 334.9194049835205 usec\nrounds: 5"
           }
         ]
       }
