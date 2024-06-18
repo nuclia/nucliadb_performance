@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718696540982,
+  "lastUpdate": 1718696590107,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -80494,6 +80494,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000004720072004695991",
             "extra": "mean: 330.2457332611084 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1fe9d0afe6223ff81e9f8605e5435698f3a8253a",
+          "message": "Azure blob storage connection tweaks (#2252)",
+          "timestamp": "2024-06-18T09:12:28+02:00",
+          "tree_id": "95f135e85c4b6412995eb2a9a5e9b89a2e8b32f8",
+          "url": "https://github.com/nuclia/nucliadb/commit/1fe9d0afe6223ff81e9f8605e5435698f3a8253a"
+        },
+        "date": 1718696584285,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/search/unit/search/test_fetch.py::test_highligh_error",
+            "value": 3040.7022947736336,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000021570122078951675",
+            "extra": "mean: 328.87139320373535 usec\nrounds: 5"
           }
         ]
       }
