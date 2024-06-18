@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718712560613,
+  "lastUpdate": 1718715941283,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -80742,6 +80742,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000015410485384222589",
             "extra": "mean: 342.56272315979004 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "javier@javiertorres.eu",
+            "name": "Javier Torres",
+            "username": "javitonino"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0d8bc56637e52d304da1bd02ee4034468d650024",
+          "message": "Remove redis/tikv maindb drivers (#2254)",
+          "timestamp": "2024-06-18T14:41:23+02:00",
+          "tree_id": "2ebbfc5bbd1f32d243368c6ce4625d76146d8265",
+          "url": "https://github.com/nuclia/nucliadb/commit/0d8bc56637e52d304da1bd02ee4034468d650024"
+        },
+        "date": 1718715932996,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/search/unit/search/test_fetch.py::test_highligh_error",
+            "value": 2272.3236091721974,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000010364428255285909",
+            "extra": "mean: 440.07816314697266 usec\nrounds: 5"
           }
         ]
       }
