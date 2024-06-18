@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718743984686,
+  "lastUpdate": 1718744176517,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -80835,6 +80835,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000064689489527939804",
             "extra": "mean: 436.2105369567871 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ramon@nuclia.com",
+            "name": "Ramon Navarro Bosch",
+            "username": "bloodbare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "aea26bd48c7e905805b811cead5f9d0dea55896a",
+          "message": "Answer Object (#2255)\n\n* Answer Object\r\n\r\n* Missing SyncAsk\r\n\r\n* Tweaks\r\n\r\n---------\r\n\r\nCo-authored-by: Ferran Llamas <llamas.arroniz@gmail.com>",
+          "timestamp": "2024-06-18T22:46:26+02:00",
+          "tree_id": "a421637981e6b9cffcf1f46ecb19cc835efbb559",
+          "url": "https://github.com/nuclia/nucliadb/commit/aea26bd48c7e905805b811cead5f9d0dea55896a"
+        },
+        "date": 1718744170508,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/search/unit/search/test_fetch.py::test_highligh_error",
+            "value": 2271.0263168723836,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000007839641887230594",
+            "extra": "mean: 440.32955169677734 usec\nrounds: 5"
           }
         ]
       }
