@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718712408596,
+  "lastUpdate": 1718712416581,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -80680,6 +80680,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000008281467252280512",
             "extra": "mean: 355.0267696380615 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "17d54bbf10227651a3255ad543f78387323828be",
+          "message": "Remove unused field types (#2250)",
+          "timestamp": "2024-06-18T14:00:33+02:00",
+          "tree_id": "d64992ebbeaca872872fbc7aa284c97feb2b5cdf",
+          "url": "https://github.com/nuclia/nucliadb/commit/17d54bbf10227651a3255ad543f78387323828be"
+        },
+        "date": 1718712404323,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/search/unit/search/test_fetch.py::test_highligh_error",
+            "value": 3040.999034259149,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000017655456403347856",
+            "extra": "mean: 328.8393020629883 usec\nrounds: 5"
           }
         ]
       }
