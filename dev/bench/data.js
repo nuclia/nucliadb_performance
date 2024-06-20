@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718797696364,
+  "lastUpdate": 1718876313625,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -81052,6 +81052,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000017088041163244767",
             "extra": "mean: 437.7437114715576 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "da49face8cdbd46265242c04c8ce428d753d68b8",
+          "message": "Fix paragraph deletion problems (#2259)\n\n* Update deps in pdm\r\n\r\n* wip\r\n\r\n* wip\r\n\r\n* wip\r\n\r\n* Remove debug breakpoints\r\n\r\n* Mark fields to delete paragraphs from in delete_metadata\r\n\r\nKeep Bw/c with old paragraph_id deletion\r\n\r\n* Be more Bw/c with paragraph deletion\r\n\r\n* Fix test\r\n\r\n* Test for experimental and stable KBs\r\n\r\n* Commit deletions (so txn don't get too big)\r\n\r\n* Complete test\r\n\r\n* Fix ingest test\r\n\r\n* Fix test comments\r\n\r\n* Clarify more comments\r\n\r\n---------\r\n\r\nCo-authored-by: Ferran Llamas <llamas.arroniz@gmail.com>",
+          "timestamp": "2024-06-20T11:20:29+02:00",
+          "tree_id": "be046a9a0f908d5c5b24631313c46813d3c6c5c8",
+          "url": "https://github.com/nuclia/nucliadb/commit/da49face8cdbd46265242c04c8ce428d753d68b8"
+        },
+        "date": 1718876307717,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/search/unit/search/test_fetch.py::test_highligh_error",
+            "value": 2340.650843510762,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000005603187157946396",
+            "extra": "mean: 427.2315979003906 usec\nrounds: 5"
           }
         ]
       }
