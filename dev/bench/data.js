@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718899252086,
+  "lastUpdate": 1718899455584,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -81393,6 +81393,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000024574457428006355",
             "extra": "mean: 443.98345947265625 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0240d91743856fe945c4fcab5e88a7c6855f707c",
+          "message": "Only configure partitions on ingest statefulset command (#2266)",
+          "timestamp": "2024-06-20T17:55:00+02:00",
+          "tree_id": "d6de28a697e0be711def50f8fdd8b7008282292f",
+          "url": "https://github.com/nuclia/nucliadb/commit/0240d91743856fe945c4fcab5e88a7c6855f707c"
+        },
+        "date": 1718899449739,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/search/unit/search/test_fetch.py::test_highligh_error",
+            "value": 2218.1381259413447,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000012331727902891375",
+            "extra": "mean: 450.82855224609375 usec\nrounds: 5"
           }
         ]
       }
