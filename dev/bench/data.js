@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718881119361,
+  "lastUpdate": 1718881291044,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -81269,6 +81269,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000033339195892990473",
             "extra": "mean: 433.44788551330566 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a87fc5b79c2008928fb7517f33918620e59c649e",
+          "message": "Log delivered count on seq order violation from nats (#2263)",
+          "timestamp": "2024-06-20T12:41:27+02:00",
+          "tree_id": "7a12971bbb43c37aef337b77d5721a512c12baa2",
+          "url": "https://github.com/nuclia/nucliadb/commit/a87fc5b79c2008928fb7517f33918620e59c649e"
+        },
+        "date": 1718881285534,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/search/unit/search/test_fetch.py::test_highligh_error",
+            "value": 2250.1384641498557,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000009562654150343025",
+            "extra": "mean: 444.4170951843262 usec\nrounds: 5"
           }
         ]
       }
