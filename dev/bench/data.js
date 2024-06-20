@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718885409699,
+  "lastUpdate": 1718885575082,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -81331,6 +81331,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000001308622435428681",
             "extra": "mean: 431.1465263366699 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6d793733d15f89228e5c636e040e7873d720d98c",
+          "message": "Fix nucliadb node ci workflow (#2265)\n\n* Fix undeclared licenses step\r\n\r\n* Remove regex for vectors. GHA is not that smart\r\n\r\n* No need for strategy on nucliadb-models-tests\r\n\r\n* Fix old path to migrations",
+          "timestamp": "2024-06-20T14:03:52+02:00",
+          "tree_id": "ea2e900efb07b3c8c94c79739470920cd72b3e7f",
+          "url": "https://github.com/nuclia/nucliadb/commit/6d793733d15f89228e5c636e040e7873d720d98c"
+        },
+        "date": 1718885569263,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/search/unit/search/test_fetch.py::test_highligh_error",
+            "value": 2334.0335297400206,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000010526995341107331",
+            "extra": "mean: 428.4428596496582 usec\nrounds: 5"
           }
         ]
       }
