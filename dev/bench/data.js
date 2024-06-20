@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718879709713,
+  "lastUpdate": 1718880296032,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -81176,6 +81176,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000008697183872758053",
             "extra": "mean: 433.49037170410156 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "034ce7fbbfe31324f379cc3524ba9ab0f7a1b4dc",
+          "message": "Fix ask json resp handling (#2264)",
+          "timestamp": "2024-06-20T12:33:34+02:00",
+          "tree_id": "77097011b290202210e4fb6dc3e9a40375bc0e25",
+          "url": "https://github.com/nuclia/nucliadb/commit/034ce7fbbfe31324f379cc3524ba9ab0f7a1b4dc"
+        },
+        "date": 1718880290542,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/search/unit/search/test_fetch.py::test_highligh_error",
+            "value": 2301.2574247756247,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000028400975602468654",
+            "extra": "mean: 434.54504013061523 usec\nrounds: 5"
           }
         ]
       }
