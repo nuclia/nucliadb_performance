@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718899455584,
+  "lastUpdate": 1718969668852,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -81424,6 +81424,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000012331727902891375",
             "extra": "mean: 450.82855224609375 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "89c4daa643b38f6320704b751e37f39c37ca62f6",
+          "message": "Drop inconsistent dimension errored messages (#2268)\n\n* Drop inconsistent dimension errored messages\r\n\r\n* Add more info to the log\r\n\r\n* More log",
+          "timestamp": "2024-06-21T13:27:25+02:00",
+          "tree_id": "5e9b035e783e8a1fbb65e5f5ddba1f571ecfb636",
+          "url": "https://github.com/nuclia/nucliadb/commit/89c4daa643b38f6320704b751e37f39c37ca62f6"
+        },
+        "date": 1718969662832,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/search/unit/search/test_fetch.py::test_highligh_error",
+            "value": 2258.1453431685286,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000029271035847457216",
+            "extra": "mean: 442.8412914276123 usec\nrounds: 5"
           }
         ]
       }
