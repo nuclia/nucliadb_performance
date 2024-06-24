@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1719235213143,
+  "lastUpdate": 1719246607774,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -81641,6 +81641,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000003429099532642809",
             "extra": "mean: 454.1274070739746 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "37a35375d5409465223ed6fbeb5e3f5f2a079ed9",
+          "message": "Improve logic around rag strategies (#2272)",
+          "timestamp": "2024-06-24T18:24:30+02:00",
+          "tree_id": "92aaae4c8df3c37ae6aabd4b1261c0efcbc1fd0c",
+          "url": "https://github.com/nuclia/nucliadb/commit/37a35375d5409465223ed6fbeb5e3f5f2a079ed9"
+        },
+        "date": 1719246602162,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/search/unit/search/test_fetch.py::test_highligh_error",
+            "value": 2255.990177203414,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000028121295425491814",
+            "extra": "mean: 443.2643413543701 usec\nrounds: 5"
           }
         ]
       }
