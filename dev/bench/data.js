@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1719324804044,
+  "lastUpdate": 1719325025441,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -81734,6 +81734,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000004857220048919636",
             "extra": "mean: 449.74818229675293 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5db3bc994dca5626b23c48be3cd0031378f72841",
+          "message": "Fix hierarchy rag strategy and add test (#2273)",
+          "timestamp": "2024-06-25T16:07:48+02:00",
+          "tree_id": "93726f63af7644dfce8c4729204eca923a8f3a09",
+          "url": "https://github.com/nuclia/nucliadb/commit/5db3bc994dca5626b23c48be3cd0031378f72841"
+        },
+        "date": 1719325019668,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/search/unit/search/test_fetch.py::test_highligh_error",
+            "value": 2079.439129550575,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000002835180817652127",
+            "extra": "mean: 480.89890480041504 usec\nrounds: 5"
           }
         ]
       }
