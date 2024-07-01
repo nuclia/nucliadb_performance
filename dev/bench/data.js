@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1719325025441,
+  "lastUpdate": 1719843862842,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -81765,6 +81765,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000002835180817652127",
             "extra": "mean: 480.89890480041504 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "carloslm@nuclia.com",
+            "name": "Carlos Lopez",
+            "username": "rastut"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "40bc4d516dd356f97a410d616747c1a1b62e1066",
+          "message": "Remove Jaeger Sidecar from Search (#2282)",
+          "timestamp": "2024-07-01T16:18:43+02:00",
+          "tree_id": "c3cedfb31db79239ecad903139e1a0ceef5be4db",
+          "url": "https://github.com/nuclia/nucliadb/commit/40bc4d516dd356f97a410d616747c1a1b62e1066"
+        },
+        "date": 1719843857091,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/search/unit/search/test_fetch.py::test_highligh_error",
+            "value": 2246.881967427394,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000001875089764032503",
+            "extra": "mean: 445.06120681762695 usec\nrounds: 5"
           }
         ]
       }
