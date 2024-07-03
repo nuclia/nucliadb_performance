@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720020652485,
+  "lastUpdate": 1720020795200,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -81920,6 +81920,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000004903447134164471",
             "extra": "mean: 455.6643486022949 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d27a24eb605f8e2b3fc3c48ddd172730b74813f1",
+          "message": "Add kbid to context for ff (#2286)",
+          "timestamp": "2024-07-03T17:14:18+02:00",
+          "tree_id": "cb689849e2399093f76af925e54c11a4741c3325",
+          "url": "https://github.com/nuclia/nucliadb/commit/d27a24eb605f8e2b3fc3c48ddd172730b74813f1"
+        },
+        "date": 1720020789522,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/search/unit/search/test_fetch.py::test_highligh_error",
+            "value": 2203.056201224283,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000011163246238067981",
+            "extra": "mean: 453.91488398901475 usec\nrounds: 5"
           }
         ]
       }
