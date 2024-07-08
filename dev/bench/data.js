@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720424030231,
+  "lastUpdate": 1720435845885,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -82013,6 +82013,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000002728128495110599",
             "extra": "mean: 439.09411430358887 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "javier@javiertorres.eu",
+            "name": "Javier Torres",
+            "username": "javitonino"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "602a5d7253d550353a553207f3bd7845007efb69",
+          "message": "Switch from asyncpg to psycopg3 (#2289)",
+          "timestamp": "2024-07-08T12:45:07+02:00",
+          "tree_id": "32959dc3ba17da4879824191853023e0922cbf21",
+          "url": "https://github.com/nuclia/nucliadb/commit/602a5d7253d550353a553207f3bd7845007efb69"
+        },
+        "date": 1720435840292,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/search/unit/search/test_fetch.py::test_highligh_error",
+            "value": 3077.0797357806155,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000016405147371537225",
+            "extra": "mean: 324.9834537506103 usec\nrounds: 5"
           }
         ]
       }
