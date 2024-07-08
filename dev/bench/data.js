@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720436062071,
+  "lastUpdate": 1720447731264,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -82075,6 +82075,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000002080998489610375",
             "extra": "mean: 326.93023681640625 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "joanantoni.re16@gmail.com",
+            "name": "Joan Antoni RE",
+            "username": "jotare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "538b47a5407f2cc3f0bd06193b5fa181ab20b772",
+          "message": "Vectorsets everywhere (#2287)\n\n* Remove default vectorset from indexes by default\r\n\r\n* Move functions to the end of the file\r\n\r\n* v2 of ShardWriter new to create with multiple vectorsets\r\n\r\n* Add vectorsets_config to NewShardRequest\r\n\r\n* Shard creation with multiple vectorsets\r\n\r\n* Use shard writer creation with payload, no metadata (in cache)\r\n\r\n* ShardWriter::new uses NewShard payload\r\n\r\n* KnowledgeBox.create get's a driver instead of an open txn\r\n\r\n* Force passing argument names to kb create\r\n\r\n* Explicitly pass used config fields in KB creation\r\n\r\n* Add datamanar function to set kbid for slug\r\n\r\n* KB create returns kbid and slug\r\n\r\n* Reorganize KB create internals\r\n\r\n* Implement new knowledgebox v2\r\n\r\n* Fix PR suggestions\r\n\r\n* Fix fixture\r\n\r\n* Fix mocked call in test\r\n\r\n* Fix unit tests for NewKnowledgeBox\r\n\r\n* Add unit tests for new knowledgebox v2\r\n\r\n* Rename kb_slug to slug in new kb v2\r\n\r\n* Fix typing after rebase\r\n\r\n* Add more KB tests to ORM and remove duplicated from servicer\r\n\r\n* Better error logging\r\n\r\n* Simplify Bw/c semantic_model(s) checks\r\n\r\n* try-except rollback operations\r\n\r\n* Fix KB existence validation on creation\r\n\r\n* Pass driver instead of txn in KB deletion\r\n\r\n* Fix test\r\n\r\n* More clear kbid and slug needs",
+          "timestamp": "2024-07-08T15:52:10+02:00",
+          "tree_id": "d7e886a30ac5342c1f07aa9293783dc25d24ff7a",
+          "url": "https://github.com/nuclia/nucliadb/commit/538b47a5407f2cc3f0bd06193b5fa181ab20b772"
+        },
+        "date": 1720447725668,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/search/unit/search/test_fetch.py::test_highligh_error",
+            "value": 3130.7878802355162,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000010941273557057534",
+            "extra": "mean: 319.4084167480469 usec\nrounds: 5"
           }
         ]
       }
