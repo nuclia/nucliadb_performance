@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720534495965,
+  "lastUpdate": 1720534700210,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -82292,6 +82292,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000003661077923481424",
             "extra": "mean: 319.207239151001 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d0da060a4e04f51bb550429ab36a693c414cddbd",
+          "message": "Add encryption util (#2297)",
+          "timestamp": "2024-07-09T16:09:23+02:00",
+          "tree_id": "ca5d5adea34dbe697f1ef6610d4cd8221d576fb3",
+          "url": "https://github.com/nuclia/nucliadb/commit/d0da060a4e04f51bb550429ab36a693c414cddbd"
+        },
+        "date": 1720534694368,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/search/unit/search/test_fetch.py::test_highligh_error",
+            "value": 3047.8604393280657,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000004120636884784445",
+            "extra": "mean: 328.09901237487793 usec\nrounds: 5"
           }
         ]
       }
