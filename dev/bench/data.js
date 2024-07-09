@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720447936157,
+  "lastUpdate": 1720518432536,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -82137,6 +82137,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000004861734290324508",
             "extra": "mean: 332.25159645080566 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "javier@javiertorres.eu",
+            "name": "Javier Torres",
+            "username": "javitonino"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "85e9504a3959ecd774bd7db5e03eb49b5bf26472",
+          "message": "Always use context manager for transactions (#2290)\n\n* Always use context manager for transactions\r\n\r\n* Remove wait_for_abort\r\n\r\n* Remove transaction.begin(), only context manager\r\n\r\n* Better pool timeout handling\r\n\r\n* Add PG pool metrics (#2295)",
+          "timestamp": "2024-07-09T11:41:31+02:00",
+          "tree_id": "63606b92ab5f7c06dda1495297723f63cffd11af",
+          "url": "https://github.com/nuclia/nucliadb/commit/85e9504a3959ecd774bd7db5e03eb49b5bf26472"
+        },
+        "date": 1720518426805,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/search/unit/search/test_fetch.py::test_highligh_error",
+            "value": 2926.53900792355,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000027998403812798556",
+            "extra": "mean: 341.700553894043 usec\nrounds: 5"
           }
         ]
       }
