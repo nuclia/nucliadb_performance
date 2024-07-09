@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720518580147,
+  "lastUpdate": 1720525560788,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -82199,6 +82199,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000005055790648691623",
             "extra": "mean: 327.4169445037842 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "javier@javiertorres.eu",
+            "name": "Javier Torres",
+            "username": "javitonino"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2a83016099bb55955d2636642bfc37bb63947b2a",
+          "message": "Allow reporting custom increment in telemetry counters (#2296)\n\n* Allow reporting custom increment in telemetry counters\r\n\r\n* Remove dead code",
+          "timestamp": "2024-07-09T13:28:13+02:00",
+          "tree_id": "24c8e3465fc812cf5bd5e513bd269da308d457ae",
+          "url": "https://github.com/nuclia/nucliadb/commit/2a83016099bb55955d2636642bfc37bb63947b2a"
+        },
+        "date": 1720525554928,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/search/unit/search/test_fetch.py::test_highligh_error",
+            "value": 2957.342752898994,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000026264384994206886",
+            "extra": "mean: 338.141393661499 usec\nrounds: 5"
           }
         ]
       }
