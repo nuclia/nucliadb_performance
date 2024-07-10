@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720602469821,
+  "lastUpdate": 1720611950994,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -82447,6 +82447,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000004208217818089725",
             "extra": "mean: 330.6753158569336 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ferran@nuclia.com",
+            "name": "Ferran Llamas",
+            "username": "lferran"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "50384fd742ce433260e936a4e7dcd72e8d582f7f",
+          "message": "Add pinecone session util (#2301)\n\n* Add client\r\n\r\n* Add pinecone session util\r\n\r\n* fix metric",
+          "timestamp": "2024-07-10T13:39:25+02:00",
+          "tree_id": "76260e5b315310a6fdefc188463af371cc13658a",
+          "url": "https://github.com/nuclia/nucliadb/commit/50384fd742ce433260e936a4e7dcd72e8d582f7f"
+        },
+        "date": 1720611944721,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/search/unit/search/test_fetch.py::test_highligh_error",
+            "value": 3006.273869618307,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000005919705455007343",
+            "extra": "mean: 332.63769149780273 usec\nrounds: 5"
           }
         ]
       }
