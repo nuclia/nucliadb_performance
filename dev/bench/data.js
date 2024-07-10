@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720595047841,
+  "lastUpdate": 1720595233431,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -82354,6 +82354,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000050061287414678165",
             "extra": "mean: 323.5735893249512 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ramon@nuclia.com",
+            "name": "Ramon Navarro Bosch",
+            "username": "bloodbare"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2d4fb79a6dfd8352c83315587460b89c13ecd572",
+          "message": "Cleanup Starlette and Pydantic 1 warnings (#2293)\n\n* Clean Pydantic 1 for warnings\r\n\r\n* Starlette deprecation of on_startup and on_shutdown\r\n\r\n* Pydantic parse_raw -> model_validate_json\r\n\r\n* Pydantic json -> model_dump_json\r\n\r\n* More pydantic json -> model_dump_json\r\n\r\n* Lint and format\r\n\r\n* Fix hacky implementation of startup-shutdown events\r\n\r\n* Clean fixture usage of startup and shutdown\r\n\r\n* Fix unit test mocking deprecated pydantic json\r\n\r\n---------\r\n\r\nCo-authored-by: Joan Antoni RE <joanantoni.re16@gmail.com>",
+          "timestamp": "2024-07-10T08:58:18+02:00",
+          "tree_id": "99ed62e8e7c697135ac731d61859a402351c1f4f",
+          "url": "https://github.com/nuclia/nucliadb/commit/2d4fb79a6dfd8352c83315587460b89c13ecd572"
+        },
+        "date": 1720595227399,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/search/unit/search/test_fetch.py::test_highligh_error",
+            "value": 2963.5030843916807,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000005439785536608248",
+            "extra": "mean: 337.4384880065918 usec\nrounds: 5"
           }
         ]
       }
