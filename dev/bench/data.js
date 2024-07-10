@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720602338921,
+  "lastUpdate": 1720602469821,
   "repoUrl": "https://github.com/nuclia/nucliadb",
   "entries": {
     "Benchmark": [
@@ -82416,6 +82416,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000004142504011427114",
             "extra": "mean: 319.90990638732904 usec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "javier@javiertorres.eu",
+            "name": "Javier Torres",
+            "username": "javitonino"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "af05ba67d9893582dee851aeb65a47ab9e15fd3d",
+          "message": "Fix writer startup with starlette lifecycle (#2300)\n\n* Fix writer startup with starlette lifecycle\r\n\r\n* zipp update\r\n\r\n* Lint",
+          "timestamp": "2024-07-10T10:59:46+02:00",
+          "tree_id": "058904ac66a73dec387f67607902f505a743ad84",
+          "url": "https://github.com/nuclia/nucliadb/commit/af05ba67d9893582dee851aeb65a47ab9e15fd3d"
+        },
+        "date": 1720602464080,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/search/unit/search/test_fetch.py::test_highligh_error",
+            "value": 3024.114447153501,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000004208217818089725",
+            "extra": "mean: 330.6753158569336 usec\nrounds: 5"
           }
         ]
       }
